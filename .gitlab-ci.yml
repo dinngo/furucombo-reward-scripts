@@ -1,0 +1,15 @@
+image: golang:1.15
+
+stages:
+  - test
+
+test:
+  tags:
+    - golang
+  stage: test
+  script:
+    - go mod download
+    - go test -v -cover -test.count=1  ./...
+  only:
+    - master
+    - /^feature.*$/

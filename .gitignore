@@ -1,0 +1,11 @@
+*.DS_Store
+bin/*
+tmp/*
+!tmp/.gitkeep
+.versions.conf
+.env
+.env.*
+!.env.sample
+!.env.test
+logs/*
+!logs/.gitkeep

@@ -1,0 +1,30 @@
+{
+  "name": "staking",
+  "round": 0,
+  "startBlock": 0,
+  "endBlock": 0,
+  "cubes": [
+    "AaveDeposit",
+    "CompoundSupply",
+    "CompoundRepay",
+    "CurveSwap",
+    "MakerDeposit",
+    "MakerGenerate",
+    "MakerPayBack",
+    "OneInchSwap",
+    "UniswapV2Swap",
+    "YearnDeposit"
+  ],
+  "pools" : [
+    {
+      "address": "",
+      "reward_amount": "93750",
+      "base_amount": "20"
+    },
+    {
+      "address": "",
+      "reward_amount": "93750",
+      "base_amount": "0"
+    }
+  ]
+}
