@@ -20,6 +20,10 @@ var joinAddressHashMap = map[common.Address]common.Hash{
 	common.HexToAddress("0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e"): common.HexToHash("0x3ff33d9162aD47660083D7DC4bC02Fb231c81677"), // YFI
 	common.HexToAddress("0xba100000625a3754423978a60c9317c58a424e3D"): common.HexToHash("0x4a03Aa7fb3973d8f0221B466EefB53D0aC195f55"), // BAL
 	common.HexToAddress("0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd"): common.HexToHash("0xe29A14bcDeA40d83675aa43B72dF07f649738C8b"), // GUSD
+	common.HexToAddress("0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"): common.HexToHash("0x3BC3A58b4FC1CbE7e98bB4aB7c99535e8bA9b8F1"), // UNI
+	common.HexToAddress("0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D"): common.HexToHash("0xFD5608515A47C37afbA68960c1916b79af9491D0"), // RENBTC
+	common.HexToAddress("0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"): common.HexToHash("0x24e459F61cEAa7b1cE70Dbaea938940A7c5aD46e"), // AAVE
+	common.HexToAddress("0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11"): common.HexToHash("0x2502F65D77cA13f183850b5f9272270454094A08"), // UNIV2DAIETH
 }
 
 // IsSupportedToken is supported token

@@ -22,6 +22,9 @@ var swapContractAddressMap = map[common.Hash]struct{}{
 	common.HexToHash("0xC18cC39da8b11dA8c3541C598eE022258F9744da"): {}, // rsv
 	common.HexToHash("0xC25099792E9349C7DD09759744ea681C7de2cb66"): {}, // tbtc
 	common.HexToHash("0x8038C01A0390a8c547446a0b2c18fc9aEFEcc10c"): {}, // dusd
+	common.HexToHash("0x7F55DDe206dbAD629C080068923b36fe9D6bDBeF"): {}, // pbtc
+	common.HexToHash("0xd81dA8D904b52208541Bade1bD6595D8a251F8dd"): {}, // obtc
+	common.HexToHash("0xDeBF20617708857ebe4F679508E7b7863a8A8EeE"): {}, // aave
 }
 
 // IsSwapContract is swap contract
