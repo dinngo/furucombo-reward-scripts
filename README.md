@@ -2,6 +2,8 @@
 
 This script calculates COMBO reward distribution.
 
+[![Travis](https://travis-ci.com/dinngodev/furucombo-reward-scripts.svg?branch=master)](https://travis-ci.com/dinngodev/furucombo-reward-scripts)
+
 ## Setup
 
 ```sh
@@ -32,8 +34,8 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 
 ## Reward
 
-* UNI distribution
-  * Round 0 [Reward](/rewards/uni_distribution/0/rewards.json)
+* UNI distribution [medium](https://medium.com/furucombo/uni-decision-has-been-made-distribution-to-community-253a51e742dc)
+  * Round 0 [reward](/rewards/uni_distribution/0/rewards.json)
 
 ## Calculations
 
