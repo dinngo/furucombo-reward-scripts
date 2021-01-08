@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"sort"
 
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum"
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum/furucombo"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/furucombo"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ksin751119/merkletree"

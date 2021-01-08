@@ -8,7 +8,7 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"garage.dinngo.co/furucombo/mining-scripts/commands"
+	"github.com/dinngodev/furucombo-reward-scripts/commands"
 )
 
 const version = "0.1.0"

@@ -9,7 +9,7 @@ import (
 	"os"
 	"path"
 
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
 )
 
 // Blocks blocks

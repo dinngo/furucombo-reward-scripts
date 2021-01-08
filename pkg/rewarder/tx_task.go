@@ -10,8 +10,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum/furucombo"
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/etherscan"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/furucombo"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/etherscan"
 )
 
 // LoadTxsTask load txs task

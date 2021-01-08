@@ -6,10 +6,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum"
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum/erc20"
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum/furucombo"
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum/yearn"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/erc20"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/furucombo"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/yearn"
 )
 
 func init() {

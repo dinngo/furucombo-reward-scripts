@@ -8,7 +8,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	ethereumex "garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum"
+	ethereumex "github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
 )
 
 // event sigs

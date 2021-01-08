@@ -12,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/shopspring/decimal"
 
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
 )
 
 // LoadTradingsTask load tradings task

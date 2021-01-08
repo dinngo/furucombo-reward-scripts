@@ -9,7 +9,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shopspring/decimal"
 
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/coingecko"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/coingecko"
 )
 
 // Token represents token data

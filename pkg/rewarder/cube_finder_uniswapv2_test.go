@@ -8,7 +8,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
 )
 
 func TestFindUniswapV2SwapCube(t *testing.T) {

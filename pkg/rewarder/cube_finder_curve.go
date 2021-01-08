@@ -4,9 +4,9 @@ import (
 	"log"
 	"math/big"
 
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum/curve"
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum/erc20"
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum/furucombo"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/curve"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/erc20"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/furucombo"
 	"github.com/ethereum/go-ethereum/core/types"
 )
 

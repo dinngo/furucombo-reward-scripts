@@ -1,4 +1,4 @@
-module garage.dinngo.co/furucombo/mining-scripts
+module github.com/dinngodev/furucombo-reward-scripts
 
 go 1.15
 

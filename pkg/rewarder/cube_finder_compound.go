@@ -7,8 +7,8 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum/compound"
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/ethereum/furucombo"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/compound"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/furucombo"
 )
 
 func init() {

@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"garage.dinngo.co/furucombo/mining-scripts/pkg/rewarder"
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/rewarder"
 )
 
 // OnceCommand the command struct
