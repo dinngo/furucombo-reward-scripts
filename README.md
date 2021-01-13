@@ -6,6 +6,7 @@ This script calculates COMBO reward distribution.
 
 ## Announcement
 * Transaction mining program start from 3:00 AM (UTC) Jan 15, 2021: [medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230)
+* Retroactive COMBO will be distributed at 3:00 AM (UTC) Jan 15, 2021: [medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
 
 ## Setup
 
@@ -36,6 +37,9 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   ```
 
 ## Reward
+
+* Retroactive COMBO [medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
+  * Round 0 [reward](/rewards/retroactive/0/rewards.json)
 
 * UNI distribution [medium](https://medium.com/furucombo/uni-decision-has-been-made-distribution-to-community-253a51e742dc)
   * Round 0 [reward](/rewards/uni_distribution/0/rewards.json)
