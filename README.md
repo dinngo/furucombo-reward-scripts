@@ -5,10 +5,11 @@ This script calculates COMBO reward distribution.
 [![Travis](https://travis-ci.com/dinngodev/furucombo-reward-scripts.svg?branch=master)](https://travis-ci.com/dinngodev/furucombo-reward-scripts)
 
 ## Announcement
-* Transaction mining program start from 3:00 AM (UTC) Jan 15, 2021: [medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230)
-* Retroactive COMBO will be distributed at 3:00 AM (UTC) Jan 15, 2021: [medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
+* Transaction mining program started from 3:00 AM (UTC) Jan 15, 2021: [medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230)
+* Retroactive COMBO was be distributed at 3:00 AM (UTC) Jan 15, 2021: [medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
 
 ## Setup
+* Configure json file under /config
 
 ```sh
 $ cp .env.sample .env
