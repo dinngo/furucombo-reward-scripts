@@ -77,7 +77,7 @@ func findUniswapV2SwapCube(txLog *types.Log) (*Cube, error) {
 	} else if swap.Amount1Out.Cmp(new(big.Int)) == 1 {
 		// check token is listed or not
 		if !IsTokenListed(token1) {
-			log.Printf("UniswapV2 Swap: %s is not listed", token0.String())
+			log.Printf("UniswapV2 Swap: %s is not listed", token1.String())
 			return nil, nil
 		}
 
