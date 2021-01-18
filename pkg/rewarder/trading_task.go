@@ -116,7 +116,7 @@ func (t *LoadTradingsTask) GetTradingsFromTxs() error {
 			// calc trading volume
 			tradingVolume := amount.Mul(price)
 			if tradingVolume.IsZero() {
-				return fmt.Errorf("unexpected 0 trading volume: [%s] %s", cube.Name, token.Symbol)
+				log.Printf("0 trading volume: [%s] %s", cube.Name, token.Symbol)
 			}
 
 			log.Printf("found %s cube: %s %s ($%s)", cube.Name, amount, token.Symbol, tradingVolume.Truncate(3))
