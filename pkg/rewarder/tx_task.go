@@ -84,38 +84,6 @@ func (t *LoadTxsTask) GetTxsFromEtherscan() error {
 		}
 	}
 
-	txs2, err := client.AccountInternalTxs(params)
-	if err != nil {
-		return err
-	}
-
-	for _, tx := range txs2 {
-		if tx.IsError == 1 {
-			continue
-		}
-
-		if _, ok := txHashMap[tx.Hash]; !ok {
-			txHashMap[tx.Hash] = struct{}{}
-			t.txs = append(t.txs, tx.Hash)
-
-			log.Printf("found tx: %s", tx.Hash.String())
-		}
-	}
-
-	txs3, err := client.AccountTokenTxs(params)
-	if err != nil {
-		return err
-	}
-
-	for _, tx := range txs3 {
-		if _, ok := txHashMap[tx.Hash]; !ok {
-			txHashMap[tx.Hash] = struct{}{}
-			t.txs = append(t.txs, tx.Hash)
-
-			log.Printf("found tx: %s", tx.Hash.String())
-		}
-	}
-
 	return nil
 }
 
