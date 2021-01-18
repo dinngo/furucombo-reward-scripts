@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"net/url"
 	"strconv"
@@ -15,7 +16,7 @@ import (
 const baseURL = "https://api.coingecko.com/api/v3"
 
 // 100 calls each minute per IP
-var rateLimiter = rate.NewLimiter(rate.Every(100*time.Second/60), 1)
+var rateLimiter = rate.NewLimiter(rate.Every(99*time.Second/60), 1)
 
 // Client struct
 type Client struct {
@@ -80,6 +81,7 @@ func (c *Client) CoinsIDMarketChartRange(id string, vsCurrency string, from uint
 	url := fmt.Sprintf("%s/coins/%s/market_chart/range?%s", baseURL, id, params.Encode())
 	resp, err := c.MakeReq(url)
 	if err != nil {
+		log.Printf("failed to get coingecko id: %s", id)
 		return nil, err
 	}
 
@@ -101,6 +103,7 @@ func (c *Client) CoinsContractMarketChartRange(contractAddress string, vsCurrenc
 	url := fmt.Sprintf("%s/coins/ethereum/contract/%s/market_chart/range?%s", baseURL, contractAddress, params.Encode())
 	resp, err := c.MakeReq(url)
 	if err != nil {
+		log.Printf("failed to get coingecko contract: %s", contractAddress)
 		return nil, err
 	}
 
