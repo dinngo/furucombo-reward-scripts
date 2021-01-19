@@ -93,7 +93,7 @@ func (c *Client) CoinsIDMarketChartRange(id string, vsCurrency string, from uint
 	return &marketChart, nil
 }
 
-// CoinsContractMarketChartRange /coins/{id}/market_chart?vs_currency={usd, eur, jpy, etc.}&from={eq. 1392577232}&to={eg. 1422577232}
+// CoinsContractMarketChartRange /coins/{id}/contract/{contract_address}/market_chart/range?vs_currency={usd, eur, jpy, etc.}&from={eq. 1392577232}&to={eg. 1422577232}
 func (c *Client) CoinsContractMarketChartRange(contractAddress string, vsCurrency string, from uint64, to uint64) (*CoinsIDMarketChart, error) {
 	params := url.Values{}
 	params.Add("vs_currency", vsCurrency)
@@ -103,7 +103,6 @@ func (c *Client) CoinsContractMarketChartRange(contractAddress string, vsCurrenc
 	url := fmt.Sprintf("%s/coins/ethereum/contract/%s/market_chart/range?%s", baseURL, contractAddress, params.Encode())
 	resp, err := c.MakeReq(url)
 	if err != nil {
-		log.Printf("failed to get coingecko contract: %s", contractAddress)
 		return nil, err
 	}
 

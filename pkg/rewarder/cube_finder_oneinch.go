@@ -37,7 +37,7 @@ func findOneInchSwapCube(txLog *types.Log) (*Cube, error) {
 	}
 
 	event := new(oneinch.ExchangeContractHistory)
-	if err := contractABI.Unpack(event, "History", txLog.Data); err != nil {
+	if err := contractABI.UnpackIntoInterface(event, "History", txLog.Data); err != nil {
 		return nil, err
 	}
 

@@ -85,6 +85,11 @@ func (c *StakingCommand) Run(args []string) int {
 		return 1
 	}
 
+	if err := config.PrintStakingTokenPrice(); err != nil {
+		log.Println(err)
+		return 1
+	}
+
 	stakingRewarder := rewarder.NewStakingRewarder(config)
 
 	if err := stakingRewarder.LoadTokens(); err != nil {

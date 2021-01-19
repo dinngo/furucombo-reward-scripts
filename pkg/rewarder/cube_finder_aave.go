@@ -47,7 +47,7 @@ func findAaveDepositCube(txLog *types.Log) (*Cube, error) {
 	}
 
 	event := new(aave.ATokenContractMintOnDeposit)
-	if err := contractABI.Unpack(event, "MintOnDeposit", txLog.Data); err != nil {
+	if err := contractABI.UnpackIntoInterface(event, "MintOnDeposit", txLog.Data); err != nil {
 		return nil, err
 	}
 

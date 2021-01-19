@@ -137,7 +137,7 @@ func bindExchangeContract(address common.Address, caller bind.ContractCaller, tr
 // sets the output to result. The result type might be a single field for simple
 // returns, a slice of interfaces for anonymous returns and a struct for named
 // returns.
-func (_ExchangeContract *ExchangeContractRaw) Call(opts *bind.CallOpts, result interface{}, method string, params ...interface{}) error {
+func (_ExchangeContract *ExchangeContractRaw) Call(opts *bind.CallOpts, result *[]interface{}, method string, params ...interface{}) error {
 	return _ExchangeContract.Contract.ExchangeContractCaller.contract.Call(opts, result, method, params...)
 }
 
@@ -156,7 +156,7 @@ func (_ExchangeContract *ExchangeContractRaw) Transact(opts *bind.TransactOpts, 
 // sets the output to result. The result type might be a single field for simple
 // returns, a slice of interfaces for anonymous returns and a struct for named
 // returns.
-func (_ExchangeContract *ExchangeContractCallerRaw) Call(opts *bind.CallOpts, result interface{}, method string, params ...interface{}) error {
+func (_ExchangeContract *ExchangeContractCallerRaw) Call(opts *bind.CallOpts, result *[]interface{}, method string, params ...interface{}) error {
 	return _ExchangeContract.Contract.contract.Call(opts, result, method, params...)
 }
 
@@ -315,5 +315,6 @@ func (_ExchangeContract *ExchangeContractFilterer) ParseHistory(log types.Log) (
 	if err := _ExchangeContract.contract.UnpackLog(event, "History", log); err != nil {
 		return nil, err
 	}
+	event.Raw = log
 	return event, nil
 }

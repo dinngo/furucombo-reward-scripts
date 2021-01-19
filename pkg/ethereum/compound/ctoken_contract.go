@@ -137,7 +137,7 @@ func bindCTokenContract(address common.Address, caller bind.ContractCaller, tran
 // sets the output to result. The result type might be a single field for simple
 // returns, a slice of interfaces for anonymous returns and a struct for named
 // returns.
-func (_CTokenContract *CTokenContractRaw) Call(opts *bind.CallOpts, result interface{}, method string, params ...interface{}) error {
+func (_CTokenContract *CTokenContractRaw) Call(opts *bind.CallOpts, result *[]interface{}, method string, params ...interface{}) error {
 	return _CTokenContract.Contract.CTokenContractCaller.contract.Call(opts, result, method, params...)
 }
 
@@ -156,7 +156,7 @@ func (_CTokenContract *CTokenContractRaw) Transact(opts *bind.TransactOpts, meth
 // sets the output to result. The result type might be a single field for simple
 // returns, a slice of interfaces for anonymous returns and a struct for named
 // returns.
-func (_CTokenContract *CTokenContractCallerRaw) Call(opts *bind.CallOpts, result interface{}, method string, params ...interface{}) error {
+func (_CTokenContract *CTokenContractCallerRaw) Call(opts *bind.CallOpts, result *[]interface{}, method string, params ...interface{}) error {
 	return _CTokenContract.Contract.contract.Call(opts, result, method, params...)
 }
 
@@ -303,6 +303,7 @@ func (_CTokenContract *CTokenContractFilterer) ParseMint(log types.Log) (*CToken
 	if err := _CTokenContract.contract.UnpackLog(event, "Mint", log); err != nil {
 		return nil, err
 	}
+	event.Raw = log
 	return event, nil
 }
 
@@ -440,5 +441,6 @@ func (_CTokenContract *CTokenContractFilterer) ParseRepayBorrow(log types.Log) (
 	if err := _CTokenContract.contract.UnpackLog(event, "RepayBorrow", log); err != nil {
 		return nil, err
 	}
+	event.Raw = log
 	return event, nil
 }

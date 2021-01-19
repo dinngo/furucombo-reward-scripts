@@ -3,7 +3,7 @@ module github.com/dinngodev/furucombo-reward-scripts
 go 1.15
 
 require (
-	github.com/ethereum/go-ethereum v1.9.22
+	github.com/ethereum/go-ethereum v1.9.25
 	github.com/joho/godotenv v1.3.0
 	github.com/json-iterator/go v1.1.10
 	github.com/ksin751119/merkletree v0.2.2

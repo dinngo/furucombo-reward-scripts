@@ -45,7 +45,7 @@ func findCompoundSupplyCube(txLog *types.Log) (*Cube, error) {
 	}
 
 	event := new(compound.CTokenContractMint)
-	if err := contractABI.Unpack(event, "Mint", txLog.Data); err != nil {
+	if err := contractABI.UnpackIntoInterface(event, "Mint", txLog.Data); err != nil {
 		return nil, err
 	}
 
@@ -92,7 +92,7 @@ func findCompoundRepayCube(txLog *types.Log) (*Cube, error) {
 	}
 
 	event := new(compound.CTokenContractRepayBorrow)
-	if err := contractABI.Unpack(event, "RepayBorrow", txLog.Data); err != nil {
+	if err := contractABI.UnpackIntoInterface(event, "RepayBorrow", txLog.Data); err != nil {
 		return nil, err
 	}
 

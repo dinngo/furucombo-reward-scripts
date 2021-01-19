@@ -137,7 +137,7 @@ func bindATokenContract(address common.Address, caller bind.ContractCaller, tran
 // sets the output to result. The result type might be a single field for simple
 // returns, a slice of interfaces for anonymous returns and a struct for named
 // returns.
-func (_ATokenContract *ATokenContractRaw) Call(opts *bind.CallOpts, result interface{}, method string, params ...interface{}) error {
+func (_ATokenContract *ATokenContractRaw) Call(opts *bind.CallOpts, result *[]interface{}, method string, params ...interface{}) error {
 	return _ATokenContract.Contract.ATokenContractCaller.contract.Call(opts, result, method, params...)
 }
 
@@ -156,7 +156,7 @@ func (_ATokenContract *ATokenContractRaw) Transact(opts *bind.TransactOpts, meth
 // sets the output to result. The result type might be a single field for simple
 // returns, a slice of interfaces for anonymous returns and a struct for named
 // returns.
-func (_ATokenContract *ATokenContractCallerRaw) Call(opts *bind.CallOpts, result interface{}, method string, params ...interface{}) error {
+func (_ATokenContract *ATokenContractCallerRaw) Call(opts *bind.CallOpts, result *[]interface{}, method string, params ...interface{}) error {
 	return _ATokenContract.Contract.contract.Call(opts, result, method, params...)
 }
 
@@ -314,5 +314,6 @@ func (_ATokenContract *ATokenContractFilterer) ParseMintOnDeposit(log types.Log)
 	if err := _ATokenContract.contract.UnpackLog(event, "MintOnDeposit", log); err != nil {
 		return nil, err
 	}
+	event.Raw = log
 	return event, nil
 }
