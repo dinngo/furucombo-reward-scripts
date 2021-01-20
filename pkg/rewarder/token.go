@@ -62,12 +62,14 @@ func (m TokenMap) GetTokenPrices(from, to uint64) (err error) {
 		if len(token.CoingeckoID) > 0 {
 			marketChart, err = client.CoinsIDMarketChartRange(token.CoingeckoID, "usd", from, to)
 			if err != nil {
-				return err
+				log.Printf("failed to get coingecko id: %s", token.CoingeckoID)
+				continue
 			}
 		} else {
 			marketChart, err = client.CoinsContractMarketChartRange(sTokenAddress, "usd", from, to)
 			if err != nil {
-				return err
+				log.Printf("failed to get coingecko address: %s", sTokenAddress)
+				continue
 			}
 		}
 

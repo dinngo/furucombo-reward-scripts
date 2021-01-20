@@ -4,7 +4,6 @@ import (
 	"context"
 	"fmt"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"net/url"
 	"strconv"
@@ -81,7 +80,6 @@ func (c *Client) CoinsIDMarketChartRange(id string, vsCurrency string, from uint
 	url := fmt.Sprintf("%s/coins/%s/market_chart/range?%s", baseURL, id, params.Encode())
 	resp, err := c.MakeReq(url)
 	if err != nil {
-		log.Printf("failed to get coingecko id: %s", id)
 		return nil, err
 	}
 

@@ -15,6 +15,10 @@
     "decimals": 2,
     "symbol": "GST2"
   },
+  "0x00a8b738E453fFd858a7edf03bcCfe20412f0Eb0": {
+    "decimals": 18,
+    "symbol": "ALBT"
+  },
   "0x0258F474786DdFd37ABCE6df6BBb1Dd5dfC4434a": {
     "decimals": 8,
     "symbol": "ORN"
@@ -42,6 +46,10 @@
   "0x05D3606d5c81EB9b7B18530995eC9B29da05FaBa": {
     "decimals": 18,
     "symbol": "TOMOE"
+  },
+  "0x06A01a4d579479Dd5D884EBf61A31727A3d8D442": {
+    "decimals": 8,
+    "symbol": "Skey"
   },
   "0x06AF07097C9Eeb7fD685c692751D5C66dB49c215": {
     "decimals": 18,
@@ -84,9 +92,17 @@
     "symbol": "LINKUSD",
     "coingecko_id": "usd-coin"
   },
+  "0x0E3cC2c4FB9252d17d07C67135E48536071735D9": {
+    "decimals": 18,
+    "symbol": "ARTH"
+  },
   "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942": {
     "decimals": 18,
     "symbol": "MANA"
+  },
+  "0x0b38210ea11411557c13457D4dA7dC6ea731B88a": {
+    "decimals": 18,
+    "symbol": "API3"
   },
   "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e": {
     "decimals": 18,
@@ -99,6 +115,10 @@
   "0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704": {
     "decimals": 18,
     "symbol": "XIO"
+  },
+  "0x10Be9a8dAe441d276a5027936c3aADEd2d82bC15": {
+    "decimals": 18,
+    "symbol": "UMX"
   },
   "0x111111111117dC0aa78b770fA6A738034120C302": {
     "decimals": 18,
@@ -120,6 +140,10 @@
   "0x177BA0cac51bFC7eA24BAd39d81dcEFd59d74fAa": {
     "decimals": 18,
     "symbol": "KIF"
+  },
+  "0x178c820f862B14f316509ec36b13123DA19A6054": {
+    "decimals": 18,
+    "symbol": "EWTB"
   },
   "0x196f4727526eA7FB1e17b2071B3d8eAA38486988": {
     "decimals": 18,
@@ -177,6 +201,10 @@
     "decimals": 18,
     "symbol": "OWL"
   },
+  "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39": {
+    "decimals": 8,
+    "symbol": "HEX"
+  },
   "0x2ba592F78dB6436527729929AAf6c908497cB200": {
     "decimals": 18,
     "symbol": "CREAM"
@@ -193,6 +221,10 @@
   "0x3383c5a8969Dc413bfdDc9656Eb80A1408E4bA20": {
     "decimals": 18,
     "symbol": "wANATHA"
+  },
+  "0x33D0568941C0C64ff7e0FB4fbA0B11BD37deEd9f": {
+    "decimals": 18,
+    "symbol": "RAMP"
   },
   "0x3449FC1Cd036255BA1EB19d65fF4BA2b8903A69a": {
     "decimals": 18,
@@ -234,6 +266,10 @@
   "0x40FD72257597aA14C7231A7B1aaa29Fce868F677": {
     "decimals": 18,
     "symbol": "XOR"
+  },
+  "0x412e5a36BDE71AA2c38e1c0E26BAAf7F2f0Bc24a": {
+    "decimals": 18,
+    "symbol": "PUSD"
   },
   "0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5": {
     "decimals": 18,
@@ -284,6 +320,10 @@
     "decimals": 18,
     "symbol": "BUSD"
   },
+  "0x4bAE380B5D762D543d426331b8437926443ae9ec": {
+    "decimals": 18,
+    "symbol": "XVIX"
+  },
   "0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42": {
     "decimals": 18,
     "symbol": "MCB"
@@ -308,6 +348,10 @@
     "decimals": 18,
     "symbol": "HEGIC"
   },
+  "0x5BB29c33C4A3C29f56F8ACa40B4dB91d8a5fe2c5": {
+    "decimals": 18,
+    "symbol": "ONS"
+  },
   "0x5BC25f649fc4e26069dDF4cF4010F9f706c23831": {
     "decimals": 18,
     "symbol": "DUSD"
@@ -315,6 +359,10 @@
   "0x5BEfBB272290dD5b8521D4a938f6c4757742c430": {
     "decimals": 18,
     "symbol": "XFI"
+  },
+  "0x5F0E628B693018f639D10e4A4F59BD4d8B2B6B44": {
+    "decimals": 18,
+    "symbol": "WHITE"
   },
   "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643": {
     "decimals": 8,
@@ -410,6 +458,14 @@
     "decimals": 18,
     "symbol": "3poolCRV"
   },
+  "0x6c5bA91642F10282b576d91922Ae6448C9d52f4E": {
+    "decimals": 18,
+    "symbol": "PHA"
+  },
+  "0x6e36556B3ee5Aa28Def2a8EC3DAe30eC2B208739": {
+    "decimals": 18,
+    "symbol": "BUILD"
+  },
   "0x70e36f6BF80a52b3B46b3aF8e106CC0ed743E8e4": {
     "decimals": 8,
     "symbol": "cCOMP"
@@ -424,9 +480,21 @@
     "symbol": "aUSDT-V1",
     "coingecko_id": "tether"
   },
+  "0x72e9D9038cE484EE986FEa183f8d8Df93f9aDA13": {
+    "decimals": 18,
+    "symbol": "SMARTCREDIT"
+  },
   "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E": {
     "decimals": 18,
     "symbol": "SNT"
+  },
+  "0x7A3D5d49D64E57DBd6FBB21dF7202bD3EE7A2253": {
+    "decimals": 18,
+    "symbol": "TCORE"
+  },
+  "0x7B0C06043468469967DBA22d1AF33d77d44056c8": {
+    "decimals": 4,
+    "symbol": "MRPH"
   },
   "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0": {
     "decimals": 18,
@@ -435,6 +503,10 @@
   "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9": {
     "decimals": 18,
     "symbol": "AAVE"
+  },
+  "0x7dE91B204C1C737bcEe6F000AAA6569Cf7061cb7": {
+    "decimals": 9,
+    "symbol": "XRT"
   },
   "0x7deB5e830be29F91E298ba5FF1356BB7f8146998": {
     "decimals": 18,
@@ -461,17 +533,33 @@
     "decimals": 18,
     "symbol": "DIA"
   },
+  "0x853d955aCEf822Db058eb8505911ED77F175b99e": {
+    "decimals": 18,
+    "symbol": "FRAX"
+  },
   "0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC": {
     "decimals": 18,
     "symbol": "KEEP"
+  },
+  "0x8642A849D0dcb7a15a974794668ADcfbe4794B56": {
+    "decimals": 18,
+    "symbol": "PROS"
   },
   "0x8762db106B2c2A0bccB3A80d1Ed41273552616E8": {
     "decimals": 18,
     "symbol": "RSR"
   },
+  "0x8888801aF4d980682e47f1A9036e589479e835C5": {
+    "decimals": 18,
+    "symbol": "MPH"
+  },
   "0x88EF27e69108B2633F8E1C184CC37940A075cC02": {
     "decimals": 18,
     "symbol": "DEGO"
+  },
+  "0x88bd6eFe33bc82860278c044eFA33364c6285032": {
+    "decimals": 18,
+    "symbol": "PEGS"
   },
   "0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD": {
     "decimals": 18,
@@ -501,6 +589,10 @@
     "decimals": 18,
     "symbol": "RING"
   },
+  "0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17": {
+    "decimals": 18,
+    "symbol": "DYP"
+  },
   "0x967da4048cD07aB37855c090aAF366e4ce1b9F48": {
     "decimals": 18,
     "symbol": "OCEAN"
@@ -509,10 +601,18 @@
     "decimals": 18,
     "symbol": "FUSE"
   },
+  "0x9C78EE466D6Cb57A4d01Fd887D2b5dFb2D46288f": {
+    "decimals": 18,
+    "symbol": "MUST"
+  },
   "0x9D91BE44C06d373a8a226E1f3b146956083803eB": {
     "decimals": 18,
     "symbol": "aKNC-V1",
     "coingecko_id": "kyber-network"
+  },
+  "0x9aeB50f542050172359A0e1a25a9933Bc8c01259": {
+    "decimals": 8,
+    "symbol": "OIN"
   },
   "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E": {
     "decimals": 6,
@@ -527,6 +627,14 @@
     "decimals": 6,
     "symbol": "USDC"
   },
+  "0xA3a7CBA479dF86C7F866280b90Ebc3B25f2371F0": {
+    "decimals": 18,
+    "symbol": "✨"
+  },
+  "0xA5959E9412d27041194c3c3bcBE855faCE2864F7": {
+    "decimals": 18,
+    "symbol": "UNDG"
+  },
   "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84": {
     "decimals": 18,
     "symbol": "aLINK-V1",
@@ -535,6 +643,14 @@
   "0xA9859874e1743A32409f75bB11549892138BBA1E": {
     "decimals": 18,
     "symbol": "iETH"
+  },
+  "0xA9d232cC381715aE791417B624D7C4509D2c28DB": {
+    "decimals": 18,
+    "symbol": "BSGS"
+  },
+  "0xABe580E7ee158dA464b51ee1a83Ac0289622e6be": {
+    "decimals": 18,
+    "symbol": "XFT"
   },
   "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3": {
     "decimals": 18,
@@ -553,9 +669,17 @@
     "decimals": 8,
     "symbol": "cZRX"
   },
+  "0xB34Ab2f65c6e4F764fFe740ab83F982021Faed6d": {
+    "decimals": 18,
+    "symbol": "BSG"
+  },
   "0xB4EFd85c19999D84251304bDA99E90B92300Bd93": {
     "decimals": 18,
     "symbol": "RPL"
+  },
+  "0xB4d930279552397bbA2ee473229f89Ec245bc365": {
+    "decimals": 18,
+    "symbol": "MAHA"
   },
   "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206": {
     "decimals": 18,
@@ -585,6 +709,10 @@
     "decimals": 18,
     "symbol": "WETH"
   },
+  "0xC0bA369c8Db6eB3924965e5c4FD0b4C1B91e305F": {
+    "decimals": 18,
+    "symbol": "DUCK"
+  },
   "0xC11b1268C1A384e55C48c2391d8d480264A3A7F4": {
     "decimals": 8,
     "symbol": "cWBTC"
@@ -592,6 +720,10 @@
   "0xC4C2614E694cF534D407Ee49F8E44D125E4681c4": {
     "decimals": 18,
     "symbol": "CHAIN"
+  },
+  "0xC57d533c50bC22247d49a368880fb49a1caA39F7": {
+    "decimals": 18,
+    "symbol": "PTF"
   },
   "0xCC4304A31d09258b0029eA7FE63d032f52e44EFe": {
     "decimals": 18,
@@ -604,6 +736,10 @@
   "0xCc80C051057B774cD75067Dc48f8987C4Eb97A5e": {
     "decimals": 18,
     "symbol": "NEC"
+  },
+  "0xD291E7a03283640FDc51b121aC401383A46cC623": {
+    "decimals": 18,
+    "symbol": "RGT"
   },
   "0xD46bA6D942050d489DBd938a2C909A5d5039A161": {
     "decimals": 9,
@@ -662,9 +798,17 @@
     "decimals": 18,
     "symbol": "DMG"
   },
+  "0xF0939011a9bb95c3B791f0cb546377Ed2693a574": {
+    "decimals": 18,
+    "symbol": "ZERO"
+  },
   "0xF5238462E7235c7B62811567E63Dd17d12C2EAA0": {
     "decimals": 8,
     "symbol": "CGT"
+  },
+  "0xF5D669627376EBd411E34b98F19C868c8ABA5ADA": {
+    "decimals": 18,
+    "symbol": "AXS"
   },
   "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c": {
     "decimals": 18,
@@ -687,13 +831,25 @@
     "decimals": 18,
     "symbol": "FARM"
   },
+  "0xa0afAA285Ce85974c3C881256cB7F225e3A1178a": {
+    "decimals": 18,
+    "symbol": "wCRES"
+  },
   "0xa117000000f279D81A1D3cc75430fAA017FA5A2e": {
     "decimals": 18,
     "symbol": "ANT"
   },
+  "0xa150Db9b1Fa65b44799d4dD949D922c0a33Ee606": {
+    "decimals": 0,
+    "symbol": "DRC"
+  },
   "0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83": {
     "decimals": 18,
     "symbol": "YFII"
+  },
+  "0xa1faa113cbE53436Df28FF0aEe54275c13B40975": {
+    "decimals": 18,
+    "symbol": "ALPHA"
   },
   "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2": {
     "decimals": 18,
@@ -718,6 +874,14 @@
   "0xad32A8e6220741182940c5aBF610bDE99E737b2D": {
     "decimals": 18,
     "symbol": "DOUGH"
+  },
+  "0xb4bebD34f6DaaFd808f73De0d10235a92Fbb6c3D": {
+    "decimals": 18,
+    "symbol": "YETI"
+  },
+  "0xb9871cB10738eADA636432E86FC0Cb920Dc3De24": {
+    "decimals": 18,
+    "symbol": "PRIA"
   },
   "0xbC396689893D065F41bc2C6EcbeE5e0085233447": {
     "decimals": 18,
@@ -744,6 +908,14 @@
     "decimals": 18,
     "symbol": "COMP"
   },
+  "0xc2D3AE29c8309c14994D02Ecd228cf86f3Efde77": {
+    "decimals": 18,
+    "symbol": "CURRY"
+  },
+  "0xc3Eb2622190c57429aac3901808994443b64B466": {
+    "decimals": 18,
+    "symbol": "ORO"
+  },
   "0xc944E90C64B2c07662A292be6244BDf05Cda44a7": {
     "decimals": 18,
     "symbol": "GRT"
@@ -755,6 +927,10 @@
   "0xca1207647Ff814039530D7d35df0e1Dd2e91Fa84": {
     "decimals": 18,
     "symbol": "DHT"
+  },
+  "0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988": {
+    "decimals": 18,
+    "symbol": "TVK"
   },
   "0xd15eCDCF5Ea68e3995b2D0527A0aE0a3258302F8": {
     "decimals": 18,
@@ -784,9 +960,25 @@
     "decimals": 18,
     "symbol": "mUSD"
   },
+  "0xe4815AE53B124e7263F08dcDBBB757d41Ed658c6": {
+    "decimals": 18,
+    "symbol": "ZKS"
+  },
+  "0xe88f8313e61A97cEc1871EE37fBbe2a8bf3ed1E4": {
+    "decimals": 18,
+    "symbol": "VAL"
+  },
   "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892": {
     "decimals": 18,
     "symbol": "MLN"
+  },
+  "0xee573a945B01B788B9287CE062A0CFC15bE9fd86": {
+    "decimals": 18,
+    "symbol": "XED"
+  },
+  "0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b": {
+    "decimals": 18,
+    "symbol": "RLY"
   },
   "0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9": {
     "decimals": 8,
@@ -795,6 +987,10 @@
   "0xf8C3527CC04340b208C854E985240c02F7B7793f": {
     "decimals": 18,
     "symbol": "FRONT"
+  },
+  "0xfA5047c9c78B8877af97BDcb85Db743fD7313d4a": {
+    "decimals": 18,
+    "symbol": "ROOK"
   },
   "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d": {
     "decimals": 18,
@@ -808,6 +1004,10 @@
   "0xfFffFffF2ba8F66D4e51811C5190992176930278": {
     "decimals": 18,
     "symbol": "COMBO"
+  },
+  "0xfa6de2697D59E88Ed7Fc4dFE5A33daC43565ea41": {
+    "decimals": 18,
+    "symbol": "DEFI5"
   },
   "0xfe9A29aB92522D14Fc65880d817214261D8479AE": {
     "decimals": 18,
