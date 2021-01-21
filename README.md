@@ -38,7 +38,10 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   ```
 
 ## Reward
-
+* Tx mining reward COMBO [medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230)
+  * Round 0
+    * COMBO pool [reward](/rewards/staking/0/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
+    * ETH/COMBO Uniswap V2 Liquidity Pool [reward](/rewards/staking/0/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
 * Retroactive COMBO [medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
   * Round 0 [reward](/rewards/retroactive/0/rewards.json)
   * Round 1 [reward](/rewards/retroactive/1/rewards.json)
