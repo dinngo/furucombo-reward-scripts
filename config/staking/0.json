@@ -2,7 +2,7 @@
   "name": "staking",
   "round": 0,
   "startBlock": 11657063,
-  "endBlock": 0,
+  "endBlock": 11696277,
   "cubes": [
     "AaveDeposit",
     "CompoundSupply",
