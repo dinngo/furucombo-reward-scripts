@@ -238,6 +238,10 @@
     "decimals": 18,
     "symbol": "BAC"
   },
+  "0x3472A5A71965499acd81997a54BBA8D852C6E53d": {
+    "decimals": 18,
+    "symbol": "BADGER "
+  },
   "0x35A18000230DA775CAc24873d00Ff85BccdeD550": {
     "decimals": 8,
     "symbol": "cUNI"
@@ -499,6 +503,10 @@
   "0x72e9D9038cE484EE986FEa183f8d8Df93f9aDA13": {
     "decimals": 18,
     "symbol": "SMARTCREDIT"
+  },
+  "0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F": {
+    "decimals": 18,
+    "symbol": "SDT"
   },
   "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E": {
     "decimals": 18,
