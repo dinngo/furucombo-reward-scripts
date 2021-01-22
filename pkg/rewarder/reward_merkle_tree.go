@@ -2,7 +2,6 @@ package rewarder
 
 import (
 	"bytes"
-	"math/big"
 	"sort"
 
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
@@ -10,6 +9,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ksin751119/merkletree"
+	"github.com/shopspring/decimal"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -100,13 +100,13 @@ func (t *RewardMerkleTree) GenerateMerkleProofs() error {
 
 // RewardMerkleTreeLeaf struct
 type RewardMerkleTreeLeaf struct {
-	Account common.Address `json:"account"`
-	Amount  *big.Int       `json:"amount"`
+	Account common.Address  `json:"account"`
+	Amount  decimal.Decimal `json:"amount"`
 }
 
 // CalculateHash calculate content hash
 func (t RewardMerkleTreeLeaf) CalculateHash() ([]byte, error) {
-	hash := crypto.Keccak256(t.Account.Bytes(), common.BytesToHash(t.Amount.Bytes()).Bytes())
+	hash := crypto.Keccak256(t.Account.Bytes(), common.BytesToHash(t.Amount.BigInt().Bytes()).Bytes())
 
 	return hash, nil
 }
@@ -150,6 +150,6 @@ type RewardMerkleProofs struct {
 
 // RewardMerkleProofsReward struct
 type RewardMerkleProofsReward struct {
-	Amount *big.Int      `json:"amount"`
-	Proofs []common.Hash `json:"proofs"`
+	Amount decimal.Decimal `json:"amount"`
+	Proofs []common.Hash   `json:"proofs"`
 }

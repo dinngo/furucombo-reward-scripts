@@ -12,6 +12,6 @@ func ToBigUnit(v *big.Int, d int32) decimal.Decimal {
 }
 
 // ToSmallUnit big unit to small unit
-func ToSmallUnit(v decimal.Decimal, d int32) *big.Int {
-	return v.Mul(decimal.New(1, d)).BigInt()
+func ToSmallUnit(v decimal.Decimal, d int32) decimal.Decimal {
+	return v.Mul(decimal.New(1, d))
 }
