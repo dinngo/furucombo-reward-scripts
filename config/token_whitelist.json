@@ -67,6 +67,10 @@
     "decimals": 18,
     "symbol": "INDEX"
   },
+  "0x09a3EcAFa817268f77BE1283176B946C4ff2E608": {
+    "decimals": 18,
+    "symbol": "MIR"
+  },
   "0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0": {
     "decimals": 18,
     "symbol": "GRO"
@@ -129,9 +133,21 @@
     "symbol": "aYFI-V1",
     "coingecko_id": "yearn-finance"
   },
+  "0x1337DEF16F9B486fAEd0293eb623Dc8395dFE46a": {
+    "decimals": 18,
+    "symbol": "ARMOR"
+  },
+  "0x13572851103bEd49FF743AF4C4BB5ace88B22E2F": {
+    "decimals": 9,
+    "symbol": "R3FI"
+  },
   "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b": {
     "decimals": 18,
     "symbol": "DPI"
+  },
+  "0x159751323A9E0415DD3d6D42a1212fe9F4a0848C": {
+    "decimals": 18,
+    "symbol": "INFI"
   },
   "0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671": {
     "decimals": 18,
@@ -181,6 +197,10 @@
     "decimals": 8,
     "symbol": "WBTC"
   },
+  "0x226f7b842E0F0120b7E194D05432b3fd14773a9D": {
+    "decimals": 18,
+    "symbol": "UNN"
+  },
   "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5": {
     "decimals": 18,
     "symbol": "SOCKS"
@@ -200,6 +220,14 @@
   "0x2C537E5624e4af88A7ae4060C022609376C8D0EB": {
     "decimals": 6,
     "symbol": "TRYB"
+  },
+  "0x2E7352C004C477802B2dbfDB91f42E7dDa0b8099": {
+    "decimals": 18,
+    "symbol": "ARMA"
+  },
+  "0x2F6081E3552b1c86cE4479B80062A1ddA8EF23E3": {
+    "decimals": 9,
+    "symbol": "USD"
   },
   "0x2a7f709eE001069771ceB6D42e85035f7D18E736": {
     "decimals": 18,
@@ -240,7 +268,7 @@
   },
   "0x3472A5A71965499acd81997a54BBA8D852C6E53d": {
     "decimals": 18,
-    "symbol": "BADGER "
+    "symbol": "BADGER"
   },
   "0x35A18000230DA775CAc24873d00Ff85BccdeD550": {
     "decimals": 8,
@@ -266,6 +294,14 @@
     "decimals": 18,
     "symbol": "bCRV"
   },
+  "0x3C03b4EC9477809072FF9CC9292C9B25d4A8e6c6": {
+    "decimals": 18,
+    "symbol": "CVR"
+  },
+  "0x3D658390460295FB963f54dC0899cfb1c30776Df": {
+    "decimals": 8,
+    "symbol": "Coval"
+  },
   "0x3F382DbD960E3a9bbCeaE22651E88158d2791550": {
     "decimals": 18,
     "symbol": "GHST"
@@ -274,6 +310,10 @@
     "decimals": 18,
     "symbol": "aETH-V1",
     "coingecko_id": "weth"
+  },
+  "0x3b62F3820e0B035cc4aD602dECe6d796BC325325": {
+    "decimals": 18,
+    "symbol": "DEUS"
   },
   "0x408e41876cCCDC0F92210600ef50372656052a38": {
     "decimals": 18,
@@ -339,6 +379,10 @@
   "0x4bAE380B5D762D543d426331b8437926443ae9ec": {
     "decimals": 18,
     "symbol": "XVIX"
+  },
+  "0x4c11249814f11b9346808179Cf06e71ac328c1b5": {
+    "decimals": 18,
+    "symbol": "ORAI"
   },
   "0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42": {
     "decimals": 18,
@@ -409,9 +453,17 @@
     "symbol": "aSUSD-V1",
     "coingecko_id": "nusd"
   },
+  "0x63D0eEa1D7C0d1e89d7e665708d7e8997C0a9eD6": {
+    "decimals": 18,
+    "symbol": "ENOL"
+  },
   "0x668DbF100635f593A3847c0bDaF21f0a09380188": {
     "decimals": 18,
     "symbol": "BNSD"
+  },
+  "0x66C0DDEd8433c9EA86C8cf91237B14e10b4d70B7": {
+    "decimals": 18,
+    "symbol": "Mars"
   },
   "0x674C6Ad92Fd080e4004b2312b45f796a192D27a0": {
     "decimals": 18,
@@ -442,6 +494,10 @@
     "decimals": 18,
     "symbol": "aREN-V1",
     "coingecko_id": "republic-protocol"
+  },
+  "0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23": {
+    "decimals": 18,
+    "symbol": "POOLZ"
   },
   "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
     "decimals": 18,
@@ -512,6 +568,10 @@
     "decimals": 18,
     "symbol": "SNT"
   },
+  "0x798D1bE841a82a273720CE31c822C61a67a601C3": {
+    "decimals": 9,
+    "symbol": "DIGG"
+  },
   "0x7A3D5d49D64E57DBd6FBB21dF7202bD3EE7A2253": {
     "decimals": 18,
     "symbol": "TCORE"
@@ -548,6 +608,10 @@
   "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03": {
     "decimals": 18,
     "symbol": "LEND"
+  },
+  "0x817bbDbC3e8A1204f3691d14bB44992841e3dB35": {
+    "decimals": 18,
+    "symbol": "CUDOS"
   },
   "0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa": {
     "decimals": 18,
@@ -605,6 +669,10 @@
     "decimals": 18,
     "symbol": "PAX"
   },
+  "0x8c8687fC965593DFb2F0b4EAeFD55E9D8df348df": {
+    "decimals": 18,
+    "symbol": "PAID"
+  },
   "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa": {
     "decimals": 18,
     "symbol": "TBTC"
@@ -655,6 +723,10 @@
     "symbol": "aUSDC-V1",
     "coingecko_id": "usd-coin"
   },
+  "0x9c1CB740f3b631ed53600058ae5B2f83E15d9fBF": {
+    "decimals": 18,
+    "symbol": "SEI"
+  },
   "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
     "decimals": 18,
     "symbol": "MKR"
@@ -679,6 +751,10 @@
     "decimals": 18,
     "symbol": "aLINK-V1",
     "coingecko_id": "chainlink"
+  },
+  "0xA8b12Cc90AbF65191532a12bb5394A714A46d358": {
+    "decimals": 18,
+    "symbol": "pBTC35A"
   },
   "0xA9859874e1743A32409f75bB11549892138BBA1E": {
     "decimals": 18,
@@ -713,6 +789,10 @@
     "decimals": 18,
     "symbol": "BSG"
   },
+  "0xB4467E8D621105312a914F1D42f10770C0Ffe3c8": {
+    "decimals": 18,
+    "symbol": "FLASH"
+  },
   "0xB4EFd85c19999D84251304bDA99E90B92300Bd93": {
     "decimals": 18,
     "symbol": "RPL"
@@ -736,6 +816,10 @@
   "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD": {
     "decimals": 18,
     "symbol": "LRC"
+  },
+  "0xBD2F0Cd039E0BFcf88901C98c0bFAc5ab27566e3": {
+    "decimals": 18,
+    "symbol": "DSD"
   },
   "0xBa21Ef4c9f433Ede00badEFcC2754B8E74bd538A": {
     "decimals": 18,
@@ -809,6 +893,10 @@
     "decimals": 18,
     "symbol": "HTRE"
   },
+  "0xE0aD1806Fd3E7edF6FF52Fdb822432e847411033": {
+    "decimals": 18,
+    "symbol": "ONX"
+  },
   "0xE17f017475a709De58E976081eB916081ff4c9d5": {
     "decimals": 9,
     "symbol": "RMPL"
@@ -867,6 +955,10 @@
     "symbol": "aWBTC-V1",
     "coingecko_id": "wrapped-bitcoin"
   },
+  "0xFE3E6a25e6b192A42a44ecDDCd13796471735ACf": {
+    "decimals": 18,
+    "symbol": "REEF"
+  },
   "0xFca59Cd816aB1eaD66534D82bc21E7515cE441CF": {
     "decimals": 18,
     "symbol": "RARI"
@@ -891,6 +983,10 @@
     "decimals": 18,
     "symbol": "YFII"
   },
+  "0xa1e72267084192Db7387c8CC1328fadE470e4149": {
+    "decimals": 18,
+    "symbol": "TFI-LP"
+  },
   "0xa1faa113cbE53436Df28FF0aEe54275c13B40975": {
     "decimals": 18,
     "symbol": "ALPHA"
@@ -902,6 +998,14 @@
   "0xa3d58c4E56fedCae3a7c43A725aeE9A71F0ece4e": {
     "decimals": 18,
     "symbol": "MET"
+  },
+  "0xa47c8bf37f92aBed4A126BDA807A7b7498661acD": {
+    "decimals": 18,
+    "symbol": "UST"
+  },
+  "0xa58a4f5c4Bb043d2CC1E170613B74e767c94189B": {
+    "decimals": 18,
+    "symbol": "UTU"
   },
   "0xa7ED29B253D8B4E3109ce07c80fc570f81B63696": {
     "decimals": 18,
@@ -915,9 +1019,17 @@
     "decimals": 4,
     "symbol": "CEL"
   },
+  "0xaac41EC512808d64625576EDdd580e7Ea40ef8B2": {
+    "decimals": 18,
+    "symbol": "GSWAP"
+  },
   "0xad32A8e6220741182940c5aBF610bDE99E737b2D": {
     "decimals": 18,
     "symbol": "DOUGH"
+  },
+  "0xb1dC9124c395c1e97773ab855d66E879f053A289": {
+    "decimals": 18,
+    "symbol": "YAX"
   },
   "0xb4bebD34f6DaaFd808f73De0d10235a92Fbb6c3D": {
     "decimals": 18,
@@ -984,6 +1096,10 @@
     "decimals": 18,
     "symbol": "MCX"
   },
+  "0xd98F75b1A3261dab9eEd4956c93F33749027a964": {
+    "decimals": 2,
+    "symbol": "SHR"
+  },
   "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
     "decimals": 6,
     "symbol": "USDT"
@@ -1028,6 +1144,10 @@
     "decimals": 18,
     "symbol": "XED"
   },
+  "0xf0E3543744AFcEd8042131582f2A19b6AEb82794": {
+    "decimals": 18,
+    "symbol": "VTD"
+  },
   "0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b": {
     "decimals": 18,
     "symbol": "RLY"
@@ -1035,6 +1155,14 @@
   "0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9": {
     "decimals": 8,
     "symbol": "cUSDT"
+  },
+  "0xf6537FE0df7F0Cc0985Cf00792CC98249E73EFa0": {
+    "decimals": 8,
+    "symbol": "GIV"
+  },
+  "0xf72FCd9DCF0190923Fadd44811E240Ef4533fc86": {
+    "decimals": 18,
+    "symbol": "mVIXY"
   },
   "0xf8C3527CC04340b208C854E985240c02F7B7793f": {
     "decimals": 18,
@@ -1049,9 +1177,17 @@
     "symbol": "aDAI-V1",
     "coingecko_id": "dai"
   },
+  "0xfDC4a3FC36df16a78edCAf1B837d3ACAaeDB2CB4": {
+    "decimals": 18,
+    "symbol": "SCIFI"
+  },
   "0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6": {
     "decimals": 18,
     "symbol": "sBTC"
+  },
+  "0xfF20817765cB7f73d4bde2e66e067E58D11095C2": {
+    "decimals": 18,
+    "symbol": "AMP"
   },
   "0xfFffFffF2ba8F66D4e51811C5190992176930278": {
     "decimals": 18,
