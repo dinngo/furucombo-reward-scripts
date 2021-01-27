@@ -4,7 +4,8 @@
   "startBlock": 11722262,
   "endBlock": 0,
   "cubes": [
-    "OneInchSwap"
+    "OneInchSwap",
+    "OneInchV2Swap"
   ],
   "pools": [
     {

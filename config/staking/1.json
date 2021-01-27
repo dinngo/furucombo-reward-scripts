@@ -12,6 +12,7 @@
     "MakerGenerate",
     "MakerPayBack",
     "OneInchSwap",
+    "OneInchV2Swap",
     "UniswapV2Swap",
     "YearnDeposit"
   ],
