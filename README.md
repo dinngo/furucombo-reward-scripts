@@ -45,6 +45,7 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 * Retroactive COMBO [medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
   * Round 0 [reward](/rewards/retroactive/0/rewards.json)
   * Round 1 [reward](/rewards/retroactive/1/rewards.json)
+  * Round 2 [reward](/rewards/retroactive/2/rewards.json)
 * UNI distribution [medium](https://medium.com/furucombo/uni-decision-has-been-made-distribution-to-community-253a51e742dc)
   * Round 0 [reward](/rewards/uni_distribution/0/rewards.json)
 
