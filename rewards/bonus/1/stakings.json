@@ -1,0 +1,7266 @@
+{
+  "0x00397d81c4b005e86df0492fd468891ad2153377": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "166.337775145362956055",
+    "area": "311663.051529114445763082",
+    "rank_area": "131833470.796815410557783686",
+    "weight": "0.001143297422115559029362894"
+  },
+  "0x0096de908babe0c94114da6f5d2cb47f7dc1b665": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "66.078824026599347253",
+    "area": "821822.334418816081785561",
+    "rank_area": "281885060.705653916052447423",
+    "weight": "0.002444587564066825697204613"
+  },
+  "0x00b113795f1aa12ee361adc6d281392802d0e025": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x00b591bc2b682a0b30dd72bac9406bfa13e5d3cd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x01299d506f8bbb51eb94f6912c96a0c61ce9d1c1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x013487daca45d3c6872c612415c3ab546f04eb32": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x01b05b78276d62764ba474c4ede66a0f6ead1e44": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x023d1b5798766979fc10bebb3c7b68384d5b2784": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0285c10aa06ac166f2576ab2d3473fc42cefb933": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x02f3a4158b0eb7c7778ea1a341373588cab40c6c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "13.049420437678752817",
+    "area": "229878.590430148909624272",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x037c0e81264a0d94fc19f06f780f6cb2544ac094": {
+    "base_amount": "0",
+    "start_amount": "727.990313321081897162",
+    "end_amount": "727.990313321081897162",
+    "area": "14206002.974147592141219268",
+    "rank_area": "6222229302.676645357854039384",
+    "weight": "0.053960945415190757254907167"
+  },
+  "0x03d66da60a634efb0228fc85dc5d76681a3abef3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x03eac4458529d7f46c5114998ce079a9943c198c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x04209541851a74572bb9288376445164cefe94cf": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0428d82d3c4d8c616dac3862e9fc88af9a294b83": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x04412f253f496f1b6b837a8f520224f7f0350775": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x048ecae6329e42379b5181fec899225384256291": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x04c0253f2a21c9b1ed97bbffd2c36dc33c7fc480": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x04e67fed060d12e8ab391809aab60196e406be8a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x052aa017270434c91ca09c082018bd3b8f26e613": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x055d1ac693c1f42f4ddfbf2a21d1c209b95576d0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x057326bee5436d7929320a30bff29e49c05eede0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x05806b9d0cc28c6b266e37ec74b0e4654c21b1f1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x068a01a3443df8230d423af83110d278d8dc9018": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x06ca835aa5eddab32fd34b766f03477415684bd1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x06dc0cbf44eed256c5975210095be703504a4541": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x07a1f6fc89223c5ebd4e4ddae89ac97629856a0f": {
+    "base_amount": "0",
+    "start_amount": "11.29",
+    "end_amount": "11.29",
+    "area": "220313.06",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x07ebb7978e5f752d1af50133d677b4ae84474d01": {
+    "base_amount": "0",
+    "start_amount": "826.930269742767411329",
+    "end_amount": "861.12580712521805159",
+    "area": "12581842.240279582090987658",
+    "rank_area": "5976375064.13280149321913755",
+    "weight": "0.051828827407188268086759404"
+  },
+  "0x08627522a06f453d8e9ec0e643732a599f88e581": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x09102ab6f2c92b7fae7d35687a4d9654c2bc309c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x091c8585e009974b3dcf7711ce2942888ab04fe7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x09641015fb8b08388a7367b946e634d37dddffaa": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "5053.163563657662036835",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x098b4061719eb9c39c1db36d9f19138b1d1c7477": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x09c2901bb3e9d9bb43a5ae566c9eca324cc15073": {
+    "base_amount": "0",
+    "start_amount": "42.341241218648743445",
+    "end_amount": "0",
+    "area": "765305.569755829666331015",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x09f7c216d9b33d2c706dc6b66d8225a62c8c9694": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0a75bbab42b8b2ed6a8cebf7fa4070f0cfd6105e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0b4283d33efa4c509242f33147f0c6ccd20a8d98": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0b4a60b9b44d58814e3beb52a421dc878d6c0ef8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0ca0955a643cc00150663324afade53461cd058c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0cd7f0a290497f80b0ce97d63a7a06750a5cf719": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0cdf00bc7e1e59f2d46dd92baa56e01aa95c5943": {
+    "base_amount": "0",
+    "start_amount": "119.432974595740718617",
+    "end_amount": "119.432974595740718617",
+    "area": "2330615.066261284383092138",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0d24f692c05036602076b3f51242b5a34c55ee38": {
+    "base_amount": "0",
+    "start_amount": "453.324374717886550447",
+    "end_amount": "453.324374717886550447",
+    "area": "8846171.848244838145422758",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0d2537201050756a7e53da2006becfaa02727de5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0d7fa5d2e8e063c087e61d6faf4d05c676b78fff": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0da4822fa2a7163ec615ea77c4a0881894c1bfb9": {
+    "base_amount": "0",
+    "start_amount": "2.277480271569997657",
+    "end_amount": "2.277480271569997657",
+    "area": "44442.750019416934278698",
+    "rank_area": "19021497.008310447871282744",
+    "weight": "0.000164959841859109141568521"
+  },
+  "0x0e4818189b5b88b4ad2be95da50086bf5ee4e966": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0e775598456ded6f5c3d123fbfc094db0b08a4f6": {
+    "base_amount": "0",
+    "start_amount": "2.01560261489452219",
+    "end_amount": "2.01560261489452219",
+    "area": "39332.46942705170601566",
+    "rank_area": "9243130.3153571509136801",
+    "weight": "0.000080159059743736023308511"
+  },
+  "0x0e861f1d1a0d4fdc90fe18cacae65bb750105dbc": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0f2b9d9300358c25e78a9e1928ec39982b527389": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0f3cc572b0104e8e2acdc04bd32ba993b51d98bb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0f85fdf984ad540c8a7bf4084bad7dc5caa9c617": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "21.46425083777914846",
+    "area": "133851.06822439076979656",
+    "rank_area": "37344448.03460502477324024",
+    "weight": "0.000323861693925179934727745"
+  },
+  "0x0f97258b5b506b210ba05f4c1f3c3cf84cc44496": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0fc84e15aeb7907a76a221169d80d3eb06cdb44b": {
+    "base_amount": "0",
+    "start_amount": "485.86935502557060963",
+    "end_amount": "485.86935502557060963",
+    "area": "9481254.59396898487631982",
+    "rank_area": "3640801764.08409019250681088",
+    "weight": "0.031574070273295652905687787"
+  },
+  "0x101ff0cb4c68fb252e739e9c2c19cc3ab4315324": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x10632f80c17a4083183eb2678c3fe353d955902c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x107cd74419dfc9ff01975e652597c5a4b6706460": {
+    "base_amount": "0",
+    "start_amount": "68.804256509548692579",
+    "end_amount": "0",
+    "area": "168295.211422356102048234",
+    "rank_area": "67318084.5689424408192936",
+    "weight": "0.000583801610351657788646469"
+  },
+  "0x10c5869466af79b8751c7dbf51844daedce5f583": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1125917201ed36700f86c3cecec8c5dafae280d1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x11414661e194b8b0d7248e789c1d41332904f2ba": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x11897c8a03bd1de2d542aac163f6c8926ed45f86": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x11b1785d9ac81480c03210e89f1508c8c115888e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x11b67a503b3b702104eeef69a4ea1365d0f2c658": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x122cbbde2561d085de82934c3ee0e62f42b36775": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x128c3c6d48434c8713ec00358c1ecf252319b4c7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x12cca8c30dbbd9e800138aebf0191da65f73b58d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x12ef2cd4231d5cf655a6cdd4ac1524ffaa439c17": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x13108c3dfbc95ac08a18774bafefe87b6609c37f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x131975ca3e75259e60afeb1cd34051a6804da505": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "10.919706338724965613",
+    "area": "110179.83695773490303517",
+    "rank_area": "26994060.05464505124361665",
+    "weight": "0.00023410018022262208811331"
+  },
+  "0x132cd02e566c36976efb327a4301a605747f4b78": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x13684fd9b5b0c9f6b63a69d95ce8b392ab9cbeab": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x13686046c2ff821613824db134091f42f0406347": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1369d8bbcb112daa2d2ebfe294667756fa71f970": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x136aea6a78d2014e1e5263b98dcfbbcb49f2b012": {
+    "base_amount": "0",
+    "start_amount": "40.754133180169073376",
+    "end_amount": "40.754133180169073376",
+    "area": "795276.154877819297859264",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x137d2ff1b6df76d019319efffd39f2b9b8531859": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x13fefdd563a930f07b1ac8a2227acc27c3c12946": {
+    "base_amount": "0",
+    "start_amount": "246.072669488426766745",
+    "end_amount": "246.072669488426766745",
+    "area": "4801862.07239715992626193",
+    "rank_area": "1963961587.61043840984112937",
+    "weight": "0.017032034480148382061836449"
+  },
+  "0x146c94c03c0ce681041fe75d37fe70795093afc6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1521834a58423d6edd7fb25be3bf1b654387ba59": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1537b8c9e7da7322c8045d304aa5ae76a9fbcffe": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "10.865405657436393046",
+    "area": "129993.713285569006402344",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x156d07be5ce6cffadbe92f8171427c9bf71ffb94": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x15f574311bf3408d413a6a3bab569b3377ac146d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x15f94245a4ca9534afbb018699c85f320c270721": {
+    "base_amount": "0",
+    "start_amount": "75.772720978373589575",
+    "end_amount": "0",
+    "area": "865248.700852048019356925",
+    "rank_area": "392822910.18682980078804395",
+    "weight": "0.003406672204335100734839025"
+  },
+  "0x1605b767870069d2f477ae2c5f602b5e0624bf1d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x161619839ebbada5d3c279e1a79c50f7fc4274d6": {
+    "base_amount": "0",
+    "start_amount": "14.475602646892841928",
+    "end_amount": "14.475602646892841928",
+    "area": "282476.910051466917382992",
+    "rank_area": "87285365.205903277471344528",
+    "weight": "0.000756963557320945133972044"
+  },
+  "0x16ec8a7f9d21ea94be12d4765ad2e5597f82c9fe": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x16fd7ca50692e3cf2a86e74bb662477729e0a0a9": {
+    "base_amount": "0",
+    "start_amount": "6.4",
+    "end_amount": "6.4",
+    "area": "124889.6",
+    "rank_area": "49581171.2",
+    "weight": "0.000429982043830097771314016"
+  },
+  "0x1726f8597e7c7a4fb91d89b4219c642f685dce49": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x17b22f256fac17a5eb77a3012a36def639f16ad2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "3.327257998840908485",
+    "area": "3240.74929087104486439",
+    "rank_area": "725927.84115511404962336",
+    "weight": "0.000006295453077418358806996"
+  },
+  "0x17d5eccf0ae83671b5bb863ff0b55bdea91f54c2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x17e33637f6b64e9082ea499481b6e6ebae7eea23": {
+    "base_amount": "0",
+    "start_amount": "19.422111900951587823",
+    "end_amount": "19.422111900951587823",
+    "area": "379003.091635169284778022",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x17f11f0b70eb4fb9cfa09f1b0a2cc73cd626ee77": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x17fe4ed21e35b5ad800179b0c20447ca3f5280db": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1853d65924d832382929db8179e6eaefd0d8c9b2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x18c42014fb0aed3e35515eb45df8498af67773a4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "3.302992860756152102",
+    "area": "61187.94274550771768955",
+    "rank_area": "12788280.03381111299711595",
+    "weight": "0.000110903608223150125941557"
+  },
+  "0x196a3dc8446920cef0f0d1f6bf7ba5b40702c79f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x197f4c3cc2c89a0f4c4e2443c453f29ecdf67d4b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "33.225005227345126259",
+    "area": "412056.514829534255864118",
+    "rank_area": "124029010.963689811015099518",
+    "weight": "0.001075614922714712905728959"
+  },
+  "0x19a254a216f8726e8541fb5b30ee41b5d0df6dff": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x19b570af5dddb8f0f5a15c83d07a1c5153865188": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x19ba4782efadd1bf349e87a233515f24db496868": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1a31c94f97c649bc2a8adbceb54d1f4a075be4b1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1a942e037cdfe8098bfae2a3f181ca22aa6beaf7": {
+    "base_amount": "0",
+    "start_amount": "502.382893959466152496",
+    "end_amount": "586.035212979559177525",
+    "area": "10438909.20758632078585989",
+    "rank_area": "4968920782.81108869406930764",
+    "weight": "0.043091896825199669090864563"
+  },
+  "0x1aaf5e41c2c73617bc120097547a3410caf6718a": {
+    "base_amount": "0",
+    "start_amount": "10.935825283925273541",
+    "end_amount": "10.935825283925273541",
+    "area": "213401.694590517787879074",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1ad015a04c3a21330a388f6a0995c7c092e66f93": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1ae98386f09725b33f44bc009025aa4b2b19c3d7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1b0542fdc5d82ed1246bbd55e3ac78419aa852f7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1b625b9a5789442b2563066b6772a4879035ef78": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1b73faea4bf6cc125b53cf065ee4240fba43c54a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1b896a777e83a2aed475d80c5b15e7a3164a07d6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1c51a54041c26701692c14eb86a45fbe184b2d34": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1cb9edf191a4f59188a02c78b5e52fccc3437ac0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1ce60f87af2607e84ee245eb85034ee267fc447a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1cead3374a856061be00f5c6d2a035eedf1c3c76": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1ceeb194c1cacfe271924cfd35ec93625d92dd9e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1d2812401b4f033c4e094c081c643af24ee3c459": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1d4c9a9b253cdd3c24565b9ff354f6987af7b659": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1da04656c9bcd4545fd1bc46e63eec2a5ac26e2f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1e25efc55949a5848a340d570e861441521af6cd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1e27c17432abff8e314b421be50c63a42d3e95e0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1e82e222564293e3507c2966b27f587ee2570671": {
+    "base_amount": "0",
+    "start_amount": "12.193766600180835237",
+    "end_amount": "12.193766600180835237",
+    "area": "237949.161435928818814818",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1ee3ffce917d130c15e7d1109c31936b7a24f164": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1f37fd52bd4e5c9352d4f3220d8ca7b4bf266008": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1f3cce3b029e4188a6ed1352cd79c31269652bcf": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1fa25eaaae4e6de7ddecdcfdafa533b0f55a9ea9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1fbd3a597812156363051d91d5de3db111eb6d7a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1fc3925e9a9ac5e077fccf6fd818ca1138a5cd8c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1fd7dae8ce6190509486e657629975e10ecfef60": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x201fd463114179a87ee40193e1ed94a3fb13291e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x202b98a70e2ec387ae4a06316e9afda5b977504a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x20344897c84492526169005a77e5c31277362edb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x207e719dc880e777806fe54e84090dd55a4704c2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x20bcf5ca4b179fa088e81fa587b5e17289ee7a55": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x20f1d56492e798694d4106b9d631aa4210780a6f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x20fdfe2e1e0530f4f7d2b0f5b2130787e31ff8f6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x210028afce3da801d781c4f6d616cf3b30c85fa7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x21236da9fed83dc9f622fa81469aa932b8f6d75e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x216791cde759c5203aa2d88f9ad4c0945433d9a0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x21caa3351430944cb7f31998b0eb199bc2c3112c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x221208ba3781c1aaaeb5e31f1670d42ec3550020": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x224a205fd2f902880c4bf98bdfe9fe9563392ede": {
+    "base_amount": "0",
+    "start_amount": "3.01",
+    "end_amount": "3.01",
+    "area": "58737.14",
+    "rank_area": "11101319.46",
+    "weight": "0.000096273805460683375756781"
+  },
+  "0x22ee75a4148bb15b5d8661f07c4f637a1551a731": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2355b94fd96ee80c8da1ddfb017564829ce6e2de": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2366f59e201e021c544bf846399d0f46c03ed6d6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x23687c3434d617392ef8780905d7385f0b171c7f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x236ff34518dba76612bb571a7baa6201d02ea985": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x239eec9ec218f71cef5cc14d88b142ed4ff44110": {
+    "base_amount": "0",
+    "start_amount": "22.328688306457556317",
+    "end_amount": "22.328688306457556317",
+    "area": "435722.023612212753969938",
+    "rank_area": "176031697.539333952603854952",
+    "weight": "0.001526597037845778149102997"
+  },
+  "0x23d07c846dda0234a1f3561ea8db3563413ef7d7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x23e566d98705bc07280804dbc8d8847209b8b854": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2433cf206553d0bcbacb8f71d0509565b956f2c9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x24551ee23d95b4fe622be4dc5fa245266559b5aa": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x24bad19d1e73cf977d4d4b8ad56f8a01468bc1d1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x24d02e64d4a2580d570666546ac937adab2b3e08": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x25125e438b7ae0f9ae8511d83abb0f4574217c7a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x25e6d7b6a6dbff4e9775f0988c4125ec1a65681d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x25f39f23dac3c26ff8fea158085c00aef9bef28b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x26002176cfab339ebaf53dcfa6b28a763c1d359e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x264571c538137922c6e8af4927c3d3f681399e50": {
+    "base_amount": "0",
+    "start_amount": "350.355508961447857753",
+    "end_amount": "175.355508961447857753",
+    "area": "4508112.401873693496192042",
+    "rank_area": "2105288491.675014862721683614",
+    "weight": "0.018257661660529847823379182"
+  },
+  "0x27658c7cf8381fd94cad53672922af4eb7b20fcd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x27f6119df51a638be7b2b54811b80dd5b4caee9b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x283266045ab2ab0793a62cadc21d55f685636ae0": {
+    "base_amount": "0",
+    "start_amount": "1.466300286782245929",
+    "end_amount": "1.466300286782245929",
+    "area": "28613.383796268747058506",
+    "rank_area": "3834193.428700012105839804",
+    "weight": "0.000033251217892012229419551"
+  },
+  "0x28ac9e4eeca87b5310cb64fbe8ff22f498deae07": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x290e9603dde0b26a65842c84dd75845d87c63607": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x296897c5b419c2217719dc699d244e595d675d07": {
+    "base_amount": "0",
+    "start_amount": "33.30821688550945538",
+    "end_amount": "33.30821688550945538",
+    "area": "649976.54430383151228532",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2a324f793c1d5a8175bdd4813666df7001142f9c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2abc48d68786a42ce1f9b896dfc3cb8059a2d624": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "2.740411457426821147",
+    "area": "50533.18727495058195068",
+    "rank_area": "10713035.70228952337354416",
+    "weight": "0.000092906498079965809644504"
+  },
+  "0x2b3eef71a2f4c1916d16830e8ee55fe926332594": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2b62e0312d6a6790b07f3a87b9ec339f7d8d47a6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2b92d12d8cc0b9af862451393925092c6c21a611": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "7.503833663860706993",
+    "area": "136277.123169374299699873",
+    "rank_area": "31752569.698464211830070409",
+    "weight": "0.000275367331697950553964859"
+  },
+  "0x2b9f043c010b3241ba047a8c9047a49b5d429b7d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2bf924c1a39147f1ec5010416a3b9ac5ae36dcd9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2bfbea421018a8b0174d843503f67b28a8599d43": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2c2add1c863551a0644876be227604c8e458dd7e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2c5ff0be38115fe6e37acce8e94f86186c3d73df": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2c879af71ae8d1d2a9321558e069148d48225b72": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2ccde611a35aa395c8aeb2babb4e25c835ca1760": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2d9f9f7862a8e435d890f487a01ea15eceb6c6ef": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "29.36",
+    "area": "522490.56",
+    "rank_area": "156747168",
+    "weight": "0.001359356102931664890090044"
+  },
+  "0x2df86e242dada17ac3ea75943c87ce7e38d24e52": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2e0719832d76d692f836cdb4598b9eb259d3a93b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "15.606390146610325241",
+    "area": "175431.431638046666034081",
+    "rank_area": "46664760.815720413165065546",
+    "weight": "0.000404690102003603410674375"
+  },
+  "0x2e403b969a64bdd1ca18fe10baba4546957bc31e": {
+    "base_amount": "0",
+    "start_amount": "34.539004638379454586",
+    "end_amount": "34.539004638379454586",
+    "area": "673994.136513336676791204",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2e419a06feb47d5f640636a55a814757fa10edf9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2e42530fd473b22fd7868c998bbe6876693647ef": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2e73766478551164b31d48e47f0cd2e0a7e39cd5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2eb5ddcf4bf27408241830a017510c152106c917": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2eb7fac4cb09168f07f7ba98b379e90cc363ecdc": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2f9b9013e951a1c8310c225be006c1a36b71d842": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2faf55a544c5f73666438bc185aecc9d685e6e3c": {
+    "base_amount": "0",
+    "start_amount": "3.664821873117640131",
+    "end_amount": "3.664821873117640131",
+    "area": "71515.334032017629516334",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3037c04f9f65f2c9891bfa8433f99e8b83146d5b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x30fe0d8d2d81ea568ff60b6e28ab74eb7e548cb0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x31265bcabec13492d0ea2dafc09912ddff4d7f3d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "2.095270727967626823",
+    "area": "16284.444097764395668356",
+    "rank_area": "3305742.151846172320676268",
+    "weight": "0.000028668337847293986249375"
+  },
+  "0x31304ccdd28e62ef552824db08a350d752068c39": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x31979a5ce57f173c80d4ce7fdcf120355109c413": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x31ea2730a76c7d480bba0267eb91d02a3087ea88": {
+    "base_amount": "0",
+    "start_amount": "1.408899455783973911",
+    "end_amount": "1.408899455783973911",
+    "area": "27493.263980168466899254",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3238934316238ebbda1ffb229ec9a37bf66c5564": {
+    "base_amount": "0",
+    "start_amount": "44.759831480846880237",
+    "end_amount": "30.009831480846880237",
+    "area": "599653.851517246020944818",
+    "rank_area": "274641463.994898677592726644",
+    "weight": "0.002381769029470137690936654"
+  },
+  "0x3241ca14a43d25e835547631dd4b83d25b95f6d9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3288338837dc90afbb81a93e5a9c3c5688436e10": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x32a01b41dca5a7087b176478f710548124489e06": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x33452fa72e52b9ece68f5562feda06d9ef346a8d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x33a28b2ed9a73e5f90ea70a1575cadbf99ab40cb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x33b173a79576f5f66137f3f34fb6875ffb8e56d7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x33ffe7c58afd9522444875b6a4421c24cb76a2e0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x34750c3af93ceda1500d97de4493b13e509ea24a": {
+    "base_amount": "0",
+    "start_amount": "28.449865498066978116",
+    "end_amount": "121.965849005618800374",
+    "area": "1652748.403740996214656802",
+    "rank_area": "737125788.068484311736933692",
+    "weight": "0.006392564863686769507530961"
+  },
+  "0x34cadf09dbf50a39d1a68b87d7763db3961ef483": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "78.452678162163232604",
+    "area": "428665.433478059902948256",
+    "rank_area": "148318239.983408726420096576",
+    "weight": "0.001286258037513825626321352"
+  },
+  "0x36220d1fc55d0afb0c3c58b6c1224875547c9f36": {
+    "base_amount": "0",
+    "start_amount": "828.758812855203145538",
+    "end_amount": "208.293537715622116772",
+    "area": "13212484.655863001390228346",
+    "rank_area": "5602093494.085912589456818704",
+    "weight": "0.048582950987538479866879968"
+  },
+  "0x364a9ec91951995d6e54e7351121bd4d4cdacc7a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x36837e2c2893b2d34fa80694b70eb53677aa6d4a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3727220a0062dc00c08cc53186ca2d1cd3babe2f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x377e8015e52ce4d6b939dba7e772aae29a1354f6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x37b1884205cc47c2bf5cf5a0248946c4c0c85724": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x38148ecc2078da7f65e6233dda28efaf4c51e96f": {
+    "base_amount": "0",
+    "start_amount": "415.42623299889044656",
+    "end_amount": "415.42623299889044656",
+    "area": "8106627.51074034817417184",
+    "rank_area": "3826328185.06944433820910848",
+    "weight": "0.033183008258200812169602109"
+  },
+  "0x38535f27d5999da5b0280984ee64491cf3a4df80": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x38e5afc751805a26f5e7e02e2b724adec135dc21": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x38e6b1a0d1eed09ca8de2253dcc8ec559458b4e8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x391a746bf9a297409b9ee1e986394438b8a76d8f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3955192ac5ba00f9ec028aea240d8177f48c70dc": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3a2d016124df975850b84a6a970ecd5725bf793d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3a2eb9173697e99b4a45cfb4ffb185652030796a": {
+    "base_amount": "0",
+    "start_amount": "121.25041180188689653",
+    "end_amount": "121.25041180188689653",
+    "area": "2366080.53590202089888642",
+    "rank_area": "1102593529.73034173888107172",
+    "weight": "0.009562005252253783219761191"
+  },
+  "0x3a4e27d4602112a5584615911d24c571ab21135f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3a5353ae6ca6d442e385f578ccaea7948bf7576f": {
+    "base_amount": "0",
+    "start_amount": "7.636345192981024346",
+    "end_amount": "7.636345192981024346",
+    "area": "149015.640095831709087844",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3a7249b510add84a2196fb0fad9d8b745d807286": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3af0364094ee2333d2a3abd7280430d486101816": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3b2b37b7ee790e30c5ae014ea607bd7e64e825d4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3b36ac8e7fc8e73e53e0a1c3b6818b3094b2bd7f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3bae9b9e1dca462ad8827f62f4a8b5b3714d7700": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3c0b2f67fa32bc573fbc7295064ac837c1c1cea1": {
+    "base_amount": "0",
+    "start_amount": "177.374361291205175178",
+    "end_amount": "0",
+    "area": "1292349.596367720906346908",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3c1abeecfc39d717f1db0e1ce4c1464a1029c288": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3c511b54da461cff3c881a71607fb067766f6a4a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3ca4c6f9693ec33fdf84faabdc2dc8ee02eae7b3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3cbc38c77a0aee60fc03fdcd8dd4386176436987": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3d16451a4b73e778bfec126025ba79716a17e32d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3d1b4ae2ebddddcc6cc16204377be9520c876670": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3d30c7f60a8086763b8cee887ed4db90c4dbe585": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3d3ac4ca86e5e8304acea9c202fda747cdec45bb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3db5d3fc60df4e42144f3fc6fbc73abcde2f65de": {
+    "base_amount": "0",
+    "start_amount": "151.117166085340135975",
+    "end_amount": "151.117166085340135975",
+    "area": "2948900.37898932741341615",
+    "rank_area": "1256231561.4494534781152799",
+    "weight": "0.010894398039470093581956001"
+  },
+  "0x3dc4e4f0bf3a9135748802f5e7983ae36212e80d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3e83a070a88eca9e4e0931ed3abc88e681cb1de0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3ea1cb92182f4a201cb41946404ba416137c72a9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3ea8a88dc7c5930c6ee57228a7bfe43a4f876fd3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3ea8c11aa4ccd1f2b3dfffafbc914893fba7cb30": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "38.098426083684818276",
+    "area": "596011.777653165297109744",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3f7c10cbbb1ea1046a80b738b9eaf3217410c7f6": {
+    "base_amount": "0",
+    "start_amount": "12.823727069882190184",
+    "end_amount": "12.823727069882190184",
+    "area": "250242.210041681059250576",
+    "rank_area": "109856330.208297985011002864",
+    "weight": "0.000952705396976142387262912"
+  },
+  "0x3f84999e34de17fe878d9286bf2e4c7c5293feb7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x400a1a1c3d2929604536b24f3134a33580b2100f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4064c17d6756078d9b2db6293ef630e4713edd72": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x406814ab8a4e6be6b15e4236f50f06e9ff4635e8": {
+    "base_amount": "0",
+    "start_amount": "665.120112577150012316",
+    "end_amount": "1241.081132279832158842",
+    "area": "20862908.314520818561982312",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x409b3f6363b6c35019f68291398413aaeee96c04": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x412a9425eff7b9eed4c8a88425190175018750e6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x41578aa0d76574c853eba192ae39991cedaa2f49": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x415fce36e2dc12421f20b93dbad1dd68bd2f6db6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x41b6b9d0ef7cc69efdce66a8689fa9f689c3d3db": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x41c4f6e905ecb35129801e3ab551edd215e2e2fc": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x41e74c1bd63f539f680940a5125815bd17189815": {
+    "base_amount": "0",
+    "start_amount": "9.888559987162047832",
+    "end_amount": "9.888559987162047832",
+    "area": "192965.359589480201393648",
+    "rank_area": "73133871.284412996328192592",
+    "weight": "0.000634237769842742193587091"
+  },
+  "0x41ff527665a0d3d2721d0e42764cef3ec93a0149": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x420c44a78408105a639db060ee932b675b48c7e0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x428700e86c104f4ee8139a69ecdca09e843f6297": {
+    "base_amount": "0",
+    "start_amount": "48.700250813319750818",
+    "end_amount": "70.443356401803568878",
+    "area": "1315338.207884999471235672",
+    "rank_area": "565595429.39054977263133896",
+    "weight": "0.004905004719015397956789249"
+  },
+  "0x430dd1a1d6264cd60764b82f2de8a306bd173258": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4351a86b3d5072ca304331e46476d2355b6eee98": {
+    "base_amount": "0",
+    "start_amount": "2.449775786165241848",
+    "end_amount": "2.449775786165241848",
+    "area": "47804.924691228529421872",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x43b0f4b7e0b846d927658cb954b7b777a4dacd7b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x43b9d2a6b3f60f190f3aff6146b0463c085d31df": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x43ee141fe1ba5cc9667795c9a9dadbc4553b59f7": {
+    "base_amount": "0",
+    "start_amount": "288.641656011173776374",
+    "end_amount": "288.641656011173776374",
+    "area": "5632553.275402045072162236",
+    "rank_area": "2168533011.02978735278246086",
+    "weight": "0.018806136152661595845514508"
+  },
+  "0x43fd79b63db9fa6a1111d4baf76a7a05f27b892a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x442fcfa3f4fdf911835ece62dd819053932ec56d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x44744914bdf4dd872bd7b3706f80d44b7aae3ee0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x448feb329552c936335d158af387e0186baf8271": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x44e59f7c598644a68975ef41fed052362c4c8ed3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "173.947193621958675656",
+    "area": "2414387.04747278641810528",
+    "rank_area": "1064744687.93549881038442848",
+    "weight": "0.009233769311922696638252494"
+  },
+  "0x459e9e7fa2631ce07a8369beeaebce0a660b9ecc": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x45c90da6dc0b7d6282824e684492f48cd50ca5da": {
+    "base_amount": "0",
+    "start_amount": "886.424075571527246335",
+    "end_amount": "886.424075571527246335",
+    "area": "17297679.41070278268498119",
+    "rank_area": "6694201931.94197689908772053",
+    "weight": "0.058054026535536947722597552"
+  },
+  "0x463caebf339d4d61cc633b9e1bca7df17c8a83a8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "423",
+    "area": "3504132",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x467e20bd74bbba59dc6c88b3a975fbc381fa2441": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x471a7853ba0b93b2b4103bfba334c1d1ec9dd6b7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x47a2eb88539359d5cd0388eb3bee8b33d0b49d7c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "54.876498243928676368",
+    "area": "600733.026276287220200496",
+    "rank_area": "266725463.666671525769020224",
+    "weight": "0.002313119219114491321304085"
+  },
+  "0x482f853cf74da712e6c0c2caa7f23daa142eb903": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x483cdc51a29df38adec82e1bb3f0ae197142a351": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4881625b2a2b69af274459ccdbfd7fad0cb1affe": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x48bfb992b8adc162ec405249d8ff6fbe17eeb921": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x48d98d93cbe8af0d82bc916e8b6509af1a0f91d7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x48dd909efc6a83438208bcdfddda043ba17161ec": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4a21b8ffeabb54be6b8b57121783d1e267c49de8": {
+    "base_amount": "0",
+    "start_amount": "7.288330096556944177",
+    "end_amount": "7.288330096556944177",
+    "area": "142224.473504212208669978",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4acceee2da4269e708a22a9ce35d6079e29cc7fa": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4b129202a975715c26d44c7ae863bf1e9aa5ecc6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4b45471517d99f999a0e467c245cb2707c75a2e6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4b55f2061e02efebc61674b735a9f4c5ede70bc0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4c21953b59e6ac5cf4b74d4a6f08f0a7de7384c3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4c5510d9e13089cbd198e44ac0877fb3bd30a8ac": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4c78dfd78482e2c7321d8d14cfae862918cf8b0f": {
+    "base_amount": "0",
+    "start_amount": "11.835712640989024724",
+    "end_amount": "0",
+    "area": "24215.868063463544585304",
+    "rank_area": "4891605.348819636006231408",
+    "weight": "0.000042421395352107080251437"
+  },
+  "0x4cc930a91865e30feff38465ace57711e3923881": {
+    "base_amount": "0",
+    "start_amount": "73.912900056580296235",
+    "end_amount": "73.912900056580296235",
+    "area": "1442336.33170410790072979",
+    "rank_area": "650493685.59855266322913529",
+    "weight": "0.005641266586946592956794725"
+  },
+  "0x4d33de6d0308dbcfd673eda2df1ddb8c7ced696a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4d75a6133668229b39607ed0a4653347f57dd066": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4e483558e4e59416eea246f643d78470a7d6d5a9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4e4d97052808e95fe05462dd974ef8b22c317acc": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4f1a63e53e67be6ba0f497d91a3259686d41a540": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4f30d640131df5e5b5e48138c7a93d211a91ce37": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "4.193887151755833779",
+    "area": "77356.248514136354053655",
+    "rank_area": "18256074.64933617955666258",
+    "weight": "0.000158321881069973715323305"
+  },
+  "0x4f50d47d20380172746527bbeaa274940c38efac": {
+    "base_amount": "0",
+    "start_amount": "25.269781073955671013",
+    "end_amount": "272.808326127962251982",
+    "area": "2618096.550414473190715867",
+    "rank_area": "1076037682.220348481384221337",
+    "weight": "0.009331705376078463795113936"
+  },
+  "0x4fa3acd97ad02a0d6dfbd30bd22f4fe5652afc2b": {
+    "base_amount": "0",
+    "start_amount": "14.810159520715897508",
+    "end_amount": "0",
+    "area": "112823.795228813707215944",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4fdfabcfc32872fe160539b3dc7184d7ecc27431": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x50046e641d3540377a1a001d9d5ba7a813783c5c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x50262440cc8b81721854f3bcb862d93d47302d7e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5102614741a1b98c64891b44db049f03facd2f27": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x51089f640bb0d0437a690b2ff07dd4ce59c5d40f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x512b01dd9f1d9633aacdd3cbd73495476051900e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x516f13401dfa4b3c7a8b3d57d044ad622f84e4ee": {
+    "base_amount": "0",
+    "start_amount": "6.143615416079300725",
+    "end_amount": "6.143615416079300725",
+    "area": "119886.51122937147434765",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x517fe111cc54fbe688c715a92b4869560353e430": {
+    "base_amount": "0",
+    "start_amount": "556.925338923861279406",
+    "end_amount": "556.925338923861279406",
+    "area": "10867841.063760229006328684",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x51e15c3f1ab9cf2d28eb8c232e209aa521b45715": {
+    "base_amount": "0",
+    "start_amount": "47.972662163830756541",
+    "end_amount": "47.972662163830756541",
+    "area": "936138.529464993383141074",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x51f9afb0ab61208b18d4b49c2f4227183fb963dd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0.382533735816485213",
+    "area": "1196.182991898149261051",
+    "rank_area": "549047.993281250510822409",
+    "weight": "0.00000476150063820771308858"
+  },
+  "0x5221b5261f4b3b83879e1d219e8911fb65b5c8c5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5241aa99a776866296d1d695c02bb2e31b3ff998": {
+    "base_amount": "0",
+    "start_amount": "3.666823958986119946",
+    "end_amount": "3.666823958986119946",
+    "area": "71554.402735655144626244",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5267ff5cc69bb34ecf04554b6846be9d97c98936": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5275817b74021e97c980e95ede6bbac0d0d6f3a2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x52a3bb3e981f580eb6a19905270b7c70d3daa1b9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x53124d6b605aecae1e9350200fd35d74420d49bf": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5312c0b7a9b2cf42f0966ac614b82f37a769eb63": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x536d6baa8deb1898f1874fd70ba56f51d2d30b5f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x537bf75de19f3d229e3a9018ee1a23c0c9c7d39c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x53c5dfab1450924c4f6592eb9b0b593e33950e9c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5445c0719dc90f70b22ec8c2e225f9e6b4774940": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5455108fd39520dfb63bab4040f4ee362e135392": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x545f52d6487afec7f51eb98a927d36e264943378": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x54734fb2738c1dfdaa4de703126db149ab7855f4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x55613261b9669a7a16cfcaf06fcf61a01b81f77a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5583347e299dfe16247224797704e093caee28a1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x55a3df57b7aaec16a162fd5316f35bec082821cf": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "88.070431171893130877",
+    "area": "649607.500323883733348752",
+    "rank_area": "309862777.654492540807354704",
+    "weight": "0.002687218297149661764520238"
+  },
+  "0x55b40cd75fb1ffaea24aae875a6a55f2abc8e695": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x568f71fd4642e6eeb52127c6911e2116c9bad1ac": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x56d44a78c42f7b3c18ded0f3e377394d7ed44eff": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x570f89ec98383b132b36ea64505f9d3b199127f0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x57797c4814608a46494f9bed5541b94d0a037fcf": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x579bc93ffd67764244dc282aa2a0f03634df7a7b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x57f3dfd2675615978808285b74d6188caae37007": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x581f900fb75d4c37416f1d3ad86b815b4d07a884": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x58ac48d9a9d91742d1e12affcf3a1f8b3e31a73d": {
+    "base_amount": "0",
+    "start_amount": "1257.766821901888551394",
+    "end_amount": "1257.766821901888551394",
+    "area": "24544061.762593453191902516",
+    "rank_area": "9228567222.735138400155346016",
+    "weight": "0.080032764455049902919610046"
+  },
+  "0x58babcd845405c1a4cb4f6f382954c87a2f0ad0f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x59237e1c8423e18b2616f14cb4af94f999a8952e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5a6398a9717b4f97b5ece97c5bfc10ad2510ec20": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5ac3f40014df150cdf4bee537540c5b8251151b6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5bab8e08de34b1c00e07767f865a8b986474d469": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5bc08a66b603746c2e71277cb8aed636a0fcde7c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5c0beba5a4aadd47870485c1431c0b2db7af0e31": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5c5a4ae893c4232a050b01a84e193e107dd80ca2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5c6a13cabc9fcc21dc3f5eaa0634cb1b0de11841": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5cd173f8deadd4abf0ea92a7edba095a92b80f25": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5ce259aedcd14038ad2c35ecaa7b6b2974d339ac": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5dd39a3fc1c33e4411438e79bf86d4fab4f6932f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5e6a79fcf39690c18ffcc2499a7ba27306e14399": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5f0b06211da203eda5e7fecd811b7752e9e4c1bf": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5f245170e887c019eafbe26da1f9daff1a618edd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5f7b30c41f68c12018e0ca64bf8a57e3bef454f6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5faa7d29b6f009b5a2ced1a51bd93cb26be2d43c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5fc4cab922277424a613b585e6c42d6d964771bb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x601f01bae7c6aba497d26d93eb20318a99272309": {
+    "base_amount": "0",
+    "start_amount": "187.46477074575718989",
+    "end_amount": "187.46477074575718989",
+    "area": "3658187.53633270580351346",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x60bb4b0bc48b54efa1a3dbad66e45888e458bfb0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6165fd87c1bc73a4c44b23934e9136fd92df5b01": {
+    "base_amount": "0",
+    "start_amount": "319.045414956592863608",
+    "end_amount": "319.045414956592863608",
+    "area": "6225852.227462953140446512",
+    "rank_area": "2845214467.950569585184055984",
+    "weight": "0.024674510554207120504794873"
+  },
+  "0x61a17076f014fd248d72258bc9ccbaeba49ccd8c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x61ff15db4ff75b180cdc3351f71fcc288606366f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6281df249a5e197f08ecb1f6248ca1f1001644e5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x62943e8f32316e9fabe65fa014e175209f27bcd3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x62aac1ddd9bf905d720b2f1d87a12b2cfb79e250": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x63395d2788304f74a8ba80d21ea1697bb4d51671": {
+    "base_amount": "0",
+    "start_amount": "19.849527811223975821",
+    "end_amount": "19.849527811223975821",
+    "area": "387343.685708224664170994",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x637e21ac11f0e0cf95d926d6bd2737b059a2858a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6386f5c6ffb6bb012458d43d8b8298f9d172fdeb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x63e62588330657c99ba79139e7c21af0c0db1e7e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x63fad7cd939e6650a7f5d13462e8a350dcf09091": {
+    "base_amount": "0",
+    "start_amount": "23.1224051798923723",
+    "end_amount": "23.1224051798923723",
+    "area": "451210.6146804197530622",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x64537fda38e99d24919967f65812695cf3a5d8f0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6496b57cd93c607527b418ef584a6b293b80a718": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6498f4e353f61dbd181d0ad0fd5dcb2da12b11a5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x649fce8ce453d6b67d875d8038d817aecd135b3f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x64abc5b10c77d93be5038e7b4965d2f0d8279127": {
+    "base_amount": "0",
+    "start_amount": "10.940308796956685937",
+    "end_amount": "0",
+    "area": "244692.12224437037474855",
+    "rank_area": "72673560.30657800130031935",
+    "weight": "0.000630245821886359065715517"
+  },
+  "0x64b44d5d2fffc1f6a025488f689bc7fec38084b3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6536590e019cf82355366483f90dc56d2cbc00ba": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6595732468a241312bc307f327ba0d64f02b3c20": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "702.732060574798710225",
+    "area": "11470695.424762439347002675",
+    "rank_area": "4576807474.480213299454067325",
+    "weight": "0.039691378490346556433793696"
+  },
+  "0x65a989cd21362f5589575dfe7d4b2bbf7908aaa7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x65de54b794be4c4884c67832f2d3d2d5334676f8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x65ff7e8aaae957558f14dae0555b48fb5c20b0ce": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6632ef51d478b957245346d4aee97532de9f6660": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x664d448a984dae1e829bf71e837facd7b657ee10": {
+    "base_amount": "0",
+    "start_amount": "1.715572604008060819",
+    "end_amount": "1.715572604008060819",
+    "area": "33477.683794613298821966",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x665f59eb0c4d541ecda8f876ab06df5db4178cb4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x666751d89543da35c97403cefbb7abb51fcb8005": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x66b1de0f14a0ce971f7f248415063d44caf19398": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x670a8ca8c4a2f5c6333c84c168a7cc7000c3af5f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6711fbc3405b47f97e759716e1dea1e1cc4a111f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6771598c93115efe2c9ff96b381d8c24b389f887": {
+    "base_amount": "0",
+    "start_amount": "2.473758799021549858",
+    "end_amount": "2.473758799021549858",
+    "area": "48272.929204106523929012",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x68045948a843aa17449b11f061e84d5e33dae98a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x683a42e5b414ae5cf79ece7e369ca5937fdcdc11": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x687e6c2d22cf5768650d7af7b3d88bfac5d3d498": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "12.908333539360346527",
+    "area": "137848.093866829140561833",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x69327dbd594941d817054d25c117f904ca676564": {
+    "base_amount": "0",
+    "start_amount": "8.334641195533816212",
+    "end_amount": "8.334641195533816212",
+    "area": "162642.188289646889560968",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6959754dde646f5366a80cce848daa606aef7f16": {
+    "base_amount": "0",
+    "start_amount": "308.693279047444869012",
+    "end_amount": "308.693279047444869012",
+    "area": "6023840.647331839173900168",
+    "rank_area": "2632418362.884013718994373416",
+    "weight": "0.022829082098987371382008407"
+  },
+  "0x6977e753e022f65ebeb170d8267b2ea54a431523": {
+    "base_amount": "0",
+    "start_amount": "4.258306059681558797",
+    "end_amount": "4.258306059681558797",
+    "area": "83096.584448625938364658",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x69fd6f4ff4e0da5149355ab5151f4c5962a6b77c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6a0e62776530d9f9b73463f20e34d0f9fe5feed1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6a52f2b1ea5082bfadbe90ffc83cbd813cfdc0ef": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6b465ff5cd58f95e96e6d4ee518f3d89daa5a993": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6baa6e8d3e29cb7ef2f78701e29a5cbe53cf9ef7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6c3e5b7dc232784da1451a14d3069fdb3bbc6f03": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6c4d909498c167d173bb6658fd8212b4916dfc1d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6c53754ae6c455bd6837ee7e7fd5da233c6f623f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6c5fe0c4f7443691397e744806684486040c00a4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6d27f5d0bc18091ee12d23a08cd4e7b1f8593863": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6d646c61d4588d27491ce4fb3d56301f2a493c28": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6d714e76af538fe76aa81a75b556686ad6002023": {
+    "base_amount": "0",
+    "start_amount": "84.547088002550567823",
+    "end_amount": "99.357247523266465331",
+    "area": "1816392.119092222047975482",
+    "rank_area": "775599434.852378814485530814",
+    "weight": "0.00672621929090885631128005"
+  },
+  "0x6d9291086408edb0e141089d18f45d49cc54fff4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6df4d08ea085d65355920cc6877117e437bacac3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6e102d689303660fe8235888fc04a64db243d9f1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6e3674ab23fea3968e0e859ff89c2667c9c4cc74": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "25.864742564516289185",
+    "area": "461814.978489438343398175",
+    "rank_area": "173180616.933539378774315625",
+    "weight": "0.001501871654472746732083014"
+  },
+  "0x6e39ac9ed7ddc57104ea8fdab7fde27788896721": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6f71e1190f2ebf07844ecec08e8440b4a3e83da8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6f99945f476a9c1fab9f38c966b56e3d7af86de7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x70c969b616e0e400d55b5ada2cd544a5d7c160bf": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x70cf816622cecc06744f346abda47639431d3ae1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x716759e8ab31cdb4bca2f693a979b23e6020d4bb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7173d417cfa1cdec794fa21f4ca8a71d181b2ca0": {
+    "base_amount": "0",
+    "start_amount": "119.02260600081149271",
+    "end_amount": "119.02260600081149271",
+    "area": "2322607.13349983546874294",
+    "rank_area": "1077689709.94392365749672416",
+    "weight": "0.009346032231210252977625774"
+  },
+  "0x71ac145c930c28daa73cbb9d99171b1191ad947d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x71c68eb4e927a913fa5bef03455d024fbfcc9a48": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x71d8e8b2a0098869d60793a2af743e414da22b46": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x71fb4585368bc933538a664e5d1b2a7e6db6a362": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x720b304e1f7f2ac7d1e60b03289b13a8a764f315": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "16.585917841691404887",
+    "area": "24480.814734336513613212",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x723aadf9329a770c8a77f205eaacc879b6e83f55": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x72aecd827e7b695e6ff563a6e5392db4b50e6b7b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x738c696bef0030600884cac2e1d3dcca330e4ea8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "32.129255834983663063",
+    "area": "571868.624606874218858337",
+    "rank_area": "189860383.369482240660967884",
+    "weight": "0.001646523341578019818689812"
+  },
+  "0x73eba8e4173ce8d4186ddde82fbaf123e2ad7dcd": {
+    "base_amount": "0",
+    "start_amount": "959.099261904619779474",
+    "end_amount": "959.099261904619779474",
+    "area": "18715862.996806750376655636",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x759d47d98e866fa3d6f95533104aa70b1d1cad5a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x75b9b236801b273003beb57f823b434ae49f1be8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x762820a312660e85655624f07c6ef88f0187ba01": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x76df0e2c108caf0b7e9a0f3f559765bf95fde4ea": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x781a67d6f7ace4a3f438bba1b9356f27ffcee7d9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x78ee0339738fdcab5530d839f4cf2800de98deb4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x797bc498edee4357a16a1054db0323cbd04c84c3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x79ab2121adfbf735ce81130c036ca0a2f187d059": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7ac7967a354f8e3a1db6b828ac778dff0bd26c7e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "53.924164616244458705",
+    "area": "992042.856445049306795885",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7bd2b1c17638c44933ffd0d65734136a1b2ed67a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7bf723a7fb7d9013341c299c1b9c3fa0dd952fc6": {
+    "base_amount": "0",
+    "start_amount": "15.639463247721706742",
+    "end_amount": "15.639463247721706742",
+    "area": "305188.485816041385363388",
+    "rank_area": "96744750.003685119160193996",
+    "weight": "0.000838998037553747549020974"
+  },
+  "0x7cd982fdbeaa7a3d13de73d50e2030fde2aba3e1": {
+    "base_amount": "0",
+    "start_amount": "16.618044317111577322",
+    "end_amount": "16.618044317111577322",
+    "area": "324284.516804115319861508",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7ce372431ada8d2a310b3e4d0999b51f5305734e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7d8fc0dcdb630d2237a98bf47b25af59e2e7b2f3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7db6bb068fd59721e856e32166d2f417b4c8543a": {
+    "base_amount": "0",
+    "start_amount": "1.812756583835848321",
+    "end_amount": "1.812756583835848321",
+    "area": "35374.131976972744135994",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7deff0333176bb6b998dc54f924bdc34f36e2f56": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7e243c07afceafe22c05ff1415db8effad5fc100": {
+    "base_amount": "0",
+    "start_amount": "20.417668774311645435",
+    "end_amount": "20.417668774311645435",
+    "area": "398430.38846191744901859",
+    "rank_area": "135864762.46551385011533919",
+    "weight": "0.001178257932104120986156143"
+  },
+  "0x7e56a245b5915d1022a51f93336ad73b0e41d789": {
+    "base_amount": "0",
+    "start_amount": "7.379789355821544925",
+    "end_amount": "7.379789355821544925",
+    "area": "144009.20948950162766645",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7e8e66e8834f762077deec97f792d83092ebe431": {
+    "base_amount": "0",
+    "start_amount": "19.700837253468845396",
+    "end_amount": "19.700837253468845396",
+    "area": "384442.138164191049057544",
+    "rank_area": "122637042.074376944649356536",
+    "weight": "0.001063543371892318104799262"
+  },
+  "0x7e97f2eaadc2ba4de3ca26535cb5a979c736535c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7e9d0090fcab84ff10610ce836d7defcd082a0de": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7ea2a82fd68120a94f6680d0cc8c90088cca8485": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "4.914682711327241812",
+    "area": "53525.809409064990574492",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7ed52863829ab99354f3a0503a622e82acd5f7d3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7f9d39de53a3036463146e91e921cc9fbfcb2de4": {
+    "base_amount": "0",
+    "start_amount": "1.848458186071994435",
+    "end_amount": "1.848458186071994435",
+    "area": "36070.81304300889940459",
+    "rank_area": "13129775.94765523938327076",
+    "weight": "0.000113865158090578922058093"
+  },
+  "0x7fb7600c434695095f0ff38c1b253e403538c96f": {
+    "base_amount": "0",
+    "start_amount": "53.321748718820792537",
+    "end_amount": "53.321748718820792537",
+    "area": "1040520.604499068945567018",
+    "rank_area": "328804511.021705786799177688",
+    "weight": "0.002851486405986088593041257"
+  },
+  "0x7fbbb888e591f40484f0b383f03c8433be78cac8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "54.859806671770189922",
+    "area": "591004.697274980256029706",
+    "rank_area": "242311925.88274190497217946",
+    "weight": "0.002101398063292795559853993"
+  },
+  "0x7fd5a69ae7b6be9deff600a419a41dd381991b84": {
+    "base_amount": "0",
+    "start_amount": "0.625352207501661815",
+    "end_amount": "0.625352207501661815",
+    "area": "12203.12297718742865791",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8046f1a06478a151027b501caa65e841d87ec876": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8074065cd9a9a1ac863fcc06aa22f322845fc8d0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x80901bf9f1befdff8f61bb5359c19f993df8ba15": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x809a2eb98443feefe473a893619ffc58aea7d261": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x813ffbf5c311cc7750cff0e241dbbe0dc01d3c51": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8149dc18d39fdba137e43c871e7801e7cf566d41": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8164dc32443ed9ae5f8aff7c4d7942a755df4223": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x81b5ec3be3d9339299e56665d8206d4d28ece898": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8235d7cbd3d04cde4573be501bb0eac80d35af43": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x82feb14e5b5176a81203dbbea919eb9d30694d64": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x833be7da1e212dcaa0792156ac4f2b708091d993": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x833cc636c2a48ee7d404170b94706354a68d5e15": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8345536b7bf3b3495410dc937dd9c7b4faa5c43a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8345f3afa13a2acc4fcd55a173ea21078ad958e8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x834775f424daa6083ce0932301f1967b596b036f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8418a6d7782fb86ccbb719ac1c1774847e84d7f5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x844d29169323beacfcba369f550810b6baf17366": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "14.547755425672842491",
+    "area": "180203.046457809499936017",
+    "rank_area": "84695431.83517046496992799",
+    "weight": "0.000734502917179159434375821"
+  },
+  "0x85194ffba51d0a3d9b7abcae802868f1e03f021c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8529de8d4b570de1d848df55344697877fa3c2aa": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8537e9561eb3cf0200bd198e571748d7defe8a1f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x854f1269b659a727a2268ab86ff77cfb30bfb358": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x856b63349fb6c818ea7cd7305483ae0ef6956f6c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x85de75fea6f41b4a2a757ebe8d23767f0aef9c79": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x862476e4f4a2195436a41dd119162d7de1fb9e1e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x870b93d72d217d4b85f11d6507896f49d5f08feb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x87189a625401759b462246dcd596073ae44a2a71": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x878c1ff4c9d3310caa5fe474e4585ac7bfc02937": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8805912814e8cc825d0bfe275fd25275ae0c50e6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8943532e204f4274251baf326d7f0b44f5c67088": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x896022620ca215a0e5c8510095f194f46c3470db": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8961b76003437baddf588b99f0c69b70937ce8af": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8976a268ec70cf8549bc93c10e297ac8e16ad102": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8a559bc81aec5b46d5ee3d7eea14ff473b8e693e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8aeeac83540a99ef96808245189d9e4ef797480c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8b2daf0a57ccb9e0604c661c44af7503c851c55f": {
+    "base_amount": "0",
+    "start_amount": "48.70852841583087189",
+    "end_amount": "48.70852841583087189",
+    "area": "950498.22350652363406146",
+    "rank_area": "340278364.01533546099400268",
+    "weight": "0.002950990928396542928862026"
+  },
+  "0x8bc890d6682384f5f75afa673af2f3aacb42b3ac": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8bfad1e073b7dae77dec8768ea7db33b1411455d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "6.495705139791697245",
+    "area": "20299.078561849053890625",
+    "rank_area": "8485014.83885290452628125",
+    "weight": "0.000073584466321333683460718"
+  },
+  "0x8c04a5777aa418f6b40a33e1984e605067bd2043": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8cef8e720584d3d2d68a53ba63aa0d540b5e91a4": {
+    "base_amount": "0",
+    "start_amount": "352.909809202732326732",
+    "end_amount": "352.909809202732326732",
+    "area": "6886682.016782118623848248",
+    "rank_area": "3229853865.870813634584828312",
+    "weight": "0.028010213008434841418194689"
+  },
+  "0x8d21e3c8993633546e89cb4a24e5c0a5bc4d97e5": {
+    "base_amount": "0",
+    "start_amount": "77.700528832262568464",
+    "end_amount": "77.700528832262568464",
+    "area": "1516248.119632771761006496",
+    "rank_area": "697474135.03107501006298816",
+    "weight": "0.006048694430584391406058511"
+  },
+  "0x8d224ef0b0d0007b9fc9b86d1a9bd561acdfb095": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8e0e3d4a18aa44904ebda87c5b42545d1cec2e5f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8f1ac49f7cc5ad97ecd1c68338468a912dcb8b01": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8f1d4d9ebdf5b387a195170c683e333b0d6874cf": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8f37ed67014c38d5ebe794daa878b55a62e3ac76": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8f4721a7362d460636bdd0a7a1c4311c4300c71f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8f6da831710a8d30de1111aaf28c697aaf5056dd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8fc537a30b23f39848f4fb57e576e528e6590fc2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x90b7a9441207d6e150df697f40bfd955f4a2fae3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "1964.999442012969633282",
+    "rank_area": "449984.872220970046021578",
+    "weight": "0.000003902397026276742881495"
+  },
+  "0x90e547bf19323bab9993b04a408d983a4c2a0b66": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x91d2af6e19a66dacf25429e0dee1465c31318e9c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x92360bef03bb7c6ee017c98ee1aed5c859965ff3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x92a4f58009df9eac5f2af6d05977683639f0060e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x92e29a4350dc4670563ecc48ae62c8318db2c016": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9317858297181e5036d0bde1b1b8ab4865d2ed40": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "105.37738233133540089",
+    "area": "2000589.60356040258589665",
+    "rank_area": "772227586.9743153981561069",
+    "weight": "0.006696977665368274364605995"
+  },
+  "0x938728abc0bd173b8a4f07813810e224a5c3c166": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x939626cf69add2b88e047a568a9c3d12b9664df7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "1.855334242177945187",
+    "area": "17827.906733087875301883",
+    "rank_area": "3209023.21195581755433894",
+    "weight": "0.000027829563642397125828471"
+  },
+  "0x93be98c0b66629cf12ade6866111cdc51ffbcab3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x944db152344c56e6b95eca13a9e9cfb08389a0e8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9469c98be5afd94cd601e094bc401ddd37f480a3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x947dcd4c2c0ddc357925d38135e350854f8c9a26": {
+    "base_amount": "0",
+    "start_amount": "0.778809421572232536",
+    "end_amount": "0.778809421572232536",
+    "area": "15197.687052560545707504",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x94aba23b9bbfe7bb62a9eb8b1215d72b5f6f33a1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x94aff6c2c005567aa0e2a27f77701bb1b6679b6b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "10.685192152198150652",
+    "area": "118904.818269661020455456",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x94c145f239ff70f3078e224ff650a81c924974c3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x94eeddf4289aa95c60bae989943360c9586cd925": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x954957c811facfe062ce05b5b3a39264e153962a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x96379aa5e547f14459c894b634eabae71c8009ba": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x96942e59d8f8b5b92c257bc9c8e6c36b73ebb50d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9747d9a97619bee9f3ab529b303886e967cead6d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x977bcc40cd619cd57c22767d76d129e3049da6df": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x97960d6ef5e6aa33227856f03079a08e2250e9cd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x97cdd8176084b24ae8a385d4ea9177c31ba0022b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x97fb0bd83e5f9f16654ca36c6d6c090fdf0cde0f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x98a088c89cdf5271a3211469482a717fae598d7e": {
+    "base_amount": "0",
+    "start_amount": "27.959488451279200531",
+    "end_amount": "27.959488451279200531",
+    "area": "545601.457638262319161934",
+    "rank_area": "245520655.9372180436228703",
+    "weight": "0.002129225084589999427816359"
+  },
+  "0x9968efe1424d802e1f79fd8af8da67b0f08c814d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x999cf6f3f8adb6b1d728be98dac60bb3fa70db49": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x99a7d8cac90248cd287e860a48f9b33eba4aa532": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9a0944626acae8708265dbb2177ce89004d3a593": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9a16adef30aee2ae2e76572fcf3b548784ebda3b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9a1e8645dedec6d45e2058d031b1ca97f815bd2e": {
+    "base_amount": "0",
+    "start_amount": "67.024884346166460661",
+    "end_amount": "67.024884346166460661",
+    "area": "1307923.593131092313338754",
+    "rank_area": "82399186.367258815740341502",
+    "weight": "0.000714589222211254962515738"
+  },
+  "0x9a2a14835bf43f8f6dea84424d786f74146b7714": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9a32b1a10504489f9b88106acec79c672630158c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "2.169704646047321854",
+    "area": "29989.657617666082665988",
+    "rank_area": "11156152.633771782751747536",
+    "weight": "0.000096749334367271247135878"
+  },
+  "0x9a72b97137065b3816d091310e483811baa1be0f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9aa470470cac9ab75e2b8648c9c054560749b33d": {
+    "base_amount": "0",
+    "start_amount": "7.99412018151150553",
+    "end_amount": "7.99412018151150553",
+    "area": "155997.26122201551891242",
+    "rank_area": "57094997.60725767992194572",
+    "weight": "0.000495144087351514582762457"
+  },
+  "0x9ac41e441131d8bad5f165c2a8dd71e5f7bfaea8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9b77944268691fdcb40b6dbd87743eccc836880d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9bf5502d0dd0ca52f43e23c2cb49e3164c00218f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9bf87ed3d81b03221df7f14a270ae7e5801be058": {
+    "base_amount": "0",
+    "start_amount": "137.915329709218961705",
+    "end_amount": "137.915329709218961705",
+    "area": "2691279.74394569881871137",
+    "rank_area": "947330469.86888598418640224",
+    "weight": "0.008215519757967122191549943"
+  },
+  "0x9c0d72f2ac26420cb7eeb155bf401b672840e87b": {
+    "base_amount": "0",
+    "start_amount": "12.72655982366255366",
+    "end_amount": "0",
+    "area": "156803.94358734632364486",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9ca8a0f39230d3a478b78617201a035c6d23fbb0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9cdbddf646a86ec987394c807defed498dbc7df4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "13.181435214293733285",
+    "area": "225310.272117922783040505",
+    "rank_area": "73676458.982560750054245135",
+    "weight": "0.000638943244960817647640983"
+  },
+  "0x9d7d0ed0834df24d26a6968d0925c635ab7eff7b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9e12f47fde5f9c6dd30bcacad75c70b15913738c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9e36fcfd13064bb63c4370990a7a4a75625e3027": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9f0aa006b63d0e9b3c154aacf958d4c9f36bc102": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9f574c6c58a470fd10f4df3520eb378f27c60a6c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9fd8313cfcd184ea1eb70bf2bac8f9bfb07e6e37": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9fecf056375a973308bb3d6fb6b1c230cfd21456": {
+    "base_amount": "0",
+    "start_amount": "20.281297967073490812",
+    "end_amount": "20.281297967073490812",
+    "area": "395769.248529472099705368",
+    "rank_area": "130208082.766196320803066072",
+    "weight": "0.001129201593991543803412136"
+  },
+  "0x9ffd0a5b5438b95861167422e745d34d151bcc3b": {
+    "base_amount": "0",
+    "start_amount": "3.458542058037276546",
+    "end_amount": "3.458542058037276546",
+    "area": "67489.989720539414518644",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa00c99f5f955552742f1089ded88abdc74e67bac": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa0e214c4587da949a422837ea77f207d08553ebe": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa1dcf700fc5239a01e822bcd0400b45e6c8f77ed": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa1f956c6f5aae538cd8b330f1c4e8da0bb60c3d0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa2e0505e61e82774247efe84fab2602514145e73": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa38475ec707f358f338fc2dc393d92845276e568": {
+    "base_amount": "0",
+    "start_amount": "90.231099901822879376",
+    "end_amount": "90.231099901822879376",
+    "area": "1760769.683484171668143264",
+    "rank_area": "832844060.288013199031763872",
+    "weight": "0.007222660993421572946381696"
+  },
+  "0xa385a563ade21c23bb608118014633dcc67636b9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa3d231af213fff6a7ee1c08e038b08d33936c34a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa423687ddf458a3a0ae4b738dc2cca3c4312a742": {
+    "base_amount": "0",
+    "start_amount": "22.419140637024606068",
+    "end_amount": "28.80764883164134859",
+    "area": "514417.526070472976260876",
+    "rank_area": "113686273.261574527753653596",
+    "weight": "0.000985919754401421056058179"
+  },
+  "0xa43c01f5106ce315db2fb726028cc75b0ad1ddc7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa43d0765cbe4d17830fccdb27a77fb22dcd5bb35": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa467b35b756359f55bc26ba82bafa83b9fb720ed": {
+    "base_amount": "0",
+    "start_amount": "4.704918462060698361",
+    "end_amount": "4.704918462060698361",
+    "area": "91811.778868652467816554",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa498ce6a5627c522f80b8aafab1269b65e34455b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa59e113fbef3b4129baef6b5355dff683851afa7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa5b0c665e95545604f0a1dd0e3ecd857a9c2d2c9": {
+    "base_amount": "0",
+    "start_amount": "0.1",
+    "end_amount": "0.1",
+    "area": "1951.4",
+    "rank_area": "776657.2",
+    "weight": "0.000006735392531658489963121"
+  },
+  "0xa6c866d7dfc726ecca9089c9c301242f9dacbcf3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa6d1c268f9440e66539f6bfd9bb1cc9ea2d55fdc": {
+    "base_amount": "0",
+    "start_amount": "602.636673928365459067",
+    "end_amount": "602.636673928365459067",
+    "area": "11759852.055038123568233438",
+    "rank_area": "5574169874.088070571342649612",
+    "weight": "0.048340789398628553082673596"
+  },
+  "0xa6d49b6b34c616056b71c3fc3a259dfd4646ce7f": {
+    "base_amount": "0",
+    "start_amount": "62.675253940399316993",
+    "end_amount": "62.675253940399316993",
+    "area": "1223044.905392952271801402",
+    "rank_area": "429288761.792926247402292102",
+    "weight": "0.003722914459693409082293373"
+  },
+  "0xa77bd177a37dbcf25c4a23c8357372230e371e07": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa7aa48c6215d9f42f38cfc53c8daf66e8b273249": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa7d496a19af4a08db830eaee60f1564b079d1d15": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa830180015bf0a51d83373596700f636469201a5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa8337a50441a3e5b2d187961e130b070bc9df09a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa83fbae55302e56f98ebacea660e35f2ddcebd74": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "166.632256496231592483",
+    "area": "2230635.937440919942840054",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa88c589b9d9f309068a6b7706d32bd29dae9427f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa8d211944d2ae55a3cb9b536e69970f2cb543e1c": {
+    "base_amount": "0",
+    "start_amount": "21.241098773709479708",
+    "end_amount": "21.241098773709479708",
+    "area": "414498.801470166787021912",
+    "rank_area": "171188005.007178883040049656",
+    "weight": "0.001484591156091604936274083"
+  },
+  "0xa915be4b339307de39de6f7d5a8ca1644b230c4e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa94a194cbce345ed664952420ddb4ded6c47904b": {
+    "base_amount": "0",
+    "start_amount": "80.964173429384273786",
+    "end_amount": "80.964173429384273786",
+    "area": "1579934.880301004718660004",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa968f46a8fa79d58ac783a450c06fd33d0639354": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa9baa3c371ba79d0ed99dd3cd21883d9b1a42902": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "11.971980072556351358",
+    "area": "134527.617348466676129457",
+    "rank_area": "19506504.515527668038771265",
+    "weight": "0.000169165965155087297550627"
+  },
+  "0xa9e490e94a6782d0a5c81b01f7f61a1400016da4": {
+    "base_amount": "0",
+    "start_amount": "122.989431927115490218",
+    "end_amount": "122.989431927115490218",
+    "area": "2400015.774625731676114052",
+    "rank_area": "864005678.86526340340105872",
+    "weight": "0.00749290342861640727753178"
+  },
+  "0xaa9e20bab58d013220d632874e9fe44f8f971e4d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xaafdd768fa83ef7af0e19707f2be9d1db1924766": {
+    "base_amount": "0",
+    "start_amount": "29.16401437767427308",
+    "end_amount": "29.16401437767427308",
+    "area": "569106.57656593576488312",
+    "rank_area": "171870186.12291260099470224",
+    "weight": "0.001490507225101396308728197"
+  },
+  "0xab0ab9d95178aa1787a87bb4bacc622056832dff": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xab1580ee6c593d1ae69c8e80592160bcdb9f6c97": {
+    "base_amount": "0",
+    "start_amount": "418.198213261644440151",
+    "end_amount": "418.198213261644440151",
+    "area": "8160719.933587729605106614",
+    "rank_area": "3762091889.383943347954149054",
+    "weight": "0.032625932799141744860713023"
+  },
+  "0xab21cfec025407761572028414345b1895e27369": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xab8140174c6e46d78bed397b96da352ea38c2821": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xaba9e91f2eab211d79410ef1cb967b5e0fc66c4e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xabbeec69e58659272abcc4cb5957ac1f3bcc6233": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xabc80f9db6118867b69787920fb7e6505a911c22": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xac60913f8e9821e9006507b05e1956f5a82749c1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xacd8c60b697e75323e84ee50193138f17ab53c88": {
+    "base_amount": "0",
+    "start_amount": "2.17072642607764768",
+    "end_amount": "2.17072642607764768",
+    "area": "42359.55547847921682752",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xad2352c7e53dbacebff9578a863ccc1fddef2fa4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xad4262889696d238ec319409662d204f5f6d1bf0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xad4489f64a8be791294116d3e99d2721c7f0a72a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xad4e7825df260a31fe770539ed00ee33b10fad95": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xad5652e65bfde3d39a0cf8aa1377f08a515afc88": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xad5b04f62aba4ab6efc62d777bd6e710084c43dd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xad91bae71e4569ec5ff09be170e223cc6b388ab0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xada29ac69b950a7e2aa08d5d76b8d1fc904f5849": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xadda60acffcf8aa02af06e26414abbd9f9aad43b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xae88dd83fae8eb8cb099646b6affe8d6dacaf1b6": {
+    "base_amount": "0",
+    "start_amount": "244.161769187821185155",
+    "end_amount": "244.161769187821185155",
+    "area": "4764572.76393114260711467",
+    "rank_area": "2172645180.35260102884428952",
+    "weight": "0.018841798056711148703425593"
+  },
+  "0xaebb50c9194b209a73dc54e43c97ecb3926b292c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xaee4fb91f5eaeb0bf846b9f2ea1dbe21f684c9d0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb018ac68ae2979650f8482d1f92b12d4ad268948": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb03384ca294c06e8d04b08412e8467ff2363e5e3": {
+    "base_amount": "0",
+    "start_amount": "318.208180976139762448",
+    "end_amount": "318.208180976139762448",
+    "area": "6209514.443568391324410272",
+    "rank_area": "2924681302.920712313797238112",
+    "weight": "0.025363669589586483569392767"
+  },
+  "0xb0425f698f5af1cb18aaa61c6d7959b68e24cb5b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb054675add7062e2a708ba7c211fb0ec1f56b8fa": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb08f95dbc639621dbaf48a472ae8fce0f6f56a6e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb09afa057305993c06c4a229f00f1fd8711cb12d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb0a81b8d2d406f01ad5ef40ab8bb413fe9300329": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb0c7ccbc1d457c82aa8187c2a884be98b1008f6a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb0d0a07c602621a46f33924264ba9184e41d2ace": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb0e83c2d71a991017e0116d58c5765abc57384af": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb0f4b88d29667607e88198a12e6b19700b08abf1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb1181a2cec746fe12e1b56862a16e49fbf705cfe": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb282f4f5fa3e6c6292efc793977afae197250e9f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb2c9105f68bb03cf88a0276cf25b1b1494ad40fb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb332102a65e1cf18d65843c49776dfc81dbf1b83": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "11.008514558869821923",
+    "area": "56022.330590088523766147",
+    "rank_area": "13557404.002801422751407574",
+    "weight": "0.00011757367042904594245418"
+  },
+  "0xb435871b0959561226b4d903b1abf79528177e81": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb484526906b9512fc055ffde71c64c2567b9edbb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb51423c14a448f81563cebd54ab86719e5c46510": {
+    "base_amount": "0",
+    "start_amount": "110.251378443876299584",
+    "end_amount": "110.251378443876299584",
+    "area": "2151445.398953802110082176",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb5685343ed45d8b896633f9c128c55f758feb0aa": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "176.646184992419350032",
+    "area": "1739434.983620353339765104",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb58f43fbd1df62ac0eb1797455a6df5a191393fd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb59543592a4cf2c9cd89ae37a0ddf589b52ab4a1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb5cfef54fc02e43dc345aeeb584eb5ac9806be6a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb6319a8a2aa4c797d8efd075b995dec0e7361c7e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb6ad42d615759e50c8087849a2f6f0e2032f7085": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb6cc02e752c48016da8876f8ddc124e60656fea5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb6deeb790f7dae7ec7ed57cb8777a6b8fa22cdbe": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb71d05cf5cdf7a9b15b20b9aab5e91332c271c96": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb733092c62e4226a2461707018d4f74671cc111c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb85065e079a5541edbe425f54d9f982be1c5fb7f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb86b7e3cd923c9d27673ac61c1c7faebc4378e45": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb8780d02f72e69ba201ba57ace481dc6944c5cbd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb88b2bda79b840855bdb87d6633e7af140417689": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb89039a9e26388967b7b1a87b872318f102cbdd3": {
+    "base_amount": "0",
+    "start_amount": "219.336681906753045429",
+    "end_amount": "219.336681906753045429",
+    "area": "4280136.010728378928501506",
+    "rank_area": "1117115498.800106900338893066",
+    "weight": "0.009687943905777463753829778"
+  },
+  "0xb965d68052b849b29fe25497c51659bf9678bc9b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb9b669755bd79e79383c12c8e943936a307fa2be": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb9b691a11b641d3900f067448468abc2eb81eb8e": {
+    "base_amount": "0",
+    "start_amount": "74.841952225019975485",
+    "end_amount": "74.841952225019975485",
+    "area": "1460465.85571903980161429",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb9b97135f01a5462e5f741854435c256dd6cd3ee": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xba7e27c1f728a6e7d639b1fac1c757c823664f60": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbba51476535f97a6b5e12b00dc641f97aef4322e": {
+    "base_amount": "0",
+    "start_amount": "8.823865818252087102",
+    "end_amount": "8.823865818252087102",
+    "area": "172188.917577371227708428",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbba55f3c9522713cd06ac779a348339b6faa87f8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbbb3980e807f6dcfddcb5d4063e5af06f1fb7217": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbbdec6e5d6c52f36acc9ed8335f7be9a70bf78f4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbc4bfa3119b488ce3d5516c3857fb59cf8549d5d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbcb4c8386c097589e7825aaeb9e7c6295835f1d6": {
+    "base_amount": "0",
+    "start_amount": "8.862291508186592283",
+    "end_amount": "8.862291508186592283",
+    "area": "172938.756490753161810462",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbcbcf81e92d2e41578d39b7538c160640f005a4d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbccc10ae0172351f1289a84a98db6af85133b957": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbd1f7d88c76a86c60d41bddd4819fae404e7151e": {
+    "base_amount": "0",
+    "start_amount": "4.818080445550006572",
+    "end_amount": "4.818080445550006572",
+    "area": "94020.021814462828246008",
+    "rank_area": "28017966.500709922817310384",
+    "weight": "0.000242979788664985491757594"
+  },
+  "0xbd810c549c287c759ff9044efeb1712bc1a58edd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbd8aab70a86f74eba55d071576a71305b598235e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbe18f84532d8f7fb6d7919401c0096f3e257db8b": {
+    "base_amount": "0",
+    "start_amount": "306.418874910041854157",
+    "end_amount": "306.418874910041854157",
+    "area": "5979457.924994556742019698",
+    "rank_area": "1787857919.573372465863889702",
+    "weight": "0.015504813293639688280217009"
+  },
+  "0xbe4619bfec05b3f08626e371f683c966fb20c03e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbe82f9999e11fe406a93ccc1b714ecfb6a2ca400": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbe8c25c02eb8bdf81747aeee544165fea0f47c96": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbe8ce76f3e8f0f5cbf125c4fcaaf2f166de061a0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbeb910ae193dc54411747ac236e67d221ff3f1d7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbeebc0c769a24f94681d05751fcda51fb780931f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbf39ddbac5cfedc4476b4088904131ce3cad1d14": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbfab3fa9fbc422e9202558b3c51c2d1d0b2ba551": {
+    "base_amount": "0",
+    "start_amount": "30.983101670298584378",
+    "end_amount": "30.983101670298584378",
+    "area": "604604.245994206575552292",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbfb8c73b486e4903626d72ec46e7fd7f7da06abb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbfcad3a0440c5b2eb42a48ae461c383208d8a77c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbfe4ddf9b8ad6a6cd5de01949cf2fe0c5c776bdd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbfee99ffa54cfa3bd9a26f4ea57323d8ccb7117d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc04600a397c7393cd81477dc311281164f64f52c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc071dc48e2b182921e9581f1e4275ab7594259f0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc07414f8fb3ee80dbf61f585abed4b8d001d17cd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc0743c80ad0cfc3cf6f9bc364e373221d97261fc": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc0afef712a1341ca78da145b2afad346e8c3574f": {
+    "base_amount": "0",
+    "start_amount": "18.796399440904689839",
+    "end_amount": "18.796399440904689839",
+    "area": "366792.938689814117518246",
+    "rank_area": "163222857.71696728229561947",
+    "weight": "0.001415515129278165139914796"
+  },
+  "0xc0c57eb10fa32edef323238c02973f4dade43161": {
+    "base_amount": "0",
+    "start_amount": "11.309234156740821065",
+    "end_amount": "11.309234156740821065",
+    "area": "220688.39533464038226241",
+    "rank_area": "89599488.50586399519853846",
+    "weight": "0.000777032293942317237056378"
+  },
+  "0xc0e0e7122c163a8c70c9858e8674c51fb7117e88": {
+    "base_amount": "0",
+    "start_amount": "24.868814961050657009",
+    "end_amount": "12.868814961050657009",
+    "area": "425350.055149942520873626",
+    "rank_area": "123776866.048633273574225166",
+    "weight": "0.001073428250167587267007263"
+  },
+  "0xc155f9bd6b71e9f71d0236b689ad7c2c5d16febf": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "78.788137119082800493",
+    "area": "360140.574771327481053503",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc2ad503827df0ad7f26192d35bd3d679b7b11677": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc2c250909e0614ad410dc8eff0a4bfa6fb41fda8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc2ce6a6d3e04d407c5f5a4354575c3fe2888ce34": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc2f7914ee3601dc39e019dda2a371485d2e30d98": {
+    "base_amount": "0",
+    "start_amount": "11.961187112185097478",
+    "end_amount": "11.961187112185097478",
+    "area": "233410.605307179992185692",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc41f016bb6425dfd0dec51b47049247f3e319a27": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc4a5992c190b1988e0a4449efe7580d3af83d234": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc4a639cba07bfbf4c0a2eef7fb441895af7bc807": {
+    "base_amount": "0",
+    "start_amount": "4.563808259150108024",
+    "end_amount": "4.563808259150108024",
+    "area": "89058.154369055207980336",
+    "rank_area": "35267029.130145862360213056",
+    "weight": "0.000305845725265879017142737"
+  },
+  "0xc4a69b137d22b52a36328f3ac6d5aa9984faab8e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "365.553766631284511138",
+    "area": "403205.804594306815785214",
+    "rank_area": "172975290.170957623971856806",
+    "weight": "0.001500091002283798033499296"
+  },
+  "0xc4d2fa3580c3baee539ebd5d830a6d230699d15b": {
+    "base_amount": "0",
+    "start_amount": "18.176427608120575853",
+    "end_amount": "20.439630864556681845",
+    "area": "394273.706893419538783538",
+    "rank_area": "91077226.292379913458997278",
+    "weight": "0.000789847657079424398188272"
+  },
+  "0xc51137dfcb3e87b9b97e1cbad83839995a030fc9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc52dd306b9651355afab8f75a1bb3f7bdf4a7db0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc5e4df8d548287e0834a400cf01bb1d92063a199": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc6185c9c2df3e88402f1d98a9f8febf847a01cfa": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc62b3a63a966c2222b58f054e0db89aa9b54c76f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc6a8f0f8379f06ca34f2f9a76864278105a6b2f3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc6c8aecb1d9ca59a09d691cda8539992655dbfb3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc7d923259d1e0d68cd2c90486c09d718e8f86a19": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc7ee3b9778e6192ec7a1ef984c786e59d2990eab": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc863583189f718c6810750a483dbf877bcda5154": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc8d46eb7881975f9ae15216feeba2ff58e55803c": {
+    "base_amount": "0",
+    "start_amount": "3.723018579881047891",
+    "end_amount": "3.723018579881047891",
+    "area": "72650.984567798768544974",
+    "rank_area": "17000330.388864911839523916",
+    "weight": "0.00014743170904343331871862"
+  },
+  "0xc96e67f8e69776cd9e3fa3c09ae14bfb517127dd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc9a737b5389f157aa1251953d77fb16e9c2cf0c6": {
+    "base_amount": "0",
+    "start_amount": "7.216803726141041383",
+    "end_amount": "7.216803726141041383",
+    "area": "140828.707911916281547862",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc9c176bb468ef0c4a327056be64177a480725e58": {
+    "base_amount": "0",
+    "start_amount": "10.884426503462164382",
+    "end_amount": "10.884426503462164382",
+    "area": "212398.698788560675750348",
+    "rank_area": "42692138.456500695825819948",
+    "weight": "0.000370238388983511644183957"
+  },
+  "0xc9ccd0d6311f2fe7c1d8d4c28396c700f47ce452": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xca4ad39f872e89ef23eabd5716363fc22513e147": {
+    "base_amount": "0",
+    "start_amount": "27.4357924470674182",
+    "end_amount": "27.4357924470674182",
+    "area": "535382.0538120735987548",
+    "rank_area": "239851160.1078089722421504",
+    "weight": "0.002080057601345563123587197"
+  },
+  "0xca690ffa9c7f2b233087098521a9770851d8ab8d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xca8f0b0a00d9f32efdec4942565e2a550cde77b5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xca925c8900f6f27e89b9bebc4987a655cb43911f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xca9856080601c1643244f38ad73dbe737dda7195": {
+    "base_amount": "0",
+    "start_amount": "53.475854609535265848",
+    "end_amount": "53.475854609535265848",
+    "area": "1043527.826850471177757872",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcaf2d3f6c4a375ccec74eb7ed5c03f5b6cd8876e": {
+    "base_amount": "0",
+    "start_amount": "156.016882087735170909",
+    "end_amount": "264.816360923750081168",
+    "area": "4563680.560047340317064643",
+    "rank_area": "1966946321.380403676654861133",
+    "weight": "0.017057918941842953292820648"
+  },
+  "0xcafb70f22a173484697847d01b28136ac38232d6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcb064e87df6c011f68c4767b1524f3b6113e25da": {
+    "base_amount": "0",
+    "start_amount": "11.8",
+    "end_amount": "11.8",
+    "area": "230265.2",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcb416ee0d4ff14680d6ad3d8bb19cc28219034ba": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcb7bd796fc97c181d9c7d71908ad168a44df4526": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcbcf35a4a7978133e1c0d52d23b2058af7c0e6d8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcbe3b686c1c8037892211b37f51d1d04d1bebb51": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcc03e33fc298f2d627c62ac42cca953a4e01bd4c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcc0be08b3f47f684df5b9f3bb1f7f9284ed9b3ba": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcc52f72c0813e1ada3e4acacd57d7ffeca3620ec": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcc539270e65f88c2b3798c4e827610cf1fb89574": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcc629f3d9243a21445aad65aff9f9d40dc65053d": {
+    "base_amount": "0",
+    "start_amount": "8.35616642185876521",
+    "end_amount": "8.35616642185876521",
+    "area": "163062.23155615194430794",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcc681fcac73a986fb05c08afc09ceac973a2fd63": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xccf8f4148b7ac7985cd34642af87ee1485b5446d": {
+    "base_amount": "0",
+    "start_amount": "8.577118805339131406",
+    "end_amount": "12.055671076521717077",
+    "area": "173151.771689822085056215",
+    "rank_area": "70472771.077757588617879505",
+    "weight": "0.000611159950622239638071292"
+  },
+  "0xcd313c5dacbb197ada1cdf948be3e1361a81c9ea": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcd81917ff5313d02d7da3d47a9afcd3f635c36e3": {
+    "base_amount": "0",
+    "start_amount": "1155.043781040233026953",
+    "end_amount": "1155.043781040233026953",
+    "area": "22539524.343219107287960842",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcd8651c902c5685b568642e03266f322c191a5fa": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcdb03d8426cc70f7a3d29bea1d9d6334840bb7a9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xce3f17ff0f62bc9b2e27c64ed9b6838828ac73ba": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xce74f4a7c96873b76ce10895ab8292c188469786": {
+    "base_amount": "0",
+    "start_amount": "3.299040482869380271",
+    "end_amount": "3.299040482869380271",
+    "area": "64377.475982713086608294",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xce9103927ec3973ffe07f1787512e1df6665ac1b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xce99c32ecd2a482299b86ee715ce76d4df220792": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xceacc735c67217101abd0ffb46661c42dec366a8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcefcca169357a18eb8c3f230f92b58562e48cae5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcf4228a8c37c277c91930260adc3799409c7c1d1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcf50fb42926b255747fb8b0ea8e26d4e66952ca4": {
+    "base_amount": "0",
+    "start_amount": "242.805377048898384241",
+    "end_amount": "242.805377048898384241",
+    "area": "4738104.127732203070078874",
+    "rank_area": "1952098900.625667664872496088",
+    "weight": "0.016929157878576121807603106"
+  },
+  "0xcf60894306a15e3f3b1588c914f9fcc1e4745a61": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcf7e5d2bbe28d27baf5e26e53135bb01e2fd5515": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcfb464585241eab3ecb392011648a8e829b951ed": {
+    "base_amount": "0",
+    "start_amount": "12.252957428590578994",
+    "end_amount": "12.252957428590578994",
+    "area": "239104.211261516558488916",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcfb856fedc5aac282bc7e1826d5d32a280272bbd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xcfe22cbe837213eb13f802cda002a6ebe9488b0e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd03837000f1c329b3c8b8d07cbf510007ab92c9b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd0b8f4feb248c994d25e6357c1ec9820beeca5ce": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd0b9de39717e04c1eed75b7beb13064d46e5360d": {
+    "base_amount": "0",
+    "start_amount": "204.406757212790069458",
+    "end_amount": "204.406757212790069458",
+    "area": "3988793.460250385415403412",
+    "rank_area": "1866755339.397180374408796816",
+    "weight": "0.016189034198626341699849532"
+  },
+  "0xd10bc40cfa873b304f26fc0da6e95c80738a2453": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd11cd3a57a3d67473864c4adae37891658c7be3a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd16a1b5530a1bdab9b297674e34f0a079cb5f443": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd1818a80dac94fa1db124b9b1a1bb71dc20f228d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd198e5c25d7ce7bbd0051b8034138d1ea9432c33": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd1bbca0dfde1f51ccd17e33de1a7ead48faa1d68": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd1bf2faac1b3b067a8985b73d217ad42ed6e6baf": {
+    "base_amount": "0",
+    "start_amount": "171.773822261154230601",
+    "end_amount": "0",
+    "area": "1099634.72882364220605374",
+    "rank_area": "491536723.78416806610602178",
+    "weight": "0.004262746522419115727783723"
+  },
+  "0xd1c54453b0e602ca70feec06fdf223ecdd3cfc5c": {
+    "base_amount": "0",
+    "start_amount": "41.927055723141250147",
+    "end_amount": "64.326867399532668006",
+    "area": "1169662.410207312484411986",
+    "rank_area": "486579562.646241993515386176",
+    "weight": "0.004219756608585039418426095"
+  },
+  "0xd2a102b745a1f3771cd0ce1ee67c3c0aa594157b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd2cf26d8348c2b1170ac3be32c35d9c94b41b4cc": {
+    "base_amount": "0",
+    "start_amount": "11.50207165237300788",
+    "end_amount": "11.50207165237300788",
+    "area": "224451.42622440687577032",
+    "rank_area": "42196868.13018849264482016",
+    "weight": "0.000365943263596152489310521"
+  },
+  "0xd2d117e6dbbfdd74d6b865ff859a4611bd29f3ed": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd33284930474fd9cd8b09735026eb1613c8a80a6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd359f8c33774548d46d556d6d4b09a01bf19a505": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd3655dbaba39e118c3998d11114b8f7268bef98e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd38814b707c0dc806c02cb6bebea2b2d0692e2d8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd38f0deeb124159575f70b1f09f5310ab4424ef2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd3a56886eed6c1599381f3035f12843d492387b6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd3eb89929a27df9d3bf0367e8dfd2db8bc0a65d0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd3f714357a3a5ab971941ca475a006814edd0d2b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd407ca9577924dcb9801712c5269635f054e7e73": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd42d52b709829926531c64a32f2713b4dc8ea6f6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd4ab086a6fda3c1481d3db7dde3b1e706182f0d2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd5065dec24919bbded718fa8c75f664b6c33172d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "5.332808488789072855",
+    "area": "97729.04836554854914073",
+    "rank_area": "21304932.54368958371267914",
+    "weight": "0.00018476244544215226172611"
+  },
+  "0xd5196c26dae54f1803ae388ffc68d58794a7cc8f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd54397ca7110d693c50063a83418d85f255907ca": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd663adc74b2f3a6d0359e7ae502048818a39337a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "17.781942892712163785",
+    "area": "74150.70186260972298345",
+    "rank_area": "24543882.31652381830752195",
+    "weight": "0.000212851540747474437723024"
+  },
+  "0xd6a19b9c8ae7cc06687df5c3b8b024d1b52e7fd1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd6d30f186e802c1558b8137bd730f7f4aec17ae7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd71a83e47d5eead6dfecf0d1b479f5787d6e00ee": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd79a746bfa1c8686626551a0aaf0c39f2256d63d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd7c5e4099a6e8b4b46f6686326004ecca6ffd538": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd7f397a87d0b308ae01c551553e95d3669506910": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd7f56f3be6bc64f833656ee473aa752c6d7d8c83": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "3.832657882548470118",
+    "area": "6346.881453500266515408",
+    "rank_area": "1428048.3270375599659668",
+    "weight": "0.000012384441986472516113213"
+  },
+  "0xd89654f93314cc4f09a0fb0367cb6b7a711998cd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd8d4b9224e3870b8615502a3f4f0e2726dbeb2af": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd8e3349cd3bf58e766747dc3f743924e6184894f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd99302d9b91b622bf04b20bc5cac6c7fd80cc1c4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd99356f5e43f101d2fb12fcf689dd05c03feb7cc": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd9ee61b5784c391bdf3910edd80668f4ca2b04a8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "7.08905503435433176",
+    "area": "195045.23573485841656584",
+    "rank_area": "54027530.29855578138873768",
+    "weight": "0.000468542136835717735554872"
+  },
+  "0xda18ea91417845a89a51973df41fd221a294630d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xda276f2de1cb0aec4deda6955c28e5f0a60368c0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdac7a91516112703448b5d1fbc8b679fce838e8a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdb24257e93bd4e7689d170c43650c4cda119b443": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdb34aa3c34423c6bc14dc214bbd6e95eaad07603": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdb4b413cd0fd529433ffde3298f401f44c0ccd85": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdbdf70689cb64b096c5291843936c56731e8240b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdbe12a9b042277aca11a439842f5cbd3645bd2f0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdc80a20b6aa26b941ca1bf8b3c3e560fcd526866": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "4.108702652530112891",
+    "area": "25100.064504306459651119",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdcc7a0be39ac6605febc41fb5540281a3cf23482": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdcf63fe0daef23c903eb034ba14e0791ab35de87": {
+    "base_amount": "0",
+    "start_amount": "9.746446108331836219",
+    "end_amount": "9.746446108331836219",
+    "area": "190192.149357987451977566",
+    "rank_area": "49830343.131792712418122292",
+    "weight": "0.000432142933819266163594972"
+  },
+  "0xddd4c960b2cf8a71e750fe6c825f562d239df503": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xddf06174511f1467811aa55cd6eb4efe0dffc2e8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xde3937897dbeb84462f2c573fd1f238a2510b09a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xde5a83fdcd07800e5f165486c34edb1525d40e44": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xde88723db45fd052eb559e2f4a4a907e61a651b1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "112.781276939378390345",
+    "area": "493530.86788671983614972",
+    "rank_area": "198892939.75834809396833716",
+    "weight": "0.001724856244232306996676174"
+  },
+  "0xde8f8849579f06a30c0dd3ae3d5408ebdaaabcf7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdf4d8d9ba2454ac4185ebc8a4a8fee91e6da5423": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdf632ea5ba8283488aae8538e17a2f802243a61a": {
+    "base_amount": "0",
+    "start_amount": "19.017386601018948689",
+    "end_amount": "19.017386601018948689",
+    "area": "371105.282132283764717146",
+    "rank_area": "142133323.056664681886666918",
+    "weight": "0.001232620675654153151234284"
+  },
+  "0xdf8d12a07540768032aa307d50af6cb5f4e8c153": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdfad0c01a28d9d95486bb3f0821e4f5644704fa7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdfb907134c1a4e4b0e7420b06f6be2e5dffaaef9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe00ce1228e20679ebb585267e4f2a9531542cc71": {
+    "base_amount": "0",
+    "start_amount": "75.933472937330840456",
+    "end_amount": "75.933472937330840456",
+    "area": "1481765.790899074020658384",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe0c8923796f2e0d6d55dc79f2877a26effca3c13": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe1a20b3c7df095a3aa17b5119e493ef9da5ac5a5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe1cc8c24aed0b495c2195c4a9b96096d42487148": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe229408cdf7c574962f11b89d8151e64e0c480de": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe2689e394fae140069486becf07508a4b8ae2a32": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe28970c7c73b4c2ef8bc15238b8b44ad40cebf3d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe2fa5276fe34bd0e743d5dccc9bd8f5b88dc0e07": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe341d077a0cfba74f492cd0d06f6be3b7c0af1c9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "3.617552075271167009",
+    "area": "46011.644845373973187471",
+    "rank_area": "4509141.194846649372372158",
+    "weight": "0.000039104557233183136771478"
+  },
+  "0xe379d85950cf77f9c5aacf1130d094f20592d7f1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe3939654deae5f54fd3e6b84b3a7f75f245062d8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "311.080248118961427632",
+    "area": "1309336.764332708648903088",
+    "rank_area": "593129554.242717017953098864",
+    "weight": "0.00514378849504301952285662"
+  },
+  "0xe3db91f3b07f282f9890ae52e7fc0bd2adee2c74": {
+    "base_amount": "0",
+    "start_amount": "3.259092097683975241",
+    "end_amount": "3.259092097683975241",
+    "area": "63597.923194205092852874",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe3e39161d35e9a81edec667a5387bfae85752854": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe468d1a86675551ff0faf698b0d3a0ce4f517a7c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe4989e7b39a21089b128908e1603fdc9939dbb78": {
+    "base_amount": "0",
+    "start_amount": "272.9",
+    "end_amount": "272.9",
+    "area": "5325370.6",
+    "rank_area": "2231330281.4",
+    "weight": "0.019350731974164402027187622"
+  },
+  "0xe4b420f15d6d878dcd0df7120ac0fc1509ee9cab": {
+    "base_amount": "0",
+    "start_amount": "30.92391556281131415",
+    "end_amount": "30.92391556281131415",
+    "area": "603449.2882926999843231",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe4f2152bd0d4fb926eae918c19bf7bf7d3eb155e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe4fee9e6cd391d9f254748fa2f3422afb9959021": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe519f4cd2803ba53a40e6377e82406e548418660": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe54ffbd968f803a704e74b983bf448f2c76902a6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe57245a347a08928fadf53ce2712b8c949aeadd8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe61bb41d806a63f41402d91b67ba08638941987e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe64b1a000b931080a73546d4ed5d742495ce2a92": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe6aee6ec5a83010859e350cc07b16210a4641cbd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe7083ea81d723a15400feaf8424317aba068f7e2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe7275240c52fc4316277547655c73c10529d345a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe72aefad5e26e00ae964fb0e586f7aaac4523f36": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe7304ba0f157f2ade94015934284b6704bc72911": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe792436f10635a41ef9e79753d308d885b821cfc": {
+    "base_amount": "0",
+    "start_amount": "97.055472092789098312",
+    "end_amount": "97.055472092789098312",
+    "area": "1893940.482418686464460368",
+    "rank_area": "825758050.334547298504720448",
+    "weight": "0.007161209096085358268392527"
+  },
+  "0xe798c458d45bdf6a35baa06f41db9682a59631d0": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe8120ba354bbbd255dc8ab96545903f1fb0b7007": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe8149b815388948db4ad05680fff1145e0975c7d": {
+    "base_amount": "0",
+    "start_amount": "27.722309193883902969",
+    "end_amount": "27.722309193883902969",
+    "area": "540973.141609450482537066",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe86e151d602fa980c7a93b7160b48feb129f350c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe87b56cf45b98e2cd37b56935b6fdd7a9f37962c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe9017c8de5040968d9752a18d805cd2a983e558c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe904f20b2b07e59118b6ca7936c23df5e2e847f4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe90b72e59ebc3c639dce048fbdd4f6af14e4d8f2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe9328491df19d94166b5baf80fed06e6746d7280": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe976dc0157f83c59a1e591cff88ce68eb87beade": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe993fb4df8a4737f48992334f549bb92b2ff7048": {
+    "base_amount": "0",
+    "start_amount": "13.288433046041313049",
+    "end_amount": "13.288433046041313049",
+    "area": "259310.482460450182838186",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe9de763d9634ae654d05e63fdb0354a14d0265c3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xeaa6cb80a5593e14c5a5fd38ae3d16dcb5ef75f5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xeaaa4849bb69d7ff99e82f0a75a69a290277b46d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xebc318ddcb03e2c31b534496557aa9673427e81d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xebcdd05e56182063a0521556d71ba062576ceecc": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xebd07b81f08c7e8856fb37e11c57ad95992deff3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xebd1159122883ecc045ad7d7b9f3ccaeae0e67d9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xec559364919e75f15a90f5b5a2304fc0c5033561": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xecb6a3e0e99700b32bb03ba14727d99fe8e538cf": {
+    "base_amount": "0",
+    "start_amount": "1299.456312369931979627",
+    "end_amount": "1299.456312369931979627",
+    "area": "25357590.479586852650441278",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xecc83299fc25f3b85eddb2affee52608ce288feb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xed0ffd485b5b7915eb34c7cc3c85deacaeee5654": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xed575198ba6f94329379df5ec971a5cb7abcce16": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xed59f75fc51ee256c40a17a2d9c14d8430534be6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xedd828ed8bf8205cdbf4439349c539215d3fad1d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xef1bd6e2df7835a0dedf03b53e032afaa6657634": {
+    "base_amount": "0",
+    "start_amount": "0.366514109476971072",
+    "end_amount": "0.366514109476971072",
+    "area": "7152.156332333613499008",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xef3e381689ef30ea32b10c13cc641623ef009fc1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xef5e089fb126aa0207dbc6ae619c9e51eb3baafc": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xef8acf414e4ed5cf509113326bbdb732527dac02": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xef987573d1c3f788a3f383598395413aad6665cb": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xefccaef66c3f772141582020307d21cbb0eed002": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xefe31f29520912d6a8db11971b5453078e1dad72": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf00d0a7d9b36aef74fddfa60a608e4770993aff4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf03df965490882583018c64fd41fa82d7dee032f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf0ad31dc72b5850adb1103ec2fc82afcb514e76d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf0f32c3c8def7b43caa14fed5752abc5381c8374": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf14d761d65a951b5324d7610e040e3202bc9774c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf181e130e18c17e9988bd997886383d42a655153": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf1b74ae97cf9ed940de4d2a11fc1cec40988eef3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf1d460ad141e2e12bf58d9d3ded30085bd164d9c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf1e2519592e2d7c8f33358a895645c234d5da022": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf1e633125b19211a6c63793f5d6074af0bba3925": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf29a794d6f775004b78d74e9c141e5fc908e337d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf2d25fcb1d60213c5eea0da47d7c2801bf5c23fd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf2d7f83280cdadef42d2a80fa0a422af0adec142": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf2ec5736b39e374823d73ffd56716bda44042a7c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf2edf1d531b5ae407abb24ea3566d6d16558db7a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf39fe64953c20757419d960ee6dbc5e6a19914d3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf3a77ec59c40a8066d73f3b5780c0893b79f1bca": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf3afc2383a0b45ae73d77b49df7f2184b1ad4b90": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf3fbdc0fa676b858ae27ba03b479555731735af5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf4078085cebb638016afc6e209229f1f7028a0fa": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf4fe36e391f71b1e2266ef801d967a486c1538ba": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf527726378d7e10e1e322d1e22a06a8263d64544": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf53f201380138d9a99f084c01d8aad64506da6a1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf5dcb2a47f738d8ba39f9fa2ddc7592f268a262a": {
+    "base_amount": "0",
+    "start_amount": "132.417935295439295751",
+    "end_amount": "132.417935295439295751",
+    "area": "2584003.589355202417285014",
+    "rank_area": "1069777485.993053800755995796",
+    "weight": "0.009277415170675053839444662"
+  },
+  "0xf662eba33a8630b51a3d955213dd7a58c2a687a9": {
+    "base_amount": "0",
+    "start_amount": "1.203739791312511713",
+    "end_amount": "1.203739791312511713",
+    "area": "23489.778287672353567482",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf670fd01a42a80c5098d4785638f7b0a8ac69010": {
+    "base_amount": "0",
+    "start_amount": "22.79733730086678461",
+    "end_amount": "22.79733730086678461",
+    "area": "444867.24008911443487954",
+    "rank_area": "173053356.39466551516814106",
+    "weight": "0.001500768014819234402741716"
+  },
+  "0xf740fc99156b680773d4c0f9df164d54a06f5090": {
+    "base_amount": "0",
+    "start_amount": "7.893068448037547204",
+    "end_amount": "7.893068448037547204",
+    "area": "154025.337695004696138856",
+    "rank_area": "66846996.559632038124263504",
+    "weight": "0.000579716200907615872214631"
+  },
+  "0xf797485cc069a3910cd5d0eb5e168eeb9e8b8b1b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf7ac26d8ad9a7d932985b6e5fa08bda5789da922": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf7fc288cb288c79c76dec08b8a5db897b85dd5e3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf801c0fb0110ad0e2888cf56ef2619afe732912b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf8057dcaaf5282deef129423b1d6e1073c26082f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf84b9e57628da8a8167c0f84c266f70ec0863510": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf8c6d477e2d967008421a0578da4a55b2e2de20c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf8cbd80bf7909d092ac045ae3f33b98e14423942": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "732.906500671129858588",
+    "area": "11649548.82816760910225626",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf9ca61b2c3938d3c5ec8fa669622240a7a0cb316": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfa1472dfc61104c5065ee9b3788e43b246e1f805": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfa5fe357f49fda80bee8ba46fc1d7f0d21b14969": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfad1cb78101cf717cf97663e681eb87291dfcbe2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfb246c6d93dd15faa9d748934001c10fe54e4fe6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "126.848908397063275563",
+    "area": "825319.506981920110146315",
+    "rank_area": "311970773.63916580163530707",
+    "weight": "0.002705499438960919505585681"
+  },
+  "0xfb40932271fc9db9dbf048e80697e2da4aa57250": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfbb1068305c8ddd36f85d84880b2903d4b45e876": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "11.674057498625452851",
+    "area": "49182.804241709032861263",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfc43cf2cf83a6384c572b3aa2d27c200f74f2882": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfc4a1ccfc59a8d3dadee299d867ceffdd601eb46": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfc9d0e662510f57583ffe2e9c8ed24cd420fc629": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfcfa4369eaa965ac4e36f1dd9fd2852c6542b0f7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "1.913639802673361306",
+    "area": "5027.131761622920150862",
+    "rank_area": "1598627.900196088607974116",
+    "weight": "0.00001386375664821188688215"
+  },
+  "0xfd16b0f85124d711937b35ec608a1b47bd093d9a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfd21bcaf4a4234e235cda9fedb87e61bd856ab75": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfd8f30441c0344b305bc6355537d93ec184c42ca": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfe53e594f981e234fcc5e33d3c37943c81766485": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfe6524ac5f0c01132785e56d518b77e89184a6ff": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfe75836313f4570262341854637dc49dd3c81c68": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfe80cc6e466817724b6a3e278d48122617cac5a4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfe8b88b9964cbca46379753f31384c78df5b9e15": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xff26ccf9058b9bd8facfb6a8876864fec193285d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xff37697171b95605b4511030c9cdc2dcea0a51e2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xff3fc772434505abff38eecde3c689d4b0254528": {
+    "base_amount": "0",
+    "start_amount": "74.794087973114651875",
+    "end_amount": "74.794087973114651875",
+    "area": "1459531.83270735931668875",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xff4000886e266b1be5728c0e9a68a3d3e05f2472": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfffd181efce6c38291bf2fcafbbb0d75d5ebc77e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  }
+}

@@ -2,7 +2,7 @@
   "name": "bonus",
   "round": 1,
   "startBlock": 11722262,
-  "endBlock": 0,
+  "endBlock": 11741776,
   "cubes": [
     "OneInchSwap",
     "OneInchV2Swap"

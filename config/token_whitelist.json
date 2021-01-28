@@ -189,6 +189,10 @@
     "decimals": 18,
     "symbol": "UNI"
   },
+  "0x20945cA1df56D237fD40036d47E866C7DcCD2114": {
+    "decimals": 18,
+    "symbol": "Nsure"
+  },
   "0x221657776846890989a759BA2973e427DfF5C9bB": {
     "decimals": 18,
     "symbol": "REPv2"
@@ -208,6 +212,10 @@
   "0x25e1474170c4c0aA64fa98123bdc8dB49D7802fa": {
     "decimals": 18,
     "symbol": "BID"
+  },
+  "0x26CE25148832C04f3d7F26F32478a9fe55197166": {
+    "decimals": 18,
+    "symbol": "DEXT"
   },
   "0x27702a26126e0B3702af63Ee09aC4d1A084EF628": {
     "decimals": 18,
@@ -274,6 +282,10 @@
     "decimals": 8,
     "symbol": "cUNI"
   },
+  "0x368B3a58B5f49392e5C9E4C998cb0bB966752E51": {
+    "decimals": 18,
+    "symbol": "MIC"
+  },
   "0x36F3FD68E7325a35EB768F1AedaAe9EA0689d723": {
     "decimals": 18,
     "symbol": "ESD"
@@ -285,6 +297,10 @@
   "0x3845badAde8e6dFF049820680d1F14bD3903a5d0": {
     "decimals": 18,
     "symbol": "SAND"
+  },
+  "0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1": {
+    "decimals": 18,
+    "symbol": "CVP"
   },
   "0x39AA39c021dfbaE8faC545936693aC917d5E7563": {
     "decimals": 8,
@@ -354,6 +370,10 @@
   "0x49E833337ECe7aFE375e44F4E3e8481029218E5c": {
     "decimals": 18,
     "symbol": "VALUE"
+  },
+  "0x4A7AdCB083fE5E3d6b58EDc3d260e2E61668e7a2": {
+    "decimals": 18,
+    "symbol": "TBB"
   },
   "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784": {
     "decimals": 8,
@@ -542,6 +562,10 @@
     "decimals": 18,
     "symbol": "BUILD"
   },
+  "0x6fe56C0bcdD471359019FcBC48863d6c3e9d4F41": {
+    "decimals": 18,
+    "symbol": "PROPS"
+  },
   "0x70e36f6BF80a52b3B46b3aF8e106CC0ed743E8e4": {
     "decimals": 8,
     "symbol": "cCOMP"
@@ -637,6 +661,10 @@
     "decimals": 18,
     "symbol": "PROS"
   },
+  "0x86772b1409b61c639EaAc9Ba0AcfBb6E238e5F83": {
+    "decimals": 18,
+    "symbol": "NDX"
+  },
   "0x8762db106B2c2A0bccB3A80d1Ed41273552616E8": {
     "decimals": 18,
     "symbol": "RSR"
@@ -701,9 +729,17 @@
     "decimals": 18,
     "symbol": "FUSE"
   },
+  "0x99fE3B1391503A1bC1788051347A1324bff41452": {
+    "decimals": 18,
+    "symbol": "SX"
+  },
   "0x9B02dD390a603Add5c07f9fd9175b7DABE8D63B7": {
     "decimals": 18,
     "symbol": "SPI"
+  },
+  "0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541": {
+    "decimals": 8,
+    "symbol": "BBTC"
   },
   "0x9C78EE466D6Cb57A4d01Fd887D2b5dFb2D46288f": {
     "decimals": 18,
@@ -885,6 +921,10 @@
     "decimals": 18,
     "symbol": "PLU"
   },
+  "0xD8E3FB3b08eBA982F2754988d70D57eDc0055ae6": {
+    "decimals": 9,
+    "symbol": "ZORA"
+  },
   "0xD9Ec3ff1f8be459Bb9369b4E79e9Ebcf7141C093": {
     "decimals": 18,
     "symbol": "KAI"
@@ -1027,6 +1067,10 @@
     "decimals": 18,
     "symbol": "DOUGH"
   },
+  "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
+    "decimals": 18,
+    "symbol": "stETH"
+  },
   "0xb1dC9124c395c1e97773ab855d66E879f053A289": {
     "decimals": 18,
     "symbol": "YAX"
@@ -1034,6 +1078,10 @@
   "0xb4bebD34f6DaaFd808f73De0d10235a92Fbb6c3D": {
     "decimals": 18,
     "symbol": "YETI"
+  },
+  "0xb753428af26E81097e7fD17f40c88aaA3E04902c": {
+    "decimals": 18,
+    "symbol": "SFI"
   },
   "0xb9871cB10738eADA636432E86FC0Cb920Dc3De24": {
     "decimals": 18,
