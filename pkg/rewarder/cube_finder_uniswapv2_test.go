@@ -25,42 +25,7 @@ func TestFindUniswapV2SwapCube(t *testing.T) {
 	}{
 		// ETH -> Token + Token -> ETH
 		{
-			txHash: common.HexToHash("0xf5b0bb3fed051c8e3ba6841d2fe55da6b4f11a6d9dc80d660d692f9bbd55124f"),
-			expected: []struct {
-				index        int
-				tokenAddress string
-				tokenAmount  string
-			}{
-				{
-					index:        5,
-					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-					tokenAmount:  "2500000000000000000",
-				},
-				{
-					index:        12,
-					tokenAddress: "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
-					tokenAmount:  "112775964742293072453",
-				},
-			},
-		},
-		// Token -> ETH
-		{
-			txHash: common.HexToHash("0xd2f4505025bdc4a36e9ddd7f064c90d76b48139b2212f665520c1436a9ad37ce"),
-			expected: []struct {
-				index        int
-				tokenAddress string
-				tokenAmount  string
-			}{
-				{
-					index:        5,
-					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-					tokenAmount:  "20153251452157105001",
-				},
-			},
-		},
-		// Token -> ETH
-		{
-			txHash: common.HexToHash("0xac22e49a072dac4f6a92b1e7ebbbbe2440385c623c20fab2e2cf4f469f3e48b0"),
+			txHash: common.HexToHash("0x9ce9f0e2edb9713e532adcec3cc30d8d5af2f05e33a2d233301a926c630eede6"),
 			expected: []struct {
 				index        int
 				tokenAddress string
@@ -68,58 +33,63 @@ func TestFindUniswapV2SwapCube(t *testing.T) {
 			}{
 				{
 					index:        7,
+					tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+					tokenAmount:  "2333924258",
+				},
+				{
+					index:        12,
 					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-					tokenAmount:  "1174013744947632149",
+					tokenAmount:  "1985163242248875307",
 				},
 			},
 		},
-		// Token -> Token
+		// Token -> ETH
 		{
-			txHash: common.HexToHash("0xefe29c9885e54f73316596c9a8f99f0b188816d618f1afeb18bb57db4b23c21b"),
+			txHash: common.HexToHash("0x1262fc4bb26c0c0b3e99903a6722d1da945bc380ffeedf302c099b816bff8d95"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        18,
+					index:        9,
+					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+					tokenAmount:  "108498737630701318",
+				},
+			},
+		},
+		// Token -> ETH
+		{
+			txHash: common.HexToHash("0x92aad6a7651fe0edfd7b6777e6671c2e7521d86aeee127268c7fee48e5e6acd6"),
+			expected: []struct {
+				index        int
+				tokenAddress string
+				tokenAmount  string
+			}{
+				{
+					index:        19,
+					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+					tokenAmount:  "993845503594863868",
+				},
+			},
+		},
+		// Token -> Token
+		{
+			txHash: common.HexToHash("0x482f5fce99fc7889a095c7d05912b7a2f3790c7d5e4fe55e144674bf66652162"),
+			expected: []struct {
+				index        int
+				tokenAddress string
+				tokenAmount  string
+			}{
+				{
+					index:        15,
 					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "1754363292667535728136",
+					tokenAmount:  "402705740484498616789",
 				},
 				{
-					index:        27,
+					index:        24,
 					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "3750228056898634734263",
-				},
-				{
-					index:        36,
-					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "1900812689938819392076",
-				},
-				{
-					index:        42,
-					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "2703917976415005639723",
-				},
-				{
-					index:        51,
-					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "2323737161187031097926",
-				},
-				{
-					index:        61,
-					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "5707097150159011893807",
-				},
-				{
-					index:        71,
-					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "1770127275414896103851",
-				},
-				{
-					index:        81,
-					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "1688187348731527753278",
+					tokenAmount:  "246413094375332222540",
 				},
 			},
 		},

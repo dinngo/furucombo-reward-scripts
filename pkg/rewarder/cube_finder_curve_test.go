@@ -25,7 +25,22 @@ func TestFindCurveSwapCube(t *testing.T) {
 	}{
 		// single pool - renBTC
 		{
-			txHash: common.HexToHash("0x0f6c546ff421d17074aaef7db15ad15fcee373221da4cd2716ba9faef10b34e3"),
+			txHash: common.HexToHash("0x8b08e181b39544cf6a3abc76c6a36a0fec1079eb0ddd40bee813e25e961aec05"),
+			expected: []struct {
+				index        int
+				tokenAddress string
+				tokenAmount  string
+			}{
+				{
+					index:        10,
+					tokenAddress: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+					tokenAmount:  "46562906",
+				},
+			},
+		},
+		// single pool - stable coin
+		{
+			txHash: common.HexToHash("0xae21c1ef3c37e872454f0da5df798288c3c30cf0c48ed94f4841621849d43c5c"),
 			expected: []struct {
 				index        int
 				tokenAddress string
@@ -33,63 +48,18 @@ func TestFindCurveSwapCube(t *testing.T) {
 			}{
 				{
 					index:        3,
-					tokenAddress: "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
-					tokenAmount:  "100130088",
-				},
-			},
-		},
-		// single pool - stable coin
-		{
-			txHash: common.HexToHash("0xbd72335f7800897a3fb1c2aeb3f2364f0bbd8adf83e6e9bd5c62f663ac8f4114"),
-			expected: []struct {
-				index        int
-				tokenAddress string
-				tokenAmount  string
-			}{
-				{
-					index:        33,
 					tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-					tokenAmount:  "2036399759",
+					tokenAmount:  "168054568316",
 				},
 				{
-					index:        38,
+					index:        8,
+					tokenAddress: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+					tokenAmount:  "167943212299",
+				},
+				{
+					index:        13,
 					tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-					tokenAmount:  "5520403",
-				},
-			},
-		},
-		// one split
-		{
-			txHash: common.HexToHash("0x1fd8df4d244e87b6efdff2c941fe578b698f1a34e87265446b5d4dc6f0d872af"),
-			expected: []struct {
-				index        int
-				tokenAddress string
-				tokenAmount  string
-			}{
-				{
-					index:        4,
-					tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-					tokenAmount:  "645736104",
-				},
-				{
-					index:        14,
-					tokenAddress: "0x0000000000085d4780B73119b644AE5ecd22b376",
-					tokenAmount:  "645663045659510433432",
-				},
-				{
-					index:        24,
-					tokenAddress: "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
-					tokenAmount:  "371128605362290943981",
-				},
-				{
-					index:        41,
-					tokenAddress: "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
-					tokenAmount:  "648453222569354140961",
-				},
-				{
-					index:        45,
-					tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-					tokenAmount:  "646732943",
+					tokenAmount:  "167890246543",
 				},
 			},
 		},

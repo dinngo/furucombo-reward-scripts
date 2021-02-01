@@ -25,30 +25,31 @@ func TestFindMakerDepositCube(t *testing.T) {
 	}{
 		// ETH
 		{
-			txHash: common.HexToHash("0xd2f4505025bdc4a36e9ddd7f064c90d76b48139b2212f665520c1436a9ad37ce"),
+			txHash: common.HexToHash("0x2dc65785648b7c990515c4da8208e09cb399f0ab5c15a9fbc322e9cc690790df"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        12,
+					index:        7,
 					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-					tokenAmount:  "20000000000000000000",
+					tokenAmount:  "800000000000000000",
 				},
 			},
 		},
+		// USDC
 		{
-			txHash: common.HexToHash("0x274df7c06b0c964b13ee2e10e34cfb29be6d901c67b6cd33b05419b97e8030a8"),
+			txHash: common.HexToHash("0xa88b05c55d56cddde91e0e39e95aebcb3f6d14b8d610dcfef51bed9dd252c176"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        6,
-					tokenAddress: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-					tokenAmount:  "5900000000",
+					index:        9,
+					tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+					tokenAmount:  "900000000",
 				},
 			},
 		},
@@ -89,21 +90,21 @@ func TestFindMakerGenerateCube(t *testing.T) {
 		}
 	}{
 		{
-			txHash: common.HexToHash("0xd2f4505025bdc4a36e9ddd7f064c90d76b48139b2212f665520c1436a9ad37ce"),
+			txHash: common.HexToHash("0x2dc65785648b7c990515c4da8208e09cb399f0ab5c15a9fbc322e9cc690790df"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        23,
+					index:        16,
 					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "7887000000000000000000",
+					tokenAmount:  "500000000000000000000",
 				},
 			},
 		},
 		{
-			txHash: common.HexToHash("0x274df7c06b0c964b13ee2e10e34cfb29be6d901c67b6cd33b05419b97e8030a8"),
+			txHash: common.HexToHash("0xa88b05c55d56cddde91e0e39e95aebcb3f6d14b8d610dcfef51bed9dd252c176"),
 			expected: []struct {
 				index        int
 				tokenAddress string
@@ -112,7 +113,7 @@ func TestFindMakerGenerateCube(t *testing.T) {
 				{
 					index:        18,
 					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "340000000000000000000000",
+					tokenAmount:  "500000000000000000000",
 				},
 			},
 		},
@@ -153,7 +154,7 @@ func TestFindMakerPayBackCube(t *testing.T) {
 		}
 	}{
 		{
-			txHash: common.HexToHash("0x4bfa3b488aedf8ae78fbc3b1f2641ef964640b642860626815ec7fa7e76bae6e"),
+			txHash: common.HexToHash("0x0025c00427ae78932f6278819bb7aeaa274b450570eeaae4dc158a8b57710b06"),
 			expected: []struct {
 				index        int
 				tokenAddress string
@@ -162,21 +163,31 @@ func TestFindMakerPayBackCube(t *testing.T) {
 				{
 					index:        6,
 					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "1100000000000000000000",
+					tokenAmount:  "500001900000000000000",
 				},
 			},
 		},
 		{
-			txHash: common.HexToHash("0x042709fe9631f43fef00ef8ac197a2ef81a7b04d7fc2021f14ad6c508460460c"),
+			txHash: common.HexToHash("0xb7dc23a4287ae3d3772ea1f82b08b6963a0b9278c11314d6ff0536dd0b2c9a5c"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        7,
+					index:        22,
 					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "872059994167197600000",
+					tokenAmount:  "77760000000000000000000",
+				},
+				{
+					index:        42,
+					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+					tokenAmount:  "77760000000000000000000",
+				},
+				{
+					index:        62,
+					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+					tokenAmount:  "77760000000000000000000",
 				},
 			},
 		},

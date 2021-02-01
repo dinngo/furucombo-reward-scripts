@@ -25,31 +25,31 @@ func TestFindOneInchSwapCube(t *testing.T) {
 	}{
 		// ETH
 		{
-			txHash: common.HexToHash("0x80680260b4deb972e6288327ca4a6cf1b6fead25c8d5bf7eef557953f869e580"),
+			txHash: common.HexToHash("0xde5bd28a821e11cd61e68096e43055f4d5c54205d57de16a75409fbe068d407a"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        23,
+					index:        4,
 					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-					tokenAmount:  "1518107870817153810",
+					tokenAmount:  "1002000000000000000000",
 				},
 			},
 		},
-		// yCRV
+		// COMBO
 		{
-			txHash: common.HexToHash("0x5ab53bdd9b708b778e634c5575ca68ce0f718dceaea752ac6e2a18e974795e8c"),
+			txHash: common.HexToHash("0xe768efe3436e897241b36cc7fb92115750dcb3ab5380bcb953486288525a64aa"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        35,
-					tokenAddress: "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8",
-					tokenAmount:  "14968887700686513609848",
+					index:        8,
+					tokenAddress: "0xfFffFffF2ba8F66D4e51811C5190992176930278",
+					tokenAmount:  "477684078753592755298",
 				},
 			},
 		},

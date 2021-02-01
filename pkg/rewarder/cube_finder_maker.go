@@ -92,8 +92,8 @@ func findMakerGenerateCube(txLog *types.Log) (*Cube, error) {
 func isMakerPayBackCube(txLog *types.Log) bool {
 	// 1. check is DAI or not
 	// 2. check is erc20 Transfer event or not
-	// 3. check is zero address or not
-	// 4. check is to furucombo proxy or not
+	// 3. check is to furucombo proxy or not
+	// 4. check is zero address or not
 	if ethereum.IsToken("DAI", txLog.Address) &&
 		erc20.IsTransferEvent(txLog.Topics[0]) &&
 		furucombo.IsDSProxy(txLog.Topics[1]) &&

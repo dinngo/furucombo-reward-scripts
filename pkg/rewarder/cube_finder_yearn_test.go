@@ -25,57 +25,52 @@ func TestFindYearnDepositCube(t *testing.T) {
 	}{
 		// 3poolCRV
 		{
-			txHash: common.HexToHash("0xa1f3bc3c7cdec553ec4d13ddccc2d87da317abca9beefdde59e605d068b440b5"),
+			txHash: common.HexToHash("0xf4d11d692077670d641fa2d69c68047f1bfc011942c3917d6c64308194e27583"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        8,
+					index:        7,
 					tokenAddress: "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
-					tokenAmount:  "985228734648762369335",
+					tokenAmount:  "260151400000000000000",
 				},
 			},
 		},
 		// DAI
 		{
-			txHash: common.HexToHash("0x6fdf9893f1f02f560f69187ab44e71a54ce97594b6a7060382a7b18b6fcec007"),
+			txHash: common.HexToHash("0x9724e78e958b5bda16e46e37085c43f73b00dcb1b078d5751985b08eff18d2d4"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        19,
+					index:        11,
 					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "1000000000000000000000",
+					tokenAmount:  "2500000000000000000000",
 				},
 			},
 		},
-		// yCRV and DAI
+		// yCRV
 		{
-			txHash: common.HexToHash("0x33ec3b2dda4bc6d14742f7e8400204b0f5186f060b58d345708fa13b24181456"),
+			txHash: common.HexToHash("0xafd4a7d7556b2598c4cfc4858a83a6cf70ec99931f066c48ac216f6196d76b43"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        22,
+					index:        24,
 					tokenAddress: "0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8",
-					tokenAmount:  "190000000000000000000",
-				},
-				{
-					index:        44,
-					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "195000000000000000000",
+					tokenAmount:  "372956772091292222946",
 				},
 			},
 		},
 		// ETH
 		{
-			txHash: common.HexToHash("0x5cc32b6c4bb423d5faee11a2079690b8fe6bf79fce63d9594d0b8311d8f01e8f"),
+			txHash: common.HexToHash("0x8df0d0015c895a83d53789188e6ffe96ce0669e4a2c039715f0286d7f9692993"),
 			expected: []struct {
 				index        int
 				tokenAddress string
@@ -84,7 +79,32 @@ func TestFindYearnDepositCube(t *testing.T) {
 				{
 					index:        0,
 					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-					tokenAmount:  "1000000000000000",
+					tokenAmount:  "200000000000000000000",
+				},
+				{
+					index:        4,
+					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+					tokenAmount:  "200000000000000000000",
+				},
+				{
+					index:        8,
+					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+					tokenAmount:  "200000000000000000000",
+				},
+				{
+					index:        12,
+					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+					tokenAmount:  "200000000000000000000",
+				},
+				{
+					index:        16,
+					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+					tokenAmount:  "200000000000000000000",
+				},
+				{
+					index:        20,
+					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+					tokenAmount:  "200000000000000000000",
 				},
 			},
 		},

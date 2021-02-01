@@ -25,7 +25,7 @@ func TestFindCompoundSupplyCube(t *testing.T) {
 	}{
 		// cETH
 		{
-			txHash: common.HexToHash("0x1c417610bb191b5e037321a6cc3e5ccbc1587e3847fed65139ea2beca5a6e383"),
+			txHash: common.HexToHash("0xf57b57ee48b18f03e0e3078b2cdf382b37e7656d06502a7de98c25c154862445"),
 			expected: []struct {
 				index        int
 				tokenAddress string
@@ -34,22 +34,22 @@ func TestFindCompoundSupplyCube(t *testing.T) {
 				{
 					index:        2,
 					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-					tokenAmount:  "222000000000000000000",
+					tokenAmount:  "30000000000000000000",
 				},
 			},
 		},
 		// cUSDC
 		{
-			txHash: common.HexToHash("0x69ce50e7dacd870e0e91dd448b8cb2272c7ead79f116e1c3f598d2888ea6d23f"),
+			txHash: common.HexToHash("0xcf84401a770a7e3eca9472d668866a9d59fdbaa24f366dec53bb44cb742404d3"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        21,
+					index:        29,
 					tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-					tokenAmount:  "8256079890",
+					tokenAmount:  "299900000000",
 				},
 			},
 		},
@@ -91,31 +91,31 @@ func TestFindCompoundRepayCube(t *testing.T) {
 	}{
 		// cUSDC
 		{
-			txHash: common.HexToHash("0x6faa9eb08371ecfe7eb735e55d4ee2bd774172be72976513fdd0eb9c6a4658c5"),
+			txHash: common.HexToHash("0xf0c581db3265d4888cb07ab640e466d20d7fd7792cc7d197a21fcc415ab7733b"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        7,
+					index:        6,
 					tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-					tokenAmount:  "3227045000",
+					tokenAmount:  "20097940000",
 				},
 			},
 		},
 		// cDAI
 		{
-			txHash: common.HexToHash("0xf859c2839bba7d61c4eb18878ddcfbdea087465d8aa78539bfd285e86327f23d"),
+			txHash: common.HexToHash("0x3abd41fe257a90b4950eb17ba65f60b77f338781fdb5b551d9d25fa8e62e21ac"),
 			expected: []struct {
 				index        int
 				tokenAddress string
 				tokenAmount  string
 			}{
 				{
-					index:        32,
+					index:        5,
 					tokenAddress: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-					tokenAmount:  "14069261646692017265170",
+					tokenAmount:  "6001626542955992198410",
 				},
 			},
 		},
