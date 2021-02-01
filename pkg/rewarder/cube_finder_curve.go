@@ -3,10 +3,14 @@ package rewarder
 import (
 	"log"
 	"math/big"
+	"strings"
 
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/curve"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/erc20"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/furucombo"
+	"github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/core/types"
 )
 
@@ -15,15 +19,27 @@ func init() {
 }
 
 func isCurveSwapCube(txLog *types.Log) bool {
-	// 1. check is supported token or not
-	// 2. check is erc20 Transfer event or not
+	// 1. check is erc20 Transfer event or not
+	// 2. check is swap / one split contract or not
 	// 3. check is to furucombo proxy or not
-	// 4. check is swap / one split contract or not
-	if curve.IsSupportedToken(txLog.Address) &&
-		erc20.IsTransferEvent(txLog.Topics[0]) &&
-		furucombo.IsProxy(txLog.Topics[2]) &&
-		(curve.IsSwapContract(txLog.Topics[1]) || curve.IsOneSplitContract(txLog.Topics[1])) {
+	if erc20.IsTransferEvent(txLog.Topics[0]) &&
+		(curve.IsSwapContract(txLog.Topics[1]) || curve.IsOneSplitContract(txLog.Topics[1])) &&
+		furucombo.IsProxy(txLog.Topics[2]) {
+		return true
+	}
 
+	return false
+}
+
+func isCurveEthSwapCube(txLog *types.Log) bool {
+	// for eth pool there is no erc20 transfer event if output token is eth
+	// so decode token exchange event
+	// 1. check is eth swap contract
+	// 2. check is token exchange event or not
+	// 3. check is to furucombo proxy or not
+	if curve.IsEthSwapContract(txLog.Address) &&
+		curve.IsTokenExchangeEvent(txLog.Topics[0]) &&
+		furucombo.IsProxy(txLog.Topics[1]) {
 		return true
 	}
 
@@ -31,21 +47,61 @@ func isCurveSwapCube(txLog *types.Log) bool {
 }
 
 func findCurveSwapCube(txLog *types.Log) (*Cube, error) {
-	if !isCurveSwapCube(txLog) {
-		return nil, nil
+	if isCurveSwapCube(txLog) {
+		// check token is listed or not
+		if !IsTokenListed(txLog.Address) {
+			log.Printf("Curve Swap: %s is not listed", txLog.Address.String())
+			return nil, nil
+		}
+
+		cube := Cube{
+			Name:         "Curve Swap",
+			TokenAddress: txLog.Address,
+			TokenAmount:  new(big.Int).SetBytes(txLog.Data),
+		}
+
+		return &cube, nil
 	}
 
-	// check token is listed or not
-	if !IsTokenListed(txLog.Address) {
-		log.Printf("Curve Swap: %s is not listed", txLog.Address.String())
-		return nil, nil
+	// for output eth case that we need to decode event
+	if isCurveEthSwapCube(txLog) {
+		contractABI, err := abi.JSON(strings.NewReader(curve.SwapContractABI))
+		if err != nil {
+			return nil, err
+		}
+
+		event := new(curve.SwapContractTokenExchange)
+		if err := contractABI.UnpackIntoInterface(event, "TokenExchange", txLog.Data); err != nil {
+			return nil, err
+		}
+
+		// get output token address
+		swap, err := curve.NewSwapContract(txLog.Address, ethereum.Client())
+		if err != nil {
+			return nil, err
+		}
+		tokenAddress, err := swap.Coins(new(bind.CallOpts), event.BoughtId)
+		if err != nil {
+			return nil, err
+		}
+		if ethereum.IsToken("eETH", tokenAddress) {
+			tokenAddress = ethereum.GetToken("WETH")
+		}
+
+		// check token is listed or not
+		if !IsTokenListed(tokenAddress) {
+			log.Printf("Curve Swap: %s is not listed", tokenAddress.String())
+			return nil, nil
+		}
+
+		cube := Cube{
+			Name:         "Curve Swap",
+			TokenAddress: tokenAddress,
+			TokenAmount:  event.TokensBought,
+		}
+
+		return &cube, nil
 	}
 
-	cube := Cube{
-		Name:         "Curve Swap",
-		TokenAddress: txLog.Address,
-		TokenAmount:  new(big.Int).SetBytes(txLog.Data),
-	}
-
-	return &cube, nil
+	return nil, nil
 }

@@ -2,9 +2,20 @@ package curve
 
 import "github.com/ethereum/go-ethereum/common"
 
-// swapContractAddressMap represents all curve swap contracts on furucombo
+// event sig
+var (
+	TokenExchangeEventSig = common.HexToHash("0x8b3e96f2b889fa771c53c981b40daf005f63f637f1869f707052d15a3dd97140")
+)
+
+// IsTokenExchangeEvent is exchange contract "TokenExchange" event
+func IsTokenExchangeEvent(topic common.Hash) bool {
+	return topic == TokenExchangeEventSig
+}
+
+// swapContractAddressMap represents all curve swap contracts except eth
 var swapContractAddressMap = map[common.Hash]struct{}{
 	common.HexToHash("0xA2B47E3D5c44877cca798226B7B8118F9BFb7A56"): {}, // compound
+	common.HexToHash("0x52EA46506B9CC5Ef470C5bf89f17Dc28bB35D85C"): {}, // usdt
 	common.HexToHash("0x45F783CCE6B7FF23B2ab2D70e416cdb7D6055f51"): {}, // y
 	common.HexToHash("0x79a8C46DeA5aDa233ABaFFD40F3A0A2B1e5A4F27"): {}, // busd
 	common.HexToHash("0xA5407eAE9Ba41422680e2e00537571bcC53efBfD"): {}, // susdv2
@@ -23,13 +34,28 @@ var swapContractAddressMap = map[common.Hash]struct{}{
 	common.HexToHash("0xC25099792E9349C7DD09759744ea681C7de2cb66"): {}, // tbtc
 	common.HexToHash("0x8038C01A0390a8c547446a0b2c18fc9aEFEcc10c"): {}, // dusd
 	common.HexToHash("0x7F55DDe206dbAD629C080068923b36fe9D6bDBeF"): {}, // pbtc
+	common.HexToHash("0x071c661B4DeefB59E2a3DdB20Db036821eeE8F4b"): {}, // bbtc
 	common.HexToHash("0xd81dA8D904b52208541Bade1bD6595D8a251F8dd"): {}, // obtc
+	common.HexToHash("0x890f4e345B1dAED0367A877a1612f86A1f86985f"): {}, // ust
+	common.HexToHash("0x0Ce6a5fF5217e38315f87032CF90686C96627CAA"): {}, // eurs
 	common.HexToHash("0xDeBF20617708857ebe4F679508E7b7863a8A8EeE"): {}, // aave
 }
 
 // IsSwapContract is swap contract
 func IsSwapContract(topic common.Hash) (ok bool) {
 	_, ok = swapContractAddressMap[topic]
+	return
+}
+
+// ethSwapContractAddressMap represents curve eth swap contracts
+var ethSwapContractAddressMap = map[common.Address]struct{}{
+	common.HexToAddress("0xc5424B857f758E906013F3555Dad202e4bdB4567"): {}, // seth
+	common.HexToAddress("0xDC24316b9AE028F1497c275EB9192a3Ea0f67022"): {}, // steth
+}
+
+// IsEthSwapContract is eth swap contract
+func IsEthSwapContract(topic common.Address) (ok bool) {
+	_, ok = ethSwapContractAddressMap[topic]
 	return
 }
 

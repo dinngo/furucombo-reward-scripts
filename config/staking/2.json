@@ -5,6 +5,7 @@
   "endBlock": 0,
   "cubes": [
     "AaveDeposit",
+    "AaveV2Deposit",
     "CompoundSupply",
     "CompoundRepay",
     "CurveSwap",
