@@ -63,6 +63,41 @@ func TestFindCurveSwapCube(t *testing.T) {
 				},
 			},
 		},
+		// seth + susd pool - eth to seth and usdc to susd
+		{
+			txHash: common.HexToHash("0x54c19a399bc13e5c6f75b6414ebd441c68d00d1159b809bd029e7cd5968b0a63"),
+			expected: []struct {
+				index        int
+				tokenAddress string
+				tokenAmount  string
+			}{
+				{
+					index:        2,
+					tokenAddress: "0x5e74C9036fb86BD7eCdcb084a0673EFc32eA31cb",
+					tokenAmount:  "1006011043273916126",
+				},
+				{
+					index:        5,
+					tokenAddress: "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+					tokenAmount:  "1469986114991477575443",
+				},
+			},
+		},
+		// steth pool - steth to eth
+		{
+			txHash: common.HexToHash("0xa23ce0068cc7535dd3be084ed16878024b4cf1103f2f953034b261ab64c28b90"),
+			expected: []struct {
+				index        int
+				tokenAddress string
+				tokenAmount  string
+			}{
+				{
+					index:        5,
+					tokenAddress: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+					tokenAmount:  "99920019748817702467",
+				},
+			},
+		},
 	}
 
 	for i, testCase := range testCases {
