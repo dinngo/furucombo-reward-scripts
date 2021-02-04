@@ -31,6 +31,7 @@ type GenerateRewardMerkleTreeTask struct {
 // CheckMerkleTreeFiles check merkle tree files
 func (t *GenerateRewardMerkleTreeTask) CheckMerkleTreeFiles() error {
 	t.rewardMerkleTreeLeavesFilepath = path.Join(t.rootpath, "merkle_tree_leaves.json")
+	t.rewardMerkleProofsFilepath = path.Join(t.rootpath, "merkle_proofs.json")
 
 	log.Printf("check merkle tree leaves file ./%s", t.rewardMerkleTreeLeavesFilepath)
 
@@ -38,8 +39,6 @@ func (t *GenerateRewardMerkleTreeTask) CheckMerkleTreeFiles() error {
 		log.Println("merkle tree leaves file not found")
 		return err
 	}
-
-	t.rewardMerkleProofsFilepath = path.Join(t.rootpath, "merkle_proofs.json")
 
 	log.Printf("check merkle proofs file ./%s", t.rewardMerkleProofsFilepath)
 
@@ -96,6 +95,25 @@ func (t *GenerateRewardMerkleTreeTask) SaveRewardMerkleProofsToFile() error {
 
 	if err := ioutil.WriteFile(t.rewardMerkleProofsFilepath, append(data, '\n'), 0644); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+// Execute execute
+func (t *GenerateRewardMerkleTreeTask) Execute() error {
+	if err := t.CheckMerkleTreeFiles(); err != nil {
+		if err := t.GenerateRewardMerkleTree(); err != nil {
+			return err
+		}
+
+		if err := t.SaveRewardMerkleTreeLeavesToFile(); err != nil {
+			return err
+		}
+
+		if err := t.SaveRewardMerkleProofsToFile(); err != nil {
+			return err
+		}
 	}
 
 	return nil

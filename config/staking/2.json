@@ -32,7 +32,7 @@
       "reward_amount": "140625",
       "base_amount": "0",
       "dataset": {
-        "name": "combo-univ2",
+        "name": "combo-univ2-staking",
         "startBlock": 11633696
       }
     }

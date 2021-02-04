@@ -97,3 +97,18 @@ func (t *LoadRewardsTask) SaveRewardsToFile() error {
 
 	return nil
 }
+
+// Execute execute
+func (t *LoadRewardsTask) Execute() error {
+	if err := t.LoadRewardsFromFile(); err != nil {
+		if err := t.CalcRewardsByWeight(); err != nil {
+			return err
+		}
+
+		if err := t.SaveRewardsToFile(); err != nil {
+			return err
+		}
+	}
+
+	return nil
+}

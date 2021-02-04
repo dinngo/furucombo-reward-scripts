@@ -166,3 +166,26 @@ func (t *LoadStakingsTask) SaveStakingsToFile() error {
 
 	return nil
 }
+
+// Execute execute
+func (t *LoadStakingsTask) Execute() error {
+	if err := t.LoadStakingsFromFile(); err != nil {
+		if err := t.InitStakings(); err != nil {
+			return err
+		}
+
+		if err := t.UpdateStakingsByStakingEvents(); err != nil {
+			return err
+		}
+
+		if err := t.CalcStakingsWeightWithTradingRank(); err != nil {
+			return err
+		}
+
+		if err := t.SaveStakingsToFile(); err != nil {
+			return err
+		}
+	}
+
+	return nil
+}

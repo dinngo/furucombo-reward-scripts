@@ -109,24 +109,8 @@ func (r *BonusRewarder) LoadStakings() error {
 		endBlock:         r.config.EndBlock,
 	}
 
-	if err := task.LoadStakingsFromFile(); err != nil {
-		if err := task.InitStakings(); err != nil {
-			return err
-		}
-
-		if err := task.UpdateStakingsByStakingEvents(); err != nil {
-			return err
-		}
-
-		if err := task.CalcStakingsWeightWithTradingRank(); err != nil {
-			return err
-		}
-
-		if err := task.SaveStakingsToFile(); err != nil {
-			return err
-		}
-
-		r.stakingMap = task.stakingMap
+	if err := task.Execute(); err != nil {
+		return err
 	}
 
 	return nil
@@ -140,14 +124,8 @@ func (r *BonusRewarder) LoadRewards() error {
 		rewardAmount:    r.config.Pool.RewardAmount,
 	}
 
-	if err := task.LoadRewardsFromFile(); err != nil {
-		if err := task.CalcRewardsByWeight(); err != nil {
-			return err
-		}
-
-		if err := task.SaveRewardsToFile(); err != nil {
-			return err
-		}
+	if err := task.Execute(); err != nil {
+		return err
 	}
 
 	r.rewardMap = task.rewardMap
@@ -162,18 +140,8 @@ func (r *BonusRewarder) GenerateRewardsMerkleTree() error {
 		rewardMap: r.rewardMap,
 	}
 
-	if err := task.CheckMerkleTreeFiles(); err != nil {
-		if err := task.GenerateRewardMerkleTree(); err != nil {
-			return err
-		}
-
-		if err := task.SaveRewardMerkleTreeLeavesToFile(); err != nil {
-			return err
-		}
-
-		if err := task.SaveRewardMerkleProofsToFile(); err != nil {
-			return err
-		}
+	if err := task.Execute(); err != nil {
+		return err
 	}
 
 	return nil

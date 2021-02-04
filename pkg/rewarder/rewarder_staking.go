@@ -111,32 +111,19 @@ func (r *StakingRewarder) LoadStakings() error {
 
 	for _, pool := range r.config.Pools {
 		task := LoadStakingsTask{
-			rootpath:    path.Join(r.config.RoundDir(), pool.Address.String()),
-			round:       r.config.Round,
-			duration:    decimal.NewFromInt(int64(r.config.Blocks())),
-			tradingMap:  r.tradingMap,
-			poolAddress: pool.Address,
-			baseAmount:  pool.BaseAmount,
-			startBlock:  r.config.StartBlock,
-			endBlock:    r.config.EndBlock,
+			rootpath:         path.Join(r.config.RoundDir(), pool.Address.String()),
+			round:            r.config.Round,
+			duration:         decimal.NewFromInt(int64(r.config.Blocks())),
+			baseAmount:       pool.BaseAmount,
+			stakingStakedMap: r.stakingsStakedMap[pool.Address],
+			tradingMap:       r.tradingMap,
+			poolAddress:      pool.Address,
+			startBlock:       r.config.StartBlock,
+			endBlock:         r.config.EndBlock,
 		}
 
-		if err := task.LoadStakingsFromFile(); err != nil {
-			if err := task.InitStakings(); err != nil {
-				return err
-			}
-
-			if err := task.UpdateStakingsByStakingEvents(); err != nil {
-				return err
-			}
-
-			if err := task.CalcStakingsWeightWithTradingRank(); err != nil {
-				return err
-			}
-
-			if err := task.SaveStakingsToFile(); err != nil {
-				return err
-			}
+		if err := task.Execute(); err != nil {
+			return err
 		}
 
 		r.stakingsMap[pool.Address] = task.stakingMap
@@ -156,14 +143,8 @@ func (r *StakingRewarder) LoadRewards() error {
 			rewardAmount:    pool.RewardAmount,
 		}
 
-		if err := task.LoadRewardsFromFile(); err != nil {
-			if err := task.CalcRewardsByWeight(); err != nil {
-				return err
-			}
-
-			if err := task.SaveRewardsToFile(); err != nil {
-				return err
-			}
+		if err := task.Execute(); err != nil {
+			return err
 		}
 
 		r.rewardsMap[pool.Address] = task.rewardMap
@@ -180,18 +161,8 @@ func (r *StakingRewarder) GenerateRewardsMerkleTree() error {
 			rewardMap: r.rewardsMap[pool.Address],
 		}
 
-		if err := task.CheckMerkleTreeFiles(); err != nil {
-			if err := task.GenerateRewardMerkleTree(); err != nil {
-				return err
-			}
-
-			if err := task.SaveRewardMerkleTreeLeavesToFile(); err != nil {
-				return err
-			}
-
-			if err := task.SaveRewardMerkleProofsToFile(); err != nil {
-				return err
-			}
+		if err := task.Execute(); err != nil {
+			return err
 		}
 	}
 
