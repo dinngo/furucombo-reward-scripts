@@ -39,6 +39,14 @@ func TestGetToken(t *testing.T) {
 				Symbol:   "CHI",
 			},
 		},
+		{
+			tokenAddress: common.HexToAddress("0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"),
+			expected: Token{
+				Address:  common.HexToAddress("0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"),
+				Decimals: 18,
+				Symbol:   "UNKNOWN",
+			},
+		},
 	}
 
 	for i, testCase := range testCases {

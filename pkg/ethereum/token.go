@@ -17,8 +17,8 @@ var tokenAddressMap = map[string]common.Address{
 // Token token info
 type Token struct {
 	Address  common.Address `json:"address"`
-	Decimals uint8          `json:"decimals"`
 	Symbol   string         `json:"symbol"`
+	Decimals uint8          `json:"decimals"`
 }
 
 // IsToken is token
@@ -38,19 +38,19 @@ func GetToken(tokenAddress common.Address) (*Token, error) {
 		return nil, err
 	}
 
-	decimalsCallData, err := parsed.Pack("decimals")
-	if err != nil {
-		return nil, err
-	}
-
 	symbolCallData, err := parsed.Pack("symbol")
 	if err != nil {
 		return nil, err
 	}
 
+	decimalsCallData, err := parsed.Pack("decimals")
+	if err != nil {
+		return nil, err
+	}
+
 	calls := []Struct0{
-		{Target: tokenAddress, CallData: decimalsCallData},
 		{Target: tokenAddress, CallData: symbolCallData},
+		{Target: tokenAddress, CallData: decimalsCallData},
 	}
 
 	contract, err := NewMulticallContract(MulticallContractAddress, Client())
@@ -67,19 +67,26 @@ func GetToken(tokenAddress common.Address) (*Token, error) {
 
 	returnData := result[1].([][]byte)
 
-	decimalsDeocded, err := parsed.Methods["decimals"].Outputs.Unpack(returnData[0])
+	var symbol string
+	var decimals uint8
+
+	decoded, err := parsed.Methods["symbol"].Outputs.Unpack(returnData[0])
+	if err != nil {
+		symbol = "UNKNOWN"
+	} else {
+		symbol = decoded[0].(string)
+	}
+
+	decoded, err = parsed.Methods["decimals"].Outputs.Unpack(returnData[1])
 	if err != nil {
 		return nil, err
 	}
 
-	symbolDecoded, err := parsed.Methods["symbol"].Outputs.Unpack(returnData[1])
-	if err != nil {
-		return nil, err
-	}
+	decimals = decoded[0].(uint8)
 
 	return &Token{
 		Address:  tokenAddress,
-		Decimals: decimalsDeocded[0].(uint8),
-		Symbol:   symbolDecoded[0].(string),
+		Symbol:   symbol,
+		Decimals: decimals,
 	}, nil
 }
