@@ -14,10 +14,12 @@ var StakingRewarderRequiredFieldNames = []string{"name", "startBlock", "endBlock
 type StakingRewarder struct {
 	config *Config
 
-	txs         []common.Hash
-	tradingMap  TradingMap
-	stakingsMap map[common.Address]StakingMap
-	rewardsMap  map[common.Address]RewardMap
+	txs               []common.Hash
+	tradingMap        TradingMap
+	stakingsEventMap  map[common.Address]StakingEventMap
+	stakingsStakedMap map[common.Address]StakingStakedMap
+	stakingsMap       map[common.Address]StakingMap
+	rewardsMap        map[common.Address]RewardMap
 }
 
 // NewStakingRewarder new staking rewarder
@@ -28,19 +30,13 @@ func NewStakingRewarder(config *Config) *StakingRewarder {
 // LoadTxs load txs
 func (r *StakingRewarder) LoadTxs() error {
 	task := LoadTxsTask{
-		filepath:   path.Join(r.config.RoundDir(), "txs.json"),
+		rootpath:   r.config.RoundDir(),
 		startBlock: r.config.StartBlock,
 		endBlock:   r.config.EndBlock,
 	}
 
-	if err := task.LoadTxsFromFile(); err != nil {
-		if err := task.GetTxsFromEtherscan(); err != nil {
-			return err
-		}
-
-		if err := task.SaveTxsToFile(); err != nil {
-			return err
-		}
+	if err := task.Execute(); err != nil {
+		return err
 	}
 
 	r.txs = task.txs
@@ -51,26 +47,60 @@ func (r *StakingRewarder) LoadTxs() error {
 // LoadTradings load tradings
 func (r *StakingRewarder) LoadTradings() error {
 	task := LoadTradingsTask{
-		filepath:       path.Join(r.config.RoundDir(), "tradings.json"),
+		rootpath:       r.config.RoundDir(),
 		startTimestamp: r.config.startTimestamp,
 		endTimestamp:   r.config.endTimestamp,
 		txs:            r.txs,
 		cubeFinders:    r.config.cubeFinders,
 	}
 
-	if err := task.LoadTradingsFromFile(); err != nil {
-		if err := task.GetTradingsFromTxs(); err != nil {
-			return err
-		}
-
-		task.RankTradings()
-
-		if err := task.SaveTradingsToFile(); err != nil {
-			return err
-		}
+	if err := task.Execute(); err != nil {
+		return err
 	}
 
 	r.tradingMap = task.tradingMap
+
+	return nil
+}
+
+// LoadStakingsDataset load stakings dataset
+func (r *StakingRewarder) LoadStakingsDataset() error {
+	r.stakingsEventMap = make(map[common.Address]StakingEventMap)
+
+	for _, pool := range r.config.Pools {
+		task := LoadStakingDatasetTask{
+			filepath:    pool.DatasetFilepath(),
+			poolAddress: pool.Address,
+			startBlock:  pool.Dataset.StartBlock,
+		}
+
+		if err := task.Execute(); err != nil {
+			return err
+		}
+
+		r.stakingsEventMap[pool.Address] = task.stakingDataset.EventMap
+	}
+
+	return nil
+}
+
+// LoadStakingsStaked load stakings staked
+func (r *StakingRewarder) LoadStakingsStaked() error {
+	r.stakingsEventMap = make(map[common.Address]StakingEventMap)
+
+	for _, pool := range r.config.Pools {
+		task := LoadStakingStakedTask{
+			rootpath:        r.config.RoundDir(),
+			stakingEventMap: r.stakingsEventMap[pool.Address],
+			startBlock:      r.config.StartBlock,
+		}
+
+		if err := task.Execute(); err != nil {
+			return err
+		}
+
+		r.stakingsStakedMap[pool.Address] = task.stakingStakedMap
+	}
 
 	return nil
 }

@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path"
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
@@ -16,15 +17,18 @@ import (
 
 // LoadTxsTask load txs task
 type LoadTxsTask struct {
-	filepath   string
+	rootpath   string
 	startBlock uint64
 	endBlock   uint64
 
-	txs []common.Hash
+	filepath string
+	txs      []common.Hash
 }
 
-// LoadTxsFromFile load txs from file
-func (t *LoadTxsTask) LoadTxsFromFile() error {
+// LoadFromFile load from file
+func (t *LoadTxsTask) LoadFromFile() error {
+	t.filepath = path.Join(t.rootpath, "txs.json")
+
 	log.Printf("loading txs from ./%s", t.filepath)
 
 	if _, err := os.Stat(t.filepath); err != nil {
@@ -44,8 +48,8 @@ func (t *LoadTxsTask) LoadTxsFromFile() error {
 	return nil
 }
 
-// GetTxsFromEtherscan get txs from etherscan
-func (t *LoadTxsTask) GetTxsFromEtherscan() error {
+// GetFromEtherscan get txs from etherscan
+func (t *LoadTxsTask) GetFromEtherscan() error {
 	log.Printf("getting txs from etherscan")
 
 	apiKey := os.Getenv("ETHERSCAN_API_KEY")
@@ -87,8 +91,8 @@ func (t *LoadTxsTask) GetTxsFromEtherscan() error {
 	return nil
 }
 
-// SaveTxsToFile save txs to file
-func (t *LoadTxsTask) SaveTxsToFile() error {
+// SaveToFile save txs to file
+func (t *LoadTxsTask) SaveToFile() error {
 	log.Printf("saving txs to ./%s", t.filepath)
 
 	data, err := json.MarshalIndent(t.txs, "", "  ")
@@ -98,6 +102,21 @@ func (t *LoadTxsTask) SaveTxsToFile() error {
 
 	if err := ioutil.WriteFile(t.filepath, append(data, '\n'), 0644); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+// Execute execute
+func (t *LoadTxsTask) Execute() error {
+	if err := t.LoadFromFile(); err != nil {
+		if err := t.GetFromEtherscan(); err != nil {
+			return err
+		}
+
+		if err := t.SaveToFile(); err != nil {
+			return err
+		}
 	}
 
 	return nil

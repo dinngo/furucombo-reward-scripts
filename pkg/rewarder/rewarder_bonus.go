@@ -30,19 +30,13 @@ func NewBonusRewarder(config *Config) *BonusRewarder {
 // LoadTxs load txs
 func (r *BonusRewarder) LoadTxs() error {
 	task := LoadTxsTask{
-		filepath:   path.Join(r.config.RoundDir(), "txs.json"),
+		rootpath:   r.config.RoundDir(),
 		startBlock: r.config.StartBlock,
 		endBlock:   r.config.EndBlock,
 	}
 
-	if err := task.LoadTxsFromFile(); err != nil {
-		if err := task.GetTxsFromEtherscan(); err != nil {
-			return err
-		}
-
-		if err := task.SaveTxsToFile(); err != nil {
-			return err
-		}
+	if err := task.Execute(); err != nil {
+		return err
 	}
 
 	r.txs = task.txs
@@ -53,23 +47,15 @@ func (r *BonusRewarder) LoadTxs() error {
 // LoadTradings load tradings
 func (r *BonusRewarder) LoadTradings() error {
 	task := LoadTradingsTask{
-		filepath:       path.Join(r.config.RoundDir(), "tradings.json"),
+		rootpath:       r.config.RoundDir(),
 		startTimestamp: r.config.startTimestamp,
 		endTimestamp:   r.config.endTimestamp,
 		txs:            r.txs,
 		cubeFinders:    r.config.cubeFinders,
 	}
 
-	if err := task.LoadTradingsFromFile(); err != nil {
-		if err := task.GetTradingsFromTxs(); err != nil {
-			return err
-		}
-
-		task.RankTradings()
-
-		if err := task.SaveTradingsToFile(); err != nil {
-			return err
-		}
+	if err := task.Execute(); err != nil {
+		return err
 	}
 
 	r.tradingMap = task.tradingMap
@@ -94,10 +80,10 @@ func (r *BonusRewarder) LoadStakingDataset() error {
 	return nil
 }
 
-// LoadStakingStaked load staked
+// LoadStakingStaked load staking staked
 func (r *BonusRewarder) LoadStakingStaked() error {
 	task := LoadStakingStakedTask{
-		filepath:        path.Join(r.config.RoundDir(), "staked.json"),
+		rootpath:        r.config.RoundDir(),
 		stakingEventMap: r.stakingEventMap,
 		startBlock:      r.config.StartBlock,
 	}

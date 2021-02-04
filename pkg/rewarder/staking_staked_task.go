@@ -5,19 +5,23 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"path"
 )
 
 // LoadStakingStakedTask load staking staked task
 type LoadStakingStakedTask struct {
-	filepath        string
+	rootpath        string
 	stakingEventMap StakingEventMap
 	startBlock      uint64
 
+	filepath         string
 	stakingStakedMap StakingStakedMap
 }
 
 // LoadFromFile load from file
 func (t *LoadStakingStakedTask) LoadFromFile() error {
+	t.filepath = path.Join(t.rootpath, "staked.json")
+
 	log.Printf("loading staking staked from ./%s", t.filepath)
 
 	if _, err := os.Stat(t.filepath); err != nil {

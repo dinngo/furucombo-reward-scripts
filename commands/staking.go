@@ -102,6 +102,16 @@ func (c *StakingCommand) Run(args []string) int {
 		return 1
 	}
 
+	if err := stakingRewarder.LoadStakingsDataset(); err != nil {
+		log.Println(err)
+		return 1
+	}
+
+	if err := stakingRewarder.LoadStakingsStaked(); err != nil {
+		log.Println(err)
+		return 1
+	}
+
 	if err := stakingRewarder.LoadStakings(); err != nil {
 		log.Println(err)
 		return 1

@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"path"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
@@ -17,17 +18,20 @@ import (
 
 // LoadTradingsTask load tradings task
 type LoadTradingsTask struct {
-	filepath       string
+	rootpath       string
 	startTimestamp uint64
 	endTimestamp   uint64
 	txs            []common.Hash
 	cubeFinders    CubeFinders
 
+	filepath   string
 	tradingMap TradingMap
 }
 
-// LoadTradingsFromFile load tradings from file
-func (t *LoadTradingsTask) LoadTradingsFromFile() error {
+// LoadFromFile load from file
+func (t *LoadTradingsTask) LoadFromFile() error {
+	t.filepath = path.Join(t.rootpath, "tradings.json")
+
 	log.Printf("loading tradings from ./%s", t.filepath)
 
 	if _, err := os.Stat(t.filepath); err != nil {
@@ -47,8 +51,8 @@ func (t *LoadTradingsTask) LoadTradingsFromFile() error {
 	return nil
 }
 
-// GetTradingsFromTxs get tradings from txs
-func (t *LoadTradingsTask) GetTradingsFromTxs() error {
+// GetFromTxs get tradings from txs
+func (t *LoadTradingsTask) GetFromTxs() error {
 	log.Printf("getting tradings from %d txs", len(t.txs))
 
 	priceOracle, err := NewPriceOracle(t.startTimestamp, t.endTimestamp)
@@ -174,8 +178,8 @@ func (t *LoadTradingsTask) WeightTradings() error {
 	return nil
 }
 
-// SaveTradingsToFile save tradings to file
-func (t *LoadTradingsTask) SaveTradingsToFile() error {
+// SaveToFile save tradings to file
+func (t *LoadTradingsTask) SaveToFile() error {
 	log.Printf("saving tradings to ./%s", t.filepath)
 
 	data, err := json.MarshalIndent(t.tradingMap, "", "  ")
@@ -185,6 +189,23 @@ func (t *LoadTradingsTask) SaveTradingsToFile() error {
 
 	if err := ioutil.WriteFile(t.filepath, append(data, '\n'), 0644); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+// Execute execute
+func (t *LoadTradingsTask) Execute() error {
+	if err := t.LoadFromFile(); err != nil {
+		if err := t.GetFromTxs(); err != nil {
+			return err
+		}
+
+		t.RankTradings()
+
+		if err := t.SaveToFile(); err != nil {
+			return err
+		}
 	}
 
 	return nil
