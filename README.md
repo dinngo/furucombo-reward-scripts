@@ -52,14 +52,21 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   * Round 1
     * COMBO Pool [Reward](/rewards/staking/1/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
     * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/1/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
+  * Round 2
+    * COMBO Pool [Reward](/rewards/staking/2/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
+    * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/2/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
 * Retroactive COMBO [medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
   * Round 0 [Reward](/rewards/retroactive/0/rewards.json)
   * Round 1 [Reward](/rewards/retroactive/1/rewards.json)
   * Round 2 [Reward](/rewards/retroactive/2/rewards.json)
+  * Round 3 [Reward](/rewards/retroactive/3/rewards.json)
 * Bonus reward COMBO
   * 1inch
     * COMBO Pool [Reward](/rewards/bonus/0/rewards.json)
     * COMBO/ETH UNIV2 Pool [Reward](/rewards/bonus/1/rewards.json)
+  * Curve
+    * COMBO Pool [Reward](/rewards/bonus/2/rewards.json)
+    * COMBO/ETH UNIV2 Pool [Reward](/rewards/bonus/3/rewards.json)
 * UNI distribution [medium](https://medium.com/furucombo/uni-decision-has-been-made-distribution-to-community-253a51e742dc)
   * Round 0 [Reward](/rewards/uni_distribution/0/rewards.json)
 

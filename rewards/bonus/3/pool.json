@@ -1,0 +1,9 @@
+{
+  "address": "0x78d742f43ce72b3d7bdbb2147c252f7a8bab3de4",
+  "reward_amount": "30000",
+  "base_amount": "0",
+  "dataset": {
+    "name": "combo-univ2-staking",
+    "startBlock": 11633696
+  }
+}
