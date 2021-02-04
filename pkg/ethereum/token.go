@@ -72,7 +72,17 @@ func GetToken(tokenAddress common.Address) (*Token, error) {
 
 	decoded, err := parsed.Methods["symbol"].Outputs.Unpack(returnData[0])
 	if err != nil {
-		symbol = "UNKNOWN"
+		dsTokenParsed, err := abi.JSON(strings.NewReader(erc20.DSTokenContractABI))
+		if err != nil {
+			return nil, err
+		}
+
+		decoded, err = dsTokenParsed.Methods["symbol"].Outputs.Unpack(returnData[0])
+		if err != nil {
+			return nil, err
+		}
+
+		symbol = string(common.TrimRightZeroes(common.Hash(decoded[0].([32]byte)).Bytes()))
 	} else {
 		symbol = decoded[0].(string)
 	}
