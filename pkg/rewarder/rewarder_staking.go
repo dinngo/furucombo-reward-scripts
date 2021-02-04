@@ -90,7 +90,7 @@ func (r *StakingRewarder) LoadStakingsStaked() error {
 
 	for _, pool := range r.config.Pools {
 		task := LoadStakingStakedTask{
-			rootpath:        r.config.RoundDir(),
+			rootpath:        path.Join(r.config.RoundDir(), pool.Address.String()),
 			stakingEventMap: r.stakingsEventMap[pool.Address],
 			startBlock:      r.config.StartBlock,
 		}
@@ -111,7 +111,7 @@ func (r *StakingRewarder) LoadStakings() error {
 
 	for _, pool := range r.config.Pools {
 		task := LoadStakingsTask{
-			filepath:    path.Join(r.config.RoundDir(), pool.Address.String(), "stakings.json"),
+			rootpath:    path.Join(r.config.RoundDir(), pool.Address.String()),
 			round:       r.config.Round,
 			duration:    decimal.NewFromInt(int64(r.config.Blocks())),
 			tradingMap:  r.tradingMap,
@@ -155,7 +155,7 @@ func (r *StakingRewarder) LoadRewards() error {
 
 	for _, pool := range r.config.Pools {
 		task := LoadRewardsTask{
-			filepath:        path.Join(r.config.RoundDir(), pool.Address.String(), "rewards.json"),
+			rootpath:        path.Join(r.config.RoundDir(), pool.Address.String()),
 			rewardWeightMap: r.stakingsMap[pool.Address].ToRewardWeightMap(),
 			rewardAmount:    pool.RewardAmount,
 		}

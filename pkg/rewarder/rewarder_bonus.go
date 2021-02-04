@@ -100,7 +100,7 @@ func (r *BonusRewarder) LoadStakingStaked() error {
 // LoadStakings load stakings
 func (r *BonusRewarder) LoadStakings() error {
 	task := LoadStakingsTask{
-		filepath:         path.Join(r.config.RoundDir(), "stakings.json"),
+		rootpath:         r.config.RoundDir(),
 		round:            r.config.Round,
 		duration:         decimal.NewFromInt(int64(r.config.Blocks())),
 		baseAmount:       r.config.Pool.BaseAmount,
@@ -141,7 +141,7 @@ func (r *BonusRewarder) LoadStakings() error {
 // LoadRewards load rewards
 func (r *BonusRewarder) LoadRewards() error {
 	task := LoadRewardsTask{
-		filepath:        path.Join(r.config.RoundDir(), "rewards.json"),
+		rootpath:        r.config.RoundDir(),
 		rewardWeightMap: r.stakingMap.ToRewardWeightMap(),
 		rewardAmount:    r.config.Pool.RewardAmount,
 	}

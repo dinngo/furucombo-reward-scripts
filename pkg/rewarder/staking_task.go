@@ -18,7 +18,7 @@ import (
 
 // LoadStakingsTask  load stakings task
 type LoadStakingsTask struct {
-	filepath         string
+	rootpath         string
 	round            int
 	duration         decimal.Decimal
 	baseAmount       decimal.Decimal
@@ -28,11 +28,14 @@ type LoadStakingsTask struct {
 	startBlock       uint64
 	endBlock         uint64
 
+	filepath   string
 	stakingMap StakingMap
 }
 
 // LoadStakingsFromFile load stakings from file
 func (t *LoadStakingsTask) LoadStakingsFromFile() error {
+	t.filepath = path.Join(t.rootpath, "stakings.json")
+
 	log.Printf("loading stakings from ./%s", t.filepath)
 
 	if _, err := os.Stat(t.filepath); err != nil {

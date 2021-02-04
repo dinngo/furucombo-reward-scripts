@@ -24,8 +24,9 @@ type LoadTradingsTask struct {
 	txs            []common.Hash
 	cubeFinders    CubeFinders
 
-	filepath   string
-	tradingMap TradingMap
+	filepath    string
+	priceOracle *PriceOracle
+	tradingMap  TradingMap
 }
 
 // LoadFromFile load from file
@@ -60,6 +61,7 @@ func (t *LoadTradingsTask) GetFromTxs() error {
 		return err
 	}
 
+	t.priceOracle = priceOracle
 	t.tradingMap = make(TradingMap)
 
 	for _, txHash := range t.txs {
@@ -194,6 +196,24 @@ func (t *LoadTradingsTask) SaveToFile() error {
 	return nil
 }
 
+// SavePricesToFile save prices to file
+func (t *LoadTradingsTask) SavePricesToFile() error {
+	filepath := path.Join(t.rootpath, "prices.json")
+
+	log.Printf("saving prices to ./%s", filepath)
+
+	data, err := json.MarshalIndent(t.priceOracle.tokenPrices, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if err := ioutil.WriteFile(filepath, append(data, '\n'), 0644); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 // Execute execute
 func (t *LoadTradingsTask) Execute() error {
 	if err := t.LoadFromFile(); err != nil {
@@ -204,6 +224,10 @@ func (t *LoadTradingsTask) Execute() error {
 		t.RankTradings()
 
 		if err := t.SaveToFile(); err != nil {
+			return err
+		}
+
+		if err := t.SavePricesToFile(); err != nil {
 			return err
 		}
 	}
