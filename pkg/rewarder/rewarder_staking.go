@@ -122,10 +122,6 @@ func (r *StakingRewarder) LoadStakings() error {
 		}
 
 		if err := task.LoadStakingsFromFile(); err != nil {
-			if err := task.MakeStakingPoolDir(); err != nil {
-				return err
-			}
-
 			if err := task.InitStakings(); err != nil {
 				return err
 			}
@@ -180,9 +176,8 @@ func (r *StakingRewarder) LoadRewards() error {
 func (r *StakingRewarder) GenerateRewardsMerkleTree() error {
 	for _, pool := range r.config.Pools {
 		task := GenerateRewardMerkleTreeTask{
-			rewardMap:                      r.rewardsMap[pool.Address],
-			rewardMerkleTreeLeavesFilepath: path.Join(r.config.RoundDir(), pool.Address.String(), "merkle_tree_leaves.json"),
-			rewardMerkleProofsFilepath:     path.Join(r.config.RoundDir(), pool.Address.String(), "merkle_proofs.json"),
+			rootpath:  path.Join(r.config.RoundDir(), pool.Address.String()),
+			rewardMap: r.rewardsMap[pool.Address],
 		}
 
 		if err := task.CheckMerkleTreeFiles(); err != nil {

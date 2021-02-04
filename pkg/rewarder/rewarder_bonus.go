@@ -1,8 +1,6 @@
 package rewarder
 
 import (
-	"path"
-
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shopspring/decimal"
 )
@@ -112,10 +110,6 @@ func (r *BonusRewarder) LoadStakings() error {
 	}
 
 	if err := task.LoadStakingsFromFile(); err != nil {
-		if err := task.MakeStakingPoolDir(); err != nil {
-			return err
-		}
-
 		if err := task.InitStakings(); err != nil {
 			return err
 		}
@@ -164,9 +158,8 @@ func (r *BonusRewarder) LoadRewards() error {
 // GenerateRewardsMerkleTree generate rewards merkle tree
 func (r *BonusRewarder) GenerateRewardsMerkleTree() error {
 	task := GenerateRewardMerkleTreeTask{
-		rewardMap:                      r.rewardMap,
-		rewardMerkleTreeLeavesFilepath: path.Join(r.config.RoundDir(), "merkle_tree_leaves.json"),
-		rewardMerkleProofsFilepath:     path.Join(r.config.RoundDir(), "merkle_proofs.json"),
+		rootpath:  r.config.RoundDir(),
+		rewardMap: r.rewardMap,
 	}
 
 	if err := task.CheckMerkleTreeFiles(); err != nil {

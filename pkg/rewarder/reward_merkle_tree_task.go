@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"path"
 )
 
 // MerkleTreeHashSort merkle tree hash sort
@@ -19,7 +20,9 @@ func MerkleTreeHashSort(left int, leftHash []byte, right int, rightHash []byte) 
 
 // GenerateRewardMerkleTreeTask generate reward merkle tree task
 type GenerateRewardMerkleTreeTask struct {
-	rewardMap                      RewardMap
+	rootpath  string
+	rewardMap RewardMap
+
 	rewardMerkleTreeLeavesFilepath string
 	rewardMerkleProofsFilepath     string
 	rewardMerkleTree               *RewardMerkleTree
@@ -27,12 +30,16 @@ type GenerateRewardMerkleTreeTask struct {
 
 // CheckMerkleTreeFiles check merkle tree files
 func (t *GenerateRewardMerkleTreeTask) CheckMerkleTreeFiles() error {
+	t.rewardMerkleTreeLeavesFilepath = path.Join(t.rootpath, "merkle_tree_leaves.json")
+
 	log.Printf("check merkle tree leaves file ./%s", t.rewardMerkleTreeLeavesFilepath)
 
 	if _, err := os.Stat(t.rewardMerkleTreeLeavesFilepath); err != nil {
 		log.Println("merkle tree leaves file not found")
 		return err
 	}
+
+	t.rewardMerkleProofsFilepath = path.Join(t.rootpath, "merkle_proofs.json")
 
 	log.Printf("check merkle proofs file ./%s", t.rewardMerkleProofsFilepath)
 
