@@ -86,7 +86,7 @@ func (r *StakingRewarder) LoadStakingsDataset() error {
 
 // LoadStakingsStaked load stakings staked
 func (r *StakingRewarder) LoadStakingsStaked() error {
-	r.stakingsEventMap = make(map[common.Address]StakingEventMap)
+	r.stakingsStakedMap = make(map[common.Address]StakingStakedMap)
 
 	for _, pool := range r.config.Pools {
 		task := LoadStakingStakedTask{
