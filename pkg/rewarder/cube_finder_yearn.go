@@ -1,7 +1,6 @@
 package rewarder
 
 import (
-	"log"
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/core/types"
@@ -46,12 +45,6 @@ func isYearnDepositCube(txLog *types.Log) bool {
 
 func findYearnDepositCube(txLog *types.Log) (*Cube, error) {
 	if !isYearnDepositCube(txLog) {
-		return nil, nil
-	}
-
-	// check token is listed or not
-	if !IsTokenListed(txLog.Address) {
-		log.Printf("Yearn Deposit: %s is not listed", txLog.Address.String())
 		return nil, nil
 	}
 

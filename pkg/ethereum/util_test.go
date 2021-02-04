@@ -12,7 +12,7 @@ import (
 func TestToBigUnit(t *testing.T) {
 	testCases := []struct {
 		amount   string
-		decimals int32
+		decimals uint8
 		expected string
 	}{
 		{
@@ -64,7 +64,7 @@ func TestToBigUnit(t *testing.T) {
 func TestToSmallUnit(t *testing.T) {
 	testCases := []struct {
 		amount   string
-		decimals int32
+		decimals uint8
 		expected string
 	}{
 		{

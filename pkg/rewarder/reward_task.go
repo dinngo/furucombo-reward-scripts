@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"path"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shopspring/decimal"
@@ -14,15 +15,18 @@ import (
 
 // LoadRewardsTask load rewards task
 type LoadRewardsTask struct {
-	filepath        string
+	rootpath        string
 	rewardAmount    decimal.Decimal
 	rewardWeightMap RewardWeightMap
 
+	filepath  string
 	rewardMap RewardMap
 }
 
 // LoadRewardsFromFile load rewards from file
 func (t *LoadRewardsTask) LoadRewardsFromFile() error {
+	t.filepath = path.Join(t.rootpath, "rewards.json")
+
 	log.Printf("loading rewards from ./%s", t.filepath)
 
 	if _, err := os.Stat(t.filepath); err != nil {
@@ -89,6 +93,21 @@ func (t *LoadRewardsTask) SaveRewardsToFile() error {
 
 	if err := ioutil.WriteFile(t.filepath, append(data, '\n'), 0644); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+// Execute execute
+func (t *LoadRewardsTask) Execute() error {
+	if err := t.LoadRewardsFromFile(); err != nil {
+		if err := t.CalcRewardsByWeight(); err != nil {
+			return err
+		}
+
+		if err := t.SaveRewardsToFile(); err != nil {
+			return err
+		}
 	}
 
 	return nil

@@ -13,7 +13,6 @@ import (
 
 func TestFindCurveSwapCube(t *testing.T) {
 	TestLoadDotEnv(t)
-	TestResetTokenWhitelistFilepath(t)
 
 	testCases := []struct {
 		txHash   common.Hash

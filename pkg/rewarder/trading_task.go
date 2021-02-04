@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"path"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
@@ -17,16 +18,21 @@ import (
 
 // LoadTradingsTask load tradings task
 type LoadTradingsTask struct {
-	filepath    string
-	txs         []common.Hash
-	cubeFinders CubeFinders
-	tokenMap    TokenMap
+	rootpath       string
+	startTimestamp uint64
+	endTimestamp   uint64
+	txs            []common.Hash
+	cubeFinders    CubeFinders
 
-	tradingMap TradingMap
+	filepath    string
+	priceOracle *PriceOracle
+	tradingMap  TradingMap
 }
 
-// LoadTradingsFromFile load tradings from file
-func (t *LoadTradingsTask) LoadTradingsFromFile() error {
+// LoadFromFile load from file
+func (t *LoadTradingsTask) LoadFromFile() error {
+	t.filepath = path.Join(t.rootpath, "tradings.json")
+
 	log.Printf("loading tradings from ./%s", t.filepath)
 
 	if _, err := os.Stat(t.filepath); err != nil {
@@ -46,10 +52,16 @@ func (t *LoadTradingsTask) LoadTradingsFromFile() error {
 	return nil
 }
 
-// GetTradingsFromTxs get tradings from txs
-func (t *LoadTradingsTask) GetTradingsFromTxs() error {
+// GetFromTxs get tradings from txs
+func (t *LoadTradingsTask) GetFromTxs() error {
 	log.Printf("getting tradings from %d txs", len(t.txs))
 
+	priceOracle, err := NewPriceOracle(t.startTimestamp, t.endTimestamp)
+	if err != nil {
+		return err
+	}
+
+	t.priceOracle = priceOracle
 	t.tradingMap = make(TradingMap)
 
 	for _, txHash := range t.txs {
@@ -105,13 +117,16 @@ func (t *LoadTradingsTask) GetTradingsFromTxs() error {
 			}
 
 			// get token
-			token := t.tokenMap[cube.TokenAddress]
+			token, err := ethereum.GetToken(cube.TokenAddress)
+			if err != nil {
+				return err
+			}
 
 			// amount to big unit
 			amount := ethereum.ToBigUnit(cube.TokenAmount, token.Decimals)
 
 			// get price
-			price := token.GetClosestUSDPrice(timestamp)
+			price := priceOracle.GetClosestPrice(token, timestamp)
 
 			// calc trading volume
 			tradingVolume := amount.Mul(price)
@@ -165,8 +180,8 @@ func (t *LoadTradingsTask) WeightTradings() error {
 	return nil
 }
 
-// SaveTradingsToFile save tradings to file
-func (t *LoadTradingsTask) SaveTradingsToFile() error {
+// SaveToFile save tradings to file
+func (t *LoadTradingsTask) SaveToFile() error {
 	log.Printf("saving tradings to ./%s", t.filepath)
 
 	data, err := json.MarshalIndent(t.tradingMap, "", "  ")
@@ -176,6 +191,45 @@ func (t *LoadTradingsTask) SaveTradingsToFile() error {
 
 	if err := ioutil.WriteFile(t.filepath, append(data, '\n'), 0644); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+// SavePricesToFile save prices to file
+func (t *LoadTradingsTask) SavePricesToFile() error {
+	filepath := path.Join(t.rootpath, "prices.json")
+
+	log.Printf("saving prices to ./%s", filepath)
+
+	data, err := json.MarshalIndent(t.priceOracle.tokenPrices, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if err := ioutil.WriteFile(filepath, append(data, '\n'), 0644); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+// Execute execute
+func (t *LoadTradingsTask) Execute() error {
+	if err := t.LoadFromFile(); err != nil {
+		if err := t.GetFromTxs(); err != nil {
+			return err
+		}
+
+		t.RankTradings()
+
+		if err := t.SaveToFile(); err != nil {
+			return err
+		}
+
+		if err := t.SavePricesToFile(); err != nil {
+			return err
+		}
 	}
 
 	return nil

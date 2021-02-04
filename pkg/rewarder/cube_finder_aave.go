@@ -1,7 +1,6 @@
 package rewarder
 
 import (
-	"log"
 	"strings"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
@@ -34,12 +33,6 @@ func findAaveDepositCube(txLog *types.Log) (*Cube, error) {
 	}
 
 	tokenAddress := aave.GetTokenAddress(txLog.Address)
-
-	// check token is listed or not
-	if !IsTokenListed(tokenAddress) {
-		log.Printf("Aave Deposit: %s is not listed", tokenAddress.String())
-		return nil, nil
-	}
 
 	contractABI, err := abi.JSON(strings.NewReader(aave.ATokenContractABI))
 	if err != nil {

@@ -1,15 +1,18 @@
 {
   "name": "bonus",
   "round": 2,
-  "startBlock": 11741777,
-  "endBlock": 11767807,
-  "cubes": [],
-  "pools": [
-    {
-      "address": "0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E"
-    },
-    {
-      "address": "0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4"
+  "startBlock": 11767808,
+  "endBlock": 11787207,
+  "cubes": [
+    "CurveSwap"
+  ],
+  "pool": {
+    "address": "0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E",
+    "reward_amount": "10000",
+    "base_amount": "20",
+    "dataset": {
+      "name": "combo-staking",
+      "startBlock": 11633674
     }
-  ]
+  }
 }

@@ -7,11 +7,11 @@ import (
 )
 
 // ToBigUnit small unit to big unit
-func ToBigUnit(v *big.Int, d int32) decimal.Decimal {
-	return decimal.NewFromBigInt(v, -d)
+func ToBigUnit(v *big.Int, d uint8) decimal.Decimal {
+	return decimal.NewFromBigInt(v, -int32(d))
 }
 
 // ToSmallUnit big unit to small unit
-func ToSmallUnit(v decimal.Decimal, d int32) decimal.Decimal {
-	return v.Mul(decimal.New(1, d))
+func ToSmallUnit(v decimal.Decimal, d uint8) decimal.Decimal {
+	return v.Mul(decimal.New(1, int32(d)))
 }

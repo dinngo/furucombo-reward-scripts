@@ -9,7 +9,6 @@ import (
 	"math/big"
 	"os"
 	"path"
-	"strings"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shopspring/decimal"
@@ -19,20 +18,24 @@ import (
 
 // LoadStakingsTask  load stakings task
 type LoadStakingsTask struct {
-	filepath    string
-	round       int
-	duration    decimal.Decimal
-	tradingMap  TradingMap
-	poolAddress common.Address
-	baseAmount  decimal.Decimal
-	startBlock  uint64
-	endBlock    uint64
+	rootpath         string
+	round            int
+	duration         decimal.Decimal
+	baseAmount       decimal.Decimal
+	stakingStakedMap StakingStakedMap
+	tradingMap       TradingMap
+	poolAddress      common.Address
+	startBlock       uint64
+	endBlock         uint64
 
+	filepath   string
 	stakingMap StakingMap
 }
 
 // LoadStakingsFromFile load stakings from file
 func (t *LoadStakingsTask) LoadStakingsFromFile() error {
+	t.filepath = path.Join(t.rootpath, "stakings.json")
+
 	log.Printf("loading stakings from ./%s", t.filepath)
 
 	if _, err := os.Stat(t.filepath); err != nil {
@@ -52,46 +55,14 @@ func (t *LoadStakingsTask) LoadStakingsFromFile() error {
 	return nil
 }
 
-// MakeStakingPoolDir make staking pool dir
-func (t *LoadStakingsTask) MakeStakingPoolDir() error {
-	poolDir := path.Dir(t.filepath)
-
-	log.Printf("making staking pool dir: ./%s/", poolDir)
-
-	if err := os.MkdirAll(poolDir, os.ModePerm); err != nil {
-		return err
-	}
-
-	return nil
-}
-
 // InitStakings init staking
 func (t *LoadStakingsTask) InitStakings() error {
 	t.stakingMap = make(StakingMap)
 
-	// init with pre round stakings
-	if t.round > 0 {
-		preRoundFilepath := strings.Replace(t.filepath, fmt.Sprintf("/%d/", t.round), fmt.Sprintf("/%d/", t.round-1), 1)
+	log.Printf("init stakings with staked")
 
-		log.Printf("init stakings with pre-round stakings: ./%s", preRoundFilepath)
-
-		if _, err := os.Stat(preRoundFilepath); err != nil {
-			return err
-		}
-
-		data, err := ioutil.ReadFile(preRoundFilepath)
-		if err != nil {
-			return err
-		}
-
-		var preStakingMap StakingMap
-		if err := jsonex.Unmarshal(data, &preStakingMap); err != nil {
-			return err
-		}
-
-		for account, staking := range preStakingMap {
-			t.stakingMap.Add(account, t.duration, t.baseAmount, staking)
-		}
+	for account, amount := range t.stakingStakedMap {
+		t.stakingMap.Add(account, t.duration, t.baseAmount, amount)
 	}
 
 	// init with tradings
@@ -99,7 +70,7 @@ func (t *LoadStakingsTask) InitStakings() error {
 
 	for account := range t.tradingMap {
 		if _, ok := t.stakingMap[account]; !ok {
-			t.stakingMap.Add(account, t.duration, t.baseAmount, nil)
+			t.stakingMap.Add(account, t.duration, t.baseAmount, decimal.Zero)
 		}
 	}
 
@@ -123,7 +94,7 @@ func (t *LoadStakingsTask) UpdateStakingsByStakingEvents() error {
 		log.Printf("found %s staking event at %d block", account.String(), event.BlockNumber)
 
 		if _, ok := t.stakingMap[account]; !ok {
-			t.stakingMap.Add(account, t.duration, t.baseAmount, nil)
+			t.stakingMap.Add(account, t.duration, t.baseAmount, decimal.Zero)
 		}
 
 		duration := decimal.NewFromInt(int64(t.endBlock - event.BlockNumber))
@@ -191,6 +162,29 @@ func (t *LoadStakingsTask) SaveStakingsToFile() error {
 
 	if err := ioutil.WriteFile(t.filepath, append(data, '\n'), 0644); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+// Execute execute
+func (t *LoadStakingsTask) Execute() error {
+	if err := t.LoadStakingsFromFile(); err != nil {
+		if err := t.InitStakings(); err != nil {
+			return err
+		}
+
+		if err := t.UpdateStakingsByStakingEvents(); err != nil {
+			return err
+		}
+
+		if err := t.CalcStakingsWeightWithTradingRank(); err != nil {
+			return err
+		}
+
+		if err := t.SaveStakingsToFile(); err != nil {
+			return err
+		}
 	}
 
 	return nil

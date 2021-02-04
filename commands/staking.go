@@ -92,17 +92,22 @@ func (c *StakingCommand) Run(args []string) int {
 
 	stakingRewarder := rewarder.NewStakingRewarder(config)
 
-	if err := stakingRewarder.LoadTokens(); err != nil {
-		log.Println(err)
-		return 1
-	}
-
 	if err := stakingRewarder.LoadTxs(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
 	if err := stakingRewarder.LoadTradings(); err != nil {
+		log.Println(err)
+		return 1
+	}
+
+	if err := stakingRewarder.LoadStakingsDataset(); err != nil {
+		log.Println(err)
+		return 1
+	}
+
+	if err := stakingRewarder.LoadStakingsStaked(); err != nil {
 		log.Println(err)
 		return 1
 	}

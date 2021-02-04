@@ -13,7 +13,6 @@ import (
 
 func TestFindAaveDepositCube(t *testing.T) {
 	TestLoadDotEnv(t)
-	TestResetTokenWhitelistFilepath(t)
 
 	testCases := []struct {
 		txHash   common.Hash

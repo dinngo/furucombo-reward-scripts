@@ -13,7 +13,6 @@ import (
 
 func TestFindUniswapV2SwapCube(t *testing.T) {
 	TestLoadDotEnv(t)
-	TestResetTokenWhitelistFilepath(t)
 
 	testCases := []struct {
 		txHash   common.Hash
