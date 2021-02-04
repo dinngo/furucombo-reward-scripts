@@ -1,14 +1,14 @@
 package rewarder
 
 import (
-	"log"
 	"math/big"
+
+	"github.com/ethereum/go-ethereum/core/types"
 
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/erc20"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/furucombo"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/maker"
-	"github.com/ethereum/go-ethereum/core/types"
 )
 
 func init() {
@@ -35,12 +35,6 @@ func isMakerDepositCube(txLog *types.Log) bool {
 
 func findMakerDepositCube(txLog *types.Log) (*Cube, error) {
 	if !isMakerDepositCube(txLog) {
-		return nil, nil
-	}
-
-	// check token is listed or not
-	if !IsTokenListed(txLog.Address) {
-		log.Printf("Maker Deposit: %s is not listed", txLog.Address.String())
 		return nil, nil
 	}
 
@@ -74,12 +68,6 @@ func findMakerGenerateCube(txLog *types.Log) (*Cube, error) {
 		return nil, nil
 	}
 
-	// check token is listed or not
-	if !IsTokenListed(txLog.Address) {
-		log.Printf("Maker Generate: %s is not listed", txLog.Address.String())
-		return nil, nil
-	}
-
 	cube := Cube{
 		Name:         "Maker Generate",
 		TokenAddress: txLog.Address,
@@ -107,12 +95,6 @@ func isMakerPayBackCube(txLog *types.Log) bool {
 
 func findMakerPayBackCube(txLog *types.Log) (*Cube, error) {
 	if !isMakerPayBackCube(txLog) {
-		return nil, nil
-	}
-
-	// check token is listed or not
-	if !IsTokenListed(txLog.Address) {
-		log.Printf("Maker PayBack: %s is not listed", txLog.Address.String())
 		return nil, nil
 	}
 

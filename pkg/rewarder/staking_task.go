@@ -9,7 +9,6 @@ import (
 	"math/big"
 	"os"
 	"path"
-	"strings"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shopspring/decimal"
@@ -19,14 +18,15 @@ import (
 
 // LoadStakingsTask  load stakings task
 type LoadStakingsTask struct {
-	filepath    string
-	round       int
-	duration    decimal.Decimal
-	tradingMap  TradingMap
-	poolAddress common.Address
-	baseAmount  decimal.Decimal
-	startBlock  uint64
-	endBlock    uint64
+	filepath         string
+	round            int
+	duration         decimal.Decimal
+	baseAmount       decimal.Decimal
+	stakingStakedMap StakingStakedMap
+	tradingMap       TradingMap
+	poolAddress      common.Address
+	startBlock       uint64
+	endBlock         uint64
 
 	stakingMap StakingMap
 }
@@ -69,29 +69,10 @@ func (t *LoadStakingsTask) MakeStakingPoolDir() error {
 func (t *LoadStakingsTask) InitStakings() error {
 	t.stakingMap = make(StakingMap)
 
-	// init with pre round stakings
-	if t.round > 0 {
-		preRoundFilepath := strings.Replace(t.filepath, fmt.Sprintf("/%d/", t.round), fmt.Sprintf("/%d/", t.round-1), 1)
+	log.Printf("init stakings with staked")
 
-		log.Printf("init stakings with pre-round stakings: ./%s", preRoundFilepath)
-
-		if _, err := os.Stat(preRoundFilepath); err != nil {
-			return err
-		}
-
-		data, err := ioutil.ReadFile(preRoundFilepath)
-		if err != nil {
-			return err
-		}
-
-		var preStakingMap StakingMap
-		if err := jsonex.Unmarshal(data, &preStakingMap); err != nil {
-			return err
-		}
-
-		for account, staking := range preStakingMap {
-			t.stakingMap.Add(account, t.duration, t.baseAmount, staking)
-		}
+	for account, amount := range t.stakingStakedMap {
+		t.stakingMap.Add(account, t.duration, t.baseAmount, amount)
 	}
 
 	// init with tradings
@@ -99,7 +80,7 @@ func (t *LoadStakingsTask) InitStakings() error {
 
 	for account := range t.tradingMap {
 		if _, ok := t.stakingMap[account]; !ok {
-			t.stakingMap.Add(account, t.duration, t.baseAmount, nil)
+			t.stakingMap.Add(account, t.duration, t.baseAmount, decimal.Zero)
 		}
 	}
 
@@ -123,7 +104,7 @@ func (t *LoadStakingsTask) UpdateStakingsByStakingEvents() error {
 		log.Printf("found %s staking event at %d block", account.String(), event.BlockNumber)
 
 		if _, ok := t.stakingMap[account]; !ok {
-			t.stakingMap.Add(account, t.duration, t.baseAmount, nil)
+			t.stakingMap.Add(account, t.duration, t.baseAmount, decimal.Zero)
 		}
 
 		duration := decimal.NewFromInt(int64(t.endBlock - event.BlockNumber))

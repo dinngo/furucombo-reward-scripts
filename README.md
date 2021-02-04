@@ -37,6 +37,13 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   $ go run main.go staking -c={CONFIG_PATH}
   ```
 
+* bonus reward
+
+  ```sh
+  $ go run main.go bonus --help
+  $ go run main.go bonus -c={CONFIG_PATH}
+  ```
+
 ## Reward
 * Tx mining reward COMBO [medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230)
   * Round 0

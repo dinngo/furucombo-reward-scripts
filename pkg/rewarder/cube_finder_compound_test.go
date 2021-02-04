@@ -13,7 +13,6 @@ import (
 
 func TestFindCompoundSupplyCube(t *testing.T) {
 	TestLoadDotEnv(t)
-	TestResetTokenWhitelistFilepath(t)
 
 	testCases := []struct {
 		txHash   common.Hash
@@ -79,7 +78,6 @@ func TestFindCompoundSupplyCube(t *testing.T) {
 
 func TestFindCompoundRepayCube(t *testing.T) {
 	TestLoadDotEnv(t)
-	TestResetTokenWhitelistFilepath(t)
 
 	testCases := []struct {
 		txHash   common.Hash

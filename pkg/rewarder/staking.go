@@ -26,15 +26,10 @@ func (s *Staking) GetWeight() decimal.Decimal {
 type StakingMap map[common.Address]*Staking
 
 // Add add staking
-func (m StakingMap) Add(account common.Address, duration decimal.Decimal, baseAmount decimal.Decimal, preStaking *Staking) {
+func (m StakingMap) Add(account common.Address, duration, baseAmount, startAmount decimal.Decimal) {
 	log.Printf("adding %s staking", account.String())
 
-	startAmount := decimal.Zero
-	endAmount := decimal.Zero
-	if preStaking != nil {
-		startAmount = preStaking.EndAmount
-		endAmount = preStaking.EndAmount
-	}
+	endAmount := startAmount
 	area := baseAmount.Add(startAmount).Mul(duration)
 
 	m[account] = &Staking{

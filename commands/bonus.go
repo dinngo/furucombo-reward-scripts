@@ -8,21 +8,21 @@ import (
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/rewarder"
 )
 
-// TradingCommand the command struct
-type TradingCommand struct {
+// BonusCommand the command struct
+type BonusCommand struct {
 	ConfigPath string
 }
 
 // Synopsis the synopsis of command
-func (c *TradingCommand) Synopsis() string {
-	return "Generate trading reward merkle files"
+func (c *BonusCommand) Synopsis() string {
+	return "Generate one-off reward merkle files"
 }
 
 // Help the help of command
-func (c *TradingCommand) Help() string {
+func (c *BonusCommand) Help() string {
 	helpText := `
-Usage: rewarder trading
-	Generate trading reward merkle files
+Usage: rewarder bonus
+	Generate bonus reward merkle files
 
 Options:
 	-c     The path of config file.
@@ -31,8 +31,8 @@ Options:
 }
 
 // Run the main execution of command
-func (c *TradingCommand) Run(args []string) int {
-	f := flag.NewFlagSet("trading", flag.ContinueOnError)
+func (c *BonusCommand) Run(args []string) int {
+	f := flag.NewFlagSet("bonus", flag.ContinueOnError)
 	f.StringVar(&c.ConfigPath, "c", "", "c")
 	if err := f.Parse(args); err != nil {
 		log.Println(err)
@@ -55,12 +55,12 @@ func (c *TradingCommand) Run(args []string) int {
 		return 1
 	}
 
-	if err := config.Validates(rewarder.TradingRewarderRequiredFieldNames); err != nil {
+	if err := config.MakeRoundDir(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
-	if err := config.MakeRoundDir(); err != nil {
+	if err := config.Validates(rewarder.BonusRewarderRequiredFieldNames); err != nil {
 		log.Println(err)
 		return 1
 	}
@@ -80,29 +80,44 @@ func (c *TradingCommand) Run(args []string) int {
 		return 1
 	}
 
-	tradingRewarder := rewarder.NewTradingRewarder(config)
-
-	if err := tradingRewarder.LoadTokens(); err != nil {
+	if err := config.SavePool(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
-	if err := tradingRewarder.LoadTxs(); err != nil {
+	bonusRewarder := rewarder.NewBonusRewarder(config)
+
+	if err := bonusRewarder.LoadTxs(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
-	if err := tradingRewarder.LoadTradings(); err != nil {
+	if err := bonusRewarder.LoadTradings(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
-	if err := tradingRewarder.LoadRewards(); err != nil {
+	if err := bonusRewarder.LoadStakingDataset(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
-	if err := tradingRewarder.GenerateRewardsMerkleTree(); err != nil {
+	if err := bonusRewarder.LoadStakingStaked(); err != nil {
+		log.Println(err)
+		return 1
+	}
+
+	if err := bonusRewarder.LoadStakings(); err != nil {
+		log.Println(err)
+		return 1
+	}
+
+	if err := bonusRewarder.LoadRewards(); err != nil {
+		log.Println(err)
+		return 1
+	}
+
+	if err := bonusRewarder.GenerateRewardsMerkleTree(); err != nil {
 		log.Println(err)
 		return 1
 	}

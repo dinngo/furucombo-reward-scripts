@@ -8,13 +8,12 @@ import (
 )
 
 // StakingRewarderRequiredFieldNames staking rewarder required field names
-var StakingRewarderRequiredFieldNames = []string{"name", "blocks", "cubes", "pools"}
+var StakingRewarderRequiredFieldNames = []string{"name", "startBlock", "endBlock", "blocks", "cubes", "pools"}
 
 // StakingRewarder struct
 type StakingRewarder struct {
 	config *Config
 
-	tokenMap    TokenMap
 	txs         []common.Hash
 	tradingMap  TradingMap
 	stakingsMap map[common.Address]StakingMap
@@ -24,29 +23,6 @@ type StakingRewarder struct {
 // NewStakingRewarder new staking rewarder
 func NewStakingRewarder(config *Config) *StakingRewarder {
 	return &StakingRewarder{config: config}
-}
-
-// LoadTokens load tokens
-func (r *StakingRewarder) LoadTokens() error {
-	task := LoadTokensTask{
-		filepath:       path.Join(r.config.RoundDir(), "tokens.json"),
-		startTimestamp: r.config.startTimestamp,
-		endTimestamp:   r.config.endTimestamp,
-	}
-
-	if err := task.LoadTokensFromFile(); err != nil {
-		if err := task.LoadTokensWithPrices(); err != nil {
-			return err
-		}
-
-		if err := task.SaveTokensToFile(); err != nil {
-			return err
-		}
-	}
-
-	r.tokenMap = task.tokenMap
-
-	return nil
 }
 
 // LoadTxs load txs
@@ -75,10 +51,11 @@ func (r *StakingRewarder) LoadTxs() error {
 // LoadTradings load tradings
 func (r *StakingRewarder) LoadTradings() error {
 	task := LoadTradingsTask{
-		filepath:    path.Join(r.config.RoundDir(), "tradings.json"),
-		txs:         r.txs,
-		cubeFinders: r.config.cubeFinders,
-		tokenMap:    r.tokenMap,
+		filepath:       path.Join(r.config.RoundDir(), "tradings.json"),
+		startTimestamp: r.config.startTimestamp,
+		endTimestamp:   r.config.endTimestamp,
+		txs:            r.txs,
+		cubeFinders:    r.config.cubeFinders,
 	}
 
 	if err := task.LoadTradingsFromFile(); err != nil {

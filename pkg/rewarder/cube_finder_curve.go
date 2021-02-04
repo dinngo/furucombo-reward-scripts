@@ -1,17 +1,17 @@
 package rewarder
 
 import (
-	"log"
 	"math/big"
 	"strings"
+
+	"github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/ethereum/go-ethereum/accounts/abi/bind"
+	"github.com/ethereum/go-ethereum/core/types"
 
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/curve"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/erc20"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/furucombo"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/core/types"
 )
 
 func init() {
@@ -48,12 +48,6 @@ func isCurveEthSwapCube(txLog *types.Log) bool {
 
 func findCurveSwapCube(txLog *types.Log) (*Cube, error) {
 	if isCurveSwapCube(txLog) {
-		// check token is listed or not
-		if !IsTokenListed(txLog.Address) {
-			log.Printf("Curve Swap: %s is not listed", txLog.Address.String())
-			return nil, nil
-		}
-
 		cube := Cube{
 			Name:         "Curve Swap",
 			TokenAddress: txLog.Address,
@@ -85,13 +79,7 @@ func findCurveSwapCube(txLog *types.Log) (*Cube, error) {
 			return nil, err
 		}
 		if ethereum.IsToken("eETH", tokenAddress) {
-			tokenAddress = ethereum.GetToken("WETH")
-		}
-
-		// check token is listed or not
-		if !IsTokenListed(tokenAddress) {
-			log.Printf("Curve Swap: %s is not listed", tokenAddress.String())
-			return nil, nil
+			tokenAddress = ethereum.GetTokenAddress("WETH")
 		}
 
 		cube := Cube{

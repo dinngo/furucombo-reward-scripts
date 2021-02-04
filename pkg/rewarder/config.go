@@ -21,6 +21,7 @@ type Config struct {
 	StartBlock   uint64          `json:"startBlock"`
 	EndBlock     uint64          `json:"endBlock"`
 	CubeNames    []string        `json:"cubes"`
+	Pool         PoolConfig      `json:"pool"`
 	Pools        []PoolConfig    `json:"pools"`
 	RewardMap    RewardMap       `json:"rewards"`
 	RewardAmount decimal.Decimal `json:"reward_amount"`

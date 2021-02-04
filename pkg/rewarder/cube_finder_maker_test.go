@@ -13,7 +13,6 @@ import (
 
 func TestFindMakerDepositCube(t *testing.T) {
 	TestLoadDotEnv(t)
-	TestResetTokenWhitelistFilepath(t)
 
 	testCases := []struct {
 		txHash   common.Hash
@@ -79,7 +78,6 @@ func TestFindMakerDepositCube(t *testing.T) {
 
 func TestFindMakerGenerateCube(t *testing.T) {
 	TestLoadDotEnv(t)
-	TestResetTokenWhitelistFilepath(t)
 
 	testCases := []struct {
 		txHash   common.Hash
@@ -143,7 +141,6 @@ func TestFindMakerGenerateCube(t *testing.T) {
 
 func TestFindMakerPayBackCube(t *testing.T) {
 	TestLoadDotEnv(t)
-	TestResetTokenWhitelistFilepath(t)
 
 	testCases := []struct {
 		txHash   common.Hash

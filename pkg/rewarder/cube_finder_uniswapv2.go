@@ -2,7 +2,6 @@ package rewarder
 
 import (
 	"errors"
-	"log"
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
@@ -66,21 +65,9 @@ func findUniswapV2SwapCube(txLog *types.Log) (*Cube, error) {
 
 	// check token amount out
 	if swap.Amount0Out.Cmp(new(big.Int)) == 1 {
-		// check token is listed or not
-		if !IsTokenListed(token0) {
-			log.Printf("UniswapV2 Swap: %s is not listed", token0.String())
-			return nil, nil
-		}
-
 		cube.TokenAddress = token0
 		cube.TokenAmount = swap.Amount0Out
 	} else if swap.Amount1Out.Cmp(new(big.Int)) == 1 {
-		// check token is listed or not
-		if !IsTokenListed(token1) {
-			log.Printf("UniswapV2 Swap: %s is not listed", token1.String())
-			return nil, nil
-		}
-
 		cube.TokenAddress = token1
 		cube.TokenAmount = swap.Amount1Out
 	} else {

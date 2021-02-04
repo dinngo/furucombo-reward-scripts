@@ -17,10 +17,11 @@ import (
 
 // LoadTradingsTask load tradings task
 type LoadTradingsTask struct {
-	filepath    string
-	txs         []common.Hash
-	cubeFinders CubeFinders
-	tokenMap    TokenMap
+	filepath       string
+	startTimestamp uint64
+	endTimestamp   uint64
+	txs            []common.Hash
+	cubeFinders    CubeFinders
 
 	tradingMap TradingMap
 }
@@ -49,6 +50,11 @@ func (t *LoadTradingsTask) LoadTradingsFromFile() error {
 // GetTradingsFromTxs get tradings from txs
 func (t *LoadTradingsTask) GetTradingsFromTxs() error {
 	log.Printf("getting tradings from %d txs", len(t.txs))
+
+	priceOracle, err := NewPriceOracle(t.startTimestamp, t.endTimestamp)
+	if err != nil {
+		return err
+	}
 
 	t.tradingMap = make(TradingMap)
 
@@ -105,13 +111,16 @@ func (t *LoadTradingsTask) GetTradingsFromTxs() error {
 			}
 
 			// get token
-			token := t.tokenMap[cube.TokenAddress]
+			token, err := ethereum.GetToken(cube.TokenAddress)
+			if err != nil {
+				return err
+			}
 
 			// amount to big unit
 			amount := ethereum.ToBigUnit(cube.TokenAmount, token.Decimals)
 
 			// get price
-			price := token.GetClosestUSDPrice(timestamp)
+			price := priceOracle.GetClosestPrice(token, timestamp)
 
 			// calc trading volume
 			tradingVolume := amount.Mul(price)

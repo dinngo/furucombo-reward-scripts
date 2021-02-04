@@ -1,7 +1,6 @@
 package rewarder
 
 import (
-	"log"
 	"strings"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
@@ -44,13 +43,7 @@ func findOneInchSwapCube(txLog *types.Log) (*Cube, error) {
 	// replace eETH with WETH
 	tokenAddress := event.ToToken
 	if ethereum.IsToken("eETH", tokenAddress) {
-		tokenAddress = ethereum.GetToken("WETH")
-	}
-
-	// check token is listed or not
-	if !IsTokenListed(tokenAddress) {
-		log.Printf("OneInch Swap: %s is not listed", tokenAddress.String())
-		return nil, nil
+		tokenAddress = ethereum.GetTokenAddress("WETH")
 	}
 
 	cube := Cube{

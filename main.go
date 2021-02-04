@@ -25,8 +25,8 @@ func main() {
 		"staking": func() (cli.Command, error) {
 			return &commands.StakingCommand{}, nil
 		},
-		"trading": func() (cli.Command, error) {
-			return &commands.TradingCommand{}, nil
+		"bonus": func() (cli.Command, error) {
+			return &commands.BonusCommand{}, nil
 		},
 	}
 
