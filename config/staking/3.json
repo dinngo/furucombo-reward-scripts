@@ -1,8 +1,8 @@
 {
   "name": "staking",
   "round": 3,
-  "startBlock": 11741777,
-  "endBlock": 11787207,
+  "startBlock": 11787208,
+  "endBlock": 0,
   "cubes": [
     "AaveDeposit",
     "AaveV2Deposit",
