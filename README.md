@@ -60,6 +60,7 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   * Round 1 [Reward](/rewards/retroactive/1/rewards.json)
   * Round 2 [Reward](/rewards/retroactive/2/rewards.json)
   * Round 3 [Reward](/rewards/retroactive/3/rewards.json)
+  * Round 3 [Reward](/rewards/retroactive/4/rewards.json)
 * Bonus reward COMBO
   * 1inch
     * COMBO Pool [Reward](/rewards/bonus/0/rewards.json)
