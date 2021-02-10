@@ -39,3 +39,10 @@ var cTokenContractRepayBorrowEventSig = common.HexToHash("0x1a2a22cb034d26d1854b
 func IsRepayBorrowEvent(topic common.Hash) bool {
 	return topic == cTokenContractRepayBorrowEventSig
 }
+
+var cTokenContractBorrowEventSig = common.HexToHash("0x13ed6866d4e1ee6da46f845c46d7e54120883d75c5ea9a2dacc1c4ca8984ab80")
+
+// IsBorrowEvent is cToken "Borrow" event
+func IsBorrowEvent(topic common.Hash) bool {
+	return topic == cTokenContractBorrowEventSig
+}

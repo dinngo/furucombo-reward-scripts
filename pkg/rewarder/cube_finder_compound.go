@@ -13,6 +13,7 @@ import (
 func init() {
 	cubeFinderMap["CompoundSupply"] = findCompoundSupplyCube
 	cubeFinderMap["CompoundRepay"] = findCompoundRepayCube
+	cubeFinderMap["CompoundBorrow"] = findCompoundBorrowCube
 }
 
 func isCompoundSupplyCube(txLog *types.Log) bool {
@@ -83,15 +84,46 @@ func findCompoundRepayCube(txLog *types.Log) (*Cube, error) {
 		return nil, err
 	}
 
-	// 3. check is from furucombo proxy or not
-	if !furucombo.IsProxyAddress(event.Payer) {
-		return nil, nil
-	}
-
 	cube := Cube{
 		Name:         "Compound Repay",
 		TokenAddress: tokenAddress,
 		TokenAmount:  event.RepayAmount,
+	}
+
+	return &cube, nil
+}
+
+func isCompoundBorrowCube(txLog *types.Log) bool {
+	// 1. check is supported token or not
+	// 2. check is compound Borrow event or not
+	if compound.IsSupportedToken(txLog.Address) && compound.IsBorrowEvent(txLog.Topics[0]) {
+		return true
+	}
+
+	return false
+}
+
+func findCompoundBorrowCube(txLog *types.Log) (*Cube, error) {
+	if !isCompoundBorrowCube(txLog) {
+		return nil, nil
+	}
+
+	tokenAddress := compound.GetTokenAddress(txLog.Address)
+
+	contractABI, err := abi.JSON(strings.NewReader(compound.CTokenContractABI))
+	if err != nil {
+		return nil, err
+	}
+
+	event := new(compound.CTokenContractBorrow)
+	if err := contractABI.UnpackIntoInterface(event, "Borrow", txLog.Data); err != nil {
+		return nil, err
+	}
+
+	cube := Cube{
+		Name:         "Compound Borrow",
+		TokenAddress: tokenAddress,
+		TokenAmount:  event.BorrowAmount,
 	}
 
 	return &cube, nil

@@ -8,6 +8,7 @@
     "AaveV2Deposit",
     "CompoundSupply",
     "CompoundRepay",
+    "CompoundBorrow",
     "CurveSwap",
     "MakerDeposit",
     "MakerGenerate",
