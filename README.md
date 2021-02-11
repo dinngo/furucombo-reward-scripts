@@ -55,6 +55,9 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   * Round 2
     * COMBO Pool [Reward](/rewards/staking/2/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
     * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/2/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
+  * Round 3
+    * COMBO Pool [Reward](/rewards/staking/3/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
+    * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/3/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
 * Retroactive COMBO [medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
   * Round 0 [Reward](/rewards/retroactive/0/rewards.json)
   * Round 1 [Reward](/rewards/retroactive/1/rewards.json)
