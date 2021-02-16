@@ -113,6 +113,8 @@ func (r *BonusRewarder) LoadStakings() error {
 		return err
 	}
 
+	r.stakingMap = task.stakingMap
+
 	return nil
 }
 
