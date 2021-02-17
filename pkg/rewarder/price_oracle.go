@@ -1,6 +1,7 @@
 package rewarder
 
 import (
+	"encoding/json"
 	"io/ioutil"
 	"log"
 	"math"
@@ -20,8 +21,10 @@ var coingeckoTokenIDMapFilepath = path.Join("config", "coingecko_token_ids.json"
 
 // PriceOracle struct
 type PriceOracle struct {
-	from uint64
-	to   uint64
+	rootpath string
+	filepath string
+	from     uint64
+	to       uint64
 
 	client      *coingecko.Client
 	tokenIDMap  map[common.Address]string
@@ -35,19 +38,45 @@ type CoingeckoTokenPrice struct {
 }
 
 // NewPriceOracle new price oracle
-func NewPriceOracle(from, to uint64) (*PriceOracle, error) {
+func NewPriceOracle(rootpath string, from, to uint64) (*PriceOracle, error) {
 	priceOracle := &PriceOracle{
-		from:        from,
-		to:          to,
-		client:      coingecko.NewClient(&http.Client{Timeout: 10 * time.Second}),
-		tokenPrices: map[common.Address][]CoingeckoTokenPrice{},
+		rootpath: rootpath,
+		filepath: path.Join(rootpath, "prices.json"),
+		from:     from,
+		to:       to,
+		client:   coingecko.NewClient(&http.Client{Timeout: 10 * time.Second}),
 	}
 
 	if err := priceOracle.LoadTokenIDs(); err != nil {
 		return nil, err
 	}
 
+	if err := priceOracle.LoadPricesFromFile(); err != nil {
+		priceOracle.tokenPrices = map[common.Address][]CoingeckoTokenPrice{}
+	}
+
 	return priceOracle, nil
+}
+
+// LoadPricesFromFile load prices from file
+func (t *PriceOracle) LoadPricesFromFile() error {
+	log.Printf("loading prices from ./%s", t.filepath)
+
+	if _, err := os.Stat(t.filepath); err != nil {
+		log.Println("prices file not found")
+		return err
+	}
+
+	data, err := ioutil.ReadFile(t.filepath)
+	if err != nil {
+		return err
+	}
+
+	if err := jsonex.Unmarshal(data, &t.tokenPrices); err != nil {
+		return err
+	}
+
+	return nil
 }
 
 // LoadTokenIDs load token ids
@@ -74,16 +103,22 @@ func (t *PriceOracle) GetTokenPrices(token *ethereum.Token) []CoingeckoTokenPric
 		var marketChart *coingecko.CoinsIDMarketChart
 		var err error
 
-		if tokenID, ok := t.tokenIDMap[token.Address]; ok {
-			marketChart, err = t.client.CoinsIDMarketChartRange(tokenID, "usd", t.from, t.to)
-			if err != nil {
-				log.Printf("failed to get coingecko id: %s", tokenID)
+		// Get coingecko price and retry
+		for i := 0; i < 3; i++ {
+			if tokenID, ok := t.tokenIDMap[token.Address]; ok {
+				marketChart, err = t.client.CoinsIDMarketChartRange(tokenID, "usd", t.from, t.to)
+				if err != nil {
+					log.Printf("failed to get coingecko id: %s", tokenID)
+					continue
+				}
+			} else {
+				marketChart, err = t.client.CoinsContractMarketChartRange(token.Address.String(), "usd", t.from, t.to)
+				if err != nil {
+					log.Printf("failed to get coingecko address: %s", token.Address.String())
+					continue
+				}
 			}
-		} else {
-			marketChart, err = t.client.CoinsContractMarketChartRange(token.Address.String(), "usd", t.from, t.to)
-			if err != nil {
-				log.Printf("failed to get coingecko address: %s", token.Address.String())
-			}
+			break
 		}
 
 		if err != nil {
@@ -129,4 +164,20 @@ func (t *PriceOracle) GetClosestPrice(token *ethereum.Token, timestamp uint64) d
 	}
 
 	return usd
+}
+
+// SavePricesToFile save prices to file
+func (t *PriceOracle) SavePricesToFile() error {
+	log.Printf("saving prices to ./%s", t.filepath)
+
+	data, err := json.MarshalIndent(t.tokenPrices, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if err := ioutil.WriteFile(t.filepath, append(data, '\n'), 0644); err != nil {
+		return err
+	}
+
+	return nil
 }

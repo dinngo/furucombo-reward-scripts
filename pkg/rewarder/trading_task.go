@@ -56,7 +56,7 @@ func (t *LoadTradingsTask) LoadFromFile() error {
 func (t *LoadTradingsTask) GetFromTxs() error {
 	log.Printf("getting tradings from %d txs", len(t.txs))
 
-	priceOracle, err := NewPriceOracle(t.startTimestamp, t.endTimestamp)
+	priceOracle, err := NewPriceOracle(t.rootpath, t.startTimestamp, t.endTimestamp)
 	if err != nil {
 		return err
 	}
@@ -196,24 +196,6 @@ func (t *LoadTradingsTask) SaveToFile() error {
 	return nil
 }
 
-// SavePricesToFile save prices to file
-func (t *LoadTradingsTask) SavePricesToFile() error {
-	filepath := path.Join(t.rootpath, "prices.json")
-
-	log.Printf("saving prices to ./%s", filepath)
-
-	data, err := json.MarshalIndent(t.priceOracle.tokenPrices, "", "  ")
-	if err != nil {
-		return err
-	}
-
-	if err := ioutil.WriteFile(filepath, append(data, '\n'), 0644); err != nil {
-		return err
-	}
-
-	return nil
-}
-
 // Execute execute
 func (t *LoadTradingsTask) Execute() error {
 	if err := t.LoadFromFile(); err != nil {
@@ -227,7 +209,7 @@ func (t *LoadTradingsTask) Execute() error {
 			return err
 		}
 
-		if err := t.SavePricesToFile(); err != nil {
+		if err := t.priceOracle.SavePricesToFile(); err != nil {
 			return err
 		}
 	}
