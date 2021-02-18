@@ -2,7 +2,7 @@
   "name": "staking",
   "round": 4,
   "startBlock": 11832709,
-  "endBlock": 0,
+  "endBlock": 11878274,
   "cubes": [
     "AaveDeposit",
     "AaveV2Deposit",

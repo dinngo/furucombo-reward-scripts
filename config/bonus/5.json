@@ -2,7 +2,7 @@
   "name": "bonus",
   "round": 5,
   "startBlock": 11858754,
-  "endBlock": 0,
+  "endBlock": 11878274,
   "cubes": [
     "AaveV2Deposit"
   ],
