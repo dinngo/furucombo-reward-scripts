@@ -15,7 +15,8 @@ type StakingRewarder struct {
 	config *Config
 
 	txs               []common.Hash
-	tradingMap        TradingMap
+	tradingVolumeMap  TradingVolumeMap
+	tradingRankMap    map[common.Address]TradingRankMap
 	stakingsEventMap  map[common.Address]StakingEventMap
 	stakingsStakedMap map[common.Address]StakingStakedMap
 	stakingsMap       map[common.Address]StakingMap
@@ -44,9 +45,9 @@ func (r *StakingRewarder) LoadTxs() error {
 	return nil
 }
 
-// LoadTradings load tradings
-func (r *StakingRewarder) LoadTradings() error {
-	task := LoadTradingsTask{
+// LoadTradingVolumes load trading volumes
+func (r *StakingRewarder) LoadTradingVolumes() error {
+	task := LoadTradingVolumesTask{
 		rootpath:       r.config.RoundDir(),
 		startTimestamp: r.config.startTimestamp,
 		endTimestamp:   r.config.endTimestamp,
@@ -58,7 +59,28 @@ func (r *StakingRewarder) LoadTradings() error {
 		return err
 	}
 
-	r.tradingMap = task.tradingMap
+	r.tradingVolumeMap = task.tradingVolumeMap
+
+	return nil
+}
+
+// LoadTradingRanks load trading ranks
+func (r *StakingRewarder) LoadTradingRanks() error {
+	r.tradingRankMap = make(map[common.Address]TradingRankMap)
+
+	for _, pool := range r.config.Pools {
+		task := LoadTradingRanksTask{
+			rootpath:         path.Join(r.config.RoundDir(), pool.Address.String()),
+			volumeCap:        pool.VolumeCap,
+			tradingVolumeMap: r.tradingVolumeMap,
+		}
+
+		if err := task.Execute(); err != nil {
+			return err
+		}
+
+		r.tradingRankMap[pool.Address] = task.tradingRankMap
+	}
 
 	return nil
 }
@@ -116,7 +138,7 @@ func (r *StakingRewarder) LoadStakings() error {
 			duration:         decimal.NewFromInt(int64(r.config.Blocks())),
 			baseAmount:       pool.BaseAmount,
 			stakingStakedMap: r.stakingsStakedMap[pool.Address],
-			tradingMap:       r.tradingMap,
+			tradingRankMap:   r.tradingRankMap[pool.Address],
 			poolAddress:      pool.Address,
 			startBlock:       r.config.StartBlock,
 			endBlock:         r.config.EndBlock,

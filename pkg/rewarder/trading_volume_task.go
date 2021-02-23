@@ -11,32 +11,31 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/shopspring/decimal"
 
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
 )
 
-// LoadTradingsTask load tradings task
-type LoadTradingsTask struct {
+// LoadTradingVolumesTask load trading volumes task
+type LoadTradingVolumesTask struct {
 	rootpath       string
 	startTimestamp uint64
 	endTimestamp   uint64
 	txs            []common.Hash
 	cubeFinders    CubeFinders
 
-	filepath    string
-	priceOracle *PriceOracle
-	tradingMap  TradingMap
+	filepath         string
+	priceOracle      *PriceOracle
+	tradingVolumeMap TradingVolumeMap
 }
 
 // LoadFromFile load from file
-func (t *LoadTradingsTask) LoadFromFile() error {
-	t.filepath = path.Join(t.rootpath, "tradings.json")
+func (t *LoadTradingVolumesTask) LoadFromFile() error {
+	t.filepath = path.Join(t.rootpath, "trading_volumes.json")
 
-	log.Printf("loading tradings from ./%s", t.filepath)
+	log.Printf("loading trading volumes from ./%s", t.filepath)
 
 	if _, err := os.Stat(t.filepath); err != nil {
-		log.Println("tradings file not found")
+		log.Println("trading volumes file not found")
 		return err
 	}
 
@@ -45,16 +44,16 @@ func (t *LoadTradingsTask) LoadFromFile() error {
 		return err
 	}
 
-	if err := jsonex.Unmarshal(data, &t.tradingMap); err != nil {
+	if err := jsonex.Unmarshal(data, &t.tradingVolumeMap); err != nil {
 		return err
 	}
 
 	return nil
 }
 
-// GetFromTxs get tradings from txs
-func (t *LoadTradingsTask) GetFromTxs() error {
-	log.Printf("getting tradings from %d txs", len(t.txs))
+// GetFromTxs get trading volumes from txs
+func (t *LoadTradingVolumesTask) GetFromTxs() error {
+	log.Printf("getting trading volumes from %d txs", len(t.txs))
 
 	priceOracle, err := NewPriceOracle(t.rootpath, t.startTimestamp, t.endTimestamp)
 	if err != nil {
@@ -62,7 +61,7 @@ func (t *LoadTradingsTask) GetFromTxs() error {
 	}
 
 	t.priceOracle = priceOracle
-	t.tradingMap = make(TradingMap)
+	t.tradingVolumeMap = make(TradingVolumeMap)
 
 	for _, txHash := range t.txs {
 		log.Printf("txhash: %s", txHash.String())
@@ -111,11 +110,6 @@ func (t *LoadTradingsTask) GetFromTxs() error {
 				continue
 			}
 
-			// create trading's data if not exists
-			if _, ok := t.tradingMap[from]; !ok {
-				t.tradingMap[from] = &Trading{}
-			}
-
 			// get token
 			token, err := ethereum.GetToken(cube.TokenAddress)
 			if err != nil {
@@ -137,7 +131,7 @@ func (t *LoadTradingsTask) GetFromTxs() error {
 			log.Printf("found %s cube: %s %s ($%s)", cube.Name, amount, token.Symbol, tradingVolume.Truncate(3))
 
 			// Add user trading volume
-			t.tradingMap[from].Volume = t.tradingMap[from].Volume.Add(tradingVolume)
+			t.tradingVolumeMap[from] = t.tradingVolumeMap[from].Add(tradingVolume)
 
 			count++
 		}
@@ -148,43 +142,11 @@ func (t *LoadTradingsTask) GetFromTxs() error {
 	return nil
 }
 
-// RankTradings rank tradings
-func (t *LoadTradingsTask) RankTradings() {
-	for account, curTrading := range t.tradingMap {
-		rank := 1
-		for _, trading := range t.tradingMap {
-			if curTrading.Volume.GreaterThan(trading.Volume) {
-				rank++
-			}
-		}
+// SaveToFile save trading volumes to file
+func (t *LoadTradingVolumesTask) SaveToFile() error {
+	log.Printf("saving trading volumes to ./%s", t.filepath)
 
-		t.tradingMap[account].Rank = rank
-	}
-}
-
-// WeightTradings weight tradings
-func (t *LoadTradingsTask) WeightTradings() error {
-	rankSum := decimal.Zero
-	rankMap := map[common.Address]decimal.Decimal{}
-
-	for account, trading := range t.tradingMap {
-		rankMap[account] = decimal.NewFromInt(int64(trading.Rank))
-		rankSum = rankSum.Add(rankMap[account])
-	}
-
-	for account := range t.tradingMap {
-		weight, _ := rankMap[account].QuoRem(rankSum, 27)
-		t.tradingMap[account].Weight = &weight
-	}
-
-	return nil
-}
-
-// SaveToFile save tradings to file
-func (t *LoadTradingsTask) SaveToFile() error {
-	log.Printf("saving tradings to ./%s", t.filepath)
-
-	data, err := json.MarshalIndent(t.tradingMap, "", "  ")
+	data, err := json.MarshalIndent(t.tradingVolumeMap, "", "  ")
 	if err != nil {
 		return err
 	}
@@ -197,13 +159,11 @@ func (t *LoadTradingsTask) SaveToFile() error {
 }
 
 // Execute execute
-func (t *LoadTradingsTask) Execute() error {
+func (t *LoadTradingVolumesTask) Execute() error {
 	if err := t.LoadFromFile(); err != nil {
 		if err := t.GetFromTxs(); err != nil {
 			return err
 		}
-
-		t.RankTradings()
 
 		if err := t.SaveToFile(); err != nil {
 			return err

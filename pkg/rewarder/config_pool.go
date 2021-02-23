@@ -17,6 +17,7 @@ type PoolConfig struct {
 	Address      common.Address    `json:"address"`
 	RewardAmount decimal.Decimal   `json:"reward_amount"`
 	BaseAmount   decimal.Decimal   `json:"base_amount"`
+	VolumeCap    decimal.Decimal   `json:"volume_cap"`
 	Dataset      PoolDatasetConfig `json:"dataset"`
 }
 

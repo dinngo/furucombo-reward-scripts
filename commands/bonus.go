@@ -92,7 +92,12 @@ func (c *BonusCommand) Run(args []string) int {
 		return 1
 	}
 
-	if err := bonusRewarder.LoadTradings(); err != nil {
+	if err := bonusRewarder.LoadTradingVolumes(); err != nil {
+		log.Println(err)
+		return 1
+	}
+
+	if err := bonusRewarder.LoadTradingRanks(); err != nil {
 		log.Println(err)
 		return 1
 	}

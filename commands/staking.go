@@ -97,7 +97,12 @@ func (c *StakingCommand) Run(args []string) int {
 		return 1
 	}
 
-	if err := stakingRewarder.LoadTradings(); err != nil {
+	if err := stakingRewarder.LoadTradingVolumes(); err != nil {
+		log.Println(err)
+		return 1
+	}
+
+	if err := stakingRewarder.LoadTradingRanks(); err != nil {
 		log.Println(err)
 		return 1
 	}

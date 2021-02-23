@@ -13,7 +13,8 @@ type BonusRewarder struct {
 	config *Config
 
 	txs              []common.Hash
-	tradingMap       TradingMap
+	tradingVolumeMap TradingVolumeMap
+	tradingRankMap   TradingRankMap
 	stakingEventMap  StakingEventMap
 	stakingStakedMap StakingStakedMap
 	stakingMap       StakingMap
@@ -42,9 +43,9 @@ func (r *BonusRewarder) LoadTxs() error {
 	return nil
 }
 
-// LoadTradings load tradings
-func (r *BonusRewarder) LoadTradings() error {
-	task := LoadTradingsTask{
+// LoadTradingVolumes load trading volumes
+func (r *BonusRewarder) LoadTradingVolumes() error {
+	task := LoadTradingVolumesTask{
 		rootpath:       r.config.RoundDir(),
 		startTimestamp: r.config.startTimestamp,
 		endTimestamp:   r.config.endTimestamp,
@@ -56,7 +57,24 @@ func (r *BonusRewarder) LoadTradings() error {
 		return err
 	}
 
-	r.tradingMap = task.tradingMap
+	r.tradingVolumeMap = task.tradingVolumeMap
+
+	return nil
+}
+
+// LoadTradingRanks load trading ranks
+func (r *BonusRewarder) LoadTradingRanks() error {
+	task := LoadTradingRanksTask{
+		rootpath:         r.config.RoundDir(),
+		volumeCap:        r.config.Pool.VolumeCap,
+		tradingVolumeMap: r.tradingVolumeMap,
+	}
+
+	if err := task.Execute(); err != nil {
+		return err
+	}
+
+	r.tradingRankMap = task.tradingRankMap
 
 	return nil
 }
@@ -103,7 +121,7 @@ func (r *BonusRewarder) LoadStakings() error {
 		duration:         decimal.NewFromInt(int64(r.config.Blocks())),
 		baseAmount:       r.config.Pool.BaseAmount,
 		stakingStakedMap: r.stakingStakedMap,
-		tradingMap:       r.tradingMap,
+		tradingRankMap:   r.tradingRankMap,
 		poolAddress:      r.config.Pool.Address,
 		startBlock:       r.config.StartBlock,
 		endBlock:         r.config.EndBlock,
