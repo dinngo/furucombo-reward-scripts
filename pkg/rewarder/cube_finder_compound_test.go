@@ -140,3 +140,53 @@ func TestFindCompoundRepayCube(t *testing.T) {
 		})
 	}
 }
+
+func TestFindCompoundBorrowCube(t *testing.T) {
+	TestLoadDotEnv(t)
+
+	testCases := []struct {
+		txHash   common.Hash
+		expected []struct {
+			index        int
+			tokenAddress string
+			tokenAmount  string
+		}
+	}{
+		// cUSDC
+		{
+			txHash: common.HexToHash("0xe97473cf176ebcdb05f2c0ea166e91cea12563fe81d7db0f9953c2d3100a5d88"),
+			expected: []struct {
+				index        int
+				tokenAddress string
+				tokenAmount  string
+			}{
+				{
+					index:        4,
+					tokenAddress: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+					tokenAmount:  "100000",
+				},
+			},
+		},
+	}
+
+	for i, testCase := range testCases {
+		t.Run(fmt.Sprintf("TestCase[%d]", i+1), func(t *testing.T) {
+			receipt, err := ethereum.Client().TransactionReceipt(context.Background(), testCase.txHash)
+			assert.Nil(t, err)
+
+			count := 0
+			for i, txLog := range receipt.Logs {
+				cube, err := findCompoundBorrowCube(txLog)
+				assert.Nil(t, err)
+
+				if cube != nil {
+					assert.Equal(t, testCase.expected[count].index, i)
+					assert.Equal(t, testCase.expected[count].tokenAddress, cube.TokenAddress.String())
+					assert.Equal(t, testCase.expected[count].tokenAmount, cube.TokenAmount.String())
+					count++
+				}
+			}
+			assert.Equal(t, len(testCase.expected), count)
+		})
+	}
+}
