@@ -1,7 +1,5 @@
 package rewarder
 
-import "path"
-
 // OnceRewarderRequiredFieldNames once rewarder required field names
 var OnceRewarderRequiredFieldNames = []string{"name", "rewards"}
 
@@ -18,9 +16,8 @@ func NewOnceRewarder(config *Config) *OnceRewarder {
 // GenerateRewardMerkleTree generate rewards merkle tree
 func (r *OnceRewarder) GenerateRewardMerkleTree() error {
 	task := GenerateRewardMerkleTreeTask{
-		rewardMap:                      r.config.RewardMap,
-		rewardMerkleTreeLeavesFilepath: path.Join(r.config.RoundDir(), "merkle_tree_leaves.json"),
-		rewardMerkleProofsFilepath:     path.Join(r.config.RoundDir(), "merkle_proofs.json"),
+		rootpath:  r.config.RoundDir(),
+		rewardMap: r.config.RewardMap,
 	}
 
 	if err := task.CheckMerkleTreeFiles(); err != nil {
