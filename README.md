@@ -87,9 +87,9 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 
 ## Calculations
 
-### Staking Reward
+### Reward
 
-#### Staking reward distribution is decided by trading rank, staking amount and staking duration
+#### reward distribution is decided by trading rank, staking amount and staking duration
 * `trading_rank` - higher trading volume in a round gives higher trading rank, e.g., user A/B/C's trading volume are 10/100/1000 USD, their trading rank are `1/2/3`.
 * `staking_amount` - the amount of token in a staking contract, e.g., user A/B/C stakes `100/50/20` COMBO in the staking contract
 * `staking_duration` - the duration of token in a staking contract, e.g., user A/B/C's staking duration is `46500` blocks ~= 1 week.
@@ -102,9 +102,7 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 #### Therefore, the reward distribution of 93,750 COMBO for a staking pool in a round
 * A/B/C's `reward` ~= `35625/35625/22500` COMBO
 
-### Notices
-* There is a base staking amount for each staking pool
-  * COMBO Pool: Every traded users no matter staked or not would share the rewards in this pool. If you made trades and have staked 0 COMBO, the script will treat you as staked 20 COMBO when calculate the rewards; if you made trades and have staked 1000 COMBO, the script will treat you as staked 1020 COMBO when calculate the rewards.
-  * COMBO/ETH Uniswap V2 Liquidity Pool: Only people who staked could share the rewards in this pool.
-
-* Transactions from smart contracts will not be counted. For example, Argent and DappLogic will not be counted as the behavior of these wallets are quite unique. Quick check? If your transaction has the tag “Interacted With (To): Furucombo: Proxy vx.x.x” on etherscan, it will be counted.
+### What's the difference between COMBO and COMBO/ETH LP pool?
+* COMBO Pool: Every traded users no matter staked or not would share the rewards in this pool. If you made trades and have staked 0 COMBO, we will treat you as staked 250* COMBO when calculate the rewards; if you made trades and have staked 1000 COMBO, we will treat you as staked 1250 COMBO when calculate the rewards. Besides, there’s a trading volume cap of $1000 USD*. Which means that users with $1000 or $1000+ weekly trading volume will share the same trading rank.
+* COMBO/ETH Uniswap V2 Liquidity Pool: Only people who staked could share the rewards in this pool. Besides, there’s a trading volume cap of $1 million USD*. Which means that users with $1 million or $1 million+ weekly trading volume will share the same trading rank.
+* *The numbers are updated after the Feb 22–24 community vote.
