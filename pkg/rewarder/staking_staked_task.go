@@ -41,19 +41,6 @@ func (t *LoadStakingStakedTask) LoadFromFile() error {
 	return nil
 }
 
-// MakeStakingPoolDir make staking pool dir
-func (t *LoadStakingStakedTask) MakeStakingPoolDir() error {
-	poolDir := path.Dir(t.filepath)
-
-	log.Printf("making staking pool dir: ./%s/", poolDir)
-
-	if err := os.MkdirAll(poolDir, os.ModePerm); err != nil {
-		return err
-	}
-
-	return nil
-}
-
 // LoadFromDataset load from dataset
 func (t *LoadStakingStakedTask) LoadFromDataset() error {
 	log.Printf("loading staked from dataset")
@@ -94,10 +81,6 @@ func (t *LoadStakingStakedTask) SaveToFile() error {
 // Execute execute
 func (t *LoadStakingStakedTask) Execute() error {
 	if err := t.LoadFromFile(); err != nil {
-		if err := t.MakeStakingPoolDir(); err != nil {
-			return err
-		}
-
 		if err := t.LoadFromDataset(); err != nil {
 			return err
 		}

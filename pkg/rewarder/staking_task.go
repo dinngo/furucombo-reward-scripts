@@ -23,7 +23,7 @@ type LoadStakingsTask struct {
 	duration         decimal.Decimal
 	baseAmount       decimal.Decimal
 	stakingStakedMap StakingStakedMap
-	tradingMap       TradingMap
+	tradingRankMap   TradingRankMap
 	poolAddress      common.Address
 	startBlock       uint64
 	endBlock         uint64
@@ -68,7 +68,7 @@ func (t *LoadStakingsTask) InitStakings() error {
 	// init with tradings
 	log.Printf("init stakings with tradings")
 
-	for account := range t.tradingMap {
+	for account := range t.tradingRankMap {
 		if _, ok := t.stakingMap[account]; !ok {
 			t.stakingMap.Add(account, t.duration, t.baseAmount, decimal.Zero)
 		}
@@ -134,8 +134,8 @@ func (t *LoadStakingsTask) CalcStakingsWeightWithTradingRank() error {
 	log.Println("calculating stakings weight")
 
 	totalRankArea := decimal.Zero
-	for account, trading := range t.tradingMap {
-		t.stakingMap[account].RankArea = t.stakingMap[account].Area.Mul(decimal.NewFromInt(int64(trading.Rank)))
+	for account, rank := range t.tradingRankMap {
+		t.stakingMap[account].RankArea = t.stakingMap[account].Area.Mul(decimal.NewFromInt(int64(rank)))
 		totalRankArea = totalRankArea.Add(t.stakingMap[account].RankArea)
 	}
 
