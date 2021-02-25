@@ -31,7 +31,7 @@ func isYearnDepositCube(txLog *types.Log) bool {
 
 		// 3-1. check is WETH or not
 		// 3-2. check is WETH deposit event or not, note that it doesn't check furucombo related address
-		// 2-3. check is correct vault address or not
+		// 3-3. check is correct vault address or not
 		if ethereum.IsToken("WETH", txLog.Address) &&
 			ethereum.IsWETHDepositEvent(txLog.Topics[0]) &&
 			yearn.IsCorrectVault(txLog.Address, txLog.Topics[1]) {

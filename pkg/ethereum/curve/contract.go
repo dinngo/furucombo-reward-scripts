@@ -39,6 +39,10 @@ var swapContractAddressMap = map[common.Hash]struct{}{
 	common.HexToHash("0x890f4e345B1dAED0367A877a1612f86A1f86985f"): {}, // ust
 	common.HexToHash("0x0Ce6a5fF5217e38315f87032CF90686C96627CAA"): {}, // eurs
 	common.HexToHash("0xDeBF20617708857ebe4F679508E7b7863a8A8EeE"): {}, // aave
+	common.HexToHash("0xEB16Ae0052ed37f479f7fe63849198Df1765a733"): {}, // saave
+	common.HexToHash("0xA96A65c051bF88B4095Ee1f2451C2A9d43F53Ae2"): {}, // ankreth
+	common.HexToHash("0x2dded6Da1BF5DBdF597C45fcFaa3194e53EcfeAF"): {}, // ironbank
+	common.HexToHash("0xF178C0b5Bb7e7aBF4e12A4838C7b7c5bA2C623c0"): {}, // link
 }
 
 // IsSwapContract is swap contract
