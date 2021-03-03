@@ -3,80 +3,117 @@ package furucombo
 import (
 	"log"
 	"os"
+	"strings"
 
 	"github.com/ethereum/go-ethereum/common"
 )
 
 var (
-	proxyAddress     common.Address
-	proxyAddressHash common.Hash
+	proxyAddresses     []common.Address
+	proxyAddressHashes []common.Hash
 )
 
-// ProxyAddress return proxy address
-func ProxyAddress() common.Address {
-	if proxyAddress == (common.Address{}) {
-		proxyAddress = common.HexToAddress(os.Getenv("FURUCOMBO_PROXY_ADDRESS"))
+// ProxyAddresses return proxy addresses
+func ProxyAddresses() []common.Address {
+	if len(proxyAddresses) == 0 {
+		key := os.Getenv("FURUCOMBO_PROXY_ADDRESSES")
+		if len(key) == 0 {
+			log.Fatalln("env FURUCOMBO_PROXY_ADDRESSES can't be blank")
+		}
 
-		if proxyAddress == (common.Address{}) {
-			log.Fatalln("env FURUCOMBO_PROXY_ADDRESS can't be blank")
+		addresses := strings.Split(key, ",")
+		for _, v := range addresses {
+			proxyAddresses = append(proxyAddresses, common.HexToAddress(v))
 		}
 	}
 
-	return proxyAddress
+	return proxyAddresses
 }
 
-// ProxyAddressHash return proxy address hash
-func ProxyAddressHash() common.Hash {
-	if proxyAddressHash == (common.Hash{}) {
-		proxyAddressHash = ProxyAddress().Hash()
+// ProxyAddressHashes return proxy address hashes
+func ProxyAddressHashes() []common.Hash {
+	if len(proxyAddressHashes) == 0 {
+		for _, v := range ProxyAddresses() {
+			proxyAddressHashes = append(proxyAddressHashes, v.Hash())
+		}
 	}
 
-	return proxyAddressHash
+	return proxyAddressHashes
 }
 
 // IsProxyAddress is proxy address
 func IsProxyAddress(address common.Address) bool {
-	return address == ProxyAddress()
+	for _, v := range ProxyAddresses() {
+		if address == v {
+			return true
+		}
+	}
+
+	return false
 }
 
 // IsProxy is proxy
 func IsProxy(topic common.Hash) bool {
-	return topic == ProxyAddressHash()
-}
-
-var (
-	dsProxyAddress     common.Address
-	dsProxyAddressHash common.Hash
-)
-
-// DSProxyAddress return ds proxy address
-func DSProxyAddress() common.Address {
-	if dsProxyAddress == (common.Address{}) {
-		dsProxyAddress = common.HexToAddress(os.Getenv("FURUCOMBO_DSPROXY_ADDRESS"))
-
-		if dsProxyAddress == (common.Address{}) {
-			log.Fatalln("env FURUCOMBO_DSPROXY_ADDRESS can't be blank")
+	for _, v := range ProxyAddressHashes() {
+		if topic == v {
+			return true
 		}
 	}
 
-	return dsProxyAddress
+	return false
 }
 
-// DSProxyAddressHash return ds proxy address hash
-func DSProxyAddressHash() common.Hash {
-	if dsProxyAddressHash == (common.Hash{}) {
-		dsProxyAddressHash = DSProxyAddress().Hash()
+var (
+	dsProxyAddresses     []common.Address
+	dsProxyAddressHashes []common.Hash
+)
+
+// DSProxyAddresses return ds proxy addresses
+func DSProxyAddresses() []common.Address {
+	if len(dsProxyAddresses) == 0 {
+		key := os.Getenv("FURUCOMBO_DSPROXY_ADDRESSES")
+		if len(key) == 0 {
+			log.Fatalln("env FURUCOMBO_DSPROXY_ADDRESSES can't be blank")
+		}
+
+		addresses := strings.Split(key, ",")
+		for _, v := range addresses {
+			dsProxyAddresses = append(dsProxyAddresses, common.HexToAddress(v))
+		}
 	}
 
-	return dsProxyAddressHash
+	return dsProxyAddresses
+}
+
+// DSProxyAddressHashes return ds proxy address hashes
+func DSProxyAddressHashes() []common.Hash {
+	if len(dsProxyAddressHashes) == 0 {
+		for _, v := range DSProxyAddresses() {
+			dsProxyAddressHashes = append(dsProxyAddressHashes, v.Hash())
+		}
+	}
+
+	return dsProxyAddressHashes
 }
 
 // IsDSProxyAddress is ds proxy address
 func IsDSProxyAddress(address common.Address) bool {
-	return address == DSProxyAddress()
+	for _, v := range DSProxyAddresses() {
+		if address == v {
+			return true
+		}
+	}
+
+	return false
 }
 
 // IsDSProxy is ds proxy
 func IsDSProxy(topic common.Hash) bool {
-	return topic == DSProxyAddressHash()
+	for _, v := range DSProxyAddressHashes() {
+		if topic == v {
+			return true
+		}
+	}
+
+	return false
 }

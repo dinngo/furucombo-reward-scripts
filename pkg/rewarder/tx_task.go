@@ -60,31 +60,33 @@ func (t *LoadTxsTask) GetFromEtherscan() error {
 
 	client := etherscan.NewClient(&http.Client{Timeout: 10 * time.Second}, apiKey)
 
-	params := etherscan.Params{
-		"address":    furucombo.ProxyAddress().String(),
-		"startBlock": t.startBlock,
-		"endBlock":   t.endBlock,
-		"sort":       "asc",
-	}
-
 	t.txs = make([]common.Hash, 0)
-	txHashMap := map[common.Hash]struct{}{}
-
-	txs1, err := client.AccountTxs(params)
-	if err != nil {
-		return err
-	}
-
-	for _, tx := range txs1 {
-		if tx.IsError == 1 {
-			continue
+	for _, address := range furucombo.ProxyAddresses() {
+		params := etherscan.Params{
+			"address":    address.String(),
+			"startBlock": t.startBlock,
+			"endBlock":   t.endBlock,
+			"sort":       "asc",
 		}
 
-		if _, ok := txHashMap[tx.Hash]; !ok {
-			txHashMap[tx.Hash] = struct{}{}
-			t.txs = append(t.txs, tx.Hash)
+		txHashMap := map[common.Hash]struct{}{}
 
-			log.Printf("found tx: %s", tx.Hash.String())
+		txs1, err := client.AccountTxs(params)
+		if err != nil {
+			return err
+		}
+
+		for _, tx := range txs1 {
+			if tx.IsError == 1 {
+				continue
+			}
+
+			if _, ok := txHashMap[tx.Hash]; !ok {
+				txHashMap[tx.Hash] = struct{}{}
+				t.txs = append(t.txs, tx.Hash)
+
+				log.Printf("found tx: %s", tx.Hash.String())
+			}
 		}
 	}
 

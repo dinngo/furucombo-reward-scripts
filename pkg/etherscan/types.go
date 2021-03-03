@@ -26,8 +26,8 @@ type NormalTx struct {
 	Nonce             uint64                `json:"nonce,string"`
 	BlockHash         common.Hash           `json:"blockHash"`
 	TransactionIndex  uint                  `json:"transactionIndex,string"`
-	From              common.Address        `json:"from"`
-	To                common.Address        `json:"to"`
+	From              string                `json:"from"`
+	To                string                `json:"to"`
 	Value             *math.HexOrDecimal256 `json:"value"`
 	Gas               uint64                `json:"gas,string"`
 	GasPrice          *math.HexOrDecimal256 `json:"gasPrice"`
@@ -45,8 +45,8 @@ type InternalTx struct {
 	BlockNumber     uint64                `json:"blockNumber,string"`
 	TimeStamp       uint64                `json:"timeStamp,string"`
 	Hash            common.Hash           `json:"hash"`
-	From            common.Address        `json:"from"`
-	To              common.Address        `json:"to"`
+	From            string                `json:"from"`
+	To              string                `json:"to"`
 	Value           *math.HexOrDecimal256 `json:"value"`
 	ContractAddress string                `json:"contractAddress"`
 	Input           string                `json:"input"`
@@ -65,9 +65,9 @@ type ERC20Transfer struct {
 	Hash              common.Hash           `json:"hash"`
 	Nonce             uint64                `json:"nonce,string"`
 	BlockHash         common.Hash           `json:"blockHash"`
-	From              common.Address        `json:"from"`
+	From              string                `json:"from"`
 	ContractAddress   common.Address        `json:"contractAddress"`
-	To                common.Address        `json:"to"`
+	To                string                `json:"to"`
 	Value             *math.HexOrDecimal256 `json:"value"`
 	TokenName         string                `json:"tokenName"`
 	TokenSymbol       string                `json:"tokenSymbol"`
