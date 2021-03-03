@@ -124,16 +124,15 @@ func (t *LoadTradingVolumesTask) GetFromTxs() error {
 
 			// calc trading volume
 			tradingVolume := amount.Mul(price)
+			count++
+			log.Printf("found %s cube: %s %s ($%s)", cube.Name, amount, token.Symbol, tradingVolume.Truncate(3))
 			if tradingVolume.IsZero() {
 				log.Printf("0 trading volume: [%s] %s", cube.Name, token.Symbol)
+				continue
 			}
-
-			log.Printf("found %s cube: %s %s ($%s)", cube.Name, amount, token.Symbol, tradingVolume.Truncate(3))
 
 			// Add user trading volume
 			t.tradingVolumeMap[from] = t.tradingVolumeMap[from].Add(tradingVolume)
-
-			count++
 		}
 
 		log.Printf("total found %d cubes", count)
