@@ -1,6 +1,7 @@
 package rewarder
 
 import (
+	"fmt"
 	"log"
 	"os"
 	"path"
@@ -9,29 +10,27 @@ import (
 	"github.com/shopspring/decimal"
 )
 
-// StakingRewarderRequiredFieldNames staking rewarder required field names
-var StakingRewarderRequiredFieldNames = []string{"name", "startBlock", "endBlock", "blocks", "cubes", "pools"}
+// StakingV2RewarderRequiredFieldNames staking v2 rewarder required field names
+var StakingV2RewarderRequiredFieldNames = []string{"name", "startBlock", "endBlock", "blocks", "pools"}
 
-// StakingRewarder struct
-type StakingRewarder struct {
+// StakingV2Rewarder struct
+type StakingV2Rewarder struct {
 	config *Config
 
-	txs               []common.Hash
-	tradingVolumeMap  TradingVolumeMap
-	tradingRankMap    map[common.Address]TradingRankMap
+	tradingCountMap   TradingCountMap
 	stakingsEventMap  map[common.Address]StakingEventMap
 	stakingsStakedMap map[common.Address]StakingStakedMap
 	stakingsMap       map[common.Address]StakingMap
 	rewardsMap        map[common.Address]RewardMap
 }
 
-// NewStakingRewarder new staking rewarder
-func NewStakingRewarder(config *Config) *StakingRewarder {
-	return &StakingRewarder{config: config}
+// NewStakingV2Rewarder new staking v2 rewarder
+func NewStakingV2Rewarder(config *Config) *StakingV2Rewarder {
+	return &StakingV2Rewarder{config: config}
 }
 
 // MakeStakingPoolDir make staking pool dir
-func (r *StakingRewarder) MakeStakingPoolDir() error {
+func (r *StakingV2Rewarder) MakeStakingPoolDir() error {
 	for _, pool := range r.config.Pools {
 		poolDir := path.Join(r.config.RoundDir(), pool.Address.String())
 
@@ -45,9 +44,9 @@ func (r *StakingRewarder) MakeStakingPoolDir() error {
 	return nil
 }
 
-// LoadTxs load txs
-func (r *StakingRewarder) LoadTxs() error {
-	task := LoadTxsTask{
+// LoadTradingCount load trading count
+func (r *StakingV2Rewarder) LoadTradingCount() error {
+	task := LoadTradingCountsTask{
 		rootpath:   r.config.RoundDir(),
 		startBlock: r.config.StartBlock,
 		endBlock:   r.config.EndBlock,
@@ -57,53 +56,13 @@ func (r *StakingRewarder) LoadTxs() error {
 		return err
 	}
 
-	r.txs = task.txs
-
-	return nil
-}
-
-// LoadTradingVolumes load trading volumes
-func (r *StakingRewarder) LoadTradingVolumes() error {
-	task := LoadTradingVolumesTask{
-		rootpath:       r.config.RoundDir(),
-		startTimestamp: r.config.startTimestamp,
-		endTimestamp:   r.config.endTimestamp,
-		txs:            r.txs,
-		cubeFinders:    r.config.cubeFinders,
-	}
-
-	if err := task.Execute(); err != nil {
-		return err
-	}
-
-	r.tradingVolumeMap = task.tradingVolumeMap
-
-	return nil
-}
-
-// LoadTradingRanks load trading ranks
-func (r *StakingRewarder) LoadTradingRanks() error {
-	r.tradingRankMap = make(map[common.Address]TradingRankMap)
-
-	for _, pool := range r.config.Pools {
-		task := LoadTradingRanksTask{
-			rootpath:         path.Join(r.config.RoundDir(), pool.Address.String()),
-			volumeCap:        pool.VolumeCap,
-			tradingVolumeMap: r.tradingVolumeMap,
-		}
-
-		if err := task.Execute(); err != nil {
-			return err
-		}
-
-		r.tradingRankMap[pool.Address] = task.tradingRankMap
-	}
+	r.tradingCountMap = task.tradingCountMap
 
 	return nil
 }
 
 // LoadStakingsDataset load stakings dataset
-func (r *StakingRewarder) LoadStakingsDataset() error {
+func (r *StakingV2Rewarder) LoadStakingsDataset() error {
 	r.stakingsEventMap = make(map[common.Address]StakingEventMap)
 
 	for _, pool := range r.config.Pools {
@@ -124,10 +83,11 @@ func (r *StakingRewarder) LoadStakingsDataset() error {
 }
 
 // LoadStakingsStaked load stakings staked
-func (r *StakingRewarder) LoadStakingsStaked() error {
+func (r *StakingV2Rewarder) LoadStakingsStaked() error {
 	r.stakingsStakedMap = make(map[common.Address]StakingStakedMap)
 
 	for _, pool := range r.config.Pools {
+		fmt.Println("ZD", pool.Address.String())
 		task := LoadStakingStakedTask{
 			rootpath:        path.Join(r.config.RoundDir(), pool.Address.String()),
 			stakingEventMap: r.stakingsEventMap[pool.Address],
@@ -145,7 +105,7 @@ func (r *StakingRewarder) LoadStakingsStaked() error {
 }
 
 // LoadStakings load stakings
-func (r *StakingRewarder) LoadStakings() error {
+func (r *StakingV2Rewarder) LoadStakings() error {
 	r.stakingsMap = make(map[common.Address]StakingMap)
 
 	for _, pool := range r.config.Pools {
@@ -155,7 +115,7 @@ func (r *StakingRewarder) LoadStakings() error {
 			duration:         decimal.NewFromInt(int64(r.config.Blocks())),
 			baseAmount:       pool.BaseAmount,
 			stakingStakedMap: r.stakingsStakedMap[pool.Address],
-			tradingRankMap:   r.tradingRankMap[pool.Address],
+			tradingCountMap:  r.tradingCountMap,
 			poolAddress:      pool.Address,
 			startBlock:       r.config.StartBlock,
 			endBlock:         r.config.EndBlock,
@@ -172,7 +132,7 @@ func (r *StakingRewarder) LoadStakings() error {
 }
 
 // LoadRewards load rewards
-func (r *StakingRewarder) LoadRewards() error {
+func (r *StakingV2Rewarder) LoadRewards() error {
 	r.rewardsMap = make(map[common.Address]RewardMap)
 
 	for _, pool := range r.config.Pools {
@@ -193,7 +153,7 @@ func (r *StakingRewarder) LoadRewards() error {
 }
 
 // GenerateRewardsMerkleTree generate rewards merkle tree
-func (r *StakingRewarder) GenerateRewardsMerkleTree() error {
+func (r *StakingV2Rewarder) GenerateRewardsMerkleTree() error {
 	for _, pool := range r.config.Pools {
 		task := GenerateRewardMerkleTreeTask{
 			rootpath:  path.Join(r.config.RoundDir(), pool.Address.String()),
