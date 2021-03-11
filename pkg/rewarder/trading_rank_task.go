@@ -43,19 +43,6 @@ func (t *LoadTradingRanksTask) LoadFromFile() error {
 	return nil
 }
 
-// MakeStakingPoolDir make staking pool dir
-func (t *LoadTradingRanksTask) MakeStakingPoolDir() error {
-	poolDir := path.Dir(t.filepath)
-
-	log.Printf("making staking pool dir: ./%s/", poolDir)
-
-	if err := os.MkdirAll(poolDir, os.ModePerm); err != nil {
-		return err
-	}
-
-	return nil
-}
-
 // RankTradingVolumes rank trading volumes
 func (t *LoadTradingRanksTask) RankTradingVolumes() {
 	t.tradingRankMap = make(TradingRankMap)
@@ -101,10 +88,6 @@ func (t *LoadTradingRanksTask) SaveToFile() error {
 // Execute execute
 func (t *LoadTradingRanksTask) Execute() error {
 	if err := t.LoadFromFile(); err != nil {
-		if err := t.MakeStakingPoolDir(); err != nil {
-			return err
-		}
-
 		t.RankTradingVolumes()
 
 		if err := t.SaveToFile(); err != nil {

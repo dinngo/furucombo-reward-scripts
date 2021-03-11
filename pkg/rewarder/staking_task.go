@@ -23,7 +23,8 @@ type LoadStakingsTask struct {
 	duration         decimal.Decimal
 	baseAmount       decimal.Decimal
 	stakingStakedMap StakingStakedMap
-	tradingRankMap   TradingRankMap
+	tradingRankMap   TradingRankMap  // consider trading rank in season I
+	tradingCountMap  TradingCountMap // consider trading count in season II
 	poolAddress      common.Address
 	startBlock       uint64
 	endBlock         uint64
@@ -68,7 +69,16 @@ func (t *LoadStakingsTask) InitStakings() error {
 	// init with tradings
 	log.Printf("init stakings with tradings")
 
-	for account := range t.tradingRankMap {
+	var tradingMap map[common.Address]int
+	if len(t.tradingRankMap) > 0 {
+		tradingMap = t.tradingRankMap
+	} else if len(t.tradingCountMap) > 0 {
+		tradingMap = t.tradingCountMap
+	} else {
+		return errors.New("unexpected trading rank and count are empty")
+	}
+
+	for account := range tradingMap {
 		if _, ok := t.stakingMap[account]; !ok {
 			t.stakingMap.Add(account, t.duration, t.baseAmount, decimal.Zero)
 		}
@@ -129,14 +139,28 @@ func (t *LoadStakingsTask) UpdateStakingsByStakingEvents() error {
 	return nil
 }
 
-// CalcStakingsWeightWithTradingRank calc stakings weight with trading rank
-func (t *LoadStakingsTask) CalcStakingsWeightWithTradingRank() error {
+// CalcStakingsWeightWithTrading calc stakings weight with trading
+func (t *LoadStakingsTask) CalcStakingsWeightWithTrading() error {
 	log.Println("calculating stakings weight")
 
 	totalRankArea := decimal.Zero
-	for account, rank := range t.tradingRankMap {
-		t.stakingMap[account].RankArea = t.stakingMap[account].Area.Mul(decimal.NewFromInt(int64(rank)))
-		totalRankArea = totalRankArea.Add(t.stakingMap[account].RankArea)
+
+	if len(t.tradingRankMap) > 0 {
+		for account, rank := range t.tradingRankMap {
+			t.stakingMap[account].RankArea = t.stakingMap[account].Area.Mul(decimal.NewFromInt(int64(rank)))
+			totalRankArea = totalRankArea.Add(t.stakingMap[account].RankArea)
+		}
+	} else if len(t.tradingCountMap) > 0 {
+		for account, count := range t.tradingCountMap {
+			if count < 1 {
+				return errors.New("unexpected trading count < 1")
+			}
+			// all accounts have the same rank if they did at least one tx
+			t.stakingMap[account].RankArea = t.stakingMap[account].Area
+			totalRankArea = totalRankArea.Add(t.stakingMap[account].RankArea)
+		}
+	} else {
+		return errors.New("unexpected trading rank and count are empty")
 	}
 
 	if totalRankArea.IsZero() {
@@ -178,7 +202,7 @@ func (t *LoadStakingsTask) Execute() error {
 			return err
 		}
 
-		if err := t.CalcStakingsWeightWithTradingRank(); err != nil {
+		if err := t.CalcStakingsWeightWithTrading(); err != nil {
 			return err
 		}
 

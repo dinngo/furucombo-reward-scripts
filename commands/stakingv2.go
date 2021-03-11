@@ -8,21 +8,21 @@ import (
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/rewarder"
 )
 
-// StakingCommand the command struct
-type StakingCommand struct {
+// StakingV2Command the command struct
+type StakingV2Command struct {
 	ConfigPath string
 }
 
 // Synopsis the synopsis of command
-func (c *StakingCommand) Synopsis() string {
-	return "Generate staking reward merkle files"
+func (c *StakingV2Command) Synopsis() string {
+	return "Generate staking v2 reward merkle files"
 }
 
 // Help the help of command
-func (c *StakingCommand) Help() string {
+func (c *StakingV2Command) Help() string {
 	helpText := `
-Usage: rewarder staking
-	Generate staking reward merkle files
+Usage: rewarder staking v2
+	Generate staking v2 reward merkle files
 
 Options:
 	-c     The path of config file.
@@ -31,8 +31,8 @@ Options:
 }
 
 // Run the main execution of command
-func (c *StakingCommand) Run(args []string) int {
-	f := flag.NewFlagSet("staking", flag.ContinueOnError)
+func (c *StakingV2Command) Run(args []string) int {
+	f := flag.NewFlagSet("stakingv2", flag.ContinueOnError)
 	f.StringVar(&c.ConfigPath, "c", "", "c")
 	if err := f.Parse(args); err != nil {
 		log.Println(err)
@@ -55,7 +55,7 @@ func (c *StakingCommand) Run(args []string) int {
 		return 1
 	}
 
-	if err := config.Validates(rewarder.StakingRewarderRequiredFieldNames); err != nil {
+	if err := config.Validates(rewarder.StakingV2RewarderRequiredFieldNames); err != nil {
 		log.Println(err)
 		return 1
 	}
@@ -66,11 +66,6 @@ func (c *StakingCommand) Run(args []string) int {
 	}
 
 	if err := config.GetBlockTimestamps(); err != nil {
-		log.Println(err)
-		return 1
-	}
-
-	if err := config.LoadCubeFinders(); err != nil {
 		log.Println(err)
 		return 1
 	}
@@ -90,49 +85,39 @@ func (c *StakingCommand) Run(args []string) int {
 		return 1
 	}
 
-	stakingRewarder := rewarder.NewStakingRewarder(config)
+	stakingV2Rewarder := rewarder.NewStakingV2Rewarder(config)
 
-	if err := stakingRewarder.MakeStakingPoolDir(); err != nil {
+	if err := stakingV2Rewarder.MakeStakingPoolDir(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
-	if err := stakingRewarder.LoadTxs(); err != nil {
+	if err := stakingV2Rewarder.LoadTradingCount(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
-	if err := stakingRewarder.LoadTradingVolumes(); err != nil {
+	if err := stakingV2Rewarder.LoadStakingsDataset(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
-	if err := stakingRewarder.LoadTradingRanks(); err != nil {
+	if err := stakingV2Rewarder.LoadStakingsStaked(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
-	if err := stakingRewarder.LoadStakingsDataset(); err != nil {
+	if err := stakingV2Rewarder.LoadStakings(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
-	if err := stakingRewarder.LoadStakingsStaked(); err != nil {
+	if err := stakingV2Rewarder.LoadRewards(); err != nil {
 		log.Println(err)
 		return 1
 	}
 
-	if err := stakingRewarder.LoadStakings(); err != nil {
-		log.Println(err)
-		return 1
-	}
-
-	if err := stakingRewarder.LoadRewards(); err != nil {
-		log.Println(err)
-		return 1
-	}
-
-	if err := stakingRewarder.GenerateRewardsMerkleTree(); err != nil {
+	if err := stakingV2Rewarder.GenerateRewardsMerkleTree(); err != nil {
 		log.Println(err)
 		return 1
 	}
