@@ -1,0 +1,2082 @@
+{
+  "0x02b04fd27fb898e6face6df1888f72906b5ba11c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x02d5d1d2d8e2e1cad085e8d2af2495fe4825f083": {
+    "base_amount": "0",
+    "start_amount": "0.393007391829464508",
+    "end_amount": "0.393007391829464508",
+    "area": "17890.482490860883333176",
+    "rank_area": "214685.789890330599998112",
+    "weight": "0.000001355720217460862610175"
+  },
+  "0x03c8ae9919e82fee0ec473ed51fdb9cfd4695fb4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x04a8a22e5ef364c5237df13317c4f083f32c2cc4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x07a1f6fc89223c5ebd4e4ddae89ac97629856a0f": {
+    "base_amount": "0",
+    "start_amount": "16.787505599523997842",
+    "end_amount": "16.787505599523997842",
+    "area": "764200.829901531429763524",
+    "rank_area": "104695513.696509805877602788",
+    "weight": "0.000661142149502843465954653"
+  },
+  "0x083d1621cddff476b35a7e85d2f3e18ea3384f5a": {
+    "base_amount": "0",
+    "start_amount": "16.799160864290260743",
+    "end_amount": "0",
+    "area": "579974.229678756961891332",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0c5266cafe7f0e14ec4cb5fcdc5f984a2fc7c852": {
+    "base_amount": "0",
+    "start_amount": "4.8574",
+    "end_amount": "4.8574",
+    "area": "221118.5628",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0e04cab2146752790f9d4a7d68806d0531f967ca": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0e277a62b93758eb5dbd70cc9588c10813aa3799": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0e775598456ded6f5c3d123fbfc094db0b08a4f6": {
+    "base_amount": "0",
+    "start_amount": "3.00637912000204613",
+    "end_amount": "3.00637912000204613",
+    "area": "136856.39030073314392986",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x0f85fdf984ad540c8a7bf4084bad7dc5caa9c617": {
+    "base_amount": "0",
+    "start_amount": "21.46425083777914846",
+    "end_amount": "21.46425083777914846",
+    "area": "977095.62663738239619612",
+    "rank_area": "62534120.10479247335655168",
+    "weight": "0.000394896983868848831675828"
+  },
+  "0x0fc84e15aeb7907a76a221169d80d3eb06cdb44b": {
+    "base_amount": "0",
+    "start_amount": "485.86935502557060963",
+    "end_amount": "485.86935502557060963",
+    "area": "22117744.77947402529157686",
+    "rank_area": "3361897206.48005184431968272",
+    "weight": "0.021230059121185851472043872"
+  },
+  "0x1125917201ed36700f86c3cecec8c5dafae280d1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x11b1785d9ac81480c03210e89f1508c8c115888e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x11d0cb5c690bc838efc52c621f6b48040dd000f7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x13005adbffee7a43b21c5027aeec2ab115df9a85": {
+    "base_amount": "0",
+    "start_amount": "19.388619084905358714",
+    "end_amount": "19.388619084905358714",
+    "area": "882608.717983061739378708",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x131975ca3e75259e60afeb1cd34051a6804da505": {
+    "base_amount": "0",
+    "start_amount": "10.919706338724965613",
+    "end_amount": "10.919706338724965613",
+    "area": "497086.871951437884634986",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x136aea6a78d2014e1e5263b98dcfbbcb49f2b012": {
+    "base_amount": "0",
+    "start_amount": "40.754133180169073376",
+    "end_amount": "40.754133180169073376",
+    "area": "1855209.650627656558222272",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x137d2ff1b6df76d019319efffd39f2b9b8531859": {
+    "base_amount": "0",
+    "start_amount": "1",
+    "end_amount": "1",
+    "area": "1301358.479094172148920254",
+    "rank_area": "153560300.533112313572589972",
+    "weight": "0.000969718601955233737697166"
+  },
+  "0x15f574311bf3408d413a6a3bab569b3377ac146d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x176b8c8dd7657a011fcac694364e69cf011980e9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x17b22f256fac17a5eb77a3012a36def639f16ad2": {
+    "base_amount": "0",
+    "start_amount": "3.327257998840908485",
+    "end_amount": "3.327257998840908485",
+    "area": "151463.43862323583605417",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x17e33637f6b64e9082ea499481b6e6ebae7eea23": {
+    "base_amount": "0",
+    "start_amount": "95.46046979007722473",
+    "end_amount": "95.46046979007722473",
+    "area": "4345551.50578389542415906",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x18b01585894d55b64c9c94533fa5ce63115989a9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x191d29e4bc77787e6a45829c90dbf854cd81f10e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x197f4c3cc2c89a0f4c4e2443c453f29ecdf67d4b": {
+    "base_amount": "0",
+    "start_amount": "33.225005227345126259",
+    "end_amount": "33.225005227345126259",
+    "area": "1512468.687959204837562198",
+    "rank_area": "116460088.972858772492289246",
+    "weight": "0.000735434316488530251438761"
+  },
+  "0x1a764eb6604084dee39625ce14e21d34f1b67308": {
+    "base_amount": "0",
+    "start_amount": "209.856725554416861036",
+    "end_amount": "246.738678572218062123",
+    "area": "10912345.35720620981294109",
+    "rank_area": "1549553040.72328179343763478",
+    "weight": "0.009785279158018116536803721"
+  },
+  "0x1a942e037cdfe8098bfae2a3f181ca22aa6beaf7": {
+    "base_amount": "0",
+    "start_amount": "776.462238972123666435",
+    "end_amount": "0",
+    "area": "1894567.8630919817461014",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1d76a09597ad1578e8407e459318162a312c8061": {
+    "base_amount": "0",
+    "start_amount": "8.069564082114585891",
+    "end_amount": "8.069564082114585891",
+    "area": "367342.696146020178930102",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1dfcb291d9cde084930428d4448898b982efc495": {
+    "base_amount": "0",
+    "start_amount": "13.168048609262076053",
+    "end_amount": "13.168048609262076053",
+    "area": "599435.908790828226084666",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1e82e222564293e3507c2966b27f587ee2570671": {
+    "base_amount": "0",
+    "start_amount": "12.193766600180835237",
+    "end_amount": "0",
+    "area": "482848.769833960713714726",
+    "rank_area": "17382555.714022585693730136",
+    "weight": "0.000109769175801894384655782"
+  },
+  "0x1eef27f5da8652df413370298d3fcfb0c35bbd25": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1f37fd52bd4e5c9352d4f3220d8ca7b4bf266008": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x1fa25eaaae4e6de7ddecdcfdafa533b0f55a9ea9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x224a205fd2f902880c4bf98bdfe9fe9563392ede": {
+    "base_amount": "0",
+    "start_amount": "3.01",
+    "end_amount": "3.01",
+    "area": "137021.22",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x231d04d32ddc9573b775b1738b51f8108639017c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x239eec9ec218f71cef5cc14d88b142ed4ff44110": {
+    "base_amount": "0",
+    "start_amount": "22.328688306457556317",
+    "end_amount": "22.328688306457556317",
+    "area": "1016446.549086560878662474",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x254285f14dea6ee112681b9d2f16e59b1a5d33f6": {
+    "base_amount": "0",
+    "start_amount": "70.932035521696321224",
+    "end_amount": "0",
+    "area": "2738402.163350608177173744",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2618026d22c4f6320fcbac34c45cc4a1f0a92f6b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x26e05a9fc97823f9538774c44a754ee9d38c1b28": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x283266045ab2ab0793a62cadc21d55f685636ae0": {
+    "base_amount": "0",
+    "start_amount": "1.466300286782245929",
+    "end_amount": "1.466300286782245929",
+    "area": "66748.921654901399179938",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x289922fbbfbd38472d7e2a1652b33b834f7c0e49": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "852764.955797975143060115",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2a36084d2504ce4a821c19bab52c2b8db7540e1b": {
+    "base_amount": "0",
+    "start_amount": "126.838220842220072291",
+    "end_amount": "126.838220842220072291",
+    "area": "5773929.489179542130830902",
+    "rank_area": "479236147.601901996858964866",
+    "weight": "0.003026330408611825062053186"
+  },
+  "0x2abc48d68786a42ce1f9b896dfc3cb8059a2d624": {
+    "base_amount": "0",
+    "start_amount": "2.740411457426821147",
+    "end_amount": "2.740411457426821147",
+    "area": "124749.010364983752253734",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2b92d12d8cc0b9af862451393925092c6c21a611": {
+    "base_amount": "0",
+    "start_amount": "7.503833663860706993",
+    "end_amount": "7.503833663860706993",
+    "area": "341589.516046267103735346",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2be79147da14d22d59623dea88f659497538452b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2c9139d5ec9206bd779a71ecdb927c8cd42e9639": {
+    "base_amount": "0",
+    "start_amount": "23.766142776993908441",
+    "end_amount": "23.766142776993908441",
+    "area": "1081882.351494316700051202",
+    "rank_area": "122252705.718857787105785826",
+    "weight": "0.000772014136878901246190177"
+  },
+  "0x2cc3948f51f786952dd51d4a962a5772597700a0": {
+    "base_amount": "0",
+    "start_amount": "2240.347316670298314031",
+    "end_amount": "2255.458122628012464557",
+    "area": "101810088.740528335818526434",
+    "rank_area": "16595044464.706118738419808742",
+    "weight": "0.104796117628264968017141276"
+  },
+  "0x2d8af9fec9d573ff5f5553905587a16acb1d97f9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2d9f9f7862a8e435d890f487a01ea15eceb6c6ef": {
+    "base_amount": "0",
+    "start_amount": "29.36",
+    "end_amount": "0",
+    "area": "222842.4",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x2faf55a544c5f73666438bc185aecc9d685e6e3c": {
+    "base_amount": "0",
+    "start_amount": "3.664821873117640131",
+    "end_amount": "3.664821873117640131",
+    "area": "166830.021308061214043382",
+    "rank_area": "15348361.960341631691991144",
+    "weight": "0.000096923436922266367233488"
+  },
+  "0x31ea2730a76c7d480bba0267eb91d02a3087ea88": {
+    "base_amount": "0",
+    "start_amount": "1.408899455783973911",
+    "end_amount": "1.408899455783973911",
+    "area": "64135.921026198060376542",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3474f0bfec4f6465608a7d0feca8fa382e19e0c3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x34750c3af93ceda1500d97de4493b13e509ea24a": {
+    "base_amount": "0",
+    "start_amount": "150",
+    "end_amount": "100.008403282471266096",
+    "area": "7538248.801865801757707635",
+    "rank_area": "731210133.780982770497640595",
+    "weight": "0.004617522017109475536529456"
+  },
+  "0x34cadf09dbf50a39d1a68b87d7763db3961ef483": {
+    "base_amount": "0",
+    "start_amount": "100.134725138063194919",
+    "end_amount": "100.134725138063194919",
+    "area": "4558332.957734912759102718",
+    "rank_area": "364666636.61879302072821744",
+    "weight": "0.002302834911197904441418194"
+  },
+  "0x3841ef91d7e7af21cd2b6017a43f906a99b52bde": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "59.703522383056067666",
+    "area": "748025.431937309471787314",
+    "rank_area": "60590059.986922067214772434",
+    "weight": "0.000382620430273463596912184"
+  },
+  "0x386fd9d137753aa931b66bf30c3c8c308c0d7d47": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3a5353ae6ca6d442e385f578ccaea7948bf7576f": {
+    "base_amount": "0",
+    "start_amount": "7.636345192981024346",
+    "end_amount": "7.636345192981024346",
+    "area": "347621.705874882190278612",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3a7249b510add84a2196fb0fad9d8b745d807286": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3bd5e344ac629c9f232f921bafdeeec312deac9b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x3cddcb8cf10c4facfbf960309806d8a3a3f19a40": {
+    "base_amount": "0",
+    "start_amount": "8.939707917775998024",
+    "end_amount": "0",
+    "area": "132933.45673732909061688",
+    "rank_area": "3855070.24538254362788952",
+    "weight": "0.000024344399664583104152041"
+  },
+  "0x3f7c10cbbb1ea1046a80b738b9eaf3217410c7f6": {
+    "base_amount": "0",
+    "start_amount": "12.823727069882190184",
+    "end_amount": "12.823727069882190184",
+    "area": "583761.703675177061556048",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x409b3f6363b6c35019f68291398413aaeee96c04": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x41ff527665a0d3d2721d0e42764cef3ec93a0149": {
+    "base_amount": "0",
+    "start_amount": "28.183895446037231038",
+    "end_amount": "28.183895446037231038",
+    "area": "1282987.288494506831311836",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x425d397aba7e4076d1b0fc3e49259f567f8b6c72": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4351a86b3d5072ca304331e46476d2355b6eee98": {
+    "base_amount": "0",
+    "start_amount": "2.449775786165241848",
+    "end_amount": "2.449775786165241848",
+    "area": "111518.693337814139404656",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x44b1650436027628d3179a22fd6fadc67c4b5992": {
+    "base_amount": "0",
+    "start_amount": "9.543948053077300345",
+    "end_amount": "9.543948053077300345",
+    "area": "434459.60327218486630509",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x466a96abbba294a6489ce46271c506ebd0b56365": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x469adaf766fb35f1a3c2569fe8c57a50f4b39131": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "638.402283590692882299",
+    "area": "2466148.021510846604321037",
+    "rank_area": "69052144.602303704920989036",
+    "weight": "0.00043605768478759723124622"
+  },
+  "0x471a7853ba0b93b2b4103bfba334c1d1ec9dd6b7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4a2b2edddbb8264d009d2931fa96350a911ee69c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "405.644164715027496558",
+    "area": "15012890.53610316764761158",
+    "rank_area": "2477126938.4570226618559107",
+    "weight": "0.015642819552233309105043455"
+  },
+  "0x4a52d83c82c0ffd809aa2a24fa9e1949033e14c5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4a7f8956669cc3830d6902f37f13981f8a9e7d39": {
+    "base_amount": "0",
+    "start_amount": "954.43623169814717461",
+    "end_amount": "1709.517612238482884212",
+    "area": "71562432.843123064083086082",
+    "rank_area": "11807801419.11530557370920353",
+    "weight": "0.07456513594046069803926227"
+  },
+  "0x4a95a1bd27bd98b4880a4ab38046bba479298065": {
+    "base_amount": "0",
+    "start_amount": "197.195164890626088954",
+    "end_amount": "197.195164890626088954",
+    "area": "8976718.296151080821363988",
+    "rank_area": "1373437899.311115365668690164",
+    "weight": "0.00867312889443792479809342"
+  },
+  "0x4abc6252ac885b12ac870918b40fbedcf2f4db68": {
+    "base_amount": "0",
+    "start_amount": "1.484387698136929448",
+    "end_amount": "1.484387698136929448",
+    "area": "67572.296794589302331856",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4bf1fbc233cd6109c35a4cd9d34540173af3234c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "188847.180665542636302948",
+    "rank_area": "10386594.93660484499666214",
+    "weight": "0.000065590353014631614027527"
+  },
+  "0x4c6d6207527fcd75521a35519371c56a3841c73d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "574.581039323349619868",
+    "area": "17413252.977733433579719608",
+    "rank_area": "2803533729.415082806334856888",
+    "weight": "0.017704047199598405891309134"
+  },
+  "0x4cc930a91865e30feff38465ace57711e3923881": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4e0e4eb0abe039f6eb92ece26d7e6f195b2e494b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "168.592423824542612093",
+    "area": "614519.384840457821078985",
+    "rank_area": "78658481.25957860109811008",
+    "weight": "0.000496720781439946060072373"
+  },
+  "0x4ed7a3cdb17c9a3363b5c6f5aaf981ee2dff43f9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4f30d640131df5e5b5e48138c7a93d211a91ce37": {
+    "base_amount": "0",
+    "start_amount": "4.193887151755833779",
+    "end_amount": "4.193887151755833779",
+    "area": "190914.130922229065287638",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x4f50d47d20380172746527bbeaa274940c38efac": {
+    "base_amount": "0",
+    "start_amount": "272.808326127962251982",
+    "end_amount": "342.714380238978298216",
+    "area": "15126381.909824971137459892",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x51e15c3f1ab9cf2d28eb8c232e209aa521b45715": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x51f9afb0ab61208b18d4b49c2f4227183fb963dd": {
+    "base_amount": "0",
+    "start_amount": "0.382533735816485213",
+    "end_amount": "0.382533735816485213",
+    "area": "17413.700721838039866186",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x52d81d4a8b18d6ba0b2c01dd2f9927eaf755dd0a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x53a705f3ed1168cde25d70b3338738f4ed29a0d3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x54e4e6ec6b14732241d0d11f9140fad10d471025": {
+    "base_amount": "0",
+    "start_amount": "0.576346783549166976",
+    "end_amount": "0.576346783549166976",
+    "area": "26236.458280725179081472",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x55a3df57b7aaec16a162fd5316f35bec082821cf": {
+    "base_amount": "0",
+    "start_amount": "2449.16842320602908125",
+    "end_amount": "2834.6030554179861034",
+    "area": "126047369.2813016247351794",
+    "rank_area": "20797815931.414768081304601",
+    "weight": "0.131336217230083958414009599"
+  },
+  "0x568106712b41eacbf2a8643ed2095b5327b61a5d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x57797c4814608a46494f9bed5541b94d0a037fcf": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5bd580d88a92d81f0fa1742733a94a6f3a7a3e10": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x5e09f0c5de2de753ec8f6fbf4314b56379ef45e5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x607aee4d06bf80848e16dc41a4bb90273d5e5e1e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x626ea6d1e5ea3fbaba22f5d4005d98e7039d0c99": {
+    "base_amount": "0",
+    "start_amount": "9.396566816250478832",
+    "end_amount": "9.396566816250478832",
+    "area": "427750.514609354297390304",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x63043b54d83b1859df46cccae2a2cc101d8c8f57": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x63395d2788304f74a8ba80d21ea1697bb4d51671": {
+    "base_amount": "0",
+    "start_amount": "36.412596952738597763",
+    "end_amount": "36.412596952738597763",
+    "area": "1657574.238482566447367286",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x63e62588330657c99ba79139e7c21af0c0db1e7e": {
+    "base_amount": "0",
+    "start_amount": "4.184033723051805006",
+    "end_amount": "4.184033723051805006",
+    "area": "190465.583140764267483132",
+    "rank_area": "1333259.081985349872381924",
+    "weight": "0.000008419403508188406468298"
+  },
+  "0x6595732468a241312bc307f327ba0d64f02b3c20": {
+    "base_amount": "0",
+    "start_amount": "421.802220815049424065",
+    "end_amount": "671.995435038274168393",
+    "area": "22407756.929427528205594578",
+    "rank_area": "3361163539.4141292308391867",
+    "weight": "0.021225426083877399054239272"
+  },
+  "0x660939b21c0ac3339a98db9ffbda74cd59e07685": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6711fbc3405b47f97e759716e1dea1e1cc4a111f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6771598c93115efe2c9ff96b381d8c24b389f887": {
+    "base_amount": "0",
+    "start_amount": "2.473758799021549858",
+    "end_amount": "2.473758799021549858",
+    "area": "112610.448049058992635876",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x69327dbd594941d817054d25c117f904ca676564": {
+    "base_amount": "0",
+    "start_amount": "41.345516202885965273",
+    "end_amount": "0",
+    "area": "1667588.705010999637355909",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6977e753e022f65ebeb170d8267b2ea54a431523": {
+    "base_amount": "0",
+    "start_amount": "4.258306059681558797",
+    "end_amount": "4.258306059681558797",
+    "area": "193846.608448823919557034",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6a99e8961055b505d8d62c447220bb341ad769ee": {
+    "base_amount": "0",
+    "start_amount": "244.451793834623009058",
+    "end_amount": "244.451793834623009058",
+    "area": "11127934.558939708618338276",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6cf7538744dc6a1416eb2a9dfd2daf2c9a829832": {
+    "base_amount": "0",
+    "start_amount": "115.804650379845587654",
+    "end_amount": "115.804650379845587654",
+    "area": "5271659.294591330841185388",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6d714e76af538fe76aa81a75b556686ad6002023": {
+    "base_amount": "0",
+    "start_amount": "600",
+    "end_amount": "600",
+    "area": "27313200",
+    "rank_area": "4506678000",
+    "weight": "0.028459240275321404326787349"
+  },
+  "0x6e102d689303660fe8235888fc04a64db243d9f1": {
+    "base_amount": "0",
+    "start_amount": "35.530457523229611604",
+    "end_amount": "0",
+    "area": "653973.601172564231183224",
+    "rank_area": "66051333.718428987349505624",
+    "weight": "0.000417107851237254787440259"
+  },
+  "0x6e3674ab23fea3968e0e859ff89c2667c9c4cc74": {
+    "base_amount": "0",
+    "start_amount": "39.247115231423624056",
+    "end_amount": "39.247115231423624056",
+    "area": "1786607.179564866214277232",
+    "rank_area": "194740182.572570417356218288",
+    "weight": "0.001229765616068585212694545"
+  },
+  "0x6e3aa85db95bba36276a37ed93b12b7ab0782afb": {
+    "base_amount": "0",
+    "start_amount": "835.668832090679832743",
+    "end_amount": "0",
+    "area": "14434507.736702312750969839",
+    "rank_area": "2309521237.87237004015517424",
+    "weight": "0.014584405593114817361068831"
+  },
+  "0x6e9a88971e957abb41bae4e2677cae258f0c1e76": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6f0be075d8d5006d2b697175f7e967b21800299d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x6f71e1190f2ebf07844ecec08e8440b4a3e83da8": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x70bef05bbaf710bc6a3a278b00109f4a1b8dea48": {
+    "base_amount": "0",
+    "start_amount": "21.233667945636873971",
+    "end_amount": "21.233667945636873971",
+    "area": "966599.032221281776907862",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x70f1033420e6a50dcb9894cb76afa5443d749d4c": {
+    "base_amount": "0",
+    "start_amount": "5.814699580886716861",
+    "end_amount": "9.317785911317429174",
+    "area": "371908.711463957075285807",
+    "rank_area": "5206721.960495399054001298",
+    "weight": "0.000032879950890773887700943"
+  },
+  "0x71535aae1b6c0c51db317b54d5eee72d1ab843c1": {
+    "base_amount": "0",
+    "start_amount": "11.112788394118926225",
+    "end_amount": "11.112788394118926225",
+    "area": "505876.35327708175961445",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x738c696bef0030600884cac2e1d3dcca330e4ea8": {
+    "base_amount": "0",
+    "start_amount": "32.129255834983663063",
+    "end_amount": "0",
+    "area": "1105535.564025952862334767",
+    "rank_area": "61909991.585453360290746952",
+    "weight": "0.000390955671999096344244573"
+  },
+  "0x73eba8e4173ce8d4186ddde82fbaf123e2ad7dcd": {
+    "base_amount": "0",
+    "start_amount": "959.099261904619779474",
+    "end_amount": "0",
+    "area": "34447968.189828228619367658",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x76df0e2c108caf0b7e9a0f3f559765bf95fde4ea": {
+    "base_amount": "0",
+    "start_amount": "14.27417561789516093",
+    "end_amount": "14.27417561789516093",
+    "area": "649789.02247782351585546",
+    "rank_area": "12345991.42707864680125374",
+    "weight": "0.000077963754335297397706666"
+  },
+  "0x7763d4ce482c35b59aa0fc48ae2eabd00f60b82e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x79643fe57556167601352967dcd0e73bac09ed9e": {
+    "base_amount": "0",
+    "start_amount": "1157.835733687625378305",
+    "end_amount": "2202.627500747111595526",
+    "area": "70754787.021141288706290263",
+    "rank_area": "11674539858.488312636537893395",
+    "weight": "0.073723601938398002969442273"
+  },
+  "0x7db4f8603483860df860873ea5ab5d818a4511b1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7db6bb068fd59721e856e32166d2f417b4c8543a": {
+    "base_amount": "0",
+    "start_amount": "1.812756583835848321",
+    "end_amount": "1.812756583835848321",
+    "area": "82520.305209375487268562",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7e56a245b5915d1022a51f93336ad73b0e41d789": {
+    "base_amount": "0",
+    "start_amount": "15.879789355821544925",
+    "end_amount": "15.879789355821544925",
+    "area": "722879.77105570836807585",
+    "rank_area": "35421108.78172971003571665",
+    "weight": "0.00022368091211254561467107"
+  },
+  "0x7f0035745fd712af63554401ba608686b9b2fb98": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7f11badce99ac9147eff4912d0a64dce34a4639d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x7f9d39de53a3036463146e91e921cc9fbfcb2de4": {
+    "base_amount": "0",
+    "start_amount": "0.048458186071994435",
+    "end_amount": "0.048458186071994435",
+    "area": "2205.91354636933067007",
+    "rank_area": "37500.53028827862139119",
+    "weight": "0.000000236812259923182693551"
+  },
+  "0x7fb7600c434695095f0ff38c1b253e403538c96f": {
+    "base_amount": "0",
+    "start_amount": "399.273632127664793923",
+    "end_amount": "399.273632127664793923",
+    "area": "18175734.281715556748962806",
+    "rank_area": "2690008673.693902398846495288",
+    "weight": "0.016987147337207899166080206"
+  },
+  "0x7fbbb888e591f40484f0b383f03c8433be78cac8": {
+    "base_amount": "0",
+    "start_amount": "245.592207537995447852",
+    "end_amount": "245.592207537995447852",
+    "area": "11179848.471544628777118744",
+    "rank_area": "1632257876.845515801459336624",
+    "weight": "0.010307552283174548524232558"
+  },
+  "0x81a4e4e6b5ceba1fe01b57c534814a791d32d697": {
+    "base_amount": "0",
+    "start_amount": "0.319853575454347179",
+    "end_amount": "0.319853575454347179",
+    "area": "14560.374461832792282438",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8235d7cbd3d04cde4573be501bb0eac80d35af43": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x83dd91a7ad4d434ae7278843be94562460d40cff": {
+    "base_amount": "0",
+    "start_amount": "41.520085826248323642",
+    "end_amount": "0",
+    "area": "562140.442001576053789038",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x844d29169323beacfcba369f550810b6baf17366": {
+    "base_amount": "0",
+    "start_amount": "4.450752935844062055",
+    "end_amount": "4.450752935844062055",
+    "area": "202607.17514549339286771",
+    "rank_area": "7699072.65552874892897298",
+    "weight": "0.00004861890700885430203878"
+  },
+  "0x84ab6aeda45c85b910c363a454c5c0e93d8691a2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x85419d3637f65773068d9f8329b3a80920c8ca76": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "143596.6384639778117985",
+    "rank_area": "287193.276927955623597",
+    "weight": "0.000001813598059046953902256"
+  },
+  "0x85fa37209154b102efd1800babc672781133b905": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x87189a625401759b462246dcd596073ae44a2a71": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x896022620ca215a0e5c8510095f194f46c3470db": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8b2daf0a57ccb9e0604c661c44af7503c851c55f": {
+    "base_amount": "0",
+    "start_amount": "48.70852841583087189",
+    "end_amount": "48.70852841583087189",
+    "area": "2217309.63054545295017658",
+    "rank_area": "281598323.07927252467242566",
+    "weight": "0.001778266460936548289296942"
+  },
+  "0x8bfad1e073b7dae77dec8768ea7db33b1411455d": {
+    "base_amount": "0",
+    "start_amount": "10.962516378815377784",
+    "end_amount": "10.962516378815377784",
+    "area": "499035.670596433627483248",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8cef8e720584d3d2d68a53ba63aa0d540b5e91a4": {
+    "base_amount": "0",
+    "start_amount": "822.172457227143517813",
+    "end_amount": "1159.08004631951168818",
+    "area": "49620920.811889906154790162",
+    "rank_area": "8187451933.96183451554037673",
+    "weight": "0.051702975413656081848867522"
+  },
+  "0x8d9cc95aa56f51079d4135896aebac63b7546c3f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8ea7200ba8e83497916383708ee9bff97f657e10": {
+    "base_amount": "0",
+    "start_amount": "3.308725256570075978",
+    "end_amount": "3.308725256570075978",
+    "area": "150619.791129582998670516",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x8f3bbb89322e109e8c9588745bf10302c21c5835": {
+    "base_amount": "0",
+    "start_amount": "491.608336409025675105",
+    "end_amount": "491.608336409025675105",
+    "area": "22378994.69001166678212981",
+    "rank_area": "3558260155.71185501835863979",
+    "weight": "0.022470072353406707966114704"
+  },
+  "0x9139c7ca4486a6a8e5c1bcdd18af6e55133bac15": {
+    "base_amount": "0",
+    "start_amount": "617.434080348579498681",
+    "end_amount": "680.194220476260048167",
+    "area": "28331065.279050466873397195",
+    "rank_area": "4164666596.020418630389387665",
+    "weight": "0.02629947099010623667187354"
+  },
+  "0x9317858297181e5036d0bde1b1b8ab4865d2ed40": {
+    "base_amount": "0",
+    "start_amount": "105.37738233133540089",
+    "end_amount": "105.37738233133540089",
+    "area": "4796989.19848705011931458",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9332aadd6c45d8e11311f0ef87bc288e0316f7a5": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x939626cf69add2b88e047a568a9c3d12b9664df7": {
+    "base_amount": "0",
+    "start_amount": "1.855334242177945187",
+    "end_amount": "1.855334242177945187",
+    "area": "84458.525372424420802614",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x943014f5fabcd89d004fb96de63822bb0da4be21": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x947dcd4c2c0ddc357925d38135e350854f8c9a26": {
+    "base_amount": "0",
+    "start_amount": "0.778809421572232536",
+    "end_amount": "0.778809421572232536",
+    "area": "35452.962488811169503792",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x94aff6c2c005567aa0e2a27f77701bb1b6679b6b": {
+    "base_amount": "0",
+    "start_amount": "10.685192152198150652",
+    "end_amount": "10.685192152198150652",
+    "area": "486411.317152364213980344",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x96379aa5e547f14459c894b634eabae71c8009ba": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x96942e59d8f8b5b92c257bc9c8e6c36b73ebb50d": {
+    "base_amount": "0",
+    "start_amount": "9.881858633541712583",
+    "end_amount": "9.881858633541712583",
+    "area": "449841.968716085840203326",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x96fa266108150305df209e8c4cc6a363f0a0b04a": {
+    "base_amount": "0",
+    "start_amount": "91.7950880785163667",
+    "end_amount": "122.835866894023375573",
+    "area": "5363460.445340493559582064",
+    "rank_area": "611434490.768816265792355296",
+    "weight": "0.003861150294165354009404048"
+  },
+  "0x97960d6ef5e6aa33227856f03079a08e2250e9cd": {
+    "base_amount": "0",
+    "start_amount": "59.076037697641711107",
+    "end_amount": "59.076037697641711107",
+    "area": "2689259.388072045973012854",
+    "rank_area": "363050017.38972620635673529",
+    "weight": "0.002292626115478814388247805"
+  },
+  "0x97fc31117f7f252f99c696d4cd24efb91d30cac8": {
+    "base_amount": "0",
+    "start_amount": "260.519853724841664072",
+    "end_amount": "260.519853724841664072",
+    "area": "11859384.781262242231885584",
+    "rank_area": "1956798488.90826996826112136",
+    "weight": "0.01235699518941142477059509"
+  },
+  "0x982a1903f67e1ba0c6ea30d672cf24edb3cbd7e2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "48116.731894659454188432",
+    "rank_area": "1876552.543891718713348848",
+    "weight": "0.000011850249726268448412102"
+  },
+  "0x9a32b1a10504489f9b88106acec79c672630158c": {
+    "base_amount": "0",
+    "start_amount": "4.297835780462479919",
+    "end_amount": "4.297835780462479919",
+    "area": "195646.080398213010872718",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9a376c8e244cdbb07eb7856da3cac7f5794b58fa": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0x9aa470470cac9ab75e2b8648c9c054560749b33d": {
+    "base_amount": "0",
+    "start_amount": "13.202819663939547669",
+    "end_amount": "13.202819663939547669",
+    "area": "601018.756741856088988218",
+    "rank_area": "19833618.972481250936611194",
+    "weight": "0.000125247405709264594517556"
+  },
+  "0x9b2e8f4ab3838e83c9c04cdf45c8b9f5e943ab9b": {
+    "base_amount": "0",
+    "start_amount": "283.512864188793203141",
+    "end_amount": "315.644801754916978365",
+    "area": "13913890.825363716403285362",
+    "rank_area": "1836633588.948010565233667784",
+    "weight": "0.011598165346092469695290939"
+  },
+  "0x9ccbe14365a31f2a48e40724e45f148f64fac195": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "5.41421586872701965",
+    "area": "143687.87494014637449135",
+    "rank_area": "3161133.2486832202388097",
+    "weight": "0.000019962253941058822938028"
+  },
+  "0x9fecf056375a973308bb3d6fb6b1c230cfd21456": {
+    "base_amount": "0",
+    "start_amount": "20.281297967073490812",
+    "end_amount": "0",
+    "area": "437528.441043676417287276",
+    "rank_area": "34127218.401406760548407528",
+    "weight": "0.000215510118187721650428974"
+  },
+  "0xa2bf60058c0657c45fdd1741220b4a7f0da91ca3": {
+    "base_amount": "0",
+    "start_amount": "9.150402237130264403",
+    "end_amount": "9.150402237130264403",
+    "area": "416544.610638643896153366",
+    "rank_area": "36655925.736200662861496208",
+    "weight": "0.000231478663006514399991213"
+  },
+  "0xa34f1380764a137aecc64e9ce06c934805f6ebd3": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa38475ec707f358f338fc2dc393d92845276e568": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa467b35b756359f55bc26ba82bafa83b9fb720ed": {
+    "base_amount": "0",
+    "start_amount": "10.410898169391668385",
+    "end_amount": "10.410898169391668385",
+    "area": "473924.90646704752822197",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa57e56deb2c03f647286cf9250a98f275f06a76e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa5b0c665e95545604f0a1dd0e3ecd857a9c2d2c9": {
+    "base_amount": "0",
+    "start_amount": "0.1",
+    "end_amount": "0.1",
+    "area": "4552.2",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa6549cdda00da5b4fb6bff7a9bb38cb6ac03fe1a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa680e83809ec7a20745427fe12118d6e1d2eb208": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa6d1c268f9440e66539f6bfd9bb1cc9ea2d55fdc": {
+    "base_amount": "0",
+    "start_amount": "1099.492754683570999008",
+    "end_amount": "1276.709518958721708625",
+    "area": "56813347.872374883334666988",
+    "rank_area": "9374202398.94185575022005302",
+    "weight": "0.059197191026512341853822957"
+  },
+  "0xa8d211944d2ae55a3cb9b536e69970f2cb543e1c": {
+    "base_amount": "0",
+    "start_amount": "37.519795386700840144",
+    "end_amount": "37.519795386700840144",
+    "area": "1707976.125593395645035168",
+    "rank_area": "182753445.438493334018762976",
+    "weight": "0.001154070518212510917115674"
+  },
+  "0xa94a194cbce345ed664952420ddb4ded6c47904b": {
+    "base_amount": "0",
+    "start_amount": "98.201923080703847957",
+    "end_amount": "98.201923080703847957",
+    "area": "4470347.942479800566698554",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xa9e490e94a6782d0a5c81b01f7f61a1400016da4": {
+    "base_amount": "0",
+    "start_amount": "122.989431927115490218",
+    "end_amount": "122.989431927115490218",
+    "area": "5598724.920186151345703796",
+    "rank_area": "705439339.943455069558678296",
+    "weight": "0.004454781920322446821002321"
+  },
+  "0xaafdd768fa83ef7af0e19707f2be9d1db1924766": {
+    "base_amount": "0",
+    "start_amount": "29.16401437767427308",
+    "end_amount": "29.16401437767427308",
+    "area": "1327604.26250048825914776",
+    "rank_area": "148691677.40005468502454912",
+    "weight": "0.000938973712803251913654965"
+  },
+  "0xab17a98b538ce9552f228421b57705b01b38750a": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xadda60acffcf8aa02af06e26414abbd9f9aad43b": {
+    "base_amount": "0",
+    "start_amount": "47.906672815204024326",
+    "end_amount": "47.906672815204024326",
+    "area": "2180807.559893717595368172",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xaf777f6ff15de8d50527208d8cbd36576b213f97": {
+    "base_amount": "0",
+    "start_amount": "11.900365001066602104",
+    "end_amount": "11.900365001066602104",
+    "area": "541728.415578553860978288",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb03384ca294c06e8d04b08412e8467ff2363e5e3": {
+    "base_amount": "0",
+    "start_amount": "1481.034838415868145575",
+    "end_amount": "0",
+    "area": "51273702.13186416997883088",
+    "rank_area": "8460160851.7575880465070952",
+    "weight": "0.053425106130954327460955749"
+  },
+  "0xb088a3cfc81fef417fe204ccd718f627086cf964": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb08f28fd474c7b4f5c1b96799d28f0a3430528b0": {
+    "base_amount": "0",
+    "start_amount": "71.91333210171225812",
+    "end_amount": "111.542209580486522747",
+    "area": "4739748.655138878108279132",
+    "rank_area": "582989084.582082007318333236",
+    "weight": "0.003681520276356807613120181"
+  },
+  "0xb4d502361a3c6f823eeb9a99af09e110382206ee": {
+    "base_amount": "0",
+    "start_amount": "11.002324896633832779",
+    "end_amount": "11.002324896633832779",
+    "area": "500847.833944565335765638",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb5a8168c066ef50d63c65501087b7185f8c36279": {
+    "base_amount": "0",
+    "start_amount": "67.789257342793629626",
+    "end_amount": "67.789257342793629626",
+    "area": "3085902.572758651607834772",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb71d05cf5cdf7a9b15b20b9aab5e91332c271c96": {
+    "base_amount": "0",
+    "start_amount": "22.462633363173148765",
+    "end_amount": "22.462633363173148765",
+    "area": "1022543.99595836807808033",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb72fc236ab043029776b9d25e99a5b6456a2e16d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xb89039a9e26388967b7b1a87b872318f102cbdd3": {
+    "base_amount": "0",
+    "start_amount": "302.153067086061986025",
+    "end_amount": "192.453067086061986025",
+    "area": "12515769.81989171372783005",
+    "rank_area": "1964975861.72299905526931785",
+    "weight": "0.012408634516151710273398275"
+  },
+  "0xbba51476535f97a6b5e12b00dc641f97aef4322e": {
+    "base_amount": "0",
+    "start_amount": "8.823865818252087102",
+    "end_amount": "8.823865818252087102",
+    "area": "401680.019778471509057244",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbbb3b5011347c64b3d57dba007263e27959787fa": {
+    "base_amount": "0",
+    "start_amount": "113.145959490003808522",
+    "end_amount": "113.145959490003808522",
+    "area": "5150630.367903953371538484",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbcb4c8386c097589e7825aaeb9e7c6295835f1d6": {
+    "base_amount": "0",
+    "start_amount": "23.508145228518244042",
+    "end_amount": "23.508145228518244042",
+    "area": "1070137.787092607505279924",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbd1f7d88c76a86c60d41bddd4819fae404e7151e": {
+    "base_amount": "0",
+    "start_amount": "4.818080445550006572",
+    "end_amount": "4.818080445550006572",
+    "area": "219328.658042327399170584",
+    "rank_area": "12501733.508412661752723288",
+    "weight": "0.000078947250674211200781373"
+  },
+  "0xbd810c549c287c759ff9044efeb1712bc1a58edd": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xbd8aab70a86f74eba55d071576a71305b598235e": {
+    "base_amount": "0",
+    "start_amount": "9.621724135098102227",
+    "end_amount": "9.621724135098102227",
+    "area": "438000.126077935809577494",
+    "rank_area": "1752000.504311743238309976",
+    "weight": "0.000011063715516105693565368"
+  },
+  "0xbe18f84532d8f7fb6d7919401c0096f3e257db8b": {
+    "base_amount": "0",
+    "start_amount": "823.510662248525531099",
+    "end_amount": "934.738232404063938011",
+    "area": "40708335.433160838260418726",
+    "rank_area": "5862000302.375160709500296544",
+    "weight": "0.037017970908793888554767068"
+  },
+  "0xbfdd5a28b6a717959304e25953b4bdbd84c5fe1b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "10.14272783267389474",
+    "area": "416592.26027141487865602",
+    "rank_area": "12497767.8081424463596806",
+    "weight": "0.000078922207656527228931192"
+  },
+  "0xc0afef712a1341ca78da145b2afad346e8c3574f": {
+    "base_amount": "0",
+    "start_amount": "18.796399440904689839",
+    "end_amount": "18.796399440904689839",
+    "area": "855649.695348863290850958",
+    "rank_area": "120646607.044189724009985078",
+    "weight": "0.000761871777454009192536568"
+  },
+  "0xc0c57eb10fa32edef323238c02973f4dade43161": {
+    "base_amount": "0",
+    "start_amount": "36.600652258256242544",
+    "end_amount": "36.600652258256242544",
+    "area": "1666134.892100340673087968",
+    "rank_area": "68311530.576113967596606688",
+    "weight": "0.000431380778089890646971455"
+  },
+  "0xc155f9bd6b71e9f71d0236b689ad7c2c5d16febf": {
+    "base_amount": "0",
+    "start_amount": "78.788137119082800493",
+    "end_amount": "78.788137119082800493",
+    "area": "3586593.577934887244042346",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc23ca051fc6ad307bb07c1b27e22391bc8f22a44": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc4a639cba07bfbf4c0a2eef7fb441895af7bc807": {
+    "base_amount": "0",
+    "start_amount": "4.563808259150108024",
+    "end_amount": "4.563808259150108024",
+    "area": "207753.679573031217468528",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc4a69b137d22b52a36328f3ac6d5aa9984faab8e": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc4f88c35bd1485c846847c093b5a77a126cf1b05": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc72c7d557b3a5aeb2aff6ae97e866d74683bece2": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc7748db7338cc106aeb041b59965d0101eda8636": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "25.503419672465951501",
+    "area": "829549.731686300004473027",
+    "rank_area": "41477486.58431500022365135",
+    "weight": "0.000261926358332998426180888"
+  },
+  "0xc8a05216e8e3eff8fdc6a280c20b709e987783c4": {
+    "base_amount": "0",
+    "start_amount": "61.614390107241513741",
+    "end_amount": "1",
+    "area": "318044.297922157845779536",
+    "rank_area": "26715721.025461259045481024",
+    "weight": "0.00016870722154812434174578"
+  },
+  "0xc8d46eb7881975f9ae15216feeba2ff58e55803c": {
+    "base_amount": "0",
+    "start_amount": "3.723018579881047891",
+    "end_amount": "3.723018579881047891",
+    "area": "169479.251793345062094102",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xc9a737b5389f157aa1251953d77fb16e9c2cf0c6": {
+    "base_amount": "0",
+    "start_amount": "7.216803726141041383",
+    "end_amount": "7.216803726141041383",
+    "area": "328523.339221392485836926",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xca4ad39f872e89ef23eabd5716363fc22513e147": {
+    "base_amount": "0",
+    "start_amount": "27.4357924470674182",
+    "end_amount": "27.4357924470674182",
+    "area": "1248932.1437754030113004",
+    "rank_area": "83678453.6329520017571268",
+    "weight": "0.000528421426560211821790862"
+  },
+  "0xcaf2d3f6c4a375ccec74eb7ed5c03f5b6cd8876e": {
+    "base_amount": "0",
+    "start_amount": "1240.317335841725401029",
+    "end_amount": "1240.317335841725401029",
+    "area": "56461725.762187023705642138",
+    "rank_area": "8412797138.565866532140678562",
+    "weight": "0.053126008814914749612129352"
+  },
+  "0xccf8f4148b7ac7985cd34642af87ee1485b5446d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xce74f4a7c96873b76ce10895ab8292c188469786": {
+    "base_amount": "0",
+    "start_amount": "3.299040482869380271",
+    "end_amount": "3.299040482869380271",
+    "area": "150178.920861179928696462",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xceba15865a04d52f6735c9330786849301e33352": {
+    "base_amount": "0",
+    "start_amount": "7.013471347981582",
+    "end_amount": "7.013471347981582",
+    "area": "319267.242702817575804",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd0b8f4feb248c994d25e6357c1ec9820beeca5ce": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd1bbca0dfde1f51ccd17e33de1a7ead48faa1d68": {
+    "base_amount": "0",
+    "start_amount": "134.170127962611163051",
+    "end_amount": "154.242094911573222839",
+    "area": "6852884.41006115079609691",
+    "rank_area": "993668239.45886686543405195",
+    "weight": "0.006274919836898819346351575"
+  },
+  "0xd21da717ee1805325cd4f84cbedcddf8fc0a809c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "115.875481729726489417",
+    "area": "5232820.879432718535582303",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd2cf26d8348c2b1170ac3be32c35d9c94b41b4cc": {
+    "base_amount": "0",
+    "start_amount": "15.000083442225558134",
+    "end_amount": "15.000083442225558134",
+    "area": "682833.798456991857375948",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd2d233bdad63063b4dbabba15c53304b4ab6e504": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd5065dec24919bbded718fa8c75f664b6c33172d": {
+    "base_amount": "0",
+    "start_amount": "5.332808488789072855",
+    "end_amount": "5.332808488789072855",
+    "area": "242760.10802665617450531",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xd7f397a87d0b308ae01c551553e95d3669506910": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xda18ea91417845a89a51973df41fd221a294630d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xda7fc7825eba671c937d4ec6517f66248caa8ef2": {
+    "base_amount": "0",
+    "start_amount": "9.164215581755341048",
+    "end_amount": "9.164215581755341048",
+    "area": "417173.421712666635187056",
+    "rank_area": "35459740.84557666399089976",
+    "weight": "0.000223924869898602665995769"
+  },
+  "0xdbab0b75921e3008fd0bb621a8248d969d2d2f0d": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdcf63fe0daef23c903eb034ba14e0791ab35de87": {
+    "base_amount": "0",
+    "start_amount": "12.622697810722935731",
+    "end_amount": "12.622697810722935731",
+    "area": "574610.449739729480346582",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xdf632ea5ba8283488aae8538e17a2f802243a61a": {
+    "base_amount": "0",
+    "start_amount": "19.017386601018948689",
+    "end_amount": "19.017386601018948689",
+    "area": "865709.472851584582220658",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe105766f0156daec8a46e407e35634542fa012e6": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe2d128323cf7560a6e7a82726d7b425aedc7a556": {
+    "base_amount": "0",
+    "start_amount": "1.667828490053547224",
+    "end_amount": "1.667828490053547224",
+    "area": "75922.888524217576730928",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe3939654deae5f54fd3e6b84b3a7f75f245062d8": {
+    "base_amount": "0",
+    "start_amount": "355.234545192716214437",
+    "end_amount": "457.894511880873319313",
+    "area": "18859446.173892285776093802",
+    "rank_area": "3055230280.170550295727195924",
+    "weight": "0.019293486829946852887304377"
+  },
+  "0xe4989e7b39a21089b128908e1603fdc9939dbb78": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe4b420f15d6d878dcd0df7120ac0fc1509ee9cab": {
+    "base_amount": "0",
+    "start_amount": "30.92391556281131415",
+    "end_amount": "30.92391556281131415",
+    "area": "1407718.4842502966427363",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe54bee8258a2fe65095516f199034a08c02e35fe": {
+    "base_amount": "0",
+    "start_amount": "74.660846113894217907",
+    "end_amount": "74.660846113894217907",
+    "area": "3398711.036796692587562454",
+    "rank_area": "421440168.562789880857744296",
+    "weight": "0.002661354332126766398071315"
+  },
+  "0xe77a7d81764d209a8915c55ad521145f4426f506": {
+    "base_amount": "0",
+    "start_amount": "15.058370516440997729",
+    "end_amount": "15.058370516440997729",
+    "area": "685487.142649427098619538",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe77b6871a8df37d2fda790bc8d98d3c5cc974231": {
+    "base_amount": "0",
+    "start_amount": "9.277068586161672742",
+    "end_amount": "9.277068586161672742",
+    "area": "422310.716179251666561324",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe7813c0eb3d25ffe9c60531271e6c201d187a425": {
+    "base_amount": "0",
+    "start_amount": "43.803480934702962916",
+    "end_amount": "43.803480934702962916",
+    "area": "1994022.059109548277862152",
+    "rank_area": "199402205.9109548277862152",
+    "weight": "0.001259205847289062460284463"
+  },
+  "0xe8149b815388948db4ad05680fff1145e0975c7d": {
+    "base_amount": "0",
+    "start_amount": "27.722309193883902969",
+    "end_amount": "27.722309193883902969",
+    "area": "1261974.959123983030954818",
+    "rank_area": "95910096.893422710352566168",
+    "weight": "0.000605663083166641570839884"
+  },
+  "0xe895084850c04af3a57fdd90c0ba42ba440bc3a8": {
+    "base_amount": "0",
+    "start_amount": "31.248039944538424386",
+    "end_amount": "31.248039944538424386",
+    "area": "1422473.274355278154899492",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe993fb4df8a4737f48992334f549bb92b2ff7048": {
+    "base_amount": "0",
+    "start_amount": "25.503419672465951501",
+    "end_amount": "0",
+    "area": "326469.275227236645164301",
+    "rank_area": "3264692.75227236645164301",
+    "weight": "0.00002061622229545124268172"
+  },
+  "0xe99794e0a0fcc1e8d85a1e47da202d054b6b4f6a": {
+    "base_amount": "0",
+    "start_amount": "3.411484296106198106",
+    "end_amount": "3.411484296106198106",
+    "area": "155297.588127346350181332",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xe9d9e4c521233715f494526b8c2c7ab6521a0444": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xebfc0d4a6e1b8adf166a4a20c526bc2a76948f6c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xec9d209252fe238037021e6e6b1ac99cf7f46df6": {
+    "base_amount": "0",
+    "start_amount": "45.771743960962388599",
+    "end_amount": "45.771743960962388599",
+    "area": "2083621.328590929853803678",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xee67fdec69afce1db5977a5a71a9988fb3ec6f6e": {
+    "base_amount": "0",
+    "start_amount": "8.359786877004271271",
+    "end_amount": "0",
+    "area": "153527.485996183441891915",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xef1bd6e2df7835a0dedf03b53e032afaa6657634": {
+    "base_amount": "0",
+    "start_amount": "0.366514109476971072",
+    "end_amount": "0.366514109476971072",
+    "area": "16684.455291610677139584",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf0e06ba94fbe0f10ea04fcfa96be1867479edfe9": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf0f8d1d90abb4bb6b016a27545ff088a4160c236": {
+    "base_amount": "0",
+    "start_amount": "4.386397780336261287",
+    "end_amount": "4.386397780336261287",
+    "area": "199677.599756467286306814",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf19ef15427ef1a098d89d8cee9fb1cc9e8a95400": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf3afc2383a0b45ae73d77b49df7f2184b1ad4b90": {
+    "base_amount": "0",
+    "start_amount": "39.598636677464648197",
+    "end_amount": "559.103700728004372898",
+    "area": "22821809.582845741769923239",
+    "rank_area": "3172231532.015558106019330221",
+    "weight": "0.020032338538183045719571956"
+  },
+  "0xf40f824adff6a5668f5bf72a25956cad21bdff23": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf4d08403e9eae4f8214ffada7703c5650d0c5927": {
+    "base_amount": "0",
+    "start_amount": "37.62872136306315314",
+    "end_amount": "37.62872136306315314",
+    "area": "1712934.65388936085723908",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf670fd01a42a80c5098d4785638f7b0a8ac69010": {
+    "base_amount": "0",
+    "start_amount": "22.79733730086678461",
+    "end_amount": "22.79733730086678461",
+    "area": "1037780.38861005776901642",
+    "rank_area": "141138132.85096785658623312",
+    "weight": "0.000891273801859357913625588"
+  },
+  "0xf797485cc069a3910cd5d0eb5e168eeb9e8b8b1b": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf7b8b220395c3eae8708e15dfa467e75331887b1": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf7e233c0ad9b3419c9ef7afe27b5328f5cbe729f": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xf998e6fe972e77230e5e79ea2949e2a7ee4fb74c": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfafcb62a8281f750bcb3a6441c06049a6385ab1b": {
+    "base_amount": "0",
+    "start_amount": "2.469589053392422429",
+    "end_amount": "2.469589053392422429",
+    "area": "112420.632888529853812938",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfb246c6d93dd15faa9d748934001c10fe54e4fe6": {
+    "base_amount": "0",
+    "start_amount": "339.814750803143488233",
+    "end_amount": "0",
+    "area": "3457275.274671181849282542",
+    "rank_area": "484018538.45396545889955588",
+    "weight": "0.00305653074916186505312283"
+  },
+  "0xfd0101d908bf7e4a03168b6e90aa7f1e70606225": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfd8f30441c0344b305bc6355537d93ec184c42ca": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xfe80cc6e466817724b6a3e278d48122617cac5a4": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xff3fc772434505abff38eecde3c689d4b0254528": {
+    "base_amount": "0",
+    "start_amount": "74.794087973114651875",
+    "end_amount": "74.794087973114651875",
+    "area": "3404776.47271212518265375",
+    "rank_area": "0",
+    "weight": "0"
+  },
+  "0xffec9c63c163981fcc61b410389af1b247584b14": {
+    "base_amount": "0",
+    "start_amount": "347.343507850450752067",
+    "end_amount": "400.869122048008740835",
+    "area": "17703687.523795103806587702",
+    "rank_area": "2921108441.42619212808697083",
+    "weight": "0.018446520253902680054716602"
+  },
+  "0xfffff6e70842330948ca47254f2be673b1cb0db7": {
+    "base_amount": "0",
+    "start_amount": "0",
+    "end_amount": "0",
+    "area": "0",
+    "rank_area": "0",
+    "weight": "0"
+  }
+}
