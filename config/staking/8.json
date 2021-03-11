@@ -1,7 +1,7 @@
 {
   "name": "staking",
   "round": 8,
-  "startBlock": 0,
+  "startBlock": 12014730,
   "endBlock": 0,
   "pools": [
     {

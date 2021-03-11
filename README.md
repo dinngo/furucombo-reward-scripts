@@ -5,7 +5,7 @@ This script calculates COMBO reward distribution.
 [![Travis](https://travis-ci.com/dinngodev/furucombo-reward-scripts.svg?branch=master)](https://travis-ci.com/dinngodev/furucombo-reward-scripts)
 
 ## Announcement
-* Transaction mining program started from 3:00 AM (UTC) Jan 15, 2021: [medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230)
+* Season 2 mining program started from 3:00 AM (UTC) Mar 11, 2021: [medium](https://medium.com/furucombo/announcing-combo-mining-season-2-e0c20e586c47)
 * Retroactive COMBO was be distributed at 3:00 AM (UTC) Jan 15, 2021: [medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
 
 ## Setup
@@ -37,6 +37,13 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   $ go run main.go staking -c={CONFIG_PATH}
   ```
 
+* staking reward for season 2
+
+  ```sh
+  $ go run main.go stakingv2 --help
+  $ go run main.go stakingv2 -c={CONFIG_PATH}
+  ```
+
 * bonus reward
 
   ```sh
@@ -45,7 +52,7 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   ```
 
 ## Reward
-* Tx mining reward COMBO [medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230)
+* Tx mining reward COMBO [season 1 medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230) [season 2 medium](https://medium.com/furucombo/announcing-combo-mining-season-2-e0c20e586c47)
   * Round 0
     * COMBO Pool [Reward](/rewards/staking/0/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
     * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/0/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
@@ -97,20 +104,24 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 
 ### Reward
 
-#### reward distribution is decided by trading rank, staking amount and staking duration
-* `trading_rank` - higher trading volume in a round gives higher trading rank, e.g., user A/B/C's trading volume are 10/100/1000 USD, their trading rank are `1/2/3`.
-* `staking_amount` - the amount of token in a staking contract, e.g., user A/B/C stakes `100/50/20` COMBO in the staking contract
+#### Reward is decided by staking amount and staking duration, and user must do at least one tx on furucombo.
+* `staking_amount` - the amount of token in a staking contract, e.g., user A/B/C stakes `50/30/20` COMBO in the staking contract
 * `staking_duration` - the duration of token in a staking contract, e.g., user A/B/C's staking duration is `46500` blocks ~= 1 week.
+* Eligibility requirement: send out at least one transaction on Furucombo during each week’s program.
 * Note that this script tracks the staking amount and duration every block, so higher staking amount for longer duration gives higher reward.
 
-#### Let `share = (trading_rank * staking_amount * staking_duration)`
-* A/B/C's `share` are `4,650,000/4,650,000/2,790,000`
-* A/B/C's `weight` ~= `38%/38%/24%` by normalizing `share` into [0, 1]
+#### Let `staking_area = staking_amount * staking_duration`
+* A/B/C's `staking_area` are `2,325,000/1,395,000/930,000`
+* A/B/C's `weight` = `50%/30%/20%` by normalizing `staking_area` into [0, 1]
 
-#### Therefore, the reward distribution of 93,750 COMBO for a staking pool in a round
-* A/B/C's `reward` ~= `35625/35625/22500` COMBO
+#### Therefore, the reward distribution of 46,875 COMBO for a staking pool
+* A/B/C's `reward` = `23437.5/14062.5/9,375` COMBO
 
 ### What's the difference between COMBO and COMBO/ETH LP pool?
-* COMBO Pool: Every traded users no matter staked or not would share the rewards in this pool. If you made trades and have staked 0 COMBO, we will treat you as staked 250* COMBO when calculate the rewards; if you made trades and have staked 1000 COMBO, we will treat you as staked 1250 COMBO when calculate the rewards. Besides, there’s a trading volume cap of $1000 USD*. Which means that users with $1000 or $1000+ weekly trading volume will share the same trading rank.
-* COMBO/ETH Uniswap V2 Liquidity Pool: Only people who staked could share the rewards in this pool. Besides, there’s a trading volume cap of $1 million USD*. Which means that users with $1 million or $1 million+ weekly trading volume will share the same trading rank.
-* *The numbers are updated after the Feb 22–24 community vote.
+* COMBO Pool
+  * Rewards: 46,875 COMBO
+  * Competition rule: base amount = 250 COMBO
+  * Every traded user, no matter if they stake or not, will share the rewards in this pool. If you have made trades but staked 0 COMBO, we will automatically act as if staked 250 COMBO when calculating the rewards; if you have made trades and have staked 1000 COMBO, we will act as if you have staked 1250 COMBO when calculating the rewards.
+* COMBO/ETH Uniswap V2 Liquidity Pool
+  * Rewards: 140,625 COMBO
+  * Only people who stake LP tokens will be able to share the rewards in this pool.
