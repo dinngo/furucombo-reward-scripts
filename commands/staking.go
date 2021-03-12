@@ -85,7 +85,7 @@ func (c *StakingCommand) Run(args []string) int {
 		return 1
 	}
 
-	if err := config.PrintStakingTokenPrice(); err != nil {
+	if err := config.SavePoolPrices(); err != nil {
 		log.Println(err)
 		return 1
 	}

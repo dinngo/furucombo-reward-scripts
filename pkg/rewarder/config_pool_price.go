@@ -1,9 +1,13 @@
 package rewarder
 
 import (
+	"encoding/json"
+	"io/ioutil"
 	"log"
 	"math/big"
 	"net/http"
+	"os"
+	"path"
 	"time"
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
@@ -16,8 +20,40 @@ import (
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/uniswapv2"
 )
 
-// PrintStakingTokenPrice print staking token price
-func (c *Config) PrintStakingTokenPrice() error {
+// PoolPrices pool prices
+type PoolPrices struct {
+	Combo    float64 `json:"combo"`
+	EthCombo float64 `json:"eth_combo"`
+}
+
+// SavePoolPrices save pool prices to file
+func (c *Config) SavePoolPrices() error {
+	filepath := path.Join(c.RoundDir(), "pool_prices.json")
+
+	if _, err := os.Stat(filepath); err == nil {
+		return nil
+	}
+
+	log.Printf("saving pool prices: ./%s", filepath)
+
+	if err := c.GetPoolPrices(); err != nil {
+		return err
+	}
+
+	data, err := json.MarshalIndent(c.poolPrices, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if err := ioutil.WriteFile(filepath, append(data, '\n'), 0644); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+// GetPoolPrices get pool prices
+func (c *Config) GetPoolPrices() error {
 	to := time.Now()
 	from := to.Add(-24 * time.Hour) // 1 day ago
 
@@ -30,11 +66,14 @@ func (c *Config) PrintStakingTokenPrice() error {
 		}
 
 		price, err = getTokenLatestPrice(stakingToken, from, to)
-		if err != nil {
+		if err == nil {
+			c.poolPrices.Combo, _ = price.Float64()
+		} else {
 			price, err = getPairLatestPrice(stakingToken, from, to)
 			if err != nil {
 				return err
 			}
+			c.poolPrices.EthCombo, _ = price.Float64()
 		}
 		log.Printf("print the latest price %s: %s", stakingToken.Hex(), price.String())
 	}

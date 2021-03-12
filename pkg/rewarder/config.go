@@ -32,6 +32,7 @@ type Config struct {
 	endTimestamp   uint64
 	blocks         uint64
 	cubeFinders    CubeFinders
+	poolPrices     PoolPrices
 }
 
 // NewConfig new config
