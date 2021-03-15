@@ -3,10 +3,10 @@
 This script calculates COMBO reward distribution.
 
 [![Travis](https://travis-ci.com/dinngodev/furucombo-reward-scripts.svg?branch=master)](https://travis-ci.com/dinngodev/furucombo-reward-scripts)
+[![Execute stakingv2 reward calculation](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/stakingv2.yml/badge.svg)](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/stakingv2.yml)
 
 ## Announcement
 * Season 2 mining program started from 3:00 AM (UTC) Mar 11, 2021: [medium](https://medium.com/furucombo/announcing-combo-mining-season-2-e0c20e586c47)
-* Retroactive COMBO was be distributed at 3:00 AM (UTC) Jan 15, 2021: [medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
 
 ## Setup
 * Configure json file under /config
@@ -52,53 +52,50 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   ```
 
 ## Reward
-* Tx mining reward COMBO [season 1 medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230) [season 2 medium](https://medium.com/furucombo/announcing-combo-mining-season-2-e0c20e586c47)
-  * Round 0
-    * COMBO Pool [Reward](/rewards/staking/0/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
-    * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/0/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
-  * Round 1
-    * COMBO Pool [Reward](/rewards/staking/1/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
-    * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/1/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
-  * Round 2
-    * COMBO Pool [Reward](/rewards/staking/2/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
-    * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/2/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
-  * Round 3
-    * COMBO Pool [Reward](/rewards/staking/3/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
-    * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/3/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
-  * Round 4
-    * COMBO Pool [Reward](/rewards/staking/4/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
-    * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/4/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
-  * Round 5
-    * COMBO Pool [Reward](/rewards/staking/5/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
-    * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/5/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
-  * Round 6
-    * COMBO Pool [Reward](/rewards/staking/6/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
-    * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/6/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
-  * Round 7
-    * COMBO Pool [Reward](/rewards/staking/7/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)
-    * COMBO/ETH UNIV2 Pool [Reward](/rewards/staking/7/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)
-* Retroactive COMBO [medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
-  * Round 0 [Reward](/rewards/retroactive/0/rewards.json)
-  * Round 1 [Reward](/rewards/retroactive/1/rewards.json)
-  * Round 2 [Reward](/rewards/retroactive/2/rewards.json)
-  * Round 3 [Reward](/rewards/retroactive/3/rewards.json)
-  * Round 4 [Reward](/rewards/retroactive/4/rewards.json)
-  * Round 5 [Reward](/rewards/retroactive/5/rewards.json)
-  * Round 6 [Reward](/rewards/retroactive/6/rewards.json)
-  * Round 7 [Reward](/rewards/retroactive/7/rewards.json)
-  * Round 8 [Reward](/rewards/retroactive/8/rewards.json)
-* Bonus reward COMBO
-  * 1inch
-    * COMBO Pool [Reward](/rewards/bonus/0/rewards.json)
-    * COMBO/ETH UNIV2 Pool [Reward](/rewards/bonus/1/rewards.json)
-  * Curve
-    * COMBO Pool [Reward](/rewards/bonus/2/rewards.json)
-    * COMBO/ETH UNIV2 Pool [Reward](/rewards/bonus/3/rewards.json)
-  * Aave
-    * COMBO Pool [Reward](/rewards/bonus/3/rewards.json)
-    * COMBO/ETH UNIV2 Pool [Reward](/rewards/bonus/4/rewards.json)
-* UNI distribution [medium](https://medium.com/furucombo/uni-decision-has-been-made-distribution-to-community-253a51e742dc)
-  * Round 0 [Reward](/rewards/uni_distribution/0/rewards.json)
+### Mining COMBO
+* Season 1 [Medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230)
+* Season 2 [Medium](https://medium.com/furucombo/announcing-combo-mining-season-2-e0c20e586c47)
+
+| COMBO pool | COMBO/ETH UNIV2 Pool |
+| ---------: | -------------------: |
+| [0](/rewards/staking/0/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [0](/rewards/staking/0/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [1](/rewards/staking/1/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [1](/rewards/staking/1/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [2](/rewards/staking/2/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [2](/rewards/staking/2/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [3](/rewards/staking/3/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [3](/rewards/staking/3/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [4](/rewards/staking/4/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [4](/rewards/staking/4/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [5](/rewards/staking/5/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [5](/rewards/staking/5/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [6](/rewards/staking/6/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [6](/rewards/staking/6/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [7](/rewards/staking/7/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [7](/rewards/staking/7/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+
+### Bonus COMBO
+| COMBO pool | COMBO/ETH UNIV2 Pool |
+| ---------: | -------------------: |
+| [1inch](/rewards/bonus/0/rewards.json) |  [1inch](/rewards/bonus/1/rewards.json) |
+| [Curve](/rewards/bonus/2/rewards.json) |  [Curve](/rewards/bonus/3/rewards.json) |
+| [Aave](/rewards/bonus/4/rewards.json) |  [Aave](/rewards/bonus/5/rewards.json) |
+
+
+### Retroactive COMBO
+* [Medium](https://medium.com/furucombo/first-furucombo-grant-7b1e48175c99)
+
+| Retroactive |
+| ----------: |
+| [0](/rewards/retroactive/0/rewards.json) |
+| [1](/rewards/retroactive/1/rewards.json) |
+| [2](/rewards/retroactive/2/rewards.json) |
+| [3](/rewards/retroactive/3/rewards.json) |
+| [4](/rewards/retroactive/4/rewards.json) |
+| [5](/rewards/retroactive/5/rewards.json) |
+| [6](/rewards/retroactive/6/rewards.json) |
+| [7](/rewards/retroactive/7/rewards.json) |
+| [8](/rewards/retroactive/8/rewards.json) |
+
+### Uniswap UNI
+* [Medium](https://medium.com/furucombo/uni-decision-has-been-made-distribution-to-community-253a51e742dc)
+
+| Uniswap UNI |
+| ----------: |
+| [0](/rewards/uni_distribution/0/rewards.json) |
 
 ## Calculations
 
