@@ -1,0 +1,78 @@
+name: Execute stakingv2 reward calculation
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.15
+
+    - run: echo "ROUND=$(echo $(file=$(ls -1 config/staking | tail -n 1); echo ${file:0:1}))" >> $GITHUB_ENV
+    - run: echo "TIMESTAMP=$(date +%s --date='- 5 minutes')" >> $GITHUB_ENV
+
+    - name: Get the block number 5 mins ago from etherscan
+      id: blockNumber
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://api.etherscan.io/api?module=block&action=getblocknobytime&timestamp=${{ env.TIMESTAMP }}&closest=before&apikey=${{ secrets.ETHERSCAN_API_KEY }}'
+        method: 'GET'
+
+    - name: Set the block number to config
+      id: replace
+      uses: jacobtomlinson/gha-find-replace@master
+      with:
+        find: ": 0,"
+        replace: ": ${{ fromJson(steps.blockNumber.outputs.response).result }},"
+        include: "config/staking/${{ env.ROUND }}.json"
+
+    - run: go run main.go stakingv2 -c=config/staking/${{ env.ROUND }}.json
+      env:
+        ETHEREUM_RPC_URL: ${{ secrets.ETHEREUM_RPC_URL }}
+        ETHERSCAN_API_KEY: ${{ secrets.ETHERSCAN_API_KEY }}
+        FURUCOMBO_PROXY_ADDRESSES: ${{ secrets.FURUCOMBO_PROXY_ADDRESSES }}
+        FURUCOMBO_DSPROXY_ADDRESSES: ${{ secrets.FURUCOMBO_DSPROXY_ADDRESSES }}
+
+    - name: Upload blocks.json to gist
+      uses: exuanbo/actions-deploy-gist@v1
+      with:
+        token: ${{ secrets.GIST_ACCESS_TOKEN }}
+        gist_id: e0b2958f5fddcff9cfc8d4cf8828ae8a
+        gist_file_name: blocks.json
+        file_path: ./rewards/staking/${{ env.ROUND }}/blocks.json
+
+    - name: Upload pool_prices.json to gist
+      uses: exuanbo/actions-deploy-gist@v1
+      with:
+        token: ${{ secrets.GIST_ACCESS_TOKEN }}
+        gist_id: e0b2958f5fddcff9cfc8d4cf8828ae8a
+        gist_file_name: pool_prices.json
+        file_path: ./rewards/staking/${{ env.ROUND }}/pool_prices.json
+
+    - name: Upload combo_stakings.json to gist
+      uses: exuanbo/actions-deploy-gist@v1
+      with:
+        token: ${{ secrets.GIST_ACCESS_TOKEN }}
+        gist_id: e0b2958f5fddcff9cfc8d4cf8828ae8a
+        gist_file_name: combo_stakings.json
+        file_path: ./rewards/staking/${{ env.ROUND }}/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/stakings.json
+
+    - name: Upload lp_stakings.json to gist
+      uses: exuanbo/actions-deploy-gist@v1
+      with:
+        token: ${{ secrets.GIST_ACCESS_TOKEN }}
+        gist_id: e0b2958f5fddcff9cfc8d4cf8828ae8a
+        gist_file_name: lp_stakings.json
+        file_path: ./rewards/staking/${{ env.ROUND }}/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/stakings.json
