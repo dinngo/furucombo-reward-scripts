@@ -102,7 +102,7 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 
 ### Reward
 
-#### Reward is decided by staking amount and staking duration, and user must do at least one tx on furucombo.
+#### Reward is decided by staking amount and staking duration, and user must do at least one tx on furucombo.gst
 * `staking_amount` - the amount of token in a staking contract, e.g., user A/B/C stakes `50/30/20` COMBO in the staking contract
 * `staking_duration` - the duration of token in a staking contract, e.g., user A/B/C's staking duration is `46500` blocks ~= 1 week.
 * Eligibility requirement: send out at least one transaction on Furucombo during each week’s program.

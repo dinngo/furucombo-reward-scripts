@@ -55,6 +55,13 @@ func (c *StakingV2Command) Run(args []string) int {
 		return 1
 	}
 
+	if config.EndBlock == 0 {
+		if err := config.UpdateEndBlockToCurrentBlock(); err != nil {
+			log.Println(err)
+			return 1
+		}
+	}
+
 	if err := config.Validates(rewarder.StakingV2RewarderRequiredFieldNames); err != nil {
 		log.Println(err)
 		return 1

@@ -66,3 +66,17 @@ func (c *Config) SaveBlocks() error {
 
 	return nil
 }
+
+// UpdateEndBlockToCurrentBlock update end block to current block
+func (c *Config) UpdateEndBlockToCurrentBlock() error {
+	currentBlock, err := ethereum.Client().BlockNumber(context.Background())
+	if err != nil {
+		return err
+	}
+
+	c.EndBlock = currentBlock
+
+	log.Printf("update end block to current block: %d", c.EndBlock)
+
+	return nil
+}

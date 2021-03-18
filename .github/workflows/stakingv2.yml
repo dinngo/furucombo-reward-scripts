@@ -21,22 +21,6 @@ jobs:
         go-version: 1.15
 
     - run: echo "ROUND=$(echo $(file=$(ls -1 config/staking | tail -n 1); echo ${file:0:1}))" >> $GITHUB_ENV
-    - run: echo "TIMESTAMP=$(date +%s --date='- 5 minutes')" >> $GITHUB_ENV
-
-    - name: Get the block number 5 mins ago from etherscan
-      id: blockNumber
-      uses: fjogeleit/http-request-action@master
-      with:
-        url: 'https://api.etherscan.io/api?module=block&action=getblocknobytime&timestamp=${{ env.TIMESTAMP }}&closest=before&apikey=${{ secrets.ETHERSCAN_API_KEY }}'
-        method: 'GET'
-
-    - name: Set the block number to config
-      id: replace
-      uses: jacobtomlinson/gha-find-replace@master
-      with:
-        find: ": 0,"
-        replace: ": ${{ fromJson(steps.blockNumber.outputs.response).result }},"
-        include: "config/staking/${{ env.ROUND }}.json"
 
     - run: go run main.go stakingv2 -c=config/staking/${{ env.ROUND }}.json
       env:

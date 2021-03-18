@@ -22,11 +22,7 @@ func (m StakingEventMap) Add(block uint64, account common.Address, amount decima
 	log.Printf("adding %s staking event", account.String())
 
 	if _, ok := m[block]; ok {
-		if _, ok := m[block][account]; ok {
-			m[block][account] = append(m[block][account], amount)
-		} else {
-			m[block][account] = []decimal.Decimal{amount}
-		}
+		m[block][account] = append(m[block][account], amount)
 	} else {
 		m[block] = map[common.Address][]decimal.Decimal{
 			account: {amount},

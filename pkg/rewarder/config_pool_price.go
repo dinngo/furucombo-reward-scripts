@@ -60,6 +60,10 @@ func (c *Config) GetPoolPrices() error {
 	for _, pool := range c.Pools {
 		var price decimal.Decimal
 		staking, err := furucombo.NewStakingContract(pool.Address, ethereum.Client())
+		if err != nil {
+			return err
+		}
+
 		stakingToken, err := staking.StakingToken(new(bind.CallOpts))
 		if err != nil {
 			return err
