@@ -8,6 +8,7 @@ import (
 	"math/big"
 	"os"
 	"path"
+	"time"
 
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
 )
@@ -36,6 +37,13 @@ func (c *Config) GetBlockTimestamps() error {
 		return err
 	}
 	c.endTimestamp = endHeader.Time
+
+	log.Printf("found block timestamps: %d (%s), %d (%s)",
+		c.startTimestamp,
+		time.Unix(int64(c.startTimestamp), 0).UTC().Format(time.RFC3339),
+		c.endTimestamp,
+		time.Unix(int64(c.endTimestamp), 0).UTC().Format(time.RFC3339),
+	)
 
 	return nil
 }
