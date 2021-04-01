@@ -58,16 +58,17 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 
 | COMBO pool | COMBO/ETH UNIV2 Pool |
 | ---------: | -------------------: |
-| [0](/rewards/staking/0/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [0](/rewards/staking/0/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
-| [1](/rewards/staking/1/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [1](/rewards/staking/1/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
-| [2](/rewards/staking/2/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [2](/rewards/staking/2/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
-| [3](/rewards/staking/3/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [3](/rewards/staking/3/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
-| [4](/rewards/staking/4/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [4](/rewards/staking/4/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
-| [5](/rewards/staking/5/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [5](/rewards/staking/5/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
-| [6](/rewards/staking/6/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [6](/rewards/staking/6/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
-| [7](/rewards/staking/7/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [7](/rewards/staking/7/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
-| [8](/rewards/staking/8/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [8](/rewards/staking/8/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
-| [9](/rewards/staking/9/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) |  [9](/rewards/staking/9/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [0](/rewards/staking/0/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)   | [0](/rewards/staking/0/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)   |
+| [1](/rewards/staking/1/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)   | [1](/rewards/staking/1/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)   |
+| [2](/rewards/staking/2/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)   | [2](/rewards/staking/2/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)   |
+| [3](/rewards/staking/3/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)   | [3](/rewards/staking/3/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)   |
+| [4](/rewards/staking/4/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)   | [4](/rewards/staking/4/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)   |
+| [5](/rewards/staking/5/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)   | [5](/rewards/staking/5/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)   |
+| [6](/rewards/staking/6/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)   | [6](/rewards/staking/6/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)   |
+| [7](/rewards/staking/7/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)   | [7](/rewards/staking/7/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)   |
+| [8](/rewards/staking/8/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)   | [8](/rewards/staking/8/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)   |
+| [9](/rewards/staking/9/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)   | [9](/rewards/staking/9/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)   |
+| [10](/rewards/staking/10/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [10](/rewards/staking/10/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 
 ### Bonus COMBO
 | COMBO pool | COMBO/ETH UNIV2 Pool |
