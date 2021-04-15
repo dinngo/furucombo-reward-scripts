@@ -19,7 +19,7 @@ import (
 // LoadStakingsTask  load stakings task
 type LoadStakingsTask struct {
 	rootpath         string
-	round            int
+	round            string
 	duration         decimal.Decimal
 	baseAmount       decimal.Decimal
 	stakingStakedMap StakingStakedMap

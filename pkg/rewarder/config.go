@@ -7,7 +7,6 @@ import (
 	"log"
 	"os"
 	"path"
-	"strconv"
 	"strings"
 	"time"
 
@@ -17,7 +16,7 @@ import (
 // Config struct
 type Config struct {
 	Name         string          `json:"name"`
-	Round        int             `json:"round"`
+	Round        string          `json:"round"`
 	StartBlock   uint64          `json:"startBlock"`
 	EndBlock     uint64          `json:"endBlock"`
 	CubeNames    []string        `json:"cubes"`
@@ -56,7 +55,7 @@ func NewConfig(filepath string) (*Config, error) {
 
 // LogToFile log to file
 func (c *Config) LogToFile() error {
-	logFilepath := path.Join("logs", fmt.Sprintf("%s_%d_%d.log", c.Name, c.Round, time.Now().Unix()))
+	logFilepath := path.Join("logs", fmt.Sprintf("%s_%s_%d.log", c.Name, c.Round, time.Now().Unix()))
 	logFile, err := os.OpenFile(logFilepath, os.O_CREATE|os.O_APPEND|os.O_RDWR, 0644)
 	if err != nil {
 		return err
@@ -79,7 +78,7 @@ func (c *Config) RewardDir() string {
 // RoundDir get round dir
 func (c *Config) RoundDir() string {
 	if len(c.roundDir) == 0 {
-		c.roundDir = path.Join(c.RewardDir(), strconv.Itoa(c.Round))
+		c.roundDir = path.Join(c.RewardDir(), c.Round)
 	}
 
 	return c.roundDir

@@ -2,6 +2,7 @@ package rewarder
 
 import (
 	"bytes"
+	"log"
 	"sort"
 
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
@@ -39,13 +40,16 @@ type RewardMerkleTree struct {
 func NewRewardMerkleTree(rewardMap RewardMap) (*RewardMerkleTree, error) {
 	merkleTreeLeaves := make(RewardMerkleTreeLeaves, len(rewardMap))
 	i := 0
+	sum := decimal.Zero
 	for account, amount := range rewardMap {
 		merkleTreeLeaves[i] = RewardMerkleTreeLeaf{
 			Account: account,
 			Amount:  ethereum.ToSmallUnit(amount, furucombo.COMBODecimals),
 		}
 		i++
+		sum = sum.Add(amount)
 	}
+	log.Printf("print sum of each amount: %s", sum.String())
 
 	sort.Sort(merkleTreeLeaves)
 
