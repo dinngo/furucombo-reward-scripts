@@ -124,10 +124,12 @@ func (c *StakingV2Command) Run(args []string) int {
 		return 1
 	}
 
-	if err := stakingV2Rewarder.GenerateRewardsMerkleTree(); err != nil {
-		log.Println(err)
-		return 1
-	}
+	// Disable merkle generation due to vesting reward that will be distributed
+	// for 12 weeks so don't need to create reward merkle.
+	// if err := stakingV2Rewarder.GenerateRewardsMerkleTree(); err != nil {
+	// 	log.Println(err)
+	// 	return 1
+	// }
 
 	return 0
 }
