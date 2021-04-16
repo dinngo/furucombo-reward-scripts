@@ -55,7 +55,8 @@ func NewConfig(filepath string) (*Config, error) {
 
 // LogToFile log to file
 func (c *Config) LogToFile() error {
-	logFilepath := path.Join("logs", fmt.Sprintf("%s_%s_%d.log", c.Name, c.Round, time.Now().Unix()))
+	round := strings.Split(c.Round, "/")
+	logFilepath := path.Join("logs", fmt.Sprintf("%s_%s_%d.log", c.Name, round[0], time.Now().Unix()))
 	logFile, err := os.OpenFile(logFilepath, os.O_CREATE|os.O_APPEND|os.O_RDWR, 0644)
 	if err != nil {
 		return err

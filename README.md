@@ -70,7 +70,7 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 | [9](/rewards/staking/9/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json)   | [9](/rewards/staking/9/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json)   |
 | [10](/rewards/staking/10/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [10](/rewards/staking/10/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [11](/rewards/staking/11/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [11](/rewards/staking/11/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
-| [12](/rewards/staking/12-combo/rewards.json) | [12](/rewards/staking/12-combo-univ2/rewards.json) |
+| [12](/rewards/staking/12/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [12](/rewards/staking/12/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 
 ### Bonus COMBO
 | COMBO pool | COMBO/ETH UNIV2 Pool |
