@@ -164,7 +164,8 @@ func (t *LoadStakingsTask) CalcStakingsWeightWithTrading() error {
 	}
 
 	if totalRankArea.IsZero() {
-		return errors.New("unexpected 0 total rank area")
+		log.Println("unexpected 0 total rank area")
+		return nil
 	}
 
 	for account := range t.stakingMap {
