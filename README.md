@@ -5,9 +5,6 @@ This script calculates COMBO reward distribution.
 [![Travis](https://travis-ci.com/dinngodev/furucombo-reward-scripts.svg?branch=master)](https://travis-ci.com/dinngodev/furucombo-reward-scripts)
 [![Execute stakingv2 reward calculation](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/stakingv2.yml/badge.svg)](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/stakingv2.yml)
 
-## Announcement
-* Season 2 mining program started from 3:00 AM (UTC) Mar 11, 2021: [medium](https://medium.com/furucombo/announcing-combo-mining-season-2-e0c20e586c47)
-
 ## Setup
 * Configure json file under /config
 
@@ -18,7 +15,7 @@ ETHEREUM_RPC_URL={YOUR_ETHEREUM_RPC_URL}
 ETHERSCAN_API_KEY={YOUR_KEY}
 ```
 
-* ETHEREUM_RPC_URL is an ethereum node url, e.g., <https://mainnet.infura.io/v3/{YOUR_KEY}>
+* ETHEREUM_RPC_URL is an ethereum archive node url, e.g., <https://mainnet.infura.io/v3/{YOUR_KEY}>
 * ETHERSCAN_API_KEY is an etherscan api key from <https://etherscan.io/myapikey>
 
 ## Run
@@ -51,10 +48,18 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   $ go run main.go bonus -c={CONFIG_PATH}
   ```
 
+* usage reward
+
+  ```sh
+  $ go run main.go usage --help
+  $ go run main.go usage -c={CONFIG_PATH}
+  ```
+
 ## Reward
 ### Mining COMBO
 * Season 1 [Medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230)
 * Season 2 [Medium](https://medium.com/furucombo/announcing-combo-mining-season-2-e0c20e586c47)
+* Season 3 [Medium](https://medium.com/furucombo/combo-mining-season-3-5e5f248923b2)
 
 | COMBO pool | COMBO/ETH UNIV2 Pool |
 | ---------: | -------------------: |
@@ -73,6 +78,7 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 | [12](/rewards/staking/12/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [12](/rewards/staking/12/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [13](/rewards/staking/13/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [13](/rewards/staking/13/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [14](/rewards/staking/14/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [14](/rewards/staking/14/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [15](/rewards/staking/15/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [15](/rewards/staking/15/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 
 ### Bonus COMBO
 | COMBO pool | COMBO/ETH UNIV2 Pool |
@@ -103,29 +109,3 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 | Uniswap UNI |
 | ----------: |
 | [0](/rewards/uni_distribution/0/rewards.json) |
-
-## Calculations
-
-### Reward
-
-#### Reward is decided by staking amount and staking duration, and user must do at least one tx on furucombo.gst
-* `staking_amount` - the amount of token in a staking contract, e.g., user A/B/C stakes `50/30/20` COMBO in the staking contract
-* `staking_duration` - the duration of token in a staking contract, e.g., user A/B/C's staking duration is `46500` blocks ~= 1 week.
-* Eligibility requirement: send out at least one transaction on Furucombo during each week’s program.
-* Note that this script tracks the staking amount and duration every block, so higher staking amount for longer duration gives higher reward.
-
-#### Let `staking_area = staking_amount * staking_duration`
-* A/B/C's `staking_area` are `2,325,000/1,395,000/930,000`
-* A/B/C's `weight` = `50%/30%/20%` by normalizing `staking_area` into [0, 1]
-
-#### Therefore, the reward distribution of 46,875 COMBO for a staking pool
-* A/B/C's `reward` = `23437.5/14062.5/9,375` COMBO
-
-### What's the difference between COMBO and COMBO/ETH LP pool?
-* COMBO Pool
-  * Rewards: 46,875 COMBO
-  * Competition rule: base amount = 250 COMBO
-  * Every traded user, no matter if they stake or not, will share the rewards in this pool. If you have made trades but staked 0 COMBO, we will automatically act as if staked 250 COMBO when calculating the rewards; if you have made trades and have staked 1000 COMBO, we will act as if you have staked 1250 COMBO when calculating the rewards.
-* COMBO/ETH Uniswap V2 Liquidity Pool
-  * Rewards: 140,625 COMBO
-  * Only people who stake LP tokens will be able to share the rewards in this pool.

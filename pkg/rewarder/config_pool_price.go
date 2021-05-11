@@ -57,7 +57,7 @@ func (c *Config) GetPoolPrices() error {
 	to := time.Now()
 	from := to.Add(-24 * time.Hour) // 1 day ago
 
-	for _, pool := range c.Pools {
+	for i, pool := range c.Pools {
 		var price decimal.Decimal
 		staking, err := furucombo.NewStakingContract(pool.Address, ethereum.Client())
 		if err != nil {
@@ -69,15 +69,15 @@ func (c *Config) GetPoolPrices() error {
 			return err
 		}
 
-		price, err = getTokenLatestPrice(stakingToken, from, to)
-		if err == nil {
+		if i == 0 {
+			price, err = getTokenLatestPrice(stakingToken, from, to)
 			c.poolPrices.Combo, _ = price.Float64()
 		} else {
 			price, err = getPairLatestPrice(stakingToken, from, to)
-			if err != nil {
-				return err
-			}
 			c.poolPrices.EthCombo, _ = price.Float64()
+		}
+		if err != nil {
+			return err
 		}
 		log.Printf("print the latest price %s: %s", stakingToken.Hex(), price.String())
 	}

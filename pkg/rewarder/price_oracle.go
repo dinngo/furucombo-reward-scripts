@@ -104,21 +104,16 @@ func (t *PriceOracle) GetTokenPrices(token *ethereum.Token) []CoingeckoTokenPric
 		var err error
 
 		// Get coingecko price and retry
-		for i := 0; i < 3; i++ {
-			if tokenID, ok := t.tokenIDMap[token.Address]; ok {
-				marketChart, err = t.client.CoinsIDMarketChartRange(tokenID, "usd", t.from, t.to)
-				if err != nil {
-					log.Printf("failed to get coingecko id: %s", tokenID)
-					continue
-				}
-			} else {
-				marketChart, err = t.client.CoinsContractMarketChartRange(token.Address.String(), "usd", t.from, t.to)
-				if err != nil {
-					log.Printf("failed to get coingecko address: %s", token.Address.String())
-					continue
-				}
+		if tokenID, ok := t.tokenIDMap[token.Address]; ok {
+			marketChart, err = t.client.CoinsIDMarketChartRange(tokenID, "usd", t.from, t.to)
+			if err != nil {
+				log.Printf("failed to get coingecko id: %s", tokenID)
 			}
-			break
+		} else {
+			marketChart, err = t.client.CoinsContractMarketChartRange(token.Address.String(), "usd", t.from, t.to)
+			if err != nil {
+				log.Printf("failed to get coingecko address: %s", token.Address.String())
+			}
 		}
 
 		if err != nil {

@@ -72,6 +72,32 @@ func (c *Config) validate(fieldName string) error {
 		if c.RewardAmount.IsZero() {
 			return errors.New("reward_amount can't be blank or 0")
 		}
+
+	case "max_gas_used":
+		if c.MaxGasUsed.IsZero() {
+			return errors.New("max_gas_used can't be blank or 0")
+		}
+
+	case "nfts":
+		if len(c.Nfts) == 0 {
+			return errors.New("nfts can't be blank")
+		}
+
+		for i, nft := range c.Nfts {
+			if nft == (common.Address{}) {
+				return fmt.Errorf("nfts.%d.address can't be blank", i)
+			}
+		}
+
+	case "nft_boost":
+		if c.NftBoost == 0 {
+			return errors.New("nft_boost can't be blank or 0")
+		}
+
+	case "nft_max_boost":
+		if c.NftMaxBoost == 0 {
+			return errors.New("nft_max_boost can't be blank or 0")
+		}
 	}
 
 	return nil

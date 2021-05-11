@@ -1,0 +1,13 @@
+{
+  "name": "bonus",
+  "round": "6",
+  "startBlock": 0,
+  "endBlock": 0,
+  "reward_amount": "100000",
+  "max_gas_used": "1200000",
+  "nfts": [
+    "0x68aEc9dD92871d6FaBd3DE1785429a992250C4cF"
+  ],
+  "nft_boost": 1.2,
+  "nft_max_boost": 2
+}

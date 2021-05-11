@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"net/url"
 	"strconv"
@@ -16,6 +17,9 @@ const baseURL = "https://api.coingecko.com/api/v3"
 
 // 100 calls each minute per IP
 var rateLimiter = rate.NewLimiter(rate.Every(99*time.Second/60), 1)
+
+// retry count
+var retry = 3
 
 // Client struct
 type Client struct {
@@ -62,9 +66,14 @@ func (c *Client) MakeReq(url string) ([]byte, error) {
 		return nil, err
 	}
 
-	resp, err := c.doReq(req)
-	if err != nil {
-		return nil, err
+	var resp []byte
+	for i := 0; i < retry; i++ {
+		resp, err = c.doReq(req)
+		if err != nil {
+			log.Printf("retry %d: %s", i, err.Error())
+			continue
+		}
+		break
 	}
 
 	return resp, err
