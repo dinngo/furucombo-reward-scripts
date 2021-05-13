@@ -1,4 +1,4 @@
-name: Execute stakingv2 reward calculation
+name: stakingv2
 
 on:
   schedule:
