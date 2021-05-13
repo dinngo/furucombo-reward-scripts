@@ -28,14 +28,14 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   $ go run main.go once -c={CONFIG_PATH}
   ```
 
-* staking reward
+* staking reward for season 1
 
   ```sh
   $ go run main.go staking --help
   $ go run main.go staking -c={CONFIG_PATH}
   ```
 
-* staking reward for season 2
+* staking reward for season 2 and 3
 
   ```sh
   $ go run main.go stakingv2 --help
