@@ -1,0 +1,26 @@
+{
+  "name": "staking",
+  "round": "17-original",
+  "startBlock": 12423475,
+  "endBlock": 0,
+  "pools": [
+    {
+      "address": "0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E",
+      "reward_amount": "10000",
+      "base_amount": "0",
+      "dataset": {
+        "name": "combo-staking",
+        "startBlock": 11633674
+      }
+    },
+    {
+      "address": "0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4",
+      "reward_amount": "77500",
+      "base_amount": "0",
+      "dataset": {
+        "name": "combo-univ2-staking",
+        "startBlock": 11633696
+      }
+    }
+  ]
+}

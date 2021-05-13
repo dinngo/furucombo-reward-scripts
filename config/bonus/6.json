@@ -1,7 +1,7 @@
 {
   "name": "bonus",
   "round": "6",
-  "startBlock": 0,
+  "startBlock": 12423475,
   "endBlock": 0,
   "reward_amount": "100000",
   "max_gas_used": "1200000",
