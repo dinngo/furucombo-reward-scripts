@@ -3,7 +3,8 @@
 This script calculates COMBO reward distribution.
 
 [![Travis](https://travis-ci.com/dinngodev/furucombo-reward-scripts.svg?branch=master)](https://travis-ci.com/dinngodev/furucombo-reward-scripts)
-[![Execute stakingv2 reward calculation](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/stakingv2.yml/badge.svg)](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/stakingv2.yml)
+[![stakingv2](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/stakingv2.yml/badge.svg)](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/stakingv2.yml)
+[![usage](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/usage.yml/badge.svg)](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/usage.yml)
 
 ## Setup
 * Configure json file under /config
