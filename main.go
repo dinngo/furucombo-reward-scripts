@@ -31,6 +31,9 @@ func main() {
 		"bonus": func() (cli.Command, error) {
 			return &commands.BonusCommand{}, nil
 		},
+		"usage": func() (cli.Command, error) {
+			return &commands.UsageCommand{}, nil
+		},
 	}
 
 	exitStatus, err := c.Run()
