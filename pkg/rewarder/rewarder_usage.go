@@ -1,7 +1,7 @@
 package rewarder
 
 // UsageRewarderRequiredFieldNames usage rewarder required field names
-var UsageRewarderRequiredFieldNames = []string{"name", "startBlock", "endBlock", "blocks", "reward_amount", "max_gas_used", "nfts", "nft_boost", "nft_max_boost"}
+var UsageRewarderRequiredFieldNames = []string{"name", "startBlock", "endBlock", "blocks", "rewardAmount", "maxGasUsed", "nft", "maticEndBlock"}
 
 // UsageRewarder struct
 type UsageRewarder struct {
@@ -39,9 +39,10 @@ func (r *UsageRewarder) LoadTradingGasCombo() error {
 
 func (r *UsageRewarder) LoadNftCounts() error {
 	task := LoadNftCountsTask{
-		rootpath: r.config.RoundDir(),
-		endBlock: r.config.EndBlock,
-		nfts:     r.config.Nfts,
+		rootpath:      r.config.RoundDir(),
+		endBlock:      r.config.EndBlock,
+		nft:           r.config.Nft,
+		maticEndBlock: r.config.MaticEndBlock,
 	}
 
 	if err := task.Execute(); err != nil {
@@ -60,10 +61,9 @@ func (r *UsageRewarder) LoadGasRewards() error {
 	task := LoadGasRewardsTask{
 		rootpath:           r.config.RoundDir(),
 		rewardAmount:       r.config.RewardAmount,
+		nft:                r.config.Nft,
 		tradingGasComboMap: r.tradingGasComboMap,
 		nftCountMap:        r.nftCountMap,
-		nftBoost:           r.config.NftBoost,
-		nftMaxBoost:        r.config.NftMaxBoost,
 	}
 
 	if err := task.Execute(); err != nil {

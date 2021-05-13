@@ -82,3 +82,17 @@ func (c *Config) UpdateEndBlockToCurrentBlock() error {
 
 	return nil
 }
+
+// UpdateMaticEndBlockToCurrentBlock update matic end block to current block
+func (c *Config) UpdateMaticEndBlockToCurrentBlock() error {
+	currentBlock, err := ethereum.ClientMatic().BlockNumber(context.Background())
+	if err != nil {
+		return err
+	}
+
+	c.MaticEndBlock = currentBlock
+
+	log.Printf("update matic end block to current block: %d", c.MaticEndBlock)
+
+	return nil
+}

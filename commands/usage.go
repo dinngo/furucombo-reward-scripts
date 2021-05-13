@@ -62,6 +62,13 @@ func (c *UsageCommand) Run(args []string) int {
 		}
 	}
 
+	if config.MaticEndBlock == 0 {
+		if err := config.UpdateMaticEndBlockToCurrentBlock(); err != nil {
+			log.Println(err)
+			return 1
+		}
+	}
+
 	if err := config.Validates(rewarder.UsageRewarderRequiredFieldNames); err != nil {
 		log.Println(err)
 		return 1

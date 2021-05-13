@@ -10,25 +10,23 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/shopspring/decimal"
 )
 
 // Config struct
 type Config struct {
-	Name         string           `json:"name"`
-	Round        string           `json:"round"`
-	StartBlock   uint64           `json:"startBlock"`
-	EndBlock     uint64           `json:"endBlock"`
-	CubeNames    []string         `json:"cubes"`
-	Pool         PoolConfig       `json:"pool"`
-	Pools        []PoolConfig     `json:"pools"`
-	RewardMap    RewardMap        `json:"rewards"`
-	RewardAmount decimal.Decimal  `json:"reward_amount"`
-	MaxGasUsed   decimal.Decimal  `json:"max_gas_used"`
-	Nfts         []common.Address `json:"nfts"`
-	NftBoost     float64          `json:"nft_boost"`
-	NftMaxBoost  float64          `json:"nft_max_boost"`
+	Name          string          `json:"name"`
+	Round         string          `json:"round"`
+	StartBlock    uint64          `json:"startBlock"`
+	EndBlock      uint64          `json:"endBlock"`
+	CubeNames     []string        `json:"cubes"`
+	Pool          PoolConfig      `json:"pool"`
+	Pools         []PoolConfig    `json:"pools"`
+	RewardMap     RewardMap       `json:"rewards"`
+	RewardAmount  decimal.Decimal `json:"rewardAmount"`
+	MaxGasUsed    decimal.Decimal `json:"maxGasUsed"`
+	Nft           NftConfig       `json:"nft"`
+	MaticEndBlock uint64          `json:"maticEndBlock"`
 
 	rewardDir      string
 	roundDir       string

@@ -68,35 +68,48 @@ func (c *Config) validate(fieldName string) error {
 			return errors.New("pool.dataset.name can't be blank")
 		}
 
-	case "reward_amount":
+	case "rewardAmount":
 		if c.RewardAmount.IsZero() {
-			return errors.New("reward_amount can't be blank or 0")
+			return errors.New("rewardAmount can't be blank or 0")
 		}
 
-	case "max_gas_used":
+	case "maxGasUsed":
 		if c.MaxGasUsed.IsZero() {
-			return errors.New("max_gas_used can't be blank or 0")
+			return errors.New("maxGasUsed can't be blank or 0")
 		}
 
-	case "nfts":
-		if len(c.Nfts) == 0 {
-			return errors.New("nfts can't be blank")
+	case "nft":
+		if len(c.Nft.Ethereum) == 0 {
+			return errors.New("ethereum can't be blank")
 		}
 
-		for i, nft := range c.Nfts {
-			if nft == (common.Address{}) {
-				return fmt.Errorf("nfts.%d.address can't be blank", i)
+		if len(c.Nft.Matic) == 0 {
+			return errors.New("matic can't be blank")
+		}
+
+		for i, address := range c.Nft.Ethereum {
+			if address == (common.Address{}) {
+				return fmt.Errorf("ethereum.%d.address can't be blank", i)
 			}
 		}
 
-	case "nft_boost":
-		if c.NftBoost == 0 {
-			return errors.New("nft_boost can't be blank or 0")
+		for i, address := range c.Nft.Matic {
+			if address == (common.Address{}) {
+				return fmt.Errorf("matic.%d.address can't be blank", i)
+			}
 		}
 
-	case "nft_max_boost":
-		if c.NftMaxBoost == 0 {
-			return errors.New("nft_max_boost can't be blank or 0")
+		if c.Nft.Boost == 0 {
+			return errors.New("boost can't be blank or 0")
+		}
+
+		if c.Nft.MaxBoost == 0 {
+			return errors.New("maxBoost can't be blank or 0")
+		}
+
+	case "maticEndBlock":
+		if c.MaticEndBlock == 0 {
+			return errors.New("maticEndBlock can't be blank or 0")
 		}
 	}
 

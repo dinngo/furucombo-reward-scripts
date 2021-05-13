@@ -19,10 +19,9 @@ import (
 type LoadGasRewardsTask struct {
 	rootpath           string
 	rewardAmount       decimal.Decimal
+	nft                NftConfig
 	tradingGasComboMap TradingGasComboMap
 	nftCountMap        NftCountMap
-	nftBoost           float64
-	nftMaxBoost        float64
 
 	filepath  string
 	rewardMap RewardMap
@@ -66,9 +65,9 @@ func (t *LoadGasRewardsTask) CalcRewards() error {
 
 		var boost float64 = 1
 		if count, ok := t.nftCountMap[account]; ok {
-			boost = math.Pow(t.nftBoost, float64(count))
-			if boost > t.nftMaxBoost {
-				boost = t.nftMaxBoost
+			boost = math.Pow(t.nft.Boost, float64(count))
+			if boost > t.nft.MaxBoost {
+				boost = t.nft.MaxBoost
 			}
 		}
 

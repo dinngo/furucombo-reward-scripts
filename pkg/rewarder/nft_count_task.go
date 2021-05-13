@@ -11,14 +11,14 @@ import (
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/erc721"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // LoadNftCountsTask load nft counts task
 type LoadNftCountsTask struct {
-	rootpath string
-	endBlock uint64
-	nfts     []common.Address
+	rootpath      string
+	endBlock      uint64
+	nft           NftConfig
+	maticEndBlock uint64
 
 	filepath    string
 	nftCountMap NftCountMap
@@ -49,29 +49,47 @@ func (t *LoadNftCountsTask) LoadFromFile() error {
 
 // GetNftCounts get nft counts
 func (t *LoadNftCountsTask) GetNftCounts() error {
-	log.Printf("getting nft counts")
-
-	opts := &bind.CallOpts{
-		BlockNumber: big.NewInt(int64(t.endBlock)),
-	}
 	t.nftCountMap = make(NftCountMap)
-	for _, nft := range t.nfts {
+
+	// Count ethereum nft
+	for _, nft := range t.nft.Ethereum {
+		log.Printf("getting ethereum nft counts")
 		nft, err := erc721.NewERC721Contract(nft, ethereum.Client())
 		if err != nil {
 			return err
 		}
-		totalSupply, err := nft.TotalSupply(opts)
+		t.accumulateNft(nft, t.endBlock)
+	}
+
+	// Count matic nft
+	for _, nft := range t.nft.Matic {
+		log.Printf("getting matic nft counts")
+		nft, err := erc721.NewERC721Contract(nft, ethereum.ClientMatic())
 		if err != nil {
 			return err
 		}
+		t.accumulateNft(nft, t.maticEndBlock)
+	}
 
-		for i := big.NewInt(1); i.Cmp(totalSupply) <= 0; i = new(big.Int).Add(i, big.NewInt(1)) {
-			owner, err := nft.OwnerOf(opts, i)
-			if err != nil {
-				return err
-			}
-			t.nftCountMap[owner]++
+	return nil
+}
+
+func (t *LoadNftCountsTask) accumulateNft(nft *erc721.ERC721Contract, block uint64) error {
+	opts := &bind.CallOpts{
+		BlockNumber: big.NewInt(int64(block)),
+	}
+
+	totalSupply, err := nft.TotalSupply(opts)
+	if err != nil {
+		return err
+	}
+
+	for i := big.NewInt(1); i.Cmp(totalSupply) <= 0; i = new(big.Int).Add(i, big.NewInt(1)) {
+		owner, err := nft.OwnerOf(opts, i)
+		if err != nil {
+			return err
 		}
+		t.nftCountMap[owner]++
 	}
 
 	return nil
