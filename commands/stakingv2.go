@@ -99,10 +99,11 @@ func (c *StakingV2Command) Run(args []string) int {
 		return 1
 	}
 
-	if err := stakingV2Rewarder.LoadTradingCount(); err != nil {
-		log.Println(err)
-		return 1
-	}
+	// Disable for season 3 that don't need trades
+	// if err := stakingV2Rewarder.LoadTradingCount(); err != nil {
+	// 	log.Println(err)
+	// 	return 1
+	// }
 
 	if err := stakingV2Rewarder.LoadStakingsDataset(); err != nil {
 		log.Println(err)

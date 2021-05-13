@@ -23,8 +23,8 @@ type LoadStakingsTask struct {
 	duration         decimal.Decimal
 	baseAmount       decimal.Decimal
 	stakingStakedMap StakingStakedMap
-	tradingRankMap   TradingRankMap  // consider trading rank in season I
-	tradingCountMap  TradingCountMap // consider trading count in season II
+	tradingRankMap   TradingRankMap  // consider trading rank in season 1
+	tradingCountMap  TradingCountMap // consider trading count in season 2
 	poolAddress      common.Address
 	startBlock       uint64
 	endBlock         uint64
@@ -70,12 +70,12 @@ func (t *LoadStakingsTask) InitStakings() error {
 	log.Printf("init stakings with tradings")
 
 	var tradingMap map[common.Address]int
-	if len(t.tradingRankMap) > 0 {
+	if len(t.tradingRankMap) > 0 { // season 1
 		tradingMap = t.tradingRankMap
-	} else if len(t.tradingCountMap) > 0 {
+	} else if len(t.tradingCountMap) > 0 { // season 2
 		tradingMap = t.tradingCountMap
-	} else {
-		return errors.New("unexpected trading rank and count are empty")
+	} else { // season 3
+		return nil
 	}
 
 	for account := range tradingMap {
@@ -145,12 +145,12 @@ func (t *LoadStakingsTask) CalcStakingsWeightWithTrading() error {
 
 	totalRankArea := decimal.Zero
 
-	if len(t.tradingRankMap) > 0 {
+	if len(t.tradingRankMap) > 0 { // season 1
 		for account, rank := range t.tradingRankMap {
 			t.stakingMap[account].RankArea = t.stakingMap[account].Area.Mul(decimal.NewFromInt(int64(rank)))
 			totalRankArea = totalRankArea.Add(t.stakingMap[account].RankArea)
 		}
-	} else if len(t.tradingCountMap) > 0 {
+	} else if len(t.tradingCountMap) > 0 { // season 2
 		for account, count := range t.tradingCountMap {
 			if count < 1 {
 				return errors.New("unexpected trading count < 1")
@@ -159,8 +159,11 @@ func (t *LoadStakingsTask) CalcStakingsWeightWithTrading() error {
 			t.stakingMap[account].RankArea = t.stakingMap[account].Area
 			totalRankArea = totalRankArea.Add(t.stakingMap[account].RankArea)
 		}
-	} else {
-		return errors.New("unexpected trading rank and count are empty")
+	} else { // season 3
+		for account := range t.stakingMap {
+			t.stakingMap[account].RankArea = t.stakingMap[account].Area
+			totalRankArea = totalRankArea.Add(t.stakingMap[account].RankArea)
+		}
 	}
 
 	if totalRankArea.IsZero() {
