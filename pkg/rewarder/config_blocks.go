@@ -6,7 +6,6 @@ import (
 	"io/ioutil"
 	"log"
 	"math/big"
-	"os"
 	"path"
 	"time"
 
@@ -51,11 +50,6 @@ func (c *Config) GetBlockTimestamps() error {
 // SaveBlocks save blocks to file
 func (c *Config) SaveBlocks() error {
 	filepath := path.Join(c.RoundDir(), "blocks.json")
-
-	if _, err := os.Stat(filepath); err == nil {
-		return nil
-	}
-
 	log.Printf("saving blocks: ./%s", filepath)
 
 	config := map[string]interface{}{

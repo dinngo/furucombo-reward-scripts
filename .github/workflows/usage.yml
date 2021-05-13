@@ -1,0 +1,69 @@
+name: Execute usage reward calculation
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.15
+
+      - run: echo "ROUND=$(file=$(ls -1 config/bonus | sort --version-sort | tail -n 1); round=($(echo ${file} | tr "." "\n")); echo ${round[0]})" >> $GITHUB_ENV
+
+      - run: go run main.go usage -c=config/bonus/${{ env.ROUND }}.json
+        env:
+          ETHEREUM_RPC_URL: ${{ secrets.ETHEREUM_RPC_URL }}
+          ETHERSCAN_API_KEY: ${{ secrets.ETHERSCAN_API_KEY }}
+          FURUCOMBO_PROXY_ADDRESSES: ${{ secrets.FURUCOMBO_PROXY_ADDRESSES }}
+          FURUCOMBO_DSPROXY_ADDRESSES: ${{ secrets.FURUCOMBO_DSPROXY_ADDRESSES }}
+
+      - name: Upload blocks.json to gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GIST_ACCESS_TOKEN }}
+          gist_id: c57653ccb558e2c9c53ec4fe8ba35dc0
+          gist_file_name: blocks.json
+          file_path: ./rewards/bonus/${{ env.ROUND }}/blocks.json
+
+      - name: Upload params.json to gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GIST_ACCESS_TOKEN }}
+          gist_id: c57653ccb558e2c9c53ec4fe8ba35dc0
+          gist_file_name: params.json
+          file_path: ./rewards/bonus/${{ env.ROUND }}/params.json
+
+      - name: Upload trading_gas_combo.json to gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GIST_ACCESS_TOKEN }}
+          gist_id: c57653ccb558e2c9c53ec4fe8ba35dc0
+          gist_file_name: trading_gas_combo.json
+          file_path: ./rewards/bonus/${{ env.ROUND }}/trading_gas_combo.json
+
+      - name: Upload nft_counts.json to gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GIST_ACCESS_TOKEN }}
+          gist_id: c57653ccb558e2c9c53ec4fe8ba35dc0
+          gist_file_name: nft_counts.json
+          file_path: ./rewards/bonus/${{ env.ROUND }}/nft_counts.json
+
+      - name: Upload rewards.json to gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GIST_ACCESS_TOKEN }}
+          gist_id: c57653ccb558e2c9c53ec4fe8ba35dc0
+          gist_file_name: rewards.json
+          file_path: ./rewards/bonus/${{ env.ROUND }}/rewards.json

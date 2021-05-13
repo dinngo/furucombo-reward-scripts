@@ -2,6 +2,7 @@ package rewarder
 
 import (
 	"encoding/json"
+	"errors"
 	"io/ioutil"
 	"log"
 	"math/big"
@@ -84,6 +85,10 @@ func (t *LoadTradingGasComboTask) GetFromEtherscan() error {
 		txs1, err := client.AccountTxs(params)
 		if err != nil {
 			return err
+		}
+
+		if len(txs1) == 0 {
+			return errors.New("0 tx from etherscan")
 		}
 
 		for _, tx := range txs1 {
