@@ -14,6 +14,7 @@ import (
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/coingecko"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/furucombo"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/etherscan"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/shopspring/decimal"
 )
 
@@ -34,6 +35,7 @@ type LoadTradingGasComboTask struct {
 	gasUsedMap       GasUsedMap
 
 	// To files
+	txs                []common.Hash
 	params             TradingGasComboParams
 	tradingGasComboMap TradingGasComboMap
 }
@@ -74,6 +76,7 @@ func (t *LoadTradingGasComboTask) GetFromEtherscan() error {
 	client := etherscan.NewClient(&http.Client{Timeout: 10 * time.Second}, apiKey)
 
 	t.gasUsedMap = make(GasUsedMap)
+	t.txs = make([]common.Hash, 0)
 	for _, address := range furucombo.ProxyAddresses() {
 		params := etherscan.Params{
 			"address":    address.String(),
@@ -94,6 +97,9 @@ func (t *LoadTradingGasComboTask) GetFromEtherscan() error {
 		for _, tx := range txs1 {
 			// Accumulate gas used
 			t.gasUsedMap[tx.From] = t.gasUsedMap[tx.From].Add(decimal.New(int64(tx.GasUsed), 0))
+
+			// Store tx hash
+			t.txs = append(t.txs, tx.Hash)
 
 			// Store gas prices
 			gasPrice := decimal.NewFromBigInt((*big.Int)(tx.GasPrice), -18) // in ether unit
@@ -158,6 +164,23 @@ func (t *LoadTradingGasComboTask) CalcCombo() error {
 	return nil
 }
 
+// SaveTxs save txs to file
+func (t *LoadTradingGasComboTask) SaveTxs() error {
+	filepath := path.Join(t.rootpath, "txs.json")
+	log.Printf("saving txs to ./%s", filepath)
+
+	data, err := json.MarshalIndent(t.txs, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if err := ioutil.WriteFile(filepath, append(data, '\n'), 0644); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 // SaveParams save params to file
 func (t *LoadTradingGasComboTask) SaveParams() error {
 	filepath := path.Join(t.rootpath, "params.json")
@@ -207,6 +230,10 @@ func (t *LoadTradingGasComboTask) Execute() error {
 		}
 
 		if err := t.CalcCombo(); err != nil {
+			return err
+		}
+
+		if err := t.SaveTxs(); err != nil {
 			return err
 		}
 
