@@ -36,6 +36,14 @@ jobs:
           gist_file_name: blocks.json
           file_path: ./rewards/bonus/${{ env.ROUND }}/blocks.json
 
+      - name: Upload trading_gas_used.json to gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GIST_ACCESS_TOKEN }}
+          gist_id: c57653ccb558e2c9c53ec4fe8ba35dc0
+          gist_file_name: trading_gas_used.json
+          file_path: ./rewards/bonus/${{ env.ROUND }}/trading_gas_used.json
+
       - name: Upload txs.json to gist
         uses: exuanbo/actions-deploy-gist@v1
         with:

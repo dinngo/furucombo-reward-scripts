@@ -32,9 +32,9 @@ type LoadTradingGasComboTask struct {
 	filepath         string
 	gasPrices        []decimal.Decimal
 	comboPricesInEth []decimal.Decimal
-	gasUsedMap       GasUsedMap
 
 	// To files
+	gasUsedMap         GasUsedMap
 	txs                []common.Hash
 	params             TradingGasComboParams
 	tradingGasComboMap TradingGasComboMap
@@ -164,6 +164,23 @@ func (t *LoadTradingGasComboTask) CalcCombo() error {
 	return nil
 }
 
+// SaveGasUsed save gas used to file
+func (t *LoadTradingGasComboTask) SaveGasUsed() error {
+	filepath := path.Join(t.rootpath, "trading_gas_used.json")
+	log.Printf("saving gas used to ./%s", filepath)
+
+	data, err := json.MarshalIndent(t.gasUsedMap, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if err := ioutil.WriteFile(filepath, append(data, '\n'), 0644); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 // SaveTxs save txs to file
 func (t *LoadTradingGasComboTask) SaveTxs() error {
 	filepath := path.Join(t.rootpath, "txs.json")
@@ -230,6 +247,10 @@ func (t *LoadTradingGasComboTask) Execute() error {
 		}
 
 		if err := t.CalcCombo(); err != nil {
+			return err
+		}
+
+		if err := t.SaveGasUsed(); err != nil {
 			return err
 		}
 
