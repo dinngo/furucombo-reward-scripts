@@ -57,10 +57,19 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   ```
 
 ## Reward
+
+### Usage Farming
+* Season 3 On-going [Medium](https://medium.com/furucombo/combo-mining-season-3-5e5f248923b2)
+
+| Usage Farming |
+| ----------: |
+| [0](/rewards/bonus/6/rewards.json) |
+
+
 ### Mining COMBO
-* Season 1 [Medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230)
-* Season 2 [Medium](https://medium.com/furucombo/announcing-combo-mining-season-2-e0c20e586c47)
-* Season 3 [Medium](https://medium.com/furucombo/combo-mining-season-3-5e5f248923b2)
+* Season 1 Ended [Medium](https://medium.com/furucombo/announcing-furucombo-transaction-mining-program-33381f393230)
+* Season 2 Ended [Medium](https://medium.com/furucombo/announcing-combo-mining-season-2-e0c20e586c47)
+* Season 3 On-going [Medium](https://medium.com/furucombo/combo-mining-season-3-5e5f248923b2)
 
 | COMBO pool | COMBO/ETH UNIV2 Pool |
 | ---------: | -------------------: |
@@ -81,6 +90,7 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 | [14](/rewards/staking/14/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [14](/rewards/staking/14/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [15](/rewards/staking/15/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [15](/rewards/staking/15/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [16](/rewards/staking/16/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [16](/rewards/staking/16/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [17](/rewards/staking/17/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [16](/rewards/staking/17/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 
 ### Bonus COMBO
 | COMBO pool | COMBO/ETH UNIV2 Pool |
