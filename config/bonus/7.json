@@ -3,11 +3,17 @@
   "round": "7",
   "startBlock": 12468674,
   "endBlock": 0,
-  "reward_amount": "100000",
-  "max_gas_used": "1200000",
-  "nfts": [
-    "0x68aEc9dD92871d6FaBd3DE1785429a992250C4cF"
-  ],
-  "nft_boost": 1.2,
-  "nft_max_boost": 2
+  "rewardAmount": "100000",
+  "maxGasUsed": "1200000",
+  "nft": {
+    "ethereum": [
+      "0x68aEc9dD92871d6FaBd3DE1785429a992250C4cF"
+    ],
+    "matic": [
+      "0x4BA7404893c1Bd48ca8A080B4c80e748517a8Ad3"
+    ],
+    "boost": 1.2,
+    "maxBoost": 2
+  },
+  "maticEndBlock": 0
 }
