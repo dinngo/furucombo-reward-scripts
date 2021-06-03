@@ -66,6 +66,8 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 | Usage Farming |
 | ----------: |
 | [0](/rewards/bonus/6/rewards.json) |
+| [1](/rewards/bonus/7/rewards.json) |
+| [2](/rewards/bonus/8/rewards.json) |
 
 
 ### Mining COMBO
@@ -92,7 +94,10 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 | [14](/rewards/staking/14/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [14](/rewards/staking/14/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [15](/rewards/staking/15/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [15](/rewards/staking/15/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [16](/rewards/staking/16/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [16](/rewards/staking/16/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
-| [17](/rewards/staking/17/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [16](/rewards/staking/17/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [17](/rewards/staking/17/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [17](/rewards/staking/17/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [18](/rewards/staking/18/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [18](/rewards/staking/18/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [19](/rewards/staking/19/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [19](/rewards/staking/19/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+
 
 ### Bonus COMBO
 | COMBO pool | COMBO/ETH UNIV2 Pool |
