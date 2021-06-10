@@ -1,0 +1,27 @@
+{
+  "name": "polygon_bonus",
+  "round": "0",
+  "endBlock": 0,
+  "polygonStartBlock": 15805746,
+  "polygonEndBlock": 0,
+  "maxLoyalTxCount": "5",
+  "nft": {
+    "polygon": [
+      "0x4BA7404893c1Bd48ca8A080B4c80e748517a8Ad3"
+    ],
+    "boost": 1.2,
+    "maxBoost": 2
+  },
+  "usages": [
+    {
+      "address": "0x3b2D30cd74F61634Ac43d4d774c7affE20F4CB38",
+      "baseReward": "1",
+      "maxReward": "6425"
+    },
+    {
+      "address": "0x634cbc42fBF6d521DA929CEC5d1469B19514F45F",
+      "baseReward": "2",
+      "maxReward": "12850"
+    }
+  ]
+}

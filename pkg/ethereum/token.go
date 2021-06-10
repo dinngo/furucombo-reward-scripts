@@ -9,9 +9,11 @@ import (
 )
 
 var tokenAddressMap = map[string]common.Address{
-	"DAI":  common.HexToAddress("0x6B175474E89094C44Da98b954EedeAC495271d0F"),
-	"WETH": common.HexToAddress("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"),
-	"eETH": common.HexToAddress("0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"),
+	"DAI":   common.HexToAddress("0x6B175474E89094C44Da98b954EedeAC495271d0F"),
+	"WETH":  common.HexToAddress("0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"),
+	"eETH":  common.HexToAddress("0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"),
+	"COMBO": common.HexToAddress("0xfFffFffF2ba8F66D4e51811C5190992176930278"),
+	"MATIC": common.HexToAddress("0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"),
 }
 
 // Token token info

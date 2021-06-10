@@ -69,6 +69,28 @@ func (c *Config) SaveBlocks() error {
 	return nil
 }
 
+// SavePolygonBlocks save polygon blocks to file
+func (c *Config) SavePolygonBlocks() error {
+	filepath := path.Join(c.RoundDir(), "polygon_blocks.json")
+	log.Printf("saving polygon blocks: ./%s", filepath)
+
+	config := map[string]interface{}{
+		"polygonStartBlock": c.PolygonStartBlock,
+		"polygonEndBlock":   c.PolygonEndBlock,
+	}
+
+	data, err := json.MarshalIndent(config, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if err := ioutil.WriteFile(filepath, append(data, '\n'), 0644); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 // UpdateEndBlockToCurrentBlock update end block to current block
 func (c *Config) UpdateEndBlockToCurrentBlock() error {
 	currentBlock, err := ethereum.Client().BlockNumber(context.Background())

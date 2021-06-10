@@ -1,7 +1,6 @@
 package rewarder
 
 import (
-	"fmt"
 	"log"
 	"os"
 	"path"
@@ -87,7 +86,6 @@ func (r *StakingV2Rewarder) LoadStakingsStaked() error {
 	r.stakingsStakedMap = make(map[common.Address]StakingStakedMap)
 
 	for _, pool := range r.config.Pools {
-		fmt.Println("ZD", pool.Address.String())
 		task := LoadStakingStakedTask{
 			rootpath:        path.Join(r.config.RoundDir(), pool.Address.String()),
 			stakingEventMap: r.stakingsEventMap[pool.Address],

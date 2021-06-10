@@ -15,18 +15,21 @@ import (
 
 // Config struct
 type Config struct {
-	Name            string          `json:"name"`
-	Round           string          `json:"round"`
-	StartBlock      uint64          `json:"startBlock"`
-	EndBlock        uint64          `json:"endBlock"`
-	CubeNames       []string        `json:"cubes"`
-	Pool            PoolConfig      `json:"pool"`
-	Pools           []PoolConfig    `json:"pools"`
-	RewardMap       RewardMap       `json:"rewards"`
-	RewardAmount    decimal.Decimal `json:"rewardAmount"`
-	MaxGasUsed      decimal.Decimal `json:"maxGasUsed"`
-	Nft             NftConfig       `json:"nft"`
-	PolygonEndBlock uint64          `json:"polygonEndBlock"`
+	Name              string          `json:"name"`
+	Round             string          `json:"round"`
+	StartBlock        uint64          `json:"startBlock"`
+	EndBlock          uint64          `json:"endBlock"`
+	PolygonStartBlock uint64          `json:"polygonStartBlock"`
+	PolygonEndBlock   uint64          `json:"polygonEndBlock"`
+	CubeNames         []string        `json:"cubes"`
+	Pool              PoolConfig      `json:"pool"`
+	Pools             []PoolConfig    `json:"pools"`
+	RewardMap         RewardMap       `json:"rewards"`
+	RewardAmount      decimal.Decimal `json:"rewardAmount"`
+	MaxGasUsed        decimal.Decimal `json:"maxGasUsed"`
+	MaxLoyalTxCount   decimal.Decimal `json:"maxLoyalTxCount"`
+	Nft               NftConfig       `json:"nft"`
+	Usages            []UsageConfig   `json:"usages"`
 
 	rewardDir      string
 	roundDir       string
@@ -35,6 +38,7 @@ type Config struct {
 	blocks         uint64
 	cubeFinders    CubeFinders
 	poolPrices     PoolPrices
+	tokenPrices    TokenPrices
 }
 
 // NewConfig new config

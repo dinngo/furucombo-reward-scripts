@@ -31,6 +31,21 @@ func (c *Config) validate(fieldName string) error {
 			return errors.New("startBlock should be less than endBlock")
 		}
 
+	case "polygonStartBlock":
+		if c.PolygonStartBlock == 0 {
+			return errors.New("polygonStartBlock can't be blank or 0")
+		}
+
+	case "polygonEndBlock":
+		if c.PolygonEndBlock == 0 {
+			return errors.New("polygonEndBlock can't be blank or 0")
+		}
+
+	case "polygonBlocks":
+		if c.PolygonStartBlock > c.PolygonEndBlock {
+			return errors.New("polygonStartBlock should be less than polygonEndBlock")
+		}
+
 	case "cubes":
 		if len(c.CubeNames) == 0 {
 			return errors.New("cubes can't be blank")
@@ -78,24 +93,29 @@ func (c *Config) validate(fieldName string) error {
 			return errors.New("maxGasUsed can't be blank or 0")
 		}
 
+	case "maxLoyalTxCount":
+		if c.MaxLoyalTxCount.IsZero() {
+			return errors.New("maxLoyalTxCount can't be blank or 0")
+		}
+
 	case "nft":
-		if len(c.Nft.Ethereum) == 0 {
-			return errors.New("ethereum can't be blank")
+		if len(c.Nft.Ethereum) == 0 && len(c.Nft.Polygon) == 0 {
+			return errors.New("ethereum and polygon can't be blank")
 		}
 
-		if len(c.Nft.Polygon) == 0 {
-			return errors.New("polygon can't be blank")
-		}
-
-		for i, address := range c.Nft.Ethereum {
-			if address == (common.Address{}) {
-				return fmt.Errorf("ethereum.%d.address can't be blank", i)
+		if len(c.Nft.Ethereum) > 0 {
+			for i, address := range c.Nft.Ethereum {
+				if address == (common.Address{}) {
+					return fmt.Errorf("ethereum.%d.address can't be blank", i)
+				}
 			}
 		}
 
-		for i, address := range c.Nft.Polygon {
-			if address == (common.Address{}) {
-				return fmt.Errorf("polygon.%d.address can't be blank", i)
+		if len(c.Nft.Polygon) > 0 {
+			for i, address := range c.Nft.Polygon {
+				if address == (common.Address{}) {
+					return fmt.Errorf("polygon.%d.address can't be blank", i)
+				}
 			}
 		}
 
@@ -107,9 +127,24 @@ func (c *Config) validate(fieldName string) error {
 			return errors.New("maxBoost can't be blank or 0")
 		}
 
-	case "polygonEndBlock":
-		if c.PolygonEndBlock == 0 {
-			return errors.New("polygonEndBlock can't be blank or 0")
+	case "usages":
+		if len(c.Usages) == 0 {
+			return errors.New("usages can't be blank")
+		}
+
+		for i, usage := range c.Usages {
+			if usage.Address == (common.Address{}) {
+				return fmt.Errorf("usage.%d.address can't be blank", i)
+			}
+
+			if usage.BaseReward.IsZero() {
+				return fmt.Errorf("usage.%d.BaseReward can't be blank or 0", i)
+			}
+
+			if usage.MaxReward.IsZero() {
+				return fmt.Errorf("usage.%d.MaxReward can't be blank or 0", i)
+			}
+
 		}
 	}
 

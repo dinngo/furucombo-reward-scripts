@@ -58,6 +58,13 @@ ETHERSCAN_API_KEY={YOUR_KEY}
   $ go run main.go usage -c={CONFIG_PATH}
   ```
 
+* polygon usage reward
+
+  ```sh
+  $ go run main.go polygon-usage --help
+  $ go run main.go polygon-usage -c={CONFIG_PATH}
+  ```
+
 ## Reward
 
 ### Usage Farming

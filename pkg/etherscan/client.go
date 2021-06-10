@@ -12,6 +12,7 @@ import (
 )
 
 const baseURL = "https://api.etherscan.io/api"
+const baseURLPolygon = "https://api.polygonscan.com/api"
 
 // 5 calls each second per IP
 var rateLimiter = rate.NewLimiter(rate.Every(5), 1)
@@ -83,6 +84,11 @@ func (c *Client) MakeReq(url string) ([]byte, error) {
 // NewURL new url
 func (c *Client) NewURL(module, action string, params Params) string {
 	return fmt.Sprintf("%s?module=%s&action=%s&%s&apikey=%s", baseURL, module, action, params.Encode(), c.apiKey)
+}
+
+// NewURL new url for polygon
+func (c *Client) NewURLPolygon(module, action string, params Params) string {
+	return fmt.Sprintf("%s?module=%s&action=%s&%s&apikey=%s", baseURLPolygon, module, action, params.Encode(), c.apiKey)
 }
 
 // Params struct

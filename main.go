@@ -34,6 +34,9 @@ func main() {
 		"usage": func() (cli.Command, error) {
 			return &commands.UsageCommand{}, nil
 		},
+		"polygon-usage": func() (cli.Command, error) {
+			return &commands.PolygonUsageCommand{}, nil
+		},
 	}
 
 	exitStatus, err := c.Run()
