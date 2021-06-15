@@ -9,11 +9,11 @@
     "ethereum": [
       "0x68aEc9dD92871d6FaBd3DE1785429a992250C4cF"
     ],
-    "matic": [
+    "polygon": [
       "0x4BA7404893c1Bd48ca8A080B4c80e748517a8Ad3"
     ],
     "boost": 1.2,
     "maxBoost": 2
   },
-  "maticEndBlock": 0
+  "polygonEndBlock": 0
 }

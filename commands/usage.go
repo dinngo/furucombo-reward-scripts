@@ -62,8 +62,8 @@ func (c *UsageCommand) Run(args []string) int {
 		}
 	}
 
-	if config.MaticEndBlock == 0 {
-		if err := config.UpdateMaticEndBlockToCurrentBlock(); err != nil {
+	if config.PolygonEndBlock == 0 {
+		if err := config.UpdatePolygonEndBlockToCurrentBlock(); err != nil {
 			log.Println(err)
 			return 1
 		}

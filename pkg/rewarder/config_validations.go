@@ -83,8 +83,8 @@ func (c *Config) validate(fieldName string) error {
 			return errors.New("ethereum can't be blank")
 		}
 
-		if len(c.Nft.Matic) == 0 {
-			return errors.New("matic can't be blank")
+		if len(c.Nft.Polygon) == 0 {
+			return errors.New("polygon can't be blank")
 		}
 
 		for i, address := range c.Nft.Ethereum {
@@ -93,9 +93,9 @@ func (c *Config) validate(fieldName string) error {
 			}
 		}
 
-		for i, address := range c.Nft.Matic {
+		for i, address := range c.Nft.Polygon {
 			if address == (common.Address{}) {
-				return fmt.Errorf("matic.%d.address can't be blank", i)
+				return fmt.Errorf("polygon.%d.address can't be blank", i)
 			}
 		}
 
@@ -107,9 +107,9 @@ func (c *Config) validate(fieldName string) error {
 			return errors.New("maxBoost can't be blank or 0")
 		}
 
-	case "maticEndBlock":
-		if c.MaticEndBlock == 0 {
-			return errors.New("maticEndBlock can't be blank or 0")
+	case "polygonEndBlock":
+		if c.PolygonEndBlock == 0 {
+			return errors.New("polygonEndBlock can't be blank or 0")
 		}
 	}
 

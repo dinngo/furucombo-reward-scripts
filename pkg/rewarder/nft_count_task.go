@@ -15,10 +15,10 @@ import (
 
 // LoadNftCountsTask load nft counts task
 type LoadNftCountsTask struct {
-	rootpath      string
-	endBlock      uint64
-	nft           NftConfig
-	maticEndBlock uint64
+	rootpath        string
+	endBlock        uint64
+	nft             NftConfig
+	polygonEndBlock uint64
 
 	filepath    string
 	nftCountMap NftCountMap
@@ -61,14 +61,14 @@ func (t *LoadNftCountsTask) GetNftCounts() error {
 		t.accumulateNft(nft, t.endBlock)
 	}
 
-	// Count matic nft
-	for _, nft := range t.nft.Matic {
-		log.Printf("getting matic nft counts")
-		nft, err := erc721.NewERC721Contract(nft, ethereum.ClientMatic())
+	// Count polygon nft
+	for _, nft := range t.nft.Polygon {
+		log.Printf("getting polygon nft counts")
+		nft, err := erc721.NewERC721Contract(nft, ethereum.ClientPolygon())
 		if err != nil {
 			return err
 		}
-		t.accumulateNft(nft, t.maticEndBlock)
+		t.accumulateNft(nft, t.polygonEndBlock)
 	}
 
 	return nil

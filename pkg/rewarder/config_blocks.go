@@ -83,16 +83,16 @@ func (c *Config) UpdateEndBlockToCurrentBlock() error {
 	return nil
 }
 
-// UpdateMaticEndBlockToCurrentBlock update matic end block to current block
-func (c *Config) UpdateMaticEndBlockToCurrentBlock() error {
-	currentBlock, err := ethereum.ClientMatic().BlockNumber(context.Background())
+// UpdatePolygonEndBlockToCurrentBlock update polygon end block to current block
+func (c *Config) UpdatePolygonEndBlockToCurrentBlock() error {
+	currentBlock, err := ethereum.ClientPolygon().BlockNumber(context.Background())
 	if err != nil {
 		return err
 	}
 
-	c.MaticEndBlock = currentBlock
+	c.PolygonEndBlock = currentBlock
 
-	log.Printf("update matic end block to current block: %d", c.MaticEndBlock)
+	log.Printf("update polygon end block to current block: %d", c.PolygonEndBlock)
 
 	return nil
 }

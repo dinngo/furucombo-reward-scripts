@@ -28,7 +28,7 @@ jobs:
           ETHERSCAN_API_KEY: ${{ secrets.ETHERSCAN_API_KEY }}
           FURUCOMBO_PROXY_ADDRESSES: ${{ secrets.FURUCOMBO_PROXY_ADDRESSES }}
           FURUCOMBO_DSPROXY_ADDRESSES: ${{ secrets.FURUCOMBO_DSPROXY_ADDRESSES }}
-          MATIC_RPC_URL: ${{ secrets.MATIC_RPC_URL }}
+          POLYGON_RPC_URL: ${{ secrets.POLYGON_RPC_URL }}
 
       - name: Upload blocks.json to gist
         uses: exuanbo/actions-deploy-gist@v1

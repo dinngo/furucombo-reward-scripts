@@ -8,7 +8,7 @@ import (
 )
 
 var client *ethclient.Client
-var clientMatic *ethclient.Client
+var clientPolygon *ethclient.Client
 
 // Client get client
 func Client() *ethclient.Client {
@@ -20,13 +20,13 @@ func Client() *ethclient.Client {
 	return dial(rpcURL, client)
 }
 
-func ClientMatic() *ethclient.Client {
-	rpcURL := os.Getenv("MATIC_RPC_URL")
+func ClientPolygon() *ethclient.Client {
+	rpcURL := os.Getenv("POLYGON_RPC_URL")
 	if len(rpcURL) == 0 {
-		log.Fatalln("env MATIC_RPC_URL can't be blank")
+		log.Fatalln("env POLYGON_RPC_URL can't be blank")
 	}
 
-	return dial(rpcURL, clientMatic)
+	return dial(rpcURL, clientPolygon)
 
 }
 

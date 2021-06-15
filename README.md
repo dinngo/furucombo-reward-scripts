@@ -13,12 +13,12 @@ This script calculates COMBO reward distribution.
 $ cp .env.sample .env
 $ vim .env
 ETHEREUM_RPC_URL={YOUR_ETHEREUM_RPC_URL}
-MATIC_RPC_URL={YOUR_MATIC_RPC_URL}
+POLYGON_RPC_URL={YOUR_POLYGON_RPC_URL}
 ETHERSCAN_API_KEY={YOUR_KEY}
 ```
 
 * ETHEREUM_RPC_URL is an ethereum archive node url, e.g., <https://mainnet.infura.io/v3/{YOUR_KEY}>
-* MATIC_RPC_URL is an matic archive node url, e.g., <https://rpc-mainnet.maticvigil.com>
+* POLYGON_RPC_URL is an polygon archive node url, e.g., <https://rpc-mainnet.maticvigil.com>
 * ETHERSCAN_API_KEY is an etherscan api key from <https://etherscan.io/myapikey>
 
 ## Run
