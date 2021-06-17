@@ -1,8 +1,8 @@
 {
   "name": "bonus",
-  "round": "10",
-  "startBlock": 12604217,
-  "endBlock": 12649391,
+  "round": "11",
+  "startBlock": 12649392,
+  "endBlock": 0,
   "rewardAmount": "100000",
   "maxGasUsed": "1200000",
   "nft": {
