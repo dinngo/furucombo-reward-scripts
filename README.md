@@ -69,6 +69,7 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 | [1](/rewards/bonus/7/rewards.json) |
 | [2](/rewards/bonus/8/rewards.json) |
 | [3](/rewards/bonus/9/rewards.json) |
+| [4](/rewards/bonus/10/rewards.json) |
 
 
 ### Mining COMBO
@@ -99,6 +100,7 @@ ETHERSCAN_API_KEY={YOUR_KEY}
 | [18](/rewards/staking/18/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [18](/rewards/staking/18/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [19](/rewards/staking/19/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [19](/rewards/staking/19/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [20](/rewards/staking/20/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [20](/rewards/staking/20/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [21](/rewards/staking/21/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [21](/rewards/staking/21/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 
 
 ### Bonus COMBO
