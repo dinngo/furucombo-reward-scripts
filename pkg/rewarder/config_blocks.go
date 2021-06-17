@@ -76,7 +76,7 @@ func (c *Config) UpdateEndBlockToCurrentBlock() error {
 		return err
 	}
 
-	c.EndBlock = currentBlock
+	c.EndBlock = currentBlock - 2 // avoid rpc error
 
 	log.Printf("update end block to current block: %d", c.EndBlock)
 
@@ -90,7 +90,7 @@ func (c *Config) UpdatePolygonEndBlockToCurrentBlock() error {
 		return err
 	}
 
-	c.PolygonEndBlock = currentBlock
+	c.PolygonEndBlock = currentBlock - 20 // avoid rpc error
 
 	log.Printf("update polygon end block to current block: %d", c.PolygonEndBlock)
 
