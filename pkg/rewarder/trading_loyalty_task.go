@@ -124,6 +124,7 @@ func (t *LoadTradingLoyaltyTask) CalcLoyalty() error {
 			"endBlock":   t.endBlock,
 			"sort":       "asc",
 		}
+		time.Sleep(300 * time.Millisecond) // FIXME: it seems polyscan api needs some delay
 		txs1, err := client.AccountTxsPolygon(params)
 		if err != nil {
 			return err
