@@ -98,10 +98,10 @@ func (t *LoadTradingLoyaltyTask) GetPolygonTasteNft() error {
 func (t *LoadTradingLoyaltyTask) CalcLoyalty() error {
 	log.Printf("getting trading loyalty from etherscan")
 
-	apiKey := os.Getenv("ETHERSCAN_API_KEY")
+	apiKey := os.Getenv("POLYGONSCAN_API_KEY")
 
 	if len(apiKey) == 0 {
-		log.Fatalln("env ETHERSCAN_API_KEY can't be blank")
+		log.Fatalln("env POLYGONSCAN_API_KEY can't be blank")
 	}
 
 	client := etherscan.NewClient(&http.Client{Timeout: 10 * time.Second}, apiKey)

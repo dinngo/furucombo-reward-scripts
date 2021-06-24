@@ -5,6 +5,7 @@ This script calculates COMBO reward distribution.
 [![Travis](https://travis-ci.com/dinngodev/furucombo-reward-scripts.svg?branch=master)](https://travis-ci.com/dinngodev/furucombo-reward-scripts)
 [![stakingv2](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/stakingv2.yml/badge.svg)](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/stakingv2.yml)
 [![usage](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/usage.yml/badge.svg)](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/usage.yml)
+[![polygon-usage](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/polygon_usage.yml/badge.svg)](https://github.com/dinngodev/furucombo-reward-scripts/actions/workflows/polygon_usage.yml)
 
 ## Setup
 * Configure json file under /config
@@ -15,11 +16,13 @@ $ vim .env
 ETHEREUM_RPC_URL={YOUR_ETHEREUM_RPC_URL}
 POLYGON_RPC_URL={YOUR_POLYGON_RPC_URL}
 ETHERSCAN_API_KEY={YOUR_KEY}
+POLYGONSCAN_API_KEY={YOUR_KEY}
 ```
 
 * ETHEREUM_RPC_URL is an ethereum archive node url, e.g., <https://mainnet.infura.io/v3/{YOUR_KEY}>
 * POLYGON_RPC_URL is an polygon archive node url, e.g., <https://rpc-mainnet.maticvigil.com>
 * ETHERSCAN_API_KEY is an etherscan api key from <https://etherscan.io/myapikey>
+* POLYGONSCAN_API_KEY is an polygonscan api key from <https://polygonscan.com/myapikey>
 
 ## Run
 
