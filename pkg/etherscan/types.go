@@ -27,7 +27,7 @@ type NormalTx struct {
 	BlockHash         common.Hash           `json:"blockHash"`
 	TransactionIndex  uint                  `json:"transactionIndex,string"`
 	From              common.Address        `json:"from"`
-	To                common.Address        `json:"to"`
+	To                interface{}           `json:"to"`
 	Value             *math.HexOrDecimal256 `json:"value"`
 	Gas               uint64                `json:"gas,string"`
 	GasPrice          *math.HexOrDecimal256 `json:"gasPrice"`

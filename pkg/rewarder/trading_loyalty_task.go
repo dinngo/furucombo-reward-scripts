@@ -142,20 +142,28 @@ func (t *LoadTradingLoyaltyTask) CalcLoyalty() error {
 				continue
 			}
 
+			// Ignore contract creation
+			if len(tx.ContractAddress) > 0 {
+				continue
+			}
+
+			// Get to address
+			to := common.HexToAddress(tx.To.(string))
+
 			// Count total tx
 			txCount = txCount.Add(decimal.NewFromInt(1))
 
-			// Count official tx
-			if aavev2.IsLendingPoolAddress(tx.To) ||
-				curve.IsSwapAddress(tx.To) ||
-				sushiswap.IsRouter02Address(tx.To) ||
-				quickswap.IsRouter02Address(tx.To) ||
-				(wmatic.IsWmaticAddress(tx.To) && wmatic.HasDepositOrWithdrawalEvent(tx.Hash)) { // only count tx including two events
+			// Count official txs
+			if aavev2.IsLendingPoolAddress(to) ||
+				curve.IsSwapAddress(to) ||
+				sushiswap.IsRouter02Address(to) ||
+				quickswap.IsRouter02Address(to) ||
+				(wmatic.IsWmaticAddress(to) && wmatic.HasDepositOrWithdrawalEvent(tx.Hash)) { // only count tx including two events
 				officialTxCount = officialTxCount.Add(decimal.NewFromInt(1))
 			}
 
 			// Count furucombo tx
-			if furucombo.IsProxyAddress(tx.To) {
+			if furucombo.IsProxyAddress(to) {
 				furucomboTxCount = furucomboTxCount.Add(decimal.NewFromInt(1))
 			}
 		}
