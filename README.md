@@ -71,16 +71,24 @@ POLYGONSCAN_API_KEY={YOUR_KEY}
 ## Reward
 
 ### Usage Farming
-* Season 3 On-going [Medium](https://medium.com/furucombo/combo-mining-season-3-5e5f248923b2)
+* Season 3 On-going on Ethereum [Medium](https://medium.com/furucombo/combo-mining-season-3-5e5f248923b2)
 
-| Usage Farming |
-| ----------: |
-| [0](/rewards/bonus/6/rewards.json) |
-| [1](/rewards/bonus/7/rewards.json) |
-| [2](/rewards/bonus/8/rewards.json) |
-| [3](/rewards/bonus/9/rewards.json) |
-| [4](/rewards/bonus/10/rewards.json) |
-| [5](/rewards/bonus/11/rewards.json) |
+
+| Ethereum | COMBO |
+| ----------: | ----------: |
+| | [0](/rewards/bonus/6/rewards.json) |
+| | [1](/rewards/bonus/7/rewards.json) |
+| | [2](/rewards/bonus/8/rewards.json) |
+| | [3](/rewards/bonus/9/rewards.json) |
+| | [4](/rewards/bonus/10/rewards.json) |
+| | [5](/rewards/bonus/11/rewards.json) |
+| | [6](/rewards/bonus/12/rewards.json) |
+
+* Season 3 On-going on Polygon [Medium](https://medium.com/furucombo/combo-mining-season-3-usage-farming-on-polygon-c622432df52b)
+
+| Polygon | MATIC | COMBO |
+| ---------: | ---------: | -------------------: |
+| | [0](/rewards/polygon_bonus/0/0x3b2D30cd74F61634Ac43d4d774c7affE20F4CB38/rewards.json) | [0](/rewards/polygon_bonus/0/0x634cbc42fBF6d521DA929CEC5d1469B19514F45F/rewards.json) |
 
 
 ### Mining COMBO
@@ -113,6 +121,7 @@ POLYGONSCAN_API_KEY={YOUR_KEY}
 | [20](/rewards/staking/20/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [20](/rewards/staking/20/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [21](/rewards/staking/21/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [21](/rewards/staking/21/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [22](/rewards/staking/22/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [22](/rewards/staking/22/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [23](/rewards/staking/23/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [23](/rewards/staking/23/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 
 ### Bonus COMBO
 | COMBO pool | COMBO/ETH UNIV2 Pool |
