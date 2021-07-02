@@ -77,8 +77,8 @@ func (t *LoadTradingLoyaltyTask) GetPolygonTasteNft() error {
 		return err
 	}
 
-	tokenIdStart := 1
-	tokenIdEnd := 30
+	tokenIdStart := 113
+	tokenIdEnd := 142
 	opts := &bind.CallOpts{
 		BlockNumber: big.NewInt(int64(t.endBlock)),
 	}
