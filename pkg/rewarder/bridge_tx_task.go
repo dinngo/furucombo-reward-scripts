@@ -1,6 +1,7 @@
 package rewarder
 
 import (
+	"context"
 	"encoding/json"
 	"io/ioutil"
 	"log"
@@ -8,6 +9,7 @@ import (
 	"os"
 	"path"
 
+	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum"
 	"github.com/dinngodev/furucombo-reward-scripts/pkg/ethereum/furucombo"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/shopspring/decimal"
@@ -94,6 +96,21 @@ func (t *LoadBridgeTxsTask) GetValidBridgeTxs() error {
 	return nil
 }
 
+func (t *LoadBridgeTxsTask) FilterEtherBalance() error {
+	for user := range t.bridgeTxMap {
+		balance, err := ethereum.Client().BalanceAt(context.Background(), user, big.NewInt(12694370)) // Jun-24-2021 03:00:01 AM +UTC
+		if err != nil {
+			return (err)
+		}
+
+		if balance.Cmp(big.NewInt(0)) == 0 {
+			delete(t.bridgeTxMap, user)
+		}
+	}
+
+	return nil
+}
+
 // SaveToFile save bridge txs to file
 func (t *LoadBridgeTxsTask) SaveToFile() error {
 	log.Printf("saving bridge txs to ./%s", t.filepath)
@@ -118,6 +135,10 @@ func (t *LoadBridgeTxsTask) Execute() error {
 		}
 
 		if err := t.GetValidBridgeTxs(); err != nil {
+			return err
+		}
+
+		if err := t.FilterEtherBalance(); err != nil {
 			return err
 		}
 
