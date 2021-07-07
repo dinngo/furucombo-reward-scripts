@@ -2,6 +2,7 @@ package rewarder
 
 import (
 	"encoding/json"
+	"errors"
 	"io/ioutil"
 	"log"
 	"math"
@@ -40,6 +41,7 @@ type LoadTradingLoyaltyTask struct {
 	polygonTasteNftMap map[common.Address]int
 
 	// File
+	txs               []common.Hash
 	tradingLoyaltyMap TradingLoyaltyMap
 }
 
@@ -106,6 +108,32 @@ func (t *LoadTradingLoyaltyTask) CalcLoyalty() error {
 
 	client := etherscan.NewClient(&http.Client{Timeout: 10 * time.Second}, apiKey)
 
+	// Collect furucombo txs
+	for _, address := range furucombo.ProxyAddresses() {
+		params := etherscan.Params{
+			"address":    address.String(),
+			"startBlock": t.startBlock,
+			"endBlock":   t.endBlock,
+			"sort":       "asc",
+		}
+		txs1, err := client.AccountTxsPolygon(params)
+		if err != nil {
+			return err
+		}
+		if len(txs1) == 0 {
+			return errors.New("0 tx from polygonscan")
+		}
+		for _, tx := range txs1 {
+			// Ignore failed tx
+			if tx.IsError == 1 {
+				continue
+			}
+			// Store tx hash
+			t.txs = append(t.txs, tx.Hash)
+		}
+	}
+
+	// Calculate each user's loyalty
 	t.tradingLoyaltyMap = make(TradingLoyaltyMap)
 	for user := range t.bridgeTxMap {
 		// Calculate polygon taste nftBoost
@@ -199,9 +227,26 @@ func (t *LoadTradingLoyaltyTask) CalcLoyalty() error {
 	return nil
 }
 
-// SaveToFile save trading counts to file
+// SaveTxs save txs to file
+func (t *LoadTradingLoyaltyTask) SaveTxs() error {
+	filepath := path.Join(t.rootpath, "txs.json")
+	log.Printf("saving txs to ./%s", filepath)
+
+	data, err := json.MarshalIndent(t.txs, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	if err := ioutil.WriteFile(filepath, append(data, '\n'), 0644); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+// SaveToFile save trading loyalty to file
 func (t *LoadTradingLoyaltyTask) SaveToFile() error {
-	log.Printf("saving trading counts to ./%s", t.filepath)
+	log.Printf("saving trading loyalty to ./%s", t.filepath)
 
 	data, err := json.MarshalIndent(t.tradingLoyaltyMap, "", "  ")
 	if err != nil {
@@ -221,8 +266,11 @@ func (t *LoadTradingLoyaltyTask) Execute() error {
 		if err := t.GetPolygonTasteNft(); err != nil {
 			return err
 		}
-
 		if err := t.CalcLoyalty(); err != nil {
+			return err
+		}
+
+		if err := t.SaveTxs(); err != nil {
 			return err
 		}
 

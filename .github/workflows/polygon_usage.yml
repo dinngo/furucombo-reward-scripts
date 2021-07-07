@@ -48,6 +48,14 @@ jobs:
           gist_file_name: bridge_txs.json
           file_path: ./rewards/polygon_bonus/${{ env.ROUND }}/bridge_txs.json
 
+      - name: Upload txs.json to gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GIST_ACCESS_TOKEN }}
+          gist_id: 312c3e7219098007e3df6e404c36519b
+          gist_file_name: txs.json
+          file_path: ./rewards/polygon_bonus/${{ env.ROUND }}/txs.json
+
       - name: Upload trading_loyalty.json to gist
         uses: exuanbo/actions-deploy-gist@v1
         with:
