@@ -16,12 +16,12 @@
     {
       "address": "0x3b2D30cd74F61634Ac43d4d774c7affE20F4CB38",
       "baseReward": "2",
-      "maxReward": "6425"
+      "maxReward": "7000"
     },
     {
       "address": "0x634cbc42fBF6d521DA929CEC5d1469B19514F45F",
       "baseReward": "4",
-      "maxReward": "12850"
+      "maxReward": "14000"
     }
   ]
 }
