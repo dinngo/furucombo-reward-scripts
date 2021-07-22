@@ -1,8 +1,8 @@
 {
   "name": "staking",
-  "round": "26-original",
-  "startBlock": 12828972,
-  "endBlock": 12873682,
+  "round": "27-original",
+  "startBlock": 12873683,
+  "endBlock": 0,
   "pools": [
     {
       "address": "0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E",

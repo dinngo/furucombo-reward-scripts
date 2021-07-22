@@ -1,9 +1,9 @@
 {
   "name": "polygon_bonus",
-  "round": "3",
-  "endBlock": 12873682,
-  "polygonStartBlock": 16871872,
-  "polygonEndBlock": 17131076,
+  "round": "4",
+  "endBlock": 0,
+  "polygonStartBlock": 17131077,
+  "polygonEndBlock": 0,
   "maxLoyalTxCount": "5",
   "nft": {
     "polygon": [
