@@ -86,6 +86,7 @@ POLYGONSCAN_API_KEY={YOUR_KEY}
 | | [7](/rewards/bonus/13/rewards.json) |
 | | [8](/rewards/bonus/14/rewards.json) |
 | | [9](/rewards/bonus/15/rewards.json) |
+| | [10](/rewards/bonus/16/rewards.json) |
 
 * Season 3 On-going on Polygon [Medium](https://medium.com/furucombo/combo-mining-season-3-usage-farming-on-polygon-c622432df52b)
 
@@ -95,6 +96,7 @@ POLYGONSCAN_API_KEY={YOUR_KEY}
 | | [1](/rewards/polygon_bonus/1/0x3b2D30cd74F61634Ac43d4d774c7affE20F4CB38/rewards.json) | [1](/rewards/polygon_bonus/1/0x634cbc42fBF6d521DA929CEC5d1469B19514F45F/rewards.json) |
 | | [2](/rewards/polygon_bonus/2/0x3b2D30cd74F61634Ac43d4d774c7affE20F4CB38/rewards.json) | [2](/rewards/polygon_bonus/2/0x634cbc42fBF6d521DA929CEC5d1469B19514F45F/rewards.json) |
 | | [3](/rewards/polygon_bonus/3/0x3b2D30cd74F61634Ac43d4d774c7affE20F4CB38/rewards.json) | [3](/rewards/polygon_bonus/3/0x634cbc42fBF6d521DA929CEC5d1469B19514F45F/rewards.json) |
+| | [4](/rewards/polygon_bonus/4/0x3b2D30cd74F61634Ac43d4d774c7affE20F4CB38/rewards.json) | [4](/rewards/polygon_bonus/4/0x634cbc42fBF6d521DA929CEC5d1469B19514F45F/rewards.json) |
 
 
 ### Mining COMBO
@@ -131,6 +133,7 @@ POLYGONSCAN_API_KEY={YOUR_KEY}
 | [24](/rewards/staking/24/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [24](/rewards/staking/24/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [25](/rewards/staking/25/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [25](/rewards/staking/25/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [26](/rewards/staking/26/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [26](/rewards/staking/26/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [27](/rewards/staking/27/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [27](/rewards/staking/27/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 
 ### Bonus COMBO
 | COMBO pool | COMBO/ETH UNIV2 Pool |
