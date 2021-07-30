@@ -9,6 +9,7 @@ func SwapAddresses() []common.Address {
 	if len(swapAddresses) == 0 {
 		swapAddresses = append(swapAddresses, common.HexToAddress("0x445fe580ef8d70ff569ab36e80c647af338db351")) // aave
 		swapAddresses = append(swapAddresses, common.HexToAddress("0xC2d95EEF97Ec6C17551d45e77B590dc1F9117C67")) // ren
+		swapAddresses = append(swapAddresses, common.HexToAddress("0x751B1e21756bDbc307CBcC5085c042a0e9AaEf36")) // atricrypto
 	}
 
 	return swapAddresses
