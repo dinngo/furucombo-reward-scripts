@@ -2,17 +2,13 @@
   "name": "bonus",
   "round": "17",
   "startBlock": 12918255,
-  "endBlock": 0,
-  "polygonEndBlock": 0,
+  "endBlock": 12962497,
+  "polygonEndBlock": 17633634,
   "rewardAmount": "100000",
   "maxGasUsed": "1200000",
   "nft": {
-    "ethereum": [
-      "0x68aEc9dD92871d6FaBd3DE1785429a992250C4cF"
-    ],
-    "polygon": [
-      "0x4BA7404893c1Bd48ca8A080B4c80e748517a8Ad3"
-    ],
+    "ethereum": ["0x68aEc9dD92871d6FaBd3DE1785429a992250C4cF"],
+    "polygon": ["0x4BA7404893c1Bd48ca8A080B4c80e748517a8Ad3"],
     "boost": 1.2,
     "maxBoost": 2
   }
