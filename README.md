@@ -138,6 +138,11 @@ POLYGONSCAN_API_KEY={YOUR_KEY}
 | [26](/rewards/staking/26/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [26](/rewards/staking/26/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [27](/rewards/staking/27/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [27](/rewards/staking/27/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 | [28](/rewards/staking/28/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [28](/rewards/staking/28/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [29](/rewards/staking/29/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [29](/rewards/staking/29/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [30](/rewards/staking/30/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [30](/rewards/staking/30/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [31](/rewards/staking/31/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [31](/rewards/staking/31/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [32](/rewards/staking/32/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [32](/rewards/staking/32/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
+| [33](/rewards/staking/33/0x7c46eFAe8632A0c0e1C25718bae91b6b62D9A16E/rewards.json) | [33](/rewards/staking/33/0x78d742F43Ce72B3D7bDBB2147c252F7a8bab3de4/rewards.json) |
 
 ### Bonus COMBO
 
